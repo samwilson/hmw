@@ -1,16 +1,19 @@
 \documentclass[a4paper, twoside]{book}
-\usepackage{url, graphicx, wrapfig, hyperref, ifthen, makeidx}
-%\usepackage[numbib]{tocbibind}
+\usepackage{url, graphicx, wrapfig, hyperref, ifthen, makeidx, microtype}
+\usepackage[numbib, numindex]{tocbibind}
+\usepackage[superscript]{cite}
 \makeindex
 \renewcommand{\thesection}{\arabic{section}}
 \setcounter{secnumdepth}{0}
-\title{The H. M. Wilson Archives}
-\author{\url{http://samwilson.github.io/hmw}}
+
+\title{H. M. Wilson Family Tree}
+\author{\url{http://github.io/samwilson/hmw}}
+
 \hypersetup{
   colorlinks   = true, %Colours links instead of ugly boxes
   urlcolor     = blue, %Colour for external hyperlinks
   linkcolor    = blue, %Colour of internal links
-  citecolor   = red %Colour of citations
+  citecolor    = black  %Colour of citations
 }
 
 % ---- \biohead{Full Name}{LabelName}{Caption for photo.}
@@ -37,17 +40,8 @@
 % ---- \p{label} results in e.g. "p. 3"
 \newcommand{\p}[1]{p.\ \pageref{#1}}
 
-% ---- references environment, and \reference command
-\newenvironment{references}[0]
-{  \footnotesize \vspace{1em} \textbf{References:}\begin{enumerate} }
-{  \end{enumerate} }
-\newcommand{\reference}[2]{
-\item \label{#1} #2
-}
-\newcommand{\citeref}[1]{\textsuperscript{\ref{#1}}}
-
-% ---- \i{}
-\newcommand{\id}[1]{#1\index{#1}}
+% ---- Index entries: \idx{}
+\newcommand{\idx}[1]{#1\index{#1}}
 
 
 \begin{document}
@@ -58,15 +52,14 @@
 
 % Generation 1
 \input{biographies/William_Murray_Wilson}
+\input{biographies/Helen_Margaret_Hall}
+\input{biographies/Frank_Bertram_Hussey}
+
+%Generation 2
 \input{biographies/Helen_Rose_Lodge}
 \input{biographies/Thomas_Soutter_Lodge}
 \input{biographies/Sarah_Constance_Leake}
 
-%\chapter*{Bibliography}
-%\bibliographystyle{unsrt}
-%\addcontentsline{toc}{chapter}{Bibliography}
-%\bibliography{bibliography}{}
-
+\input{bibliography}
 \printindex
-
 \end{document}

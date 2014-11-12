@@ -17,18 +17,10 @@ Biography headers:
 
 	\biohead{Full Name}{LABEL}{Photo caption, if applicable.}
 
-Reference lists:
-
-	\begin{references}
-	\reference{LABEL}{Citation text.}
-	\end{references}
-
-	\citeref{LABEL}
-
 Index entries:
 
-	\id{text to display and index}
+	\idx{text to display and index}
 
 Page references:
 
-	\p{LABEL} outputs e.g. "p. 3"
+	\p{LABEL} outputs e.g. "p. 3" with an escaped space after the full stop
