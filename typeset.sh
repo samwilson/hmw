@@ -11,4 +11,4 @@ pdflatex main
 #rm *.dvi *.log *.aux *.toc
 
 cp main.pdf ../hmw-pages/book.pdf
-convert -resize 500x500 main.pdf[0] ../hmw-pages/book_titlepage.png
+convert -resize 100x100 main.pdf[0] ../hmw-pages/book_titlepage.png
