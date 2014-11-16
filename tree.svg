@@ -21,6 +21,33 @@
   <defs
      id="defs3474">
     <marker
+       style="overflow:visible"
+       inkscape:stockid="InfiniteLineEnd"
+       id="InfiniteLineEnd"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <g
+         id="g5145"
+         style="fill:#000000">
+        <circle
+           id="circle5147"
+           r="0.8"
+           cy="0"
+           cx="3" />
+        <circle
+           id="circle5149"
+           r="0.8"
+           cy="0"
+           cx="6.5" />
+        <circle
+           id="circle5151"
+           r="0.8"
+           cy="0"
+           cx="10" />
+      </g>
+    </marker>
+    <marker
        inkscape:stockid="Arrow1Lstart"
        orient="auto"
        refY="0.0"
@@ -266,11 +293,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1251453"
-     inkscape:cx="1075.8203"
-     inkscape:cy="557.78042"
+     inkscape:zoom="0.79535355"
+     inkscape:cx="744.09448"
+     inkscape:cy="526.18109"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
      objecttolerance="10000"
      inkscape:window-width="1621"
@@ -359,18 +386,17 @@
        x="10.81781"
        y="8.5884714" />
     <text
-       transform="translate(0,2.988066e-5)"
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
-       x="1246.3842"
-       y="20.229012"
+       x="1240.1575"
+       y="21.259821"
        id="text5485"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan5487"
-         x="1246.3842"
-         y="20.229012"
-         style="font-size:8px">9 November 2014    https://github.com/samwilson/hmw</tspan></text>
+         x="1240.1575"
+         y="21.259821"
+         style="font-size:8px">16 November 2014    https://samwilson.github.com/hmw</tspan></text>
   </g>
   <g
      inkscape:label="Tree"
@@ -485,7 +511,12 @@
          id="tspan4341"
          x="1151.5748"
          y="382.67712"
-         style="font-size:11px">Constance Hall</tspan></text>
+         style="font-size:11px">Constance Boyd Hall</tspan><tspan
+         sodipodi:role="line"
+         x="1151.5748"
+         y="393.67712"
+         style="font-size:8px"
+         id="tspan3164">(1912 - ?)</tspan></text>
     <path
        id="path3102-5-5"
        style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM)"
@@ -922,7 +953,7 @@
          x="726.37793"
          y="419.63138"
          id="tspan6189"
-         style="font-size:8px">(1860 - ?)</tspan></text>
+         style="font-size:8px">(1860 - 1939)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
@@ -1100,25 +1131,43 @@
          id="tspan3162"
          x="938.97638"
          y="432.28342"
-         style="font-style:italic;font-size:11px">One son</tspan></text>
+         style="font-size:11px;font-style:normal">Jack</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
        x="938.97638"
-       y="457.08655"
+       y="464.17319"
        id="text3164"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3166"
          x="938.97638"
-         y="457.08655"
-         style="font-style:italic;font-size:11px">One other daughter</tspan></text>
+         y="464.17319"
+         style="font-size:11px;font-style:normal;-inkscape-font-specification:Serif">Joan Lodge</tspan></text>
     <path
        id="path3170"
        transform="translate(0,-2.988066e-5)"
-       style="fill:none;stroke:#000000;stroke-width:0.9992126;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#DotM-09-3)"
-       d="m 921.25984,428.74014 0,24.80314 14.17323,0 m -14.17323,-56.69291 0,31.88977 14.17323,0 m 0,-31.88977 -14.17323,0 0,21.25984 -106.29921,0"
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM-09-3)"
+       d="m 921.25984,428.74014 0,31.88976 14.17323,0 m -14.17323,-63.77953 0,31.88977 14.17323,0 m 0,-31.88977 -14.17323,0 0,21.25984 -106.29921,0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="938.97638"
+       y="478.34641"
+       id="text3166"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3168"
+         x="938.97638"
+         y="478.34641">Norman Martin</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM-09-3);marker-end:url(#InfiniteLineEnd)"
+       d="m 1009.8425,467.71651 35.4331,0"
+       id="path3171"
+       inkscape:connector-curvature="0"
+       transform="translate(0,-2.988066e-5)"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>

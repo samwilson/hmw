@@ -6,13 +6,17 @@
 \renewcommand{\thesection}{\arabic{section}}
 \setcounter{secnumdepth}{0}
 
+% Smaller quotations
+\usepackage{relsize,etoolbox}
+\AtBeginEnvironment{quotation}{\smaller}
+
 \title{H. M. Wilson Family Tree}
-\author{\url{http://github.io/samwilson/hmw}}
+\author{\url{http://samwilson.github.io/hmw}}
 
 \hypersetup{
   colorlinks   = true, %Colours links instead of ugly boxes
   urlcolor     = blue, %Colour for external hyperlinks
-  linkcolor    = blue, %Colour of internal links
+  linkcolor    = black, %Colour of internal links
   citecolor    = black  %Colour of citations
 }
 
@@ -51,14 +55,50 @@
 \chapter{People}
 
 % Generation 1
-\input{biographies/William_Murray_Wilson}
+\input{biographies/Millicent_Joyce_Branson_Clifton}
+\input{biographies/Joan_Leake_Hall}
+\input{biographies/Constance_Boyd_Hall}
+\input{biographies/Peter_Innes_Donegan}
 \input{biographies/Helen_Margaret_Hall}
+\input{biographies/William_Murray_Wilson}
+\input{biographies/William_Murray_Wilson}
+\input{biographies/Herbert_Bruce_Wilson}
+\input{biographies/Iris_Arnold}
+\input{biographies/Lilian_Rae_Wilson}
 \input{biographies/Frank_Bertram_Hussey}
+\input{biographies/Olive_Adele_Wilson}
+\input{biographies/Frederick_Gordon_Wilson}
+\input{biographies/Dorothy_Jean_McHarg_Wilson}
 
-%Generation 2
+% Generation 2
+\input{biographies/William_Shakespeare_Hall_Jr}
+\input{biographies/Joy_Hannah_Emma_Margaret_Hall}
+\input{biographies/Gervase_Clifton}
+\input{biographies/Grace_Hall}
+\input{biographies/Henry_Ernest_Hall}
+\input{biographies/Harold_Aubrey_Hall}
 \input{biographies/Helen_Rose_Lodge}
-\input{biographies/Thomas_Soutter_Lodge}
+\input{biographies/Jack}
+\input{biographies/Joan_Lodge}
+\input{biographies/Norman_Martin}
+\input{biographies/Jessie_Wilson}
+\input{biographies/James_Herbert_Wilson}
+\input{biographies/Edith_Olive_Hall}
+\input{biographies/Ada_Maud_Florence_Hall}
+\input{biographies/Lilian_Bertha_Ella_Hall}
+\input{biographies/James_Herbert_Hamersley_Hall}
+\input{biographies/Hubert_Sylvian_Hall}
+\input{biographies/Syndey_Randel_Hall}
+
+% Generation 3
+\input{biographies/William_Shakespeare_Hall}
+\input{biographies/Hannah_Boyd_Lazenby}
 \input{biographies/Sarah_Constance_Leake}
+\input{biographies/Thomas_Soutter_Lodge}
+\input{biographies/William_Wilson}
+\input{biographies/Mary_McHarg}
+\input{biographies/James_Anderton_Hall}
+\input{biographies/Lilian_Helena_Bruce}
 
 \input{bibliography}
 \printindex

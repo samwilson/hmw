@@ -10,5 +10,5 @@ pdflatex main
 #ps2pdf Main.ps
 #rm *.dvi *.log *.aux *.toc
 
-cp main.pdf ../hmw-pages/book.pdf
-convert -resize 100x100 main.pdf[0] ../hmw-pages/book_titlepage.png
+cp main.pdf ../gh-pages/book.pdf
+convert -resize 100x100 main.pdf[0] ../gh-pages/book_titlepage.png
