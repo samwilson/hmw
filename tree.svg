@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="tree.svg"
-   inkscape:export-filename="/home/sam/code/HMW/hmw-pages/tree.png"
+   inkscape:export-filename="/home/sam/Life/Genealogy/HMW/hmw/gh-pages/tree.png"
    inkscape:export-xdpi="93.889999"
    inkscape:export-ydpi="93.889999">
   <defs
@@ -285,6 +285,20 @@
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
          transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
     </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -293,7 +307,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.79535355"
+     inkscape:zoom="0.79559789"
      inkscape:cx="744.09448"
      inkscape:cy="526.18109"
      inkscape:document-units="mm"
@@ -347,7 +361,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -396,7 +410,18 @@
          id="tspan5487"
          x="1240.1575"
          y="21.259821"
-         style="font-size:8px">16 November 2014    https://samwilson.github.com/hmw</tspan></text>
+         style="font-size:8px">17 November 2014    https://samwilson.github.com/hmw</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1151.5748"
+       y="393.30707"
+       id="text3173"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="1151.5748"
+         y="393.30707"
+         id="tspan3177">Alan Louis Mathew Berryman</tspan></text>
   </g>
   <g
      inkscape:label="Tree"
@@ -504,17 +529,17 @@
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
        x="1151.5748"
-       y="382.67712"
+       y="372.04718"
        id="text4339"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan4341"
          x="1151.5748"
-         y="382.67712"
+         y="372.04718"
          style="font-size:11px">Constance Boyd Hall</tspan><tspan
          sodipodi:role="line"
          x="1151.5748"
-         y="393.67712"
+         y="380.65497"
          style="font-size:8px"
          id="tspan3164">(1912 - ?)</tspan></text>
     <path
@@ -600,7 +625,7 @@
     <path
        id="path3082"
        style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#DotM-09-9)"
-       d="m 1148.0315,379.13384 -14.1732,0 m 14.1732,-38.97638 -14.1731,0 -10e-5,99.2126 m 14.1732,0 -14.1732,0 0,-53.14962 -124.0158,1e-5"
+       d="m 1148.0315,368.50391 -14.1732,0 m 14.1732,-28.34645 -14.1731,0 -10e-5,99.2126 m 14.1732,0 -14.1732,0 0,-53.14962 -124.0158,1e-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc"
        transform="translate(0,-2.988066e-5)" />
@@ -666,12 +691,12 @@
          id="tspan5211"
          x="1151.5748"
          y="570.47241"
-         style="font-size:11px">Lilian Rae Wilson</tspan><tspan
+         style="font-size:11px">Lilian Jessie Rae Wilson</tspan><tspan
          sodipodi:role="line"
          x="1151.5748"
          y="579.0802"
          id="tspan5213"
-         style="font-size:8px">(? - 2011)</tspan></text>
+         style="font-size:8px">(1910 - 2011)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
@@ -758,43 +783,49 @@
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
        x="726.37793"
-       y="518.45667"
+       y="513.77948"
        id="text5489"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan5491"
          x="726.37793"
-         y="518.45667"
-         style="font-size:11px">William Wilson</tspan></text>
+         y="513.77948"
+         style="font-size:11px">William Wilson</tspan><tspan
+         sodipodi:role="line"
+         x="726.37793"
+         y="522.38727"
+         style="font-size:8px"
+         id="tspan5226">(1839 - 1914)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
        x="726.37793"
-       y="532.62988"
+       y="535.03931"
        id="text5493"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan5495"
          x="726.37793"
-         y="532.62988"
+         y="535.03931"
          style="font-size:11px">Mary McHarg</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
        x="938.97638"
-       y="511.37003"
+       y="510.23618"
        id="text5497"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan5499"
          x="938.97638"
-         y="511.37003"
+         y="510.23618"
          style="font-size:11px">Jessie Wilson</tspan></text>
     <path
        id="path5501"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-09-9)"
-       d="m 935.43307,507.82672 -14.17323,0 0,14.17323 m 14.17323,14.17323 -14.17323,0 0,-14.17323 -106.29921,0"
-       inkscape:connector-curvature="0" />
+       d="m 935.43307,506.69286 -14.17323,0 0,14.17323 m 14.17323,14.17323 -14.17323,0 0,-14.17323 -106.29921,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
@@ -1169,5 +1200,45 @@
        inkscape:connector-curvature="0"
        transform="translate(0,-2.988066e-5)"
        sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1417.3228"
+       y="329.5275"
+       id="text3205"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3207"
+         x="1417.3228"
+         y="329.5275">Jill</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1417.3229"
+       y="354.33066"
+       id="text3209"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3211"
+         x="1417.3229"
+         y="354.33066">Ian</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1417.3228"
+       y="375.59048"
+       id="text3213"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3215"
+         x="1417.3228"
+         y="375.59048">Kim</tspan></text>
+    <path
+       id="path3219"
+       transform="translate(0,-2.988066e-5)"
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-mid:none;marker-end:url(#DotM-6)"
+       d="m 1413.7795,350.78738 -14.1732,0 0,21.25984 m 14.1732,-46.06299 -14.1732,0 0,24.80315 m 14.1732,21.25984 -14.1732,0 0,7.08662 -124.0157,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccc" />
   </g>
 </svg>
