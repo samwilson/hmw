@@ -299,6 +299,48 @@
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
          transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
     </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-7"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-6"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -311,7 +353,7 @@
      inkscape:cx="744.09448"
      inkscape:cy="526.18109"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="true"
      objecttolerance="10000"
      inkscape:window-width="1621"
@@ -352,6 +394,10 @@
        orientation="1,0"
        position="1417.3228,885.82677"
        id="guide4610" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1275.5906,818.50394"
+       id="guide3277" />
   </sodipodi:namedview>
   <metadata
      id="metadata3477">
@@ -410,7 +456,7 @@
          id="tspan5487"
          x="1240.1575"
          y="21.259821"
-         style="font-size:8px">17 November 2014    https://samwilson.github.com/hmw</tspan></text>
+         style="font-size:8px">5 February 2015    https://samwilson.github.io/hmw</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
@@ -1022,7 +1068,7 @@
     <path
        id="path5241-6-3"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
-       d="m 921.25984,318.89759 0,56.69291 14.17323,0 m -14.17323,-46.06299 14.17323,0 m 0,-28.34646 -14.17323,0 0,-53.14961 14.17323,0 m -14.17323,0 0,-49.6063 14.17323,0 m -14.17323,102.75591 0,17.71654 -106.29921,0"
+       d="m 921.25984,318.89759 0,56.69291 14.17323,0 m -14.17323,-46.06299 14.17323,0 m 0,-28.34646 -14.17323,0 0,-63.77953 14.17323,0 m -14.17323,0 0,-38.97638 14.17323,0 m -14.17323,102.75591 0,17.71654 -106.29921,0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccc" />
     <text
@@ -1061,16 +1107,20 @@
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
        x="938.97638"
-       y="251.57475"
+       y="240.94482"
        id="text6263"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan6265"
          x="938.97638"
-         y="251.57475">Joy Hannah Emma Margaret Hall</tspan><tspan
+         y="240.94482">Joy Hannah Emma</tspan><tspan
          sodipodi:role="line"
          x="938.97638"
-         y="260.18256"
+         y="251.94484"
+         id="tspan3251">   Margaret Hall</tspan><tspan
+         sodipodi:role="line"
+         x="938.97638"
+         y="260.55264"
          id="tspan6267"
          style="font-size:8px">(1876 - 1960)</tspan></text>
     <text
@@ -1123,12 +1173,6 @@
          y="281.44238"
          id="tspan6287"
          style="font-size:8px">(1912 - 1920)</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       id="path5501-1"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-09-9)"
-       d="m 1148.0315,269.29129 -14.1732,0 m 14.1732,31.88976 -14.1732,0 0,-42.51968 -124.0158,0"
-       sodipodi:nodetypes="cccccc" />
     <text
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
@@ -1140,7 +1184,12 @@
          id="tspan6315"
          x="1151.5748"
          y="304.72437"
-         style="font-style:italic">Name unknown</tspan></text>
+         style="font-style:normal">Tita Clifton</tspan><tspan
+         sodipodi:role="line"
+         x="1151.5748"
+         y="315.72437"
+         style="font-style:normal;font-size:8px"
+         id="tspan3201">(? - aft.1920)</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot6388"
@@ -1155,51 +1204,49 @@
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
        x="938.97638"
-       y="432.28342"
+       y="467.71649"
        id="text3160"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3162"
          x="938.97638"
-         y="432.28342"
-         style="font-size:11px;font-style:normal">Jack</tspan></text>
+         y="467.71649"
+         style="font-size:11px;font-style:normal">Robert John Lodge</tspan><tspan
+         sodipodi:role="line"
+         x="938.97638"
+         y="476.32428"
+         style="font-size:8px;font-style:normal"
+         id="tspan5392">(1894 - ?)</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
        x="938.97638"
-       y="464.17319"
+       y="432.28342"
        id="text3164"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3166"
          x="938.97638"
-         y="464.17319"
-         style="font-size:11px;font-style:normal;-inkscape-font-specification:Serif">Joan Lodge</tspan></text>
+         y="432.28342"
+         style="font-size:11px;font-style:normal;-inkscape-font-specification:Serif">Joan Soutter Lodge</tspan></text>
     <path
        id="path3170"
        transform="translate(0,-2.988066e-5)"
        style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM-09-3)"
-       d="m 921.25984,428.74014 0,31.88976 14.17323,0 m -14.17323,-63.77953 0,31.88977 14.17323,0 m 0,-31.88977 -14.17323,0 0,21.25984 -106.29921,0"
+       d="m 921.25984,428.74014 0,35.43307 14.17323,0 m -14.17323,-67.32284 0,31.88977 14.17323,0 m 0,-31.88977 -14.17323,0 0,21.25984 -106.29921,0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
     <text
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
        x="938.97638"
-       y="478.34641"
+       y="446.45663"
        id="text3166"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan3168"
          x="938.97638"
-         y="478.34641">Norman Martin</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#DotM-09-3);marker-end:url(#InfiniteLineEnd)"
-       d="m 1009.8425,467.71651 35.4331,0"
-       id="path3171"
-       inkscape:connector-curvature="0"
-       transform="translate(0,-2.988066e-5)"
-       sodipodi:nodetypes="cc" />
+         y="446.45663">Norman Martin</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
@@ -1240,5 +1287,195 @@
        d="m 1413.7795,350.78738 -14.1732,0 0,21.25984 m 14.1732,-46.06299 -14.1732,0 0,24.80315 m 14.1732,21.25984 -14.1732,0 0,7.08662 -124.0157,0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1151.5748"
+       y="244.48814"
+       id="text3185"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="1151.5748"
+         y="244.48814"
+         id="tspan3189">Lulu Clifton</tspan><tspan
+         sodipodi:role="line"
+         x="1151.5748"
+         y="253.09595"
+         id="tspan3199"
+         style="font-size:8px">(? - aft.1920)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1151.5748"
+       y="216.14168"
+       id="text3193"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3195"
+         x="1151.5748"
+         y="216.14168">Lily Clifton</tspan><tspan
+         sodipodi:role="line"
+         x="1151.5748"
+         y="227.14168"
+         id="tspan3197"
+         style="font-size:8px">(? - aft.1920)</tspan></text>
+    <path
+       id="path3205"
+       transform="translate(0,-2.988066e-5)"
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#DotM-6)"
+       d="m 1148.0315,212.5984 -14.1732,0 0,28.34646 m 14.1732,0 -14.1732,0 0,17.71654 m 14.1732,10.62992 -14.1732,0 m 14.1732,31.88976 -14.1732,0 0,-42.51968 -124.0158,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif Italic"
+       x="1151.5748"
+       y="85.039322"
+       id="text3192"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3194"
+         x="1151.5748"
+         y="85.039322">Son</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif Italic"
+       x="1151.5748"
+       y="109.84247"
+       id="text3215"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3217"
+         x="1151.5748"
+         y="109.84247">Son</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1151.5748"
+       y="148.81885"
+       id="text3219"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3221"
+         x="1151.5748"
+         y="148.81885">Patricia Martin</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1151.5748"
+       y="177.1653"
+       id="text3223"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3225"
+         x="1151.5748"
+         y="177.1653">Jan Martin</tspan></text>
+    <path
+       id="path3205-2"
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#DotM-6)"
+       d="m 1148.0315,81.496011 -14.1732,0 0,24.803149 m 14.1732,0 -14.1732,0 0,21.25984 m 14.1732,17.71654 -14.1732,0 m 14.1732,28.34646 -14.1732,0 0,-46.063 -7.0866,0 0,124.01575 c -7.0867,0 -7.0867,14.17323 0,14.17323 l 0,113.38583 c -7.0867,0 -7.0867,14.17322 0,14.17322 l 0,42.51969 -116.9292,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccc" />
+    <path
+       id="path3219-6"
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-mid:none;marker-end:url(#DotM-6)"
+       d="m 1413.7795,88.58262 -14.1732,0 m 14.1732,-17.71653 -14.1732,0 0,38.97638 m 14.1732,0 -14.1732,0 0,38.97638 -124.0157,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1417.3229"
+       y="74.409393"
+       id="text3279"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3281"
+         x="1417.3229"
+         y="74.409393">Trevor</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1417.3229"
+       y="92.125938"
+       id="text3283"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3285"
+         x="1417.3229"
+         y="92.125938">Joan</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1417.3228"
+       y="113.38578"
+       id="text3287"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3289"
+         x="1417.3228"
+         y="113.38578">Martin</tspan></text>
+    <path
+       id="path3317"
+       transform="translate(0,-2.988066e-5)"
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#DotM-6-9)"
+       d="m 1399.6063,212.5984 14.1732,0 m -14.1732,-17.71653 14.1732,0 m 0,35.43307 -14.1732,0 m 14.1732,-53.14961 -14.1732,0 m 14.1732,70.86614 -14.1732,0 0,-70.86614 -124.0157,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif Italic"
+       x="1417.3228"
+       y="180.7086"
+       id="text3319"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3321"
+         x="1417.3228"
+         y="180.7086">Son</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif Italic"
+       x="1417.3229"
+       y="198.42514"
+       id="text3323"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3325"
+         x="1417.3229"
+         y="198.42514">Son</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif Italic"
+       x="1417.3228"
+       y="216.14168"
+       id="text3327"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3329"
+         x="1417.3228"
+         y="216.14168">Son</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1417.3229"
+       y="233.85822"
+       id="text3331"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3333"
+         x="1417.3229"
+         y="233.85822">Julie</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       x="1417.3228"
+       y="251.57475"
+       id="text3335"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan3337"
+         x="1417.3228"
+         y="251.57475">Kim</tspan></text>
   </g>
 </svg>
