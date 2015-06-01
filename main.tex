@@ -1,10 +1,20 @@
 \documentclass[a4paper, twoside]{book}
-\usepackage{url, graphicx, wrapfig, hyperref, ifthen, makeidx, microtype}
+\usepackage{url, graphicx, wrapfig, ifthen, makeidx, microtype}
 \usepackage[numbib, numindex]{tocbibind}
 \usepackage[superscript]{cite}
 \makeindex
 \renewcommand{\thesection}{\arabic{section}}
 \setcounter{secnumdepth}{0}
+
+% Citation back references.
+\usepackage[pagebackref=true]{hyperref}
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{\emph{%
+	\ifcase #1 Not cited.\todo{Not cited!}%
+	\or Cited on page~#2.%
+	\else Cited on pages #2.%
+	\fi%
+}}
 
 % Smaller quotations
 \usepackage{relsize,etoolbox}

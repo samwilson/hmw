@@ -109,3 +109,5 @@ sympy-plots-for-*.tex/
 
 # xindy
 *.xdy
+
+*.backup
