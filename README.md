@@ -24,3 +24,7 @@ Index entries:
 Page references:
 
 	\p{LABEL} outputs e.g. "p. 3" with an escaped space after the full stop
+
+## Tree conventions
+
+Names: 11 pt; dates: 8 pt; all serif.
