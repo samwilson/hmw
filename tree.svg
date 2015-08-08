@@ -444,11 +444,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7875344"
-     inkscape:cx="790.79652"
-     inkscape:cy="518.77834"
+     inkscape:zoom="0.79822309"
+     inkscape:cx="744.09448"
+     inkscape:cy="526.18109"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
      objecttolerance="10000"
      inkscape:window-width="1591"
@@ -518,7 +518,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -567,7 +567,7 @@
          id="tspan5487"
          x="1240.1575"
          y="21.259821"
-         style="font-size:8px">2 June 2015    https://samwilson.github.io/hmw</tspan></text>
+         style="font-size:8px">19 July 2015      https://samwilson.github.io/hmw</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
