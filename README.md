@@ -15,7 +15,7 @@ The marvellous [ShareLatex](https://www.sharelatex.com) service builds this proj
 
 Biography headers:
 
-	\biohead{Full Name}{LABEL}{Photo caption, if applicable.}
+	\biohead{Full Name}{Photo caption, if applicable.}
 
 Index entries:
 
