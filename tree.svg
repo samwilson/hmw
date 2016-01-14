@@ -436,6 +436,20 @@
            cx="10" />
       </g>
     </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9-6-3-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3-8-2-7"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -444,7 +458,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.79822309"
+     inkscape:zoom="0.7875344"
      inkscape:cx="744.09448"
      inkscape:cy="526.18109"
      inkscape:document-units="mm"
@@ -509,6 +523,14 @@
        orientation="1,0"
        position="708.66142,797.24409"
        id="guide5393" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="372.04724,903.54331"
+       id="guide3358" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="531.49606,931.88976"
+       id="guide4564" />
   </sodipodi:namedview>
   <metadata
      id="metadata3477">
@@ -518,7 +540,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -584,6 +606,54 @@
          y="557.82037"
          id="tspan5395"
          style="font-size:8px">(1909 - 1976)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="372.04724"
+       y="131.10234"
+       id="text3360"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         x="372.04724"
+         y="131.10234"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serif;-inkscape-font-specification:Serif"
+         id="tspan3366">Thomas Strong Hall</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM-6-9-6-3)"
+       d="m 545.66929,159.4488 -14.17323,0 0,-24.80315 -56.69291,0"
+       id="path3370"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="372.04724"
+       y="205.5118"
+       id="text4566"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4568"
+         x="372.04724"
+         y="205.5118"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serif;-inkscape-font-specification:Serif">Charlotte Catharina Hall</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="372.04724"
+       y="219.68501"
+       id="text4570"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4572"
+         x="372.04724"
+         y="219.68501"
+         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serif;-inkscape-font-specification:Serif">Thomas Branson</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#DotM-6-9-6-3);display:inline"
+       d="m 545.66929,180.70864 -14.17323,0 0,28.34646 -53.1496,0"
+       id="path3370-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
   </g>
   <g
      inkscape:label="Tree"
