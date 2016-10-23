@@ -13,7 +13,7 @@
    height="1052.3622"
    id="svg3472"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="tree.svg"
    inkscape:export-filename="/home/sam/code/hmw/gh-pages/tree.png"
    inkscape:export-xdpi="93.889999"
@@ -85,19 +85,16 @@
          style="fill:#000000"
          transform="translate(-13,0)">
         <circle
-           d="M 3.8,0 C 3.8,0.44182781 3.4418278,0.80000001 3,0.80000001 2.5581722,0.80000001 2.2,0.44182781 2.2,0 c 0,-0.44182781 0.3581722,-0.80000001 0.8,-0.80000001 0.4418278,0 0.8,0.3581722 0.8,0.80000001 z"
            id="circle4141"
            r="0.8"
            cy="0"
            cx="3" />
         <circle
-           d="M 7.3,0 C 7.3,0.44182781 6.9418278,0.80000001 6.5,0.80000001 6.0581722,0.80000001 5.7,0.44182781 5.7,0 c 0,-0.44182781 0.3581722,-0.80000001 0.8,-0.80000001 0.4418278,0 0.8,0.3581722 0.8,0.80000001 z"
            id="circle4143"
            r="0.8"
            cy="0"
            cx="6.5" />
         <circle
-           d="M 10.8,0 C 10.8,0.44182781 10.441828,0.80000001 10,0.80000001 9.5581722,0.80000001 9.2,0.44182781 9.2,0 c 0,-0.44182781 0.3581722,-0.80000001 0.8,-0.80000001 0.441828,0 0.8,0.3581722 0.8,0.80000001 z"
            id="circle4145"
            r="0.8"
            cy="0"
@@ -450,6 +447,34 @@
          style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
          transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
     </marker>
+    <marker
+       inkscape:stockid="StopL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopL-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4064-39"
+         d="M 0,5.65 0,-5.65"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="scale(0.8,0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-09-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-9-8"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.4,0,0,0.4,2.96,0.4)" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -458,21 +483,26 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7875344"
+     inkscape:zoom="0.56869989"
      inkscape:cx="744.09448"
      inkscape:cy="526.18109"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="true"
      objecttolerance="10000"
-     inkscape:window-width="1591"
-     inkscape:window-height="1030"
-     inkscape:window-x="86"
-     inkscape:window-y="-3"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
-     units="mm">
+     units="mm"
+     inkscape:snap-bbox="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-to-guides="true"
+     inkscape:object-nodes="true"
+     inkscape:bbox-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid3480"
@@ -580,7 +610,7 @@
        transform="translate(0,2.988066e-5)" />
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
        x="1240.1575"
        y="21.259821"
        id="text5485"
@@ -589,7 +619,7 @@
          id="tspan5487"
          x="1240.1575"
          y="21.259821"
-         style="font-size:8px">19 July 2015      https://samwilson.github.io/hmw</tspan></text>
+         style="font-size:8px">23 October 2016      https://samwilson.github.io/hmw</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
@@ -2294,5 +2324,40 @@
        d="m 722.83465,818.50391 -28.34646,0 0,-513.77952 c -3.54331,0 -3.54331,-7.08662 0,-7.08662 l 0,-127.55905 m 28.34646,-46.06299 -14.17323,0 0,46.06299 -70.86614,0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="1151.8956"
+       y="478.34644"
+       id="text4335-8"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4337-1"
+         x="1151.8956"
+         y="478.34644"
+         style="font-size:11px">Marice Salom</tspan><tspan
+         sodipodi:role="line"
+         x="1151.8956"
+         y="486.95422"
+         style="font-size:8px"
+         id="tspan5397-2">(? - ?)</tspan></text>
+    <path
+       id="path4925-5-8"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL-9);marker-end:url(#DotM-09-0)"
+       d="m 1342.9134,485.43302 -67.3228,0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:100%;font-family:Serif;-inkscape-font-specification:'Serif Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="1346.6168"
+       y="488.86304"
+       id="text5743-5"
+       sodipodi:linespacing="100%"><tspan
+         style="font-size:8px"
+         sodipodi:role="line"
+         id="tspan5745-0"
+         x="1346.6168"
+         y="488.86304">No issue</tspan></text>
   </g>
 </svg>
