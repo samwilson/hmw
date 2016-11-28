@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1488.189"
@@ -487,7 +488,7 @@
      inkscape:cx="744.09448"
      inkscape:cy="526.18109"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="true"
      objecttolerance="10000"
      inkscape:window-width="1623"
@@ -561,6 +562,14 @@
        orientation="1,0"
        position="531.49606,931.88976"
        id="guide4564" />
+    <sodipodi:guide
+       position="655.51181,797.24409"
+       orientation="1,0"
+       id="guide4551" />
+    <sodipodi:guide
+       position="478.34646,1062.9921"
+       orientation="1,0"
+       id="guide4746" />
   </sodipodi:namedview>
   <metadata
      id="metadata3477">
@@ -619,7 +628,7 @@
          id="tspan5487"
          x="1240.1575"
          y="21.259821"
-         style="font-size:8px">21 November 2016      https://samwilson.github.io/hmw</tspan></text>
+         style="font-size:8px">28 November 2016      https://samwilson.github.io/hmw</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
@@ -650,7 +659,7 @@
          id="tspan3366">Thomas Strong Hall</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3)"
-       d="m 545.66929,159.4488 -14.17323,0 0,-24.80315 -56.69291,0"
+       d="m 545.66929,159.4488 -14.17323,0 0,-24.80315 -53.1496,0"
        id="path3370"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -684,6 +693,27 @@
        id="path3370-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#image5013"
+       id="use4545"
+       transform="translate(-581.10236,-3.543279)"
+       width="100%"
+       height="100%" />
+    <text
+       transform="translate(0,2.988066e-5)"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="41.725006"
+       y="101.36749"
+       id="text4547"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4549"
+         x="41.725006"
+         y="101.36749"
+         style="font-size:7.5px">= Article exists on Wikipedia</tspan></text>
   </g>
   <g
      inkscape:label="Tree"
@@ -1128,24 +1158,24 @@
     <path
        id="path5241-6"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
-       d="m 921.25984,910.62988 0,53.14961 14.17323,-10e-6 m -14.17323,-106.29921 0,53.14961 14.17323,0 m 0,-95.6693 -14.17323,0 0,42.51969 14.17323,0 m -14.17323,-42.51969 0,-60.23622 m 0,0 3e-5,-42.51968 14.1732,0 m 0,38.97638 -14.1732,0 -3e-5,77.95275 -106.29921,0"
+       d="m 921.25984,910.62988 0,53.14961 14.17323,-10e-6 m -14.17323,-106.29921 0,53.14961 14.17323,0 m 0,-95.6693 -14.17323,0 0,42.51969 14.17323,0 m -14.17323,-99.21261 3e-5,-46.06298 14.1732,0 m 0,46.06298 -14.1732,0 -3e-5,70.86615 -106.29921,0"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccc" />
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
-       x="938.97638"
-       y="751.18103"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="939.04083"
+       y="763.08179"
        id="text6149"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan6151"
-         x="938.97638"
-         y="751.18103"
+         x="939.04083"
+         y="763.08179"
          style="font-size:11px">Ada Maud Florence Hall</tspan><tspan
          sodipodi:role="line"
-         x="938.97638"
-         y="759.78882"
+         x="939.04083"
+         y="771.68958"
          id="tspan6153"
          style="font-size:8px">(1875 - 1942)</tspan></text>
     <text
@@ -1252,42 +1282,42 @@
          style="font-size:8px">(1860 - 1939)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
-       x="726.37793"
-       y="127.55901"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="726.37787"
+       y="159.44878"
        id="text6215"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan6217"
-         x="726.37793"
-         y="127.55901"
+         x="726.37787"
+         y="159.44878"
          style="font-size:11px">William Shakespeare Hall</tspan><tspan
          sodipodi:role="line"
-         x="726.37793"
-         y="136.16681"
+         x="726.37787"
+         y="168.05656"
          id="tspan6219"
          style="font-size:8px">(1825 - 1895)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Serif;-inkscape-font-specification:Serif"
-       x="726.37793"
-       y="106.29916"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       x="726.37787"
+       y="138.18892"
        id="text6221"
        sodipodi:linespacing="100%"><tspan
          sodipodi:role="line"
          id="tspan6223"
-         x="726.37793"
-         y="106.29916"
-         style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif">Hannah Boyd Lazenby</tspan><tspan
+         x="726.37787"
+         y="138.18892"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;writing-mode:lr-tb;text-anchor:start">Hannah Boyd Lazenby</tspan><tspan
          sodipodi:role="line"
-         x="726.37793"
-         y="114.90697"
+         x="726.37787"
+         y="146.79672"
          id="tspan6225"
-         style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;font-family:Serif;-inkscape-font-specification:Serif">(1849 - 1911)</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;writing-mode:lr-tb;text-anchor:start">(1849 - 1911)</tspan></text>
     <path
        id="path5241-6-3"
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
-       d="m 921.25984,134.64562 0,74.40945 14.17323,0 m -14.17323,-46.06299 14.17323,0 m 0,-28.34646 -14.17323,0 0,-63.779528 14.17323,0 m -14.17323,0 0,-38.97638 14.17323,0 m -14.17323,81.496058 -106.29921,0"
+       d="m 921.25984,134.64562 0,74.40945 14.17323,0 m -14.17323,-46.06299 14.17323,0 m 0,-28.34646 -14.17323,0 0,-63.779528 14.17323,0 m -14.17323,0 0,-38.97638 14.17323,0 m -14.17323,113.385828 -106.29921,0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccc" />
     <text
@@ -2125,7 +2155,7 @@
          style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serif;-inkscape-font-specification:Serif">Mary Anne Souter</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6)"
-       d="m 657.28346,301.18108 51.37796,0 0,-21.25984 15.94488,0"
+       d="m 655.51181,301.18108 53.14961,0 0,-21.25984 15.94488,0"
        id="path5161"
        inkscape:connector-curvature="0"
        transform="translate(0,-2.988066e-5)"
@@ -2320,8 +2350,8 @@
     <path
        id="path3358"
        transform="translate(0,-2.988066e-5)"
-       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#DotM-6-9-6-3)"
-       d="m 722.83465,818.50391 -28.34646,0 0,-513.77952 c -3.54331,0 -3.54331,-7.08662 0,-7.08662 l 0,-127.55905 m 28.34646,-46.06299 -14.17323,0 0,46.06299 -70.86614,0"
+       style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9-6-3)"
+       d="m 722.83465,818.50391 -28.34646,0 0,-513.77952 c -3.54331,0 -3.54331,-7.08662 0,-7.08662 l 0,-127.55905 m 28.34646,-14.17323 -14.17323,0 0,14.17323 -53.14961,0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
     <text
@@ -2378,9 +2408,38 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;writing-mode:lr-tb;text-anchor:start">(1807 - 1895)</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
-       d="m 722.83465,102.75585 -95.6693,0"
+       d="m 722.83465,134.64562 -14.17323,0 0,-28.34646 -53.14961,0"
        id="path4753"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cccc" />
+    <image
+       sodipodi:absref="/home/sam/code/hmw/master/misc/Wikipedia_svg_logo.svg_100px.png"
+       xlink:href="misc/Wikipedia_svg_logo.svg_100px.png"
+       width="14.17323"
+       height="14.17323"
+       preserveAspectRatio="none"
+       id="image5013"
+       x="605.90552"
+       y="95.669243" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#image5013"
+       id="use5016"
+       transform="translate(177.16535,63.779524)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="548.66473"
+       y="118.02854"
+       id="text4742"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4744"
+         x="548.66473"
+         y="118.02854"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:serif;-inkscape-font-specification:serif">Mary Ann Wells</tspan></text>
   </g>
 </svg>
