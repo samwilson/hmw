@@ -14,11 +14,13 @@
    height="1122.5197"
    id="svg3472"
    version="1.1"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="tree.svg"
    inkscape:export-filename="/home/sam/code/hmw/gh-pages/tree.png"
    inkscape:export-xdpi="93.889999"
    inkscape:export-ydpi="93.889999">
+  <title
+     id="title5418">Family Tree</title>
   <defs
      id="defs3474">
     <marker
@@ -476,6 +478,19 @@
          d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
     </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9-6-36"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3-8-7"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -484,19 +499,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.74897263"
-     inkscape:cx="793.7008"
-     inkscape:cy="561.25983"
+     inkscape:zoom="1.3906755"
+     inkscape:cx="1184.9163"
+     inkscape:cy="448.24417"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
-     showgrid="false"
+     inkscape:current-layer="layer1"
+     showgrid="true"
      objecttolerance="10000"
-     inkscape:window-width="1853"
+     inkscape:window-width="1859"
      inkscape:window-height="1016"
-     inkscape:window-x="1987"
+     inkscape:window-x="61"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      units="mm"
      inkscape:snap-bbox="true"
@@ -595,7 +610,19 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title>Family Tree</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Sam Wilson</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:rights>
+        <dc:language>en</dc:language>
+        <dc:source>https://samwilson.github.io/hmw/</dc:source>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2241,9 +2268,9 @@
     <path
        id="path3358"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9-6-3)"
-       d="M 771.02363,873.07081 H 740.7874 l 10e-6,-381.7323 c -3.77953,0 -3.77953,-7.55905 0,-7.55905 l -10e-6,-158.74014 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 V 181.41727 m 30.23623,-15.11811 h -15.11812 v 15.11811 H 699.2126"
+       d="M 771.02363,873.07081 H 740.7874 l 10e-6,-381.7323 c -3.77953,0 -3.77953,-7.55905 0,-7.55905 l -10e-6,-158.74014 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 l 10e-6,-56.69293 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 l -10e-6,-71.811 m 30.23623,-15.11811 h -15.11812 v 15.11811 H 699.2126"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
@@ -2254,7 +2281,7 @@
          id="tspan4337-1"
          x="1228.6887"
          y="510.23621"
-         style="font-size:11.73333359px;line-height:1;font-family:serif;stroke-width:1.06666672">Marice Salom</tspan><tspan
+         style="font-size:11.73333359px;line-height:1;font-family:serif;stroke-width:1.06666672">Maurice Salom</tspan><tspan
          sodipodi:role="line"
          x="1228.6887"
          y="519.53827"
@@ -2453,5 +2480,32 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc"
        transform="translate(0,-3.1872704e-5)" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-36)"
+       d="m 699.21261,257.0078 56.6929,0 v 18.89764 l 15.11812,0"
+       id="path5161-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
+       x="585.17938"
+       y="251.27406"
+       id="text6185-3"><tspan
+         sodipodi:role="line"
+         id="tspan6187-5"
+         x="585.17938"
+         y="251.27406"
+         style="font-size:11.73333359px;line-height:1;font-family:serif;stroke-width:1.06666672">Rose Ellen Leake</tspan><tspan
+         sodipodi:role="line"
+         x="585.17938"
+         y="263.00739"
+         style="font-size:11.73333359px;line-height:1;font-family:serif;stroke-width:1.06666672"
+         id="tspan1252">    (née Gliddon)</tspan><tspan
+         sodipodi:role="line"
+         x="585.17938"
+         y="272.30948"
+         id="tspan6189-6"
+         style="font-size:8.53333378px;line-height:1;font-family:serif;stroke-width:1.06666672">(d.1888)</tspan></text>
   </g>
 </svg>

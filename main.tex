@@ -1,6 +1,6 @@
 \documentclass[a4paper, twoside]{book}
 \usepackage{url, graphicx, wrapfig, ifthen, enumitem, makeidx, microtype, booktabs, caption}
-\usepackage{currfile, multicol, float, subcaption, textcomp}
+\usepackage{currfile, multicol, float, subcaption, textcomp, rotating}
 \usepackage[numbib, numindex]{tocbibind}
 \usepackage[superscript]{cite}
 \makeindex
@@ -22,7 +22,7 @@
 \AtBeginEnvironment{quotation}{\smaller}
 
 \title{H. M. Wilson Family Tree}
-\author{\url{http://samwilson.github.io/hmw}}
+\author{\url{https://samwilson.github.io/hmw}}
 
 \hypersetup{
   colorlinks   = true, %Colours links instead of ugly boxes
@@ -63,6 +63,15 @@ For more information please see Wikipedia: \\
 % ---- Index entries: \idx{}
 \newcommand{\idx}[1]{#1\index{#1}}
 
+% ---- \photo{filename.png}{Caption.}
+\newcommand{\photo}[2]{%
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=\linewidth]{photos/#1} \\
+        {\footnotesize #2}%
+        \label{fig:#1}
+    \end{figure}%
+}
 
 \begin{document}
 \maketitle
@@ -76,20 +85,38 @@ For more information please see Wikipedia: \\
 \input{biographies/Millicent_Joyce_Branson_Clifton}
 \input{biographies/Madge_Louise_Clifton}
 \input{biographies/John_Bruan_Luard_Gilmore}
-\input{biographies/Joan_Leake_Hall}
+\input{biographies/Tita_Clifton}
+\input{biographies/Frederick_Lodge_Martin}
+\input{biographies/Dennis_Lodge_Martin}
+\input{biographies/Derrick_Mowbay_Robertson}
+\input{biographies/Patricia_Hanson_Martin}
+\input{biographies/John_Dulford_Walmond}
+\input{biographies/Constance_Janet_Martin}
+\input{biographies/Ian_Wallman}
+\input{biographies/Nancy_Lodge}
+\input{biographies/Henry_Soutter_Lodge}
+\input{biographies/Gladys_Jean_Smith}
+\input{biographies/Thomas_Alexander_John_Lodge}
+\input{biographies/Mathew_Oliver_Lodge}
 \input{biographies/Maurice_Salom}
+\input{biographies/Joan_Leake_Hall}
 \input{biographies/Constance_Boyd_Hall}
 \input{biographies/Alan_Louis_Mathew_Berryman}
 \input{biographies/Peter_Innes_Donegan}
 \input{biographies/Helen_Margaret_Hall}
 \input{biographies/William_Murray_Wilson}
+\input{biographies/Daphne_June_Robinson}
 \input{biographies/Herbert_Bruce_Wilson}
 \input{biographies/Iris_Arnold}
 \input{biographies/Lilian_Rae_Wilson}
 \input{biographies/Frank_Bertram_Hussey}
 \input{biographies/Olive_Adele_Wilson}
+\input{biographies/James_William_Lang}
+\input{biographies/Jessie_Bowden}
 \input{biographies/Frederick_Gordon_Wilson}
+\input{biographies/Helen_Nelson}
 \input{biographies/Dorothy_Jean_McHarg_Wilson}
+\input{biographies/Robert_Gordon_Agnew}
 
 \chapter{}
 % Generation 2
@@ -103,11 +130,11 @@ For more information please see Wikipedia: \\
 \input{biographies/Robert_John_Lodge}
 \input{biographies/Joan_Soutter_Lodge}
 \input{biographies/Norman_Martin}
+\input{biographies/Charles_William_McHarg_Wilson}
 \input{biographies/Jessie_Wilson}
 \input{biographies/Andrew_Oswald_Wilson}
 \input{biographies/James_Herbert_Wilson}
 \input{biographies/Edith_Olive_Hall}
-\input{biographies/Charles_William_McHarg_Wilson}
 \input{biographies/Ada_Maud_Florence_Hall}
 \input{biographies/Lilian_Bertha_Ella_Hall}
 \input{biographies/James_Herbert_Hamersley_Hall}
