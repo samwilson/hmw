@@ -25,3 +25,7 @@ Page references:
 ## Tree conventions
 
 Names: 11 pt; dates: 8 pt; all serif.
+
+Crossing paths:
+
+![Paths crossing](misc/tree-path-jumping.png)
