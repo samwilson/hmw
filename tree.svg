@@ -21,6 +21,19 @@
    inkscape:export-ydpi="93.889999">
   <title
      id="title2461">Family Tree</title>
+  <style
+     id="tree-style"><![CDATA[
+    text {
+      font-family: serif;
+      font-size: 9pt;
+      line-height: 1em;
+      letter-spacing: 0;
+    }
+    tspan.description {
+      font-size: smaller;
+      fill-opacity: 1;
+    }
+  ]]></style>
   <defs
      id="defs3474">
     <marker
@@ -249,6 +262,19 @@
          d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
     </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9-6-1-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3-8-6-4"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -257,19 +283,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.0523881"
-     inkscape:cx="1181.1287"
-     inkscape:cy="628.98394"
+     inkscape:zoom="0.76309703"
+     inkscape:cx="793.7008"
+     inkscape:cy="561.25983"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      objecttolerance="10000"
      inkscape:window-width="1859"
      inkscape:window-height="1025"
      inkscape:window-x="61"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      units="mm"
      inkscape:snap-bbox="true"
@@ -376,7 +402,7 @@
         </dc:creator>
         <dc:rights>
           <cc:Agent>
-            <dc:title></dc:title>
+            <dc:title />
           </cc:Agent>
         </dc:rights>
         <dc:language>en</dc:language>
@@ -505,19 +531,17 @@
          id="tspan3012">(1914 - 1953)</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672;"
        x="1228.3464"
        y="623.62201"
        id="text3014"><tspan
          sodipodi:role="line"
          id="tspan3016"
          x="1228.3464"
-         y="623.62201"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.73333359px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06666672;">Peter Innes Donegan</tspan><tspan
+         y="623.62201">Peter Innes Donegan</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="632.92407"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.53333378px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06666672;"
+         class="description"
          id="tspan3020">(1913 - 1939)</tspan></text>
     <text
        xml:space="preserve"
@@ -2283,8 +2307,8 @@
    sodipodi:role="line"
    x="585.17938"
    y="272.30948"
-   id="tspan6189-6"
-   style="font-size:8.53333378px;line-height:1;font-family:Serif;stroke-width:1.06666672;-inkscape-font-specification:Serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">(d.1888)</tspan>
+   class="description"
+   id="tspan6189-6">(d.1888)</tspan>
     </text>
     <text
        xml:space="preserve"
@@ -2295,57 +2319,64 @@
          sodipodi:role="line"
          x="585.15295"
          y="285.02261"
-         id="tspan2858"
-         style="line-height:1;-inkscape-font-specification:Serif;font-family:Serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:11.73333333px">George Walpole Leake</tspan><tspan
+         id="tspan2858">George Walpole Leake</tspan><tspan
          sodipodi:role="line"
          x="585.15295"
          y="300.02261"
-         style="line-height:1;font-size:8.53333333px;-inkscape-font-specification:Serif;font-family:Serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         class="description"
          id="tspan7534">1825-1895</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="1000.2662"
-       y="420.53357"
+       x="1000.8391"
+       y="427.90384"
        id="text5622"><tspan
          sodipodi:role="line"
          id="tspan5620"
-         x="1000.2662"
-         y="420.53357"
-         style="font-size:13.33333302px">Ernest Albert Donegan</tspan></text>
+         x="1000.8391"
+         y="427.90384">Ernest Albert Donegan</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:13.33333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="1001.5748"
-       y="444.77582"
+       x="1000.9127"
+       y="447.54233"
        id="text5626"><tspan
          sodipodi:role="line"
-         id="tspan5624"
-         x="1001.5748"
-         y="444.77582">Lynda Amy Kathleen</tspan><tspan
+         x="1000.9127"
+         y="447.54233"
+         id="tspan5628">Lynda Amy Kathleen Innes</tspan><tspan
          sodipodi:role="line"
-         x="1001.5748"
-         y="461.44247"
-         id="tspan5628">  Donegan (née Innes)</tspan></text>
+         x="1000.9127"
+         y="459.54233"
+         class="description"
+         id="tspan2972">1887–1977</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.00157475;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6723)"
        d="m 1096.063,434.6456 83.1496,0 v 185.19685 h 26.4567 c 0,-3.77953 7.5591,-3.77953 7.5591,0 h 11.3385"
        id="path6270"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
+    <text
+       xml:space="preserve"
+       x="773.49457"
+       y="457.13397"
+       id="text2517"><tspan
+         sodipodi:role="line"
+         x="773.49457"
+         y="457.13397"
+         id="tspan2519">Eliza Nixon Waters</tspan></text>
+    <text
+       xml:space="preserve"
+       x="775.49323"
+       y="475.01202"
+       id="text2525"><tspan
+         sodipodi:role="line"
+         id="tspan2523"
+         x="775.49323"
+         y="475.01202">James Malcolm E. Innes</tspan></text>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1-0)"
+       d="m 869.29134,461.10229 h 113.38583 l 10e-6,-15.11811 h 15.11811"
+       id="path5161-3-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
   </g>
-  <style
-     id="tree-style"><![CDATA[
-    text {
-      font-family: serif;
-      font-size: 9pt;
-      line-height: 1em;
-      letter-spacing: 0;
-    }
-    tspan.description {
-      font-size: smaller;
-      fill: #006600;
-      fill-opacity: 1;
-    }
-    ]]></style>
 </svg>
