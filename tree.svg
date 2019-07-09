@@ -19,10 +19,8 @@
    inkscape:export-filename="/home/sam/code/hmw/gh-pages/tree.png"
    inkscape:export-xdpi="93.889999"
    inkscape:export-ydpi="93.889999">
-  <title
-     id="title2461">Family Tree</title>
-  <style
-     id="tree-style"><![CDATA[
+  <title>Family Tree</title>
+  <style id="tree-style"><![CDATA[
     text {
       font-family: serif;
       font-size: 9pt;
@@ -30,7 +28,7 @@
       letter-spacing: 0;
     }
     tspan.description {
-      font-size: smaller;
+      font-size: 6pt;
       fill-opacity: 1;
     }
   ]]></style>
@@ -434,7 +432,6 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672"
        x="27.521145"
        y="51.98864"
        id="text5475"><tspan
@@ -442,7 +439,7 @@
          id="tspan5477"
          x="27.521145"
          y="51.98864"
-         style="font-size:38.40000153px;line-height:1;font-family:serif;stroke-width:1.06666672">Family Tree</tspan><tspan
+         style="font-size:35pt">Family Tree</tspan><tspan
          sodipodi:role="line"
          x="27.521145"
          y="75.80114"
@@ -470,7 +467,7 @@
          id="tspan5487"
          x="21.864666"
          y="1104.1671"
-         style="font-size:smaller">30 June 2019      https://samwilson.github.io/hmw</tspan></text>
+         style="font-size:6pt">30 June 2019      https://samwilson.github.io/hmw</tspan></text>
     <use
        x="0"
        y="0"
@@ -499,7 +496,6 @@
      style="display:inline">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672;"
        x="1228.3464"
        y="646.29913"
        id="text3482"><tspan
@@ -507,28 +503,26 @@
          id="tspan3484"
          x="1228.3464"
          y="646.29913"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.73333359px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06666672;">Helen Margaret Hall</tspan><tspan
+         >Helen Margaret Hall</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="655.6012"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.53333378px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06666672;"
-         id="tspan3486">(1915 - 2000)</tspan></text>
+         class="description"
+         id="tspan3486">1915–2000</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672;"
        x="1228.3464"
        y="668.97638"
        id="text3482-3"><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="668.97638"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.73333359px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06666672;"
          id="tspan3486-3">William Murray Wilson</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="678.27844"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.53333378px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06666672;"
-         id="tspan3012">(1914 - 1953)</tspan></text>
+         class="description"
+         id="tspan3012">1914–1953</tspan></text>
     <text
        xml:space="preserve"
        x="1228.3464"
@@ -542,23 +536,21 @@
          x="1228.3464"
          y="632.92407"
          class="description"
-         id="tspan3020">(1913 - 1939)</tspan></text>
+         id="tspan3020">1913–1939</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672;"
        x="1001.5748"
        y="226.77162"
        id="text3014-8"><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="226.77162"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.73333359px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06666672;"
          id="tspan3094">Harold Aubrey Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="236.0737"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.53333378px;line-height:100%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:1.06666672;"
-         id="tspan3092">(1871 - 1963)</tspan></text>
+         class="description"
+         id="tspan3092">1871–1963</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672;"
@@ -2209,10 +2201,9 @@
          id="tspan4568"
          x="396.8504"
          y="219.21259"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.73333359px;line-height:1;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:1.06666672;">Charlotte Catharina Hall</tspan></text>
+         >Charlotte Catharina Hall</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672;"
        x="396.8504"
        y="234.33067"
        id="text4570"
@@ -2221,7 +2212,7 @@
          id="tspan4572"
          x="396.8504"
          y="234.33067"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.73333359px;line-height:1;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:1.06666672;">Thomas Branson</tspan></text>
+         >Thomas Branson</tspan></text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3)"
        d="m 582.04724,192.75588 h -15.11811 v 30.23623 h -56.69291"
@@ -2231,7 +2222,6 @@
        transform="translate(0,-3.1872704e-5)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Serif;font-stretch:normal;font-variant:normal;"
        x="585.33978"
        y="483.58414"
        id="text1426"
@@ -2240,10 +2230,9 @@
          id="tspan1424"
          x="585.33978"
          y="483.58414"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.73333359px;font-family:Serif;-inkscape-font-specification:Serif;">William Wilson</tspan></text>
+         >William Wilson</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:0.99999998%;font-family:Serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Serif;font-stretch:normal;font-variant:normal;"
        x="586.81219"
        y="496.4736"
        id="text1783"
@@ -2252,15 +2241,14 @@
          id="tspan1781"
          x="586.81219"
          y="496.4736"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.73333359px;line-height:0.37795275px;font-family:Serif;-inkscape-font-specification:Serif;">Janet Garrick</tspan><tspan
+         >Janet Garrick</tspan><tspan
          sodipodi:role="line"
          x="586.81219"
          y="504.20529"
          id="tspan1785"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.53333378px;line-height:0.37795275px;font-family:Serif;-inkscape-font-specification:Serif;">(-1871)</tspan></text>
+         class="description">d.1871</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:0.37795275px;font-family:Serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;-inkscape-font-specification:Serif;font-stretch:normal;font-variant:normal;"
        x="396.203"
        y="511.59171"
        id="text1783-4"
@@ -2306,14 +2294,13 @@
    x="585.17938"
    y="272.30948"
    class="description"
-   id="tspan6189-6">(d.1888)</tspan>
+   id="tspan6189-6">d.1888</tspan>
     </text>
     <text
        xml:space="preserve"
        x="585.15295"
        y="285.02261"
-       id="text2861"
-       style="-inkscape-font-specification:Serif;font-family:Serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
+       id="text2861"><tspan
          sodipodi:role="line"
          x="585.15295"
          y="285.02261"
@@ -2322,7 +2309,7 @@
          x="585.15295"
          y="300.02261"
          class="description"
-         id="tspan7534">1825-1895</tspan></text>
+         id="tspan7534">1825–1895</tspan></text>
     <text
        xml:space="preserve"
        x="1000.8391"
