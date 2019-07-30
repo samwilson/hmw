@@ -289,7 +289,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.76309703"
-     inkscape:cx="793.7008"
+     inkscape:cx="792.39035"
      inkscape:cy="561.25983"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -499,14 +499,6 @@
          x="44.506672"
          y="108.12536">= Article exists on Wikipedia</tspan>
     </text>
-    <use
-       x="0"
-       y="0"
-       xlink:href="#wikipedia-logo"
-       id="use8544"
-       transform="translate(461.10238,449.76381)"
-       width="100%"
-       height="100%" />
   </g>
   <g
      inkscape:label="Tree"
@@ -1849,6 +1841,7 @@
          y="359.05508">Enid Joan M<tspan
    style="font-size:smaller;baseline-shift:super"
    id="tspan3307">c</tspan>
+
 Rae</tspan>
       <tspan
          sodipodi:role="line"
@@ -2108,12 +2101,12 @@ Rae</tspan>
     <image
        sodipodi:absref="/home/sam/code/hmw/master/misc/Wikipedia_svg_logo.svg_100px.png"
        xlink:href="misc/Wikipedia_svg_logo.svg_100px.png"
-       width="15.118113"
-       height="15.118113"
-       preserveAspectRatio="none"
-       id="wikipedia-logo"
+       y="90.708588"
        x="684.09448"
-       y="90.708588" />
+       id="wikipedia-logo"
+       preserveAspectRatio="none"
+       height="15.118113"
+       width="15.118113" />
     <use
        x="0"
        y="0"
@@ -2354,5 +2347,14 @@ Rae</tspan>
        id="path5161-3-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
+    <use
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#wikipedia-logo"
+       id="use8544"
+       transform="translate(461.10238,449.76378)"
+       width="100%"
+       height="100%" />
   </g>
 </svg>
