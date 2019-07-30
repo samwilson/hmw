@@ -440,23 +440,24 @@
     <text
        x="27.521145"
        y="51.98864"
-       id="text5475">
+       id="text5475"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5477"
          x="27.521145"
          y="51.98864"
-         style="font-size:35pt">Family Tree</tspan>
+         style="font-size:46.66666794px">Family Tree</tspan>
       <tspan
          sodipodi:role="line"
          x="27.521145"
-         y="75.80114"
+         y="73.120415"
          id="tspan5479"
          style="font-size:19.20000076px;line-height:1;font-family:serif;stroke-width:1.06666672">Showing the ancestors of H. Margaret Wilson's children,</tspan>
       <tspan
          sodipodi:role="line"
          x="27.521145"
-         y="95.001144"
+         y="92.320412"
          id="tspan5481"
          style="font-size:19.20000076px;line-height:1;font-family:serif;stroke-width:1.06666672">and the descendents of her grandparents.</tspan>
     </text>
@@ -470,32 +471,42 @@
     <text
        x="21.864666"
        y="1104.1671"
-       id="text5485">
+       id="text5485"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5487"
          x="21.864666"
          y="1104.1671"
-         style="font-size:6pt">30 June 2019      https://samwilson.github.io/hmw</tspan>
+         style="font-size:8px">30 July 2019 https://samwilson.github.io/hmw</tspan>
     </text>
     <use
        x="0"
        y="0"
-       xlink:href="#image5013"
+       xlink:href="#wikipedia-logo"
        id="use4545"
-       transform="translate(-619.84252,-3.7794976)"
+       transform="translate(-657.63779,5.5590861)"
        width="100%"
        height="100%" />
     <text
        x="44.506672"
        y="108.12536"
-       id="text4547">
+       id="text4547"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan4549"
          x="44.506672"
          y="108.12536">= Article exists on Wikipedia</tspan>
     </text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#wikipedia-logo"
+       id="use8544"
+       transform="translate(461.10238,449.76381)"
+       width="100%"
+       height="100%" />
   </g>
   <g
      inkscape:label="Tree"
@@ -1838,7 +1849,6 @@
          y="359.05508">Enid Joan M<tspan
    style="font-size:smaller;baseline-shift:super"
    id="tspan3307">c</tspan>
-
 Rae</tspan>
       <tspan
          sodipodi:role="line"
@@ -2098,18 +2108,18 @@ Rae</tspan>
     <image
        sodipodi:absref="/home/sam/code/hmw/master/misc/Wikipedia_svg_logo.svg_100px.png"
        xlink:href="misc/Wikipedia_svg_logo.svg_100px.png"
-       y="102.0472"
-       x="646.29919"
-       id="image5013"
-       preserveAspectRatio="none"
+       width="15.118113"
        height="15.118113"
-       width="15.118113" />
+       preserveAspectRatio="none"
+       id="wikipedia-logo"
+       x="684.09448"
+       y="90.708588" />
     <use
        x="0"
        y="0"
-       xlink:href="#image5013"
+       xlink:href="#wikipedia-logo"
        id="use5016"
-       transform="translate(188.97637,68.031492)"
+       transform="translate(249.44883,68.031494)"
        width="100%"
        height="100%" />
     <text
