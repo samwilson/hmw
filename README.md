@@ -1,10 +1,19 @@
-The H. M. Wilson Archives
-=========================
+The H.M. Wilson Archives
+========================
 
-Genealogical research about the ancestors of the children of H. M. Wilson
+Genealogical research about the ancestors of the children of H. Margaret Wilson
 and and the descendents of her grandparents.
 
 For more information, please contact [Sam Wilson](https://samwilson.id.au/).
+
+## Building and deploying
+
+How to build the book, tree, and website:
+
+1. Update the date in `tree/tree.svg`
+1. Export `assets/tree.png` and `assets/tree.pdf` from Inkscape
+2. Build the book: `./book/typeset.sh`
+1. Send to Netlify: `netlify deploy --dir output --prod`
 
 ## LaTeX information
 
@@ -28,4 +37,23 @@ Names: 11 pt; dates: 8 pt; all serif.
 
 Crossing paths:
 
-![Paths crossing](misc/tree-path-jumping.png)
+![Paths crossing](tree/path-jumping.png)
+
+## Archive items
+
+Items are in sequentially-numbered markdown files in `content/items/`.
+
+```
+---
+template: item
+title: 
+image: 
+license: pd|cc-by
+images:
+  - link: 
+    thumb: 
+    caption:
+date: 
+date_precision: day|month|year|circa
+---
+```

@@ -1,0 +1,4 @@
+title: The H.M. Wilson Archives
+url: https://hmwilson.archives.org.au
+embeds:
+  commons: "|https://commons.wikimedia.org/wiki/File:(.*)|"

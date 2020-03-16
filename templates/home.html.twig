@@ -1,0 +1,69 @@
+{% extends '_base.html.twig' %}
+
+{% block head %}
+    {# Verification for https://hmwilson.netlify.com #}
+    <meta name="google-site-verification" content="4ym68gOZPF4rK8yRjrRh8D2vB4FgZphLt9RFb-epboQ" />
+{% endblock %}
+
+{% block main %}
+
+    <article>
+        <figure class="float-left d-none d-lg-block mr-3">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Coat_of_arms_of_the_Hall_family.jpg/200px-Coat_of_arms_of_the_Hall_family.jpg"
+                 alt="Coat of arms of the Hall family."
+                 class="img-fluid" />
+        </figure>
+        <h2>Welcome to the H.M. Wilson Archives</h2>
+        <p>
+            This site comprises a family tree and associated biographies of
+            the ancestors of H. Margaret Wilson's children and the descendants of her grandparents,
+            and indexes to archival material (such as photographs and letters) relating to these people and their wider families.
+        </p>
+        <p>
+            <a href="{{ page.link('assets/book.pdf') }}" class="float-right">
+                <img src="{{ page.link('assets/book_titlepage.png') }}" class="img-thumbnail" title="Download the book" alt="Thumbnail of the cover page of the book." />
+            </a>
+            All the people featured in the tree have biographies in an A4 downloadable book.
+        </p>
+        <p>
+            <a href="{{ page.link('assets/book.pdf') }}" class="btn btn-info">Download <code>book.pdf</code></a>
+        </p>
+        <p>
+            Currently, the archive holds
+            <a href="{{ page.link('/items') }}.html">
+                {{ database.query('select count(*) from pages where template = "item"').fetchColumn }}
+                items</a>,
+            which are stored in
+            <a href="{{ page.link('/storage-locations') }}.html">
+                {{ database.query('select count(*) from (select 1 from pages where storage_location is not null group by storage_location)').fetchColumn }}
+                locations</a>.
+        </p>
+
+        <p>
+            <a href="{{ page.link('/assets/tree.pdf') }}" title="View PDF version of the tree">
+                <img src="{{ page.link('/assets/tree.png') }}" alt="Family tree diagram." class="img-fluid" />
+            </a>
+        </p>
+
+        <h3>Contributions</h3>
+        <p>
+            Everyone is invited to contribute to all of this, via
+            <a href="https://github.com/samwilson/hmw">
+                github.com/samwilson/hmw</a>.
+            If you find any errors, please
+            <a href="https://github.com/samwilson/hmw/issues">report them</a>.
+        </p>
+        <p>
+            All content (unless otherwise specified) is released under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        </p>
+        <p class="hidden-xs">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                <img alt="Creative Commons Licence"
+                     src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+            </a>
+        </p>
+    </article>
+
+{% endblock %}

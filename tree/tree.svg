@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="tree.svg"
-   inkscape:export-filename="/home/sam/code/hmw/gh-pages/tree.png"
+   inkscape:export-filename="/home/sam/code/hmw/master/assets/tree.png"
    inkscape:export-xdpi="93.889999"
    inkscape:export-ydpi="93.889999">
   <title
@@ -42,13 +42,53 @@
   <defs
      id="defs3474">
     <marker
+       style="overflow:visible"
+       id="DistanceStart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DistanceStart"
+       inkscape:isstock="true">
+      <g
+         id="g2300"
+         style="stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1">
+        <path
+           style="fill:#000000;stroke:#000000;stroke-width:1.15;stroke-linecap:square;stroke-opacity:1;fill-opacity:1"
+           d="M 0,0 L 2,0"
+           id="path2306" />
+        <path
+           style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-opacity:1;fill-opacity:1"
+           d="M 0,0 L 13,4 L 9,0 13,-4 L 0,0 z "
+           id="path2302" />
+        <path
+           style="fill:#000000;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-opacity:1;fill-opacity:1"
+           d="M 0,-4 L 0,40"
+           id="path2304" />
+      </g>
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker7470"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="DotM">
+      <path
+         transform="scale(0.4) translate(7.4, 1)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
+         id="path7468" />
+    </marker>
+    <marker
        inkscape:stockid="DotM"
        orient="auto"
        refY="0.0"
        refX="0.0"
        id="marker6723"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path6524"
          d="M -2.5,-1.0 C -2.5,1.7600000 -4.7400000,4.0 -7.5,4.0 C -10.260000,4.0 -12.5,1.7600000 -12.5,-1.0 C -12.5,-3.7600000 -10.260000,-6.0 -7.5,-6.0 C -4.7400000,-6.0 -2.5,-3.7600000 -2.5,-1.0 z "
@@ -280,6 +320,84 @@
          d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
     </marker>
+    <marker
+       inkscape:stockid="StopL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopL-1"
+       style="overflow:visible">
+      <path
+         id="path4064-0"
+         d="M 0,4.8213333 V -4.8213333"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.85333335pt"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-09-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-9-5"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9-6-3-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3-8-2-5"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9-6-3-5-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3-8-2-5-0"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9-6-3-4-8"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3-8-2-2-3"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9-6-3-46"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3-8-2-3"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -288,8 +406,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.76309703"
-     inkscape:cx="792.39035"
+     inkscape:zoom="0.75187993"
+     inkscape:cx="793.70081"
      inkscape:cy="561.25983"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -307,7 +425,11 @@
      inkscape:snap-intersection-paths="true"
      inkscape:snap-to-guides="true"
      inkscape:object-nodes="true"
-     inkscape:bbox-nodes="true">
+     inkscape:bbox-nodes="false"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-bbox-midpoints="false"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-paths="false">
     <inkscape:grid
        type="xygrid"
        id="grid3480"
@@ -389,6 +511,21 @@
        position="510.23622,1133.8582"
        orientation="1,0"
        id="guide4746"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="377.95276,1077.1654"
+       orientation="1,0"
+       id="guide3600"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="321.25985,899.52757"
+       orientation="1,0"
+       id="guide3602"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="207.87402,907.08662"
+       orientation="1,0"
+       id="guide3637"
        inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
@@ -478,27 +615,30 @@
          id="tspan5487"
          x="21.864666"
          y="1104.1671"
-         style="font-size:8px">30 July 2019 https://samwilson.github.io/hmw</tspan>
+         style="font-size:8px">8 February 2020 https://archives.org.au/hmw</tspan>
     </text>
-    <use
-       x="0"
-       y="0"
-       xlink:href="#wikipedia-logo"
-       id="use4545"
-       transform="translate(-657.63779,5.5590861)"
-       width="100%"
-       height="100%" />
     <text
        x="44.506672"
-       y="108.12536"
+       y="107.86535"
        id="text4547"
        style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan4549"
          x="44.506672"
-         y="108.12536">= Article exists on Wikipedia</tspan>
+         y="107.86535">= Article exists on Wikipedia</tspan>
     </text>
+    <image
+       transform="translate(0,3.1872704e-5)"
+       sodipodi:absref="/home/sam/code/hmw/master/misc/Wikipedia_svg_logo.svg_100px.png"
+       xlink:href="data:image/png;base64,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 3MJGAAAAAElFTkSuQmCC "
+       width="15"
+       height="15"
+       preserveAspectRatio="none"
+       id="wikipedia-logo"
+       x="26.456692"
+       y="96.995712"
+       style="display:inline;image-rendering:optimizeQuality" />
   </g>
   <g
      inkscape:label="Tree"
@@ -509,7 +649,8 @@
     <text
        x="1228.3464"
        y="646.29913"
-       id="text3482">
+       id="text3482"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3484"
@@ -518,14 +659,16 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="655.6012"
+         y="655.89911"
          class="description"
-         id="tspan3486">1915–2000</tspan>
+         id="tspan3486"
+         style="font-size:8px">1915–2000</tspan>
     </text>
     <text
        x="1228.3464"
        y="668.97638"
-       id="text3482-3">
+       id="text3482-3"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="1228.3464"
@@ -534,14 +677,16 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="678.27844"
+         y="678.57635"
          class="description"
-         id="tspan3012">1914–1953</tspan>
+         id="tspan3012"
+         style="font-size:8px">1914–1953</tspan>
     </text>
     <text
        x="1228.3464"
        y="623.62201"
-       id="text3014">
+       id="text3014"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3016"
@@ -550,14 +695,16 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="632.92407"
+         y="633.22198"
          class="description"
-         id="tspan3020">1913–1939</tspan>
+         id="tspan3020"
+         style="font-size:8px">1913–1939</tspan>
     </text>
     <text
        x="1001.5748"
        y="226.77162"
-       id="text3014-8">
+       id="text3014-8"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="1001.5748"
@@ -566,14 +713,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="236.0737"
+         y="236.37163"
          class="description"
-         id="tspan3092">1871–1963</tspan>
+         id="tspan3092"
+         style="font-size:8px">1871–1963</tspan>
     </text>
     <text
        x="1001.5748"
        y="249.44876"
-       id="text3014-4">
+       id="text3014-4"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="1001.5748"
@@ -582,14 +731,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="258.75085"
+         y="259.04877"
          class="description"
-         id="tspan3100">1888–1967</tspan>
+         id="tspan3100"
+         style="font-size:8px">1888–1967</tspan>
     </text>
     <text
        x="1228.3464"
        y="532.91333"
-       id="text4335">
+       id="text4335"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan4337"
@@ -598,14 +749,16 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="542.21539"
+         y="542.51331"
          class="description"
-         id="tspan5397">1919–?</tspan>
+         id="tspan5397"
+         style="font-size:8px">1919–?</tspan>
     </text>
     <text
        x="1228.3464"
        y="563.14954"
-       id="text4339">
+       id="text4339"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan4341"
@@ -614,9 +767,10 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="572.4516"
+         y="572.74951"
          class="description"
-         id="tspan3164">1912–?</tspan>
+         id="tspan3164"
+         style="font-size:8px">1912–?</tspan>
     </text>
     <path
        id="path3102-5-5"
@@ -633,7 +787,8 @@
     <text
        x="1436.2203"
        y="650.07874"
-       id="text4612">
+       id="text4612"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="1436.2203"
@@ -643,7 +798,8 @@
     <text
        x="1436.2205"
        y="672.75586"
-       id="text4618">
+       id="text4618"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="1436.2205"
@@ -653,7 +809,8 @@
     <text
        x="1436.2205"
        y="627.40155"
-       id="text4626">
+       id="text4626"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan4628"
@@ -669,29 +826,33 @@
     <text
        x="1436.2205"
        y="850.39368"
-       id="text5743">
+       id="text5743"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5745"
          x="1436.2205"
          y="850.39368"
-         class="no-issue">No issue</tspan>
+         class="no-issue"
+         style="font-style:italic;font-size:8px">No issue</tspan>
     </text>
     <text
        y="755.90546"
        x="1228.3464"
-       id="text5455">
+       id="text5455"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          y="755.90546"
          x="1228.3464"
          id="tspan5457"
          sodipodi:role="line">Iris Arnold</tspan>
       <tspan
-         y="765.20752"
+         y="765.50543"
          x="1228.3464"
          id="tspan5459"
          class="description"
-         sodipodi:role="line">1925–1959</tspan>
+         sodipodi:role="line"
+         style="font-size:8px">1925–1959</tspan>
     </text>
     <path
        id="path3082"
@@ -702,7 +863,8 @@
     <text
        x="1001.5748"
        y="737.00781"
-       id="text3085">
+       id="text3085"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3087"
@@ -711,14 +873,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="746.30988"
+         y="746.60779"
          id="tspan3089"
-         class="description">1872–1942</tspan>
+         class="description"
+         style="font-size:8px">1872–1942</tspan>
     </text>
     <text
        x="1001.5748"
        y="759.68494"
-       id="text3091">
+       id="text3091"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3093"
@@ -727,14 +891,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="768.987"
+         y="769.28491"
          id="tspan3095"
-         class="description">1882–1966</tspan>
+         class="description"
+         style="font-size:8px">1882–1966</tspan>
     </text>
     <text
        x="1228.3464"
        y="733.22833"
-       id="text5203">
+       id="text5203"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5205"
@@ -743,14 +909,16 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="742.5304"
+         y="742.82831"
          id="tspan5207"
-         class="description">1918–2005</tspan>
+         class="description"
+         style="font-size:8px">1918–2005</tspan>
     </text>
     <text
        x="1227.6991"
        y="836.63104"
-       id="text5209">
+       id="text5209"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5211"
@@ -759,14 +927,16 @@
       <tspan
          sodipodi:role="line"
          x="1227.6991"
-         y="845.93311"
+         y="846.23102"
          id="tspan5213"
-         class="description">1910–2011</tspan>
+         class="description"
+         style="font-size:8px">1910–2011</tspan>
     </text>
     <text
        x="1229.3319"
        y="919.78064"
-       id="text5215">
+       id="text5215"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5217"
@@ -775,14 +945,16 @@
       <tspan
          sodipodi:role="line"
          x="1229.3319"
-         y="929.0827"
+         y="929.38062"
          id="tspan5219"
-         class="description">1908–1970</tspan>
+         class="description"
+         style="font-size:8px">1908–1970</tspan>
     </text>
     <text
        x="1228.3464"
        y="986.45667"
-       id="text5221">
+       id="text5221"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5223"
@@ -791,14 +963,16 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="995.75873"
+         y="996.05664"
          id="tspan5225"
-         class="description">1906–1963</tspan>
+         class="description"
+         style="font-size:8px">1906–1963</tspan>
     </text>
     <text
        x="1228.3464"
        y="1065.8267"
-       id="text5227">
+       id="text5227"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5229"
@@ -809,16 +983,17 @@
          x="1228.3464"
          y="1075.4266"
          id="tspan5231"
-         class="description">1904–1974</tspan>
+         class="description"
+         style="font-size:8px">1904–1974</tspan>
     </text>
     <path
        id="path5241"
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
-       d="m 1209.4489,744.56687 v 317.48033 h 15.118 m -15.118,-79.37009 h 15.118 m 0,-147.40159 h -15.118 l 0,79.37008 h 15.118 m -15.118,-185.19683 V 665.1968 h 15.118 m 0,64.25197 h -15.118 v 15.1181 H 1096.063"
+       d="m 1209.4489,744.56687 v 317.48033 h 15.118 m -15.118,-79.37009 h 15.118 m 0,-147.40159 h -15.118 v 79.37008 h 15.118 m -15.118,-185.19683 V 665.1968 h 15.118 m 0,64.25197 h -15.118 v 15.1181 H 1096.063"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.06666667, 1.06666667000000004;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.06666667, 1.06666667;stroke-dashoffset:0;stroke-opacity:1"
        d="m 1360.63,653.85823 c 56.6929,0 37.7952,-18.89764 56.6929,-18.89764"
        id="path5447"
        inkscape:connector-curvature="0"
@@ -826,7 +1001,8 @@
     <text
        x="1227.6991"
        y="859.30823"
-       id="text5449">
+       id="text5449"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5451"
@@ -835,14 +1011,16 @@
       <tspan
          sodipodi:role="line"
          x="1227.6991"
-         y="868.61029"
+         y="868.9082"
          id="tspan5453"
-         class="description">1908–1985</tspan>
+         class="description"
+         style="font-size:8px">1908–1985</tspan>
     </text>
     <text
        x="774.8031"
        y="525.35425"
-       id="text5489">
+       id="text5489"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5491"
@@ -851,14 +1029,16 @@
       <tspan
          sodipodi:role="line"
          x="774.8031"
-         y="535.59424"
+         y="534.95422"
          id="tspan5226"
-         class="description">1839–1914</tspan>
+         class="description"
+         style="font-size:8px">1839–1914</tspan>
     </text>
     <text
        x="774.8031"
        y="548.03143"
-       id="text5493">
+       id="text5493"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5495"
@@ -868,7 +1048,8 @@
     <text
        x="1002.5602"
        y="711.90662"
-       id="text5497">
+       id="text5497"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5499"
@@ -877,14 +1058,16 @@
       <tspan
          sodipodi:role="line"
          x="1002.5602"
-         y="721.20868"
+         y="721.50659"
          class="description"
-         id="tspan3296">1876–1889</tspan>
+         id="tspan3296"
+         style="font-size:8px">1876–1889</tspan>
     </text>
     <text
        x="774.8031"
        y="873.07086"
-       id="text6113">
+       id="text6113"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6115"
@@ -893,14 +1076,16 @@
       <tspan
          sodipodi:role="line"
          x="774.8031"
-         y="882.37292"
+         y="882.67084"
          id="tspan6117"
-         class="description">1829–1888</tspan>
+         class="description"
+         style="font-size:8px">1829–1888</tspan>
     </text>
     <text
        x="774.8031"
        y="895.74799"
-       id="text6119">
+       id="text6119"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6121"
@@ -909,9 +1094,10 @@
       <tspan
          sodipodi:role="line"
          x="774.8031"
-         y="905.05005"
+         y="905.34796"
          id="tspan6123"
-         class="description">1856–1929</tspan>
+         class="description"
+         style="font-size:8px">1856–1929</tspan>
     </text>
     <path
        id="path5241-6"
@@ -922,7 +1108,8 @@
     <text
        x="1001.6436"
        y="813.95392"
-       id="text6149">
+       id="text6149"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6151"
@@ -931,14 +1118,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.6436"
-         y="823.25598"
+         y="823.55389"
          id="tspan6153"
-         class="description">1875–1942</tspan>
+         class="description"
+         style="font-size:8px">1875–1942</tspan>
     </text>
     <text
        x="1001.5748"
        y="869.29126"
-       id="text6155">
+       id="text6155"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6157"
@@ -947,14 +1136,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="878.59332"
+         y="878.89124"
          id="tspan6159"
-         class="description">1877–1881</tspan>
+         class="description"
+         style="font-size:8px">1877–1881</tspan>
     </text>
     <text
        x="1001.5748"
        y="914.64557"
-       id="text6161">
+       id="text6161"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6163"
@@ -963,14 +1154,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="923.94763"
+         y="924.24554"
          id="tspan6165"
-         class="description">1880–1918</tspan>
+         class="description"
+         style="font-size:8px">1880–1918</tspan>
     </text>
     <text
        x="1001.5748"
        y="971.33856"
-       id="text6167">
+       id="text6167"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6169"
@@ -979,14 +1172,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="980.64062"
+         y="980.93854"
          id="tspan6171"
-         class="description">1885–1929</tspan>
+         class="description"
+         style="font-size:8px">1885–1929</tspan>
     </text>
     <text
        x="1001.5748"
        y="1028.0315"
-       id="text6173">
+       id="text6173"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6175"
@@ -995,14 +1190,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="1037.3336"
+         y="1037.6315"
          id="tspan6177"
-         class="description">1887–1887</tspan>
+         class="description"
+         style="font-size:8px">1887–1887</tspan>
     </text>
     <text
        x="774.8031"
        y="302.36212"
-       id="text6179">
+       id="text6179"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6181"
@@ -1011,14 +1208,16 @@
       <tspan
          sodipodi:role="line"
          x="774.8031"
-         y="311.66422"
+         y="311.96213"
          id="tspan6183"
-         class="description">1852–1938</tspan>
+         class="description"
+         style="font-size:8px">1852–1938</tspan>
     </text>
     <text
        x="774.8031"
        y="279.685"
-       id="text6185">
+       id="text6185"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6187"
@@ -1027,14 +1226,16 @@
       <tspan
          sodipodi:role="line"
          x="774.8031"
-         y="288.98709"
+         y="289.285"
          id="tspan6189"
-         class="description">1860–1939</tspan>
+         class="description"
+         style="font-size:8px">1860–1939</tspan>
     </text>
     <text
        x="774.80304"
        y="170.07869"
-       id="text6215">
+       id="text6215"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6217"
@@ -1043,14 +1244,16 @@
       <tspan
          sodipodi:role="line"
          x="774.80304"
-         y="179.38077"
+         y="179.6787"
          id="tspan6219"
-         class="description">1825–1895</tspan>
+         class="description"
+         style="font-size:8px">1825–1895</tspan>
     </text>
     <text
        x="774.80304"
        y="147.40152"
-       id="text6221">
+       id="text6221"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6223"
@@ -1059,9 +1262,10 @@
       <tspan
          sodipodi:role="line"
          x="774.80304"
-         y="156.7036"
+         y="157.00153"
          id="tspan6225"
-         class="description">1849–1911</tspan>
+         class="description"
+         style="font-size:8px">1849–1911</tspan>
     </text>
     <path
        id="path5241-6-3"
@@ -1072,7 +1276,8 @@
     <text
        x="1001.5748"
        y="177.63773"
-       id="text6251">
+       id="text6251"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6253"
@@ -1081,14 +1286,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="186.9398"
+         y="187.23773"
          id="tspan6255"
-         class="description">1869–1941</tspan>
+         class="description"
+         style="font-size:8px">1869–1941</tspan>
     </text>
     <text
        x="1001.5748"
        y="147.40154"
-       id="text6257">
+       id="text6257"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6259"
@@ -1097,14 +1304,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="156.70361"
+         y="157.00154"
          id="tspan6261"
-         class="description">1875–1875</tspan>
+         class="description"
+         style="font-size:8px">1875–1875</tspan>
     </text>
     <text
        x="1001.5748"
        y="79.370026"
-       id="text6263">
+       id="text6263"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6265"
@@ -1113,38 +1322,43 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="91.103363"
-         id="tspan3251">   Margaret Hall</tspan>
+         y="88.970024"
+         id="tspan3251">Margaret Hall</tspan>
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="100.40544"
+         y="98.570023"
          id="tspan6267"
-         class="description">1876–1960</tspan>
+         class="description"
+         style="font-size:8px">1876–1960</tspan>
     </text>
     <text
        x="1001.5748"
        y="37.795219"
-       id="text6269">
+       id="text6269"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6271"
          x="1001.5748"
          y="37.795219">William Shakespeare Hall <tspan
    id="tspan6275"
-   class="name-suffix">Jr.</tspan>
+   class="name-suffix"
+   style="font-style:italic">Jr.</tspan>
 </tspan>
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="47.097301"
+         y="47.395218"
          id="tspan6273"
-         class="description">1878–1879</tspan>
+         class="description"
+         style="font-size:8px">1878–1879</tspan>
     </text>
     <text
        x="1001.5748"
        y="113.38578"
-       id="text6277">
+       id="text6277"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6279"
@@ -1153,14 +1367,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="122.68787"
+         y="122.98578"
          id="tspan6281"
-         class="description">1863–1932</tspan>
+         class="description"
+         style="font-size:8px">1863–1932</tspan>
     </text>
     <text
        x="1228.3464"
        y="120.94482"
-       id="text6283">
+       id="text6283"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="1228.3464"
@@ -1169,14 +1385,16 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="130.2469"
+         y="130.54482"
          id="tspan6287"
-         class="description">1912–1920</tspan>
+         class="description"
+         style="font-size:8px">1912–1920</tspan>
     </text>
     <text
        x="1228.3464"
        y="151.18106"
-       id="text6313">
+       id="text6313"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6315"
@@ -1185,32 +1403,34 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="160.48314"
+         y="160.78107"
          id="tspan3201"
-         class="description">d.aft.1920</tspan>
+         class="description"
+         style="font-size:8px">d.aft.1920</tspan>
     </text>
     <flowRoot
        id="flowRoot6388"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0.01%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;">
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0.01%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
       <flowRegion
          id="flowRegion6390"
-         style="font-family:Serif;stroke-width:1.06666672px;-inkscape-font-specification:Serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;">
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:1.06666672px">
         <rect
            id="rect6392"
            width="50.94701"
            height="30.836348"
            x="136.7525"
            y="68.720985"
-           style="font-family:Serif;stroke-width:1.13777781px;-inkscape-font-specification:Serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;" />
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:1.13777781px" />
       </flowRegion>
       <flowPara
          id="flowPara6394"
-         style="font-size:11.73333359px;line-height:1;font-family:Serif;stroke-width:1.06666672px;-inkscape-font-specification:Serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;"> </flowPara>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.73333359px;line-height:1;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:1.06666672px"> </flowPara>
     </flowRoot>
     <text
        x="1001.5748"
        y="336.3779"
-       id="text3160">
+       id="text3160"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3162"
@@ -1219,14 +1439,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="345.67999"
+         y="345.97791"
          id="tspan5392"
-         class="description">1894–1971</tspan>
+         class="description"
+         style="font-size:8px">1894–1971</tspan>
     </text>
     <text
        x="1001.5748"
        y="283.46451"
-       id="text3164">
+       id="text3164"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3166"
@@ -1235,9 +1457,10 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="292.7666"
+         y="293.06451"
          id="tspan3301"
-         class="description">b.1892</tspan>
+         class="description"
+         style="font-size:8px">b.1892</tspan>
     </text>
     <path
        id="path3170"
@@ -1248,7 +1471,8 @@
     <text
        x="1001.5748"
        y="306.14166"
-       id="text3166">
+       id="text3166"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3168"
@@ -1257,14 +1481,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="315.44376"
+         y="315.74167"
          id="tspan3298"
-         class="description">b.1881</tspan>
+         class="description"
+         style="font-size:8px">b.1881</tspan>
     </text>
     <text
        x="1436.2205"
        y="544.25189"
-       id="text3205">
+       id="text3205"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3207"
@@ -1274,7 +1500,8 @@
     <text
        x="1436.2206"
        y="570.70862"
-       id="text3209">
+       id="text3209"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3211"
@@ -1284,7 +1511,8 @@
     <text
        x="1436.2205"
        y="593.38574"
-       id="text3213">
+       id="text3213"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3215"
@@ -1300,7 +1528,8 @@
     <text
        x="1228.3464"
        y="71.810966"
-       id="text3185">
+       id="text3185"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="1228.3464"
@@ -1309,14 +1538,16 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="81.113052"
+         y="81.410965"
          id="tspan3199"
-         class="description">1906–2005</tspan>
+         class="description"
+         style="font-size:8px">1906–2005</tspan>
     </text>
     <text
        x="1228.3464"
        y="41.574749"
-       id="text3193">
+       id="text3193"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3195"
@@ -1325,9 +1556,10 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="50.876831"
+         y="51.174747"
          id="tspan3197"
-         class="description">d.aft.1920</tspan>
+         class="description"
+         style="font-size:8px">d.aft.1920</tspan>
     </text>
     <path
        id="path3205"
@@ -1338,7 +1570,8 @@
     <text
        x="1228.3464"
        y="188.97632"
-       id="text3192">
+       id="text3192"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3194"
@@ -1347,14 +1580,16 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="198.2784"
+         y="198.57632"
          class="description"
-         id="tspan6821">1914–1941</tspan>
+         id="tspan6821"
+         style="font-size:8px">1914–1941</tspan>
     </text>
     <text
        x="1228.3464"
        y="222.99208"
-       id="text3215">
+       id="text3215"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3217"
@@ -1363,13 +1598,16 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="232.29416"
-         id="tspan6823">1916–1945</tspan>
+         y="232.59209"
+         id="tspan6823"
+         class="description"
+         style="font-size:8px">1916–1945</tspan>
     </text>
     <text
        x="1228.3464"
        y="268.34641"
-       id="text3219">
+       id="text3219"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3221"
@@ -1378,14 +1616,16 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="277.6485"
+         y="277.94641"
          id="tspan6825"
-         class="description">b.1921</tspan>
+         class="description"
+         style="font-size:8px">b.1921</tspan>
     </text>
     <text
        x="1228.3464"
        y="332.59836"
-       id="text3223">
+       id="text3223"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3225"
@@ -1394,8 +1634,10 @@
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="341.90045"
-         id="tspan6827">b.1929</tspan>
+         y="342.19836"
+         id="tspan6827"
+         class="description"
+         style="font-size:8px">b.1929</tspan>
     </text>
     <path
        id="path3205-2"
@@ -1412,7 +1654,8 @@
     <text
        x="1436.2206"
        y="215.433"
-       id="text3279">
+       id="text3279"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3281"
@@ -1422,7 +1665,8 @@
     <text
        x="1436.2206"
        y="234.33064"
-       id="text3283">
+       id="text3283"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3285"
@@ -1432,7 +1676,8 @@
     <text
        x="1436.2205"
        y="257.00781"
-       id="text3287">
+       id="text3287"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3289"
@@ -1448,7 +1693,8 @@
     <text
        x="1436.2205"
        y="298.58258"
-       id="text3319">
+       id="text3319"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3321"
@@ -1458,7 +1704,8 @@
     <text
        x="1436.2206"
        y="317.48026"
-       id="text3323">
+       id="text3323"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3325"
@@ -1468,7 +1715,8 @@
     <text
        x="1436.2205"
        y="336.37787"
-       id="text3327">
+       id="text3327"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3329"
@@ -1478,7 +1726,8 @@
     <text
        x="1436.2206"
        y="355.27548"
-       id="text3331">
+       id="text3331"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3333"
@@ -1488,7 +1737,8 @@
     <text
        x="1436.2205"
        y="374.17316"
-       id="text3335">
+       id="text3335"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3337"
@@ -1498,7 +1748,8 @@
     <text
        x="1228.3464"
        y="718.11017"
-       id="text3227">
+       id="text3227"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3229"
@@ -1508,7 +1759,8 @@
     <text
        x="1229.3319"
        y="942.45782"
-       id="text3231">
+       id="text3231"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3233"
@@ -1517,13 +1769,16 @@
       <tspan
          sodipodi:role="line"
          x="1229.3319"
-         y="952.57031"
-         id="tspan3235">b.1900 </tspan>
+         y="952.0578"
+         id="tspan3235"
+         class="description"
+         style="font-size:8px">b.1900</tspan>
     </text>
     <text
        x="1436.2205"
        y="869.29126"
-       id="text3237">
+       id="text3237"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="1436.2205"
@@ -1533,7 +1788,8 @@
     <text
        x="1435.2351"
        y="904.4798"
-       id="text3245">
+       id="text3245"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3247"
@@ -1543,7 +1799,8 @@
     <text
        x="1228.3464"
        y="971.33856"
-       id="text3249">
+       id="text3249"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3252"
@@ -1553,7 +1810,8 @@
     <text
        x="1228.3464"
        y="1009.1338"
-       id="text3254">
+       id="text3254"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3256"
@@ -1563,7 +1821,8 @@
     <text
        x="1436.2205"
        y="982.67706"
-       id="text3258">
+       id="text3258"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3260"
@@ -1572,13 +1831,14 @@
       <tspan
          sodipodi:role="line"
          x="1436.2205"
-         y="994.4104"
-         id="tspan7079">   Wilson</tspan>
+         y="992.27704"
+         id="tspan7079">Wilson</tspan>
     </text>
     <text
        x="1436.2205"
        y="1016.6928"
-       id="text3262">
+       id="text3262"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3264"
@@ -1594,7 +1854,8 @@
     <text
        x="1436.2205"
        y="925.98425"
-       id="text3270">
+       id="text3270"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3272"
@@ -1604,7 +1865,8 @@
     <text
        x="1436.2205"
        y="948.66138"
-       id="text3276">
+       id="text3276"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3278"
@@ -1614,7 +1876,8 @@
     <text
        x="1228.3464"
        y="1088.5039"
-       id="text3280">
+       id="text3280"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3282"
@@ -1624,7 +1887,8 @@
     <text
        x="1436.2205"
        y="1035.5905"
-       id="text3284">
+       id="text3284"
+       style="font-size:10.66666698px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3286"
@@ -1633,13 +1897,21 @@
       <tspan
          sodipodi:role="line"
          x="1436.2205"
-         y="1047.3237"
-         id="tspan7077">   Agnew</tspan>
+         y="1044.1238"
+         id="tspan1334">Agnew</tspan>
+      <tspan
+         sodipodi:role="line"
+         x="1436.2205"
+         y="1052.6571"
+         id="tspan6073"
+         class="description"
+         style="font-size:8px">1930–1987</tspan>
     </text>
     <text
        x="1436.2205"
        y="1077.1654"
-       id="text3288">
+       id="text3288"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3290"
@@ -1655,7 +1927,8 @@
     <text
        x="1000.916"
        y="677.89087"
-       id="text3298">
+       id="text3298"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3300"
@@ -1664,14 +1937,16 @@
       <tspan
          sodipodi:role="line"
          x="1000.916"
-         y="687.19293"
+         y="687.49084"
          id="tspan3302"
-         class="description">1873–1957</tspan>
+         class="description"
+         style="font-size:8px">1873–1957</tspan>
     </text>
     <text
        x="1001.6436"
        y="651.4342"
-       id="text3304">
+       id="text3304"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3306"
@@ -1680,14 +1955,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.6436"
-         y="660.73627"
+         y="661.03418"
          id="tspan3308"
-         class="description">1878–1958</tspan>
+         class="description"
+         style="font-size:8px">1878–1958</tspan>
     </text>
     <text
        x="1000.9274"
        y="624.97748"
-       id="text3310">
+       id="text3310"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3312"
@@ -1696,14 +1973,16 @@
       <tspan
          sodipodi:role="line"
          x="1000.9274"
-         y="634.27954"
+         y="634.57745"
          id="tspan3314"
-         class="description">1870–1935</tspan>
+         class="description"
+         style="font-size:8px">1870–1935</tspan>
     </text>
     <text
        x="1000.9904"
        y="594.74127"
-       id="text3316">
+       id="text3316"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3318"
@@ -1712,14 +1991,16 @@
       <tspan
          sodipodi:role="line"
          x="1000.9904"
-         y="604.04333"
+         y="604.34125"
          id="tspan3320"
-         class="description">1868–1957</tspan>
+         class="description"
+         style="font-size:8px">1868–1957</tspan>
     </text>
     <text
        x="1001.6436"
        y="553.1665"
-       id="text3322">
+       id="text3322"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3324"
@@ -1728,14 +2009,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.6436"
-         y="562.46857"
+         y="562.76648"
          id="tspan3326"
-         class="description">1866–1950</tspan>
+         class="description"
+         style="font-size:8px">1866–1950</tspan>
     </text>
     <text
        x="1001.5175"
        y="522.93024"
-       id="text3328">
+       id="text3328"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3330"
@@ -1744,14 +2027,16 @@
       <tspan
          sodipodi:role="line"
          x="1001.5175"
-         y="532.23236"
+         y="532.53021"
          id="tspan3332"
-         class="description">1865–1933</tspan>
+         class="description"
+         style="font-size:8px">1865–1933</tspan>
     </text>
     <text
        x="1002.4393"
        y="575.48273"
-       id="text3334">
+       id="text3334"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3336"
@@ -1760,14 +2045,15 @@
     </text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6);marker-end:url(#InfiniteLineEnd)"
-       d="m 1096.063,563.14954 56.6929,0"
+       d="m 1096.063,563.14954 h 56.6929"
        id="path3338"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <text
        x="1000.9904"
        y="495.82538"
-       id="text3389">
+       id="text3389"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3391"
@@ -1776,14 +2062,15 @@
       <tspan
          sodipodi:role="line"
          x="1000.9904"
-         y="505.12747"
+         y="505.42538"
          id="tspan3393"
-         class="description">d.1959</tspan>
+         class="description"
+         style="font-size:8px">d.1959</tspan>
     </text>
     <path
        id="path3395"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9)"
-       d="m 997.79529,491.33851 h -15.11811 l 0,26.4567 m 15.11811,192.7559 h -15.11811 m 15.11811,-158.74016 h -15.11811 m 15.11811,41.57481 h -15.11811 m 15.11811,30.23622 h -15.11811 m 15.11811,26.45669 h -15.11811 m 15.11811,26.45669 h -15.11811 m 15.11811,-158.74015 h -15.11811 l 0,18.89763 m 15.11809,196.53545 H 982.67716 V 536.69285 H 869.29134"
+       d="m 997.79529,491.33851 h -15.11811 v 26.4567 m 15.11811,192.7559 h -15.11811 m 15.11811,-158.74016 h -15.11811 m 15.11811,41.57481 h -15.11811 m 15.11811,30.23622 h -15.11811 m 15.11811,26.45669 h -15.11811 m 15.11811,26.45669 h -15.11811 m 15.11811,-158.74015 h -15.11811 v 18.89763 m 15.11809,196.53545 H 982.67716 V 536.69285 H 869.29134"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccccccccc" />
     <path
@@ -1796,44 +2083,49 @@
        inkscape:connector-curvature="0"
        id="path6822-7"
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-6-9)"
-       d="m 1432.441,899.52749 h -15.1181 v -15.11811 m 15.1181,-18.8976 h -15.1181 v 18.8976 l -15.1181,0 -10e-5,45.35433 -41.5747,0"
+       d="m 1432.441,899.52749 h -15.1181 v -15.11811 m 15.1181,-18.8976 h -15.1181 v 18.8976 h -15.1181 l -10e-5,45.35433 H 1360.63"
        sodipodi:nodetypes="ccccccccc" />
     <text
-       x="585.82678"
-       y="173.85822"
-       id="text7785">
+       x="585.16467"
+       y="766.94598"
+       id="text7785"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan7787"
-         x="585.82678"
-         y="173.85822">Henry Edward Hall</tspan>
+         x="585.16467"
+         y="766.94598">Henry Edward Hall</tspan>
       <tspan
          sodipodi:role="line"
-         x="585.82678"
-         y="183.97072"
+         x="585.16467"
+         y="776.54596"
          id="tspan8745"
-         class="description">1790–1859</tspan>
+         class="description"
+         style="font-size:8px">1790–1859</tspan>
     </text>
     <text
-       x="585.82678"
-       y="196.53539"
-       id="text7789">
+       x="584.85022"
+       y="789.62317"
+       id="text7789"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan7791"
-         x="585.82678"
-         y="196.53539">Sarah Theodisia Branson</tspan>
+         x="584.85022"
+         y="789.62317">Sarah Theodisia Branson</tspan>
       <tspan
          sodipodi:role="line"
-         x="585.82678"
-         y="206.64789"
+         x="584.85022"
+         y="799.22314"
          id="tspan8747"
-         class="description">1793–1858</tspan>
+         class="description"
+         style="font-size:8px">1793–1858</tspan>
     </text>
     <text
        x="1001.5748"
        y="359.05508"
-       id="text3303">
+       id="text3303"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3305"
@@ -1841,45 +2133,48 @@
          y="359.05508">Enid Joan M<tspan
    style="font-size:smaller;baseline-shift:super"
    id="tspan3307">c</tspan>
-
 Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="1001.5748"
-         y="368.35718"
+         y="368.65509"
          class="description"
-         id="tspan5399">1893–1949</tspan>
+         id="tspan5399"
+         style="font-size:8px">1893–1949</tspan>
     </text>
     <text
-       x="585.82678"
-       y="317.48029"
-       id="text5149">
+       x="585.27655"
+       y="360.61319"
+       id="text5149"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
-         x="585.82678"
-         y="317.48029"
+         x="585.27655"
+         y="360.61319"
          id="tspan5153">Robert John Lodge</tspan>
     </text>
     <text
-       x="585.82678"
-       y="332.59836"
-       id="text5157">
+       x="586.38397"
+       y="379.06619"
+       id="text5157"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5159"
-         x="585.82678"
-         y="332.59836">Mary Anne Souter</tspan>
+         x="586.38397"
+         y="379.06619">Mary Anne Souter</tspan>
     </text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6)"
-       d="m 699.2126,321.25979 h 56.69291 v -22.67717 h 17.00788"
+       d="m 699.21261,366.6141 h 56.69291 l -10e-6,-68.03148 h 17.00788"
        id="path5161"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <text
        x="1228.3464"
        y="374.17316"
-       id="text5401">
+       id="text5401"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5403"
@@ -1888,14 +2183,16 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="383.47525"
+         y="383.77316"
          id="tspan5405"
-         class="description">1921–?</tspan>
+         class="description"
+         style="font-size:8px">1921–?</tspan>
     </text>
     <text
        x="1228.3464"
        y="400.62985"
-       id="text5637">
+       id="text5637"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5639"
@@ -1904,14 +2201,16 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="409.93195"
+         y="410.22986"
          id="tspan5641"
-         class="description">1924–?</tspan>
+         class="description"
+         style="font-size:8px">1924–?</tspan>
     </text>
     <text
        x="1228.3464"
        y="423.30701"
-       id="text5643">
+       id="text5643"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5645"
@@ -1920,14 +2219,16 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="432.6091"
+         y="432.90701"
          id="tspan5647"
-         class="description">1946–?</tspan>
+         class="description"
+         style="font-size:8px">1946–?</tspan>
     </text>
     <text
        x="1228.3464"
        y="449.7637"
-       id="text5649">
+       id="text5649"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5651"
@@ -1936,14 +2237,16 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="459.0658"
+         y="459.36371"
          id="tspan5653"
-         class="description">1926–?</tspan>
+         class="description"
+         style="font-size:8px">1926–?</tspan>
     </text>
     <text
        x="1228.3464"
        y="476.2204"
-       id="text5655">
+       id="text5655"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5657"
@@ -1952,9 +2255,10 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="485.52249"
+         y="485.8204"
          id="tspan5659"
-         class="description">1933–?</tspan>
+         class="description"
+         style="font-size:8px">1933–?</tspan>
     </text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6);marker-end:url(#InfiniteLineEnd)"
@@ -1969,19 +2273,21 @@ Rae</tspan>
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccc" />
     <text
-       x="1228.3464"
-       y="351.496"
-       id="text6829">
+       x="1227.6843"
+       y="355.10559"
+       id="text6829"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6831"
-         x="1228.3464"
-         y="351.496">Ian Wallman</tspan>
+         x="1227.6843"
+         y="355.10559">Ian Wallman</tspan>
     </text>
     <text
        x="1228.3464"
        y="291.02356"
-       id="text6833">
+       id="text6833"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6835"
@@ -1990,14 +2296,16 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="300.32565"
+         y="300.62357"
          id="tspan6837"
-         class="description">?–1942</tspan>
+         class="description"
+         style="font-size:8px">?–1942</tspan>
     </text>
     <text
        x="1228.3464"
        y="253.22829"
-       id="text7529">
+       id="text7529"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="1228.3464"
@@ -2013,18 +2321,21 @@ Rae</tspan>
     <text
        x="1436.2205"
        y="279.685"
-       id="text5743-0">
+       id="text5743-0"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5745-4"
          x="1436.2205"
          y="279.685"
-         class="no-issue">No issue</tspan>
+         class="no-issue"
+         style="font-style:italic;font-size:8px">No issue</tspan>
     </text>
     <text
        x="1228.3464"
        y="94.488136"
-       id="text7577">
+       id="text7577"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan7579"
@@ -2039,14 +2350,15 @@ Rae</tspan>
        sodipodi:nodetypes="cc" />
     <path
        id="path3358"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9-6-3)"
-       d="M 771.02363,873.07081 H 740.7874 l 10e-6,-381.7323 c -3.77953,0 -3.77953,-7.55905 0,-7.55905 l -10e-6,-158.74014 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 l 10e-6,-41.57482 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 l -10e-6,-86.92911 m 30.23623,-15.11811 h -15.11812 v 15.11811 H 699.2126"
+       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 771.02363,873.07081 H 740.7874 l 10e-6,-381.7323 c -3.77953,0 -3.77953,-7.55905 0,-7.55905 V 370.39363 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -86.92913 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -86.92913 m 30.23622,-15.11809 h -15.11812 l -15.1181,-2e-5 v 15.11811"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccc" />
     <text
        x="1228.6887"
        y="510.23621"
-       id="text4335-8">
+       id="text4335-8"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan4337-1"
@@ -2055,9 +2367,10 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="1228.6887"
-         y="519.53827"
+         y="519.83618"
          id="tspan5397-2"
-         class="description">?–?</tspan>
+         class="description"
+         style="font-size:8px">?–?</tspan>
     </text>
     <path
        id="path4925-5-8"
@@ -2068,62 +2381,58 @@ Rae</tspan>
     <text
        x="1436.3912"
        y="521.45392"
-       id="text5743-5">
+       id="text5743-5"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5745-0"
          x="1436.3912"
          y="521.45392"
-         class="no-issue">No issue</tspan>
+         class="no-issue"
+         style="font-style:italic;font-size:8px">No issue</tspan>
     </text>
     <text
-       x="585.16791"
-       y="102.87495"
-       id="text6221-3">
+       x="584.83813"
+       y="131.38445"
+       id="text6221-3"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6223-6"
-         x="585.16791"
-         y="102.87495">George Lazenby</tspan>
+         x="584.83813"
+         y="131.38445">George Lazenby</tspan>
       <tspan
          sodipodi:role="line"
-         x="585.16791"
-         y="112.17703"
+         x="584.83813"
+         y="140.98445"
          id="tspan6225-7"
-         class="description">1807–1895</tspan>
+         class="description"
+         style="font-size:8px">1807–1895</tspan>
     </text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
-       d="M 771.02363,143.62199 H 755.90551 V 113.38577 H 699.2126"
+       d="m 771.02363,143.62199 h -15.11812 v -2e-5 h -56.6929"
        id="path4753"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
-    <image
-       sodipodi:absref="/home/sam/code/hmw/master/misc/Wikipedia_svg_logo.svg_100px.png"
-       xlink:href="misc/Wikipedia_svg_logo.svg_100px.png"
-       y="90.708588"
-       x="684.09448"
-       id="wikipedia-logo"
-       preserveAspectRatio="none"
-       height="15.118113"
-       width="15.118113" />
     <use
        x="0"
        y="0"
        xlink:href="#wikipedia-logo"
        id="use5016"
-       transform="translate(249.44883,68.031494)"
+       transform="translate(907.08662,61.744338)"
        width="100%"
        height="100%" />
     <text
-       x="585.24237"
-       y="125.89711"
-       id="text4742">
+       x="584.9126"
+       y="154.40662"
+       id="text4742"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan4744"
-         x="585.24237"
-         y="125.89711">Mary Ann Wells</tspan>
+         x="584.9126"
+         y="154.40662">Mary Ann Wells</tspan>
     </text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1)"
@@ -2135,7 +2444,8 @@ Rae</tspan>
        x="1228.3464"
        y="585.82678"
        id="text3173"
-       transform="translate(0,-3.1872704e-5)">
+       transform="translate(0,-3.1872704e-5)"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="1228.3464"
@@ -2144,62 +2454,62 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="1228.3464"
-         y="595.12885"
+         y="595.42676"
          id="tspan5395"
-         class="description">1909–1976</tspan>
+         class="description"
+         style="font-size:8px">1909–1976</tspan>
     </text>
     <text
-       x="396.8504"
-       y="139.8425"
+       x="396.41464"
+       y="731.0069"
        id="text3360"
-       transform="translate(0,-3.1872704e-5)">
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
-         x="396.8504"
-         y="139.8425"
+         x="396.41464"
+         y="731.0069"
          id="tspan3366">Thomas Strong Hall</tspan>
     </text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3)"
-       d="M 582.04724,170.07872 H 566.92913 V 143.62203 H 510.23622"
+       d="M 582.04725,763.4645 H 566.92914 V 737.00781 H 510.23623"
        id="path3370"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc"
-       transform="translate(0,-3.1872704e-5)" />
+       sodipodi:nodetypes="cccc" />
     <text
-       x="396.8504"
-       y="219.21259"
+       x="396.17657"
+       y="809.51294"
        id="text4566"
-       transform="translate(0,-3.1872704e-5)">
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan4568"
-         x="396.8504"
-         y="219.21259">Charlotte Catharina Hall</tspan>
+         x="396.17657"
+         y="809.51294">Charlotte Catharina Hall</tspan>
     </text>
     <text
-       x="396.8504"
-       y="234.33067"
+       x="396.73322"
+       y="824.63104"
        id="text4570"
-       transform="translate(0,-3.1872704e-5)">
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan4572"
-         x="396.8504"
-         y="234.33067">Thomas Branson</tspan>
+         x="396.73322"
+         y="824.63104">Thomas Branson</tspan>
     </text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3)"
-       d="m 582.04724,192.75588 h -15.11811 v 30.23623 h -56.69291"
+       d="M 582.04725,786.14167 H 566.92914 V 816.3779 H 510.23623"
        id="path3370-3"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc"
-       transform="translate(0,-3.1872704e-5)" />
+       sodipodi:nodetypes="cccc" />
     <text
        x="585.33978"
        y="483.58414"
        id="text1426"
-       transform="translate(0,-3.1872704e-5)">
+       transform="translate(0,-3.1872704e-5)"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan1424"
@@ -2210,7 +2520,8 @@ Rae</tspan>
        x="586.81219"
        y="496.4736"
        id="text1783"
-       transform="translate(0,-3.1872704e-5)">
+       transform="translate(0,-3.1872704e-5)"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan1781"
@@ -2219,15 +2530,17 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="586.81219"
-         y="504.20529"
+         y="506.07361"
          id="tspan1785"
-         class="description">d.1871</tspan>
+         class="description"
+         style="font-size:8px">d.1871</tspan>
     </text>
     <text
        x="396.203"
        y="511.59171"
        id="text1783-4"
-       transform="translate(0,-3.1872704e-5)">
+       transform="translate(0,-3.1872704e-5)"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="396.203"
@@ -2236,7 +2549,7 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="396.203"
-         y="519.31238"
+         y="521.19171"
          id="tspan2123">(or Garique)</tspan>
     </text>
     <path
@@ -2248,35 +2561,33 @@ Rae</tspan>
        transform="translate(0,-3.1872704e-5)" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-36)"
-       d="m 699.21261,272.12591 h 56.6929 l 0,3.77953 h 15.11812"
+       d="m 699.21261,272.12591 h 56.6929 v 3.77953 h 15.11812"
        id="path5161-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <text
-       x="585.17938"
-       y="251.27406"
-       id="text6185-3">
+       x="585.42834"
+       y="262.34546"
+       id="text6185-3"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
-         id="tspan6187-5"
-         x="585.17938"
-         y="251.27406">Rose Ellen Leake</tspan>
+         x="585.42834"
+         y="262.34546"
+         id="tspan1252">Rose Ellen Leake</tspan>
       <tspan
          sodipodi:role="line"
-         x="585.17938"
-         y="263.00739"
-         id="tspan1252">    (née Gliddon)</tspan>
-      <tspan
-         sodipodi:role="line"
-         x="585.17938"
-         y="272.30948"
+         x="585.42834"
+         y="271.94547"
          class="description"
-         id="tspan6189-6">d.1888</tspan>
+         id="tspan6189-6"
+         style="font-size:8px">d.1888</tspan>
     </text>
     <text
        x="585.15295"
        y="285.02261"
-       id="text2861">
+       id="text2861"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="585.15295"
@@ -2285,14 +2596,16 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="585.15295"
-         y="300.02261"
+         y="294.62262"
          class="description"
-         id="tspan7534">1825–1895</tspan>
+         id="tspan7534"
+         style="font-size:8px">1825–1895</tspan>
     </text>
     <text
        x="1000.8391"
        y="427.90384"
-       id="text5622">
+       id="text5622"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan5620"
@@ -2302,7 +2615,8 @@ Rae</tspan>
     <text
        x="1000.9127"
        y="447.54233"
-       id="text5626">
+       id="text5626"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="1000.9127"
@@ -2311,20 +2625,22 @@ Rae</tspan>
       <tspan
          sodipodi:role="line"
          x="1000.9127"
-         y="459.54233"
+         y="457.14233"
          class="description"
-         id="tspan2972">1887–1977</tspan>
+         id="tspan2972"
+         style="font-size:8px">1887–1977</tspan>
     </text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.00157475;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6723)"
-       d="m 1096.063,434.6456 83.1496,0 v 185.19685 h 26.4567 c 0,-3.77953 7.5591,-3.77953 7.5591,0 h 11.3385"
+       d="m 1096.063,434.6456 h 83.1496 v 185.19685 h 26.4567 c 0,-3.77953 7.5591,-3.77953 7.5591,0 h 11.3385"
        id="path6270"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
     <text
        x="773.49457"
        y="457.13397"
-       id="text2517">
+       id="text2517"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          x="773.49457"
@@ -2334,7 +2650,8 @@ Rae</tspan>
     <text
        x="775.49323"
        y="475.01202"
-       id="text2525">
+       id="text2525"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan2523"
@@ -2353,8 +2670,183 @@ Rae</tspan>
        y="0"
        xlink:href="#wikipedia-logo"
        id="use8544"
-       transform="translate(461.10238,449.76378)"
+       transform="translate(1118.7402,443.47664)"
        width="100%"
        height="100%" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#wikipedia-logo"
+       id="use1336"
+       transform="translate(1458.8977,938.71285)"
+       width="100%"
+       height="100%" />
+    <use
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#wikipedia-logo"
+       id="use4545"
+       transform="translate(661.2057,22.222345)"
+       width="100%"
+       height="100%" />
+    <text
+       x="774.14105"
+       y="919.98328"
+       id="text6113-3"
+       style="font-size:12px;line-height:0.80000001;font-family:serif">
+      <tspan
+         sodipodi:role="line"
+         id="tspan1357"
+         x="774.14105"
+         y="919.98328">Frederick William Teesdale</tspan>
+      <tspan
+         sodipodi:role="line"
+         id="tspan1359"
+         x="774.14105"
+         y="929.58325"
+         class="description"
+         style="font-size:8px">1864–1931</tspan>
+    </text>
+    <path
+       id="path4925-5-2-8"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL-1);marker-end:url(#DotM-09-7)"
+       d="M 937.32284,903.30702 H 869.29135"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       x="941.26251"
+       y="905.41418"
+       id="text5743-0-7"
+       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline">
+      <tspan
+         sodipodi:role="line"
+         id="tspan5745-4-0"
+         x="941.26251"
+         y="905.41418"
+         class="no-issue"
+         style="font-style:italic;font-size:8px">No issue</tspan>
+    </text>
+    <use
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#wikipedia-logo"
+       id="use1558"
+       transform="translate(914.64568,813.87033)"
+       width="100%"
+       height="100%" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-5)"
+       d="M 582.04725,283.46449 H 510.23623"
+       id="path3370-3-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-5-9)"
+       d="M 393.07087,268.34638 H 321.25985"
+       id="path3370-3-2-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-4-8)"
+       d="M 582.04725,479.99993 H 566.92913 V 445.98418 H 510.23622"
+       id="path3370-3-9-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-46)"
+       d="m 740.78741,778.58261 h -41.5748"
+       id="path3370-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <use
+       style="display:inline"
+       x="0"
+       y="0"
+       xlink:href="#wikipedia-logo"
+       id="use3076"
+       transform="translate(695.49214,176.96875)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline"
+       x="396.18829"
+       y="271.82791"
+       id="text3080"
+       transform="translate(0,-3.1872704e-5)"><tspan
+         sodipodi:role="line"
+         id="tspan3078"
+         x="396.18829"
+         y="271.82791">Luke Leake</tspan><tspan
+         sodipodi:role="line"
+         x="396.18829"
+         y="281.42792"
+         class="description"
+         id="tspan3088"
+         style="font-size:8px">1784–1838</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline"
+       x="396.25275"
+       y="294.50507"
+       id="text3084"
+       transform="translate(0,-3.1872704e-5)"><tspan
+         sodipodi:role="line"
+         id="tspan3082"
+         x="396.25275"
+         y="294.50507">Mary-Ann Walpole</tspan><tspan
+         sodipodi:role="line"
+         x="396.25275"
+         y="304.10507"
+         id="tspan3086"
+         class="description"
+         style="font-size:8px">1801–1872</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline"
+       x="207.21191"
+       y="260.48932"
+       id="text3606"
+       transform="translate(0,-3.1872704e-5)"><tspan
+         sodipodi:role="line"
+         id="tspan3604"
+         x="207.21191"
+         y="260.48932">Luke Leake</tspan><tspan
+         sodipodi:role="line"
+         x="207.21191"
+         y="270.08932"
+         id="tspan3608"
+         class="description"
+         style="font-size:8px">1756–1799</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline"
+       x="207.94434"
+       y="283.16647"
+       id="text3612"
+       transform="translate(0,-3.1872704e-5)"><tspan
+         sodipodi:role="line"
+         id="tspan3610"
+         x="207.94434"
+         y="283.16647">Ann Heading (or Hidden)</tspan><tspan
+         sodipodi:role="line"
+         x="207.94434"
+         y="292.76648"
+         class="description"
+         id="tspan3614"
+         style="font-size:8px">1758–1836</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline"
+       x="395.54181"
+       y="443.39587"
+       id="text4099"
+       transform="translate(0,-3.1872704e-5)"><tspan
+         sodipodi:role="line"
+         id="tspan4097"
+         x="395.54181"
+         y="443.39587">Robert Wilson</tspan></text>
   </g>
 </svg>

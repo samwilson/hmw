@@ -1,5 +1,8 @@
 main.pdf
 hmw.kilepr
+cache/
+output/
+assets/
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

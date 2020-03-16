@@ -1,0 +1,82 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+
+
+    <h2>{{ page.metadata.title }}</h2>
+
+    <div class="row">
+
+        <div class="col-md-5">
+            {% if page.metadata.thumb is defined %}
+                <img src="{{ page.metadata.thumb }}" class="img-fluid mr-2 mb-2 float-left" />
+            {% endif %}
+        </div>
+
+        <div class="col-md-7">
+            <p><strong>Item number:</strong> {{ page.id|basename }}</p>
+
+            {% if page.metadata.date is defined %}
+                <p>
+                    <strong>Date:</strong>
+                    {% if instanceof( page.metadata.date, '\DateTime' ) %}
+                        <time datetime="{{ page.metadata.date.format('c') }}">{{ page.metadata.date.format('Y-m-d') }}</time>
+                    {% else %}
+                        <time>{{ page.metadata.date }}</time>
+                    {% endif %}
+                </p>
+            {% endif %}
+
+            <p>
+                {% set sl = database.query('select * from pages where id = "/storage-locations/'~page.metadata.storage_location~'"').fetch %}
+                <strong>Storage location:</strong>
+                <a href="{{ page.link(sl.id) }}.html">{{ sl.title }}</a>
+            </p>
+
+            <p>
+                {% if page.metadata.license == 'cc-by' %}
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+                    This work is licensed under a
+                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+                {% elseif page.metadata.license == 'pd' %}
+                    <span xmlns:dct="http://purl.org/dc/terms/">
+                        <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
+                            <img src="https://licensebuttons.net/p/mark/1.0/80x15.png"
+                                 alt="Public Domain Mark" />
+                        </a>
+                        This work is free of known copyright restrictions and is in the public domain.
+                    </span>
+                {% else %}
+                    No license has been specified for this file.
+                    Please <a href="{{ page.link('/contact') }}.html">contact us</a> for more information about reuse.
+                {% endif %}
+            </p>
+        </div>
+
+    </div><!-- .row -->
+
+    {{ page.body|md2html|raw }}
+
+    {% if page.metadata.images is defined %}
+        <h3 id="images" class="mt-4">Images</h3>
+        <p>
+            {% if page.metadata.images|length == 1 %}
+                Click on the image to go to its canonical record.
+            {% else %}
+                Click on the images to go to their canonical records.
+            {% endif %}
+        </p>
+        <div class="row">
+            {% for idx,image in page.metadata.images %}
+                <figure class="figure col-md-2">
+                    <a href="{{ image.link }}">
+                        <img src="{{ image.thumb }}" class="figure-img img-fluid rounded" />
+                    </a>
+                    <figcaption class="figure-caption text-center">{{image.caption}}</figcaption>
+                </figure>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+{% endblock %}
