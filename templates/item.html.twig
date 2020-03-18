@@ -1,6 +1,7 @@
 {% extends '_base.html.twig' %}
 
 {% block main %}
+    {% import '_macros.twig' as macros %}
 
 
     <h2>{{ page.metadata.title }}</h2>
@@ -19,18 +20,16 @@
             {% if page.metadata.date is defined %}
                 <p>
                     <strong>Date:</strong>
-                    {% if instanceof( page.metadata.date, '\DateTime' ) %}
-                        <time datetime="{{ page.metadata.date.format('c') }}">{{ page.metadata.date.format('Y-m-d') }}</time>
-                    {% else %}
-                        <time>{{ page.metadata.date }}</time>
-                    {% endif %}
+                    {{ macros.date(page.metadata.date, page.metadata.date_precision) }}
                 </p>
             {% endif %}
 
             <p>
-                {% set sl = database.query('select * from pages where id = "/storage-locations/'~page.metadata.storage_location~'"').fetch %}
                 <strong>Storage location:</strong>
-                <a href="{{ page.link(sl.id) }}.html">{{ sl.title }}</a>
+                {% if page.metadata.storage_location %}
+                    {% set sl = database.query('select * from pages where id = "/storage-locations/'~page.metadata.storage_location~'"').fetch %}
+                    <a href="{{ page.link(sl.id) }}.html">{{ sl.title }}</a>
+                {% endif %}
             </p>
 
             <p>
@@ -47,6 +46,10 @@
                         </a>
                         This work is free of known copyright restrictions and is in the public domain.
                     </span>
+                {% elseif page.metadata.license == 'copyright' %}
+                    &copy;
+                    {{ macros.date(page.metadata.date, 'year') }}
+                    {% if page.metadata.author is defined %}{{ page.metadata.author }}{% else %}<abbr title="Anonymous author">Anon.</abbr>{% endif %}
                 {% else %}
                     No license has been specified for this file.
                     Please <a href="{{ page.link('/contact') }}.html">contact us</a> for more information about reuse.

@@ -11,7 +11,9 @@
         It is also available as <a href="{{ page.link(page.id) }}.pdf">a PDF</a>.
     </p>
 
-    {{ page.metadata.description|md2html|raw }}
+    {% if page.metadata.description %}
+        {{ page.metadata.description|md2html|raw }}
+    {% endif %}
 
     <ol>
     {% for item in database.query('select * from pages where "/storage-locations/"||storage_location = :storage_location', {storage_location: page.id}) %}
