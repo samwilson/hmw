@@ -55,6 +55,28 @@
                     Please <a href="{{ page.link('/contact') }}.html">contact us</a> for more information about reuse.
                 {% endif %}
             </p>
+
+            {% if page.metadata.tags is defined %}
+                <p>
+                    <strong>Tags:</strong>
+                    {% for t in page.metadata.tags %}
+                        {% set tag = database.query('SELECT * FROM pages WHERE id = "/tags/'~t~'"').fetch() %}
+                        {% if tag %}
+                            {% if tag.wikidata %}
+                                <span itemscope itemtype="http://schema.org/Thing">
+                                    <meta itemprop="url" content="https://www.wikidata.org/wiki/{{ tag.wikidata }}">
+                                    <a href="{{ page.link(tag.id) }}.html" rel="tag" itemprop="sameAs">{{ tag.title }}</a>
+                                </span>
+                            {% else %}
+                                <a href="{{ page.link(tag.id) }}.html" rel="tag">{{ tag.title }}</a>
+                            {% endif %}
+                        {% else %}
+                            {{ t }}
+                        {% endif %}
+                        &middot;
+                    {% endfor %}
+                </p>
+            {% endif %}
         </div>
 
     </div><!-- .row -->

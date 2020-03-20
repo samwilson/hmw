@@ -1,0 +1,4 @@
+---
+template: tag
+title: Photographs
+---
