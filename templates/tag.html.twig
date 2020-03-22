@@ -1,6 +1,7 @@
 {% extends '_base.html.twig' %}
 
 {% block main %}
+    {% import '_macros.twig' as macros %}
 
     <h2>{{ page.metadata.title }}</h2>
 
@@ -18,10 +19,22 @@
         </p>
     {% endif %}
 
-    <ol>
+    <div class="row">
         {% for p in database.query('SELECT p.* FROM pages p, json_each(p.tags) j WHERE "/tags/"||j.value LIKE "'~page.id~'"') %}
-            <li><a href="{{ page.link(p.id) }}.html">{{ p.title }}</a></li>
+            <figure class="figure col-md-2">
+                <a href="{{ page.link(p.id) }}.html">
+                    <img src="{{ p.image }}" class="figure-img img-fluid rounded" />
+                </a>
+                <figcaption class="figure-caption text-center">
+                    <a href="{{ page.link(p.id) }}.html">
+                        <strong>{{ p.title }}</strong>{% if p.date %},
+                            {{ macros.date(p.date, p.date_precision) }}
+                        {% endif %}
+                    </a>
+                </figcaption>
+            </figure>
         {% endfor %}
-    </ol>
+
+    </div>
 
 {% endblock %}

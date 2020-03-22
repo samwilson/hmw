@@ -7,6 +7,7 @@
     <ol>
         {% for item in database.query('select * from pages where template="item" order by date asc') %}
             <li>
+                Item {{ item.id|basename }}:
                 <a href="{{ page.link(item.id) }}.html">{{ item.title }}</a>{% if item.date %},
                 {{ macros.date(item.date, item.date_precision) }}
                 {% endif %}

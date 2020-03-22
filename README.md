@@ -50,12 +50,10 @@ title:
 author: 
 image: 
 license: pd|cc-by
-images:
-  - link: 
-    thumb: 
-    caption:
 date: 
 date_precision: day|month|year|circa
 storage_location: 
+tags:
+  - 
 ---
 ```

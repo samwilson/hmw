@@ -1,3 +1,4 @@
 ---
 template: items
+title: Items
 ---

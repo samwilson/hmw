@@ -1,8 +1,8 @@
 {% set commons = commons(embed.matches.1) %}
 
 <figure itemscope itemtype="http://schema.org/ImageObject" class="figure">
-    <a href="{{ commons.imageinfo.0.descriptionurl }}">
-        <img src="{{ commons.imageinfo.0.thumburl }}"
+    <a href="{{ commons.imageinfo.0.descriptionurl|escape('html_attr') }}" title="View on Wikimedia Commons">
+        <img src="{{ commons.imageinfo.0.thumburl|escape('html_attr') }}"
              width="{{ commons.imageinfo.0.thumbwidth }}"
              height="{{ commons.imageinfo.0.thumbheight }}"
              itemprop="contentUrl"
@@ -12,6 +12,6 @@
     </a>
     <figcaption itemprop="caption" class="figure-caption">
         {{ commons.labels.en.value }}
-        (via <a href="{{ embed.url|escape('html_attr') }}">Wikimedia Commons</a>)
+        (via <a href="{{ commons.imageinfo.0.url|escape('html_attr') }}">Wikimedia Commons</a>)
     </figcaption>
 </figure>

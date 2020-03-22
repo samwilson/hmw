@@ -28,26 +28,26 @@
 
 {% set items = database.query('select * from pages where "/storage-locations/"||storage_location = :storage_location', {storage_location: page.id}).fetchAll() %}
 {% for item in items %}
-  {% if item.thumb %}
-    {% set thumb = item.thumb %}
+  {% if item.image %}
+    {% set image = item.image %}
   {% else %}
-    {% set thumb = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Noun_Project_unknown_icon_762411_cc.svg/480px-Noun_Project_unknown_icon_762411_cc.svg.png' %}
+    {% set image = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Noun_Project_unknown_icon_762411_cc.svg/480px-Noun_Project_unknown_icon_762411_cc.svg.png' %}
   {% endif %}
   {% set caption = 'Item ' ~ item.id|basename ~ ', \\textbf{' ~ item.title ~ '} ' ~ item.description ~ ' \\url{' ~ site.config.url ~ item.id ~ '}' %}
   {% if loop.index % 2 == 1 %}
-  \begin{figure}
-    \begin{minipage}{0.45\textwidth}
-      \includegraphics[width=\linewidth]{{'{'}}{{ tex_url(thumb)|raw }}{{'}'}}
-      \caption{ {{ caption|raw }} }
-    \end{minipage}\hfill{% endif %}{% if loop.index % 2 == 0 %}
-    \begin{minipage}{0.45\textwidth}
-      \includegraphics[width=\linewidth]{{'{'}}{{ tex_url(thumb)|raw }}{{'}'}}
-      \caption{ {{ caption|raw }} }
-    \end{minipage}
-  \end{figure}
+    \begin{figure}
+      \begin{minipage}{0.45\textwidth}
+        \includegraphics[width=\linewidth]{{'{'}}{{ tex_url(image)|raw }}{{'}'}}
+        \caption{ {{ caption|raw }} }
+      \end{minipage}\hfill{% endif %}{% if loop.index % 2 == 0 %}
+      \begin{minipage}{0.45\textwidth}
+        \includegraphics[width=\linewidth]{{'{'}}{{ tex_url(image)|raw }}{{'}'}}
+        \caption{ {{ caption|raw }} }
+      \end{minipage}
+    \end{figure}
   {% endif %}
   {% if loop.index == loop.length and loop.length % 2 == 1 %}
-  \end{figure}
+    \end{figure}
   {% endif %}
 {% endfor %}
 
