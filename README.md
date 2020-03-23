@@ -46,6 +46,7 @@ Items are in sequentially-numbered markdown files in `content/items/`.
 ```
 ---
 template: item
+itemtype: 
 title: 
 author: 
 image: 

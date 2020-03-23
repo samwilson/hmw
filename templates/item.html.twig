@@ -2,108 +2,119 @@
 
 {% block main %}
     {% import '_macros.twig' as macros %}
+    <div itemscope itemtype="http://schema.org/{{ page.metadata.itemtype ?? 'ArchiveComponent' }}">
 
+        <h2 itemprop="name">{{ page.metadata.title }}</h2>
 
-    <h2>{{ page.metadata.title }}</h2>
-
-    <div class="row">
-
-        <div class="col-md-5">
-            {% if page.metadata.image is defined %}
-                <img src="{{ page.metadata.image }}" class="img-fluid mr-2 mb-2 float-left" />
-            {% elseif page.metadata.commons is defined %}
-                {% include 'embeds/commons.html.twig' with { embed: { matches: { 1: page.metadata.commons } } } %}
-            {% endif %}
-        </div>
-
-        <div class="col-md-7">
-            <p><strong>Item number:</strong> {{ page.id|basename }}</p>
-
-            {% if page.metadata.date is defined %}
-                <p>
-                    <strong>Date:</strong>
-                    {{ macros.date(page.metadata.date, page.metadata.date_precision) }}
-                </p>
-            {% endif %}
-
-            <p>
-                <strong>Storage location:</strong>
-                {% if page.metadata.storage_location %}
-                    {% set sl = database.query('select * from pages where id = "/storage-locations/'~page.metadata.storage_location~'"').fetch %}
-                    <a href="{{ page.link(sl.id) }}.html">{{ sl.title }}</a>
-                {% endif %}
-            </p>
-
-            <p>
-                {% if page.metadata.license == 'cc-by' %}
-                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-                    <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
-                    This work is licensed under a
-                    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-                {% elseif page.metadata.license == 'pd' %}
-                    <span xmlns:dct="http://purl.org/dc/terms/">
-                        <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
-                            <img src="https://licensebuttons.net/p/mark/1.0/80x15.png"
-                                 alt="Public Domain Mark" />
-                        </a>
-                        This work is free of known copyright restrictions and is in the public domain.
-                    </span>
-                {% elseif page.metadata.license == 'copyright' %}
-                    &copy;
-                    {{ macros.date(page.metadata.date, 'year') }}
-                    {% if page.metadata.author is defined %}{{ page.metadata.author }}{% else %}<abbr title="Anonymous author">Anon.</abbr>{% endif %}
-                {% else %}
-                    No license has been specified for this file.
-                    Please <a href="{{ page.link('/contact') }}.html">contact us</a> for more information about reuse.
-                {% endif %}
-            </p>
-
-            {% if page.metadata.tags is defined %}
-                <p>
-                    <strong>Tags:</strong>
-                    {% for t in page.metadata.tags %}
-                        {% set tag = database.query('SELECT * FROM pages WHERE id = "/tags/'~t~'"').fetch() %}
-                        {% if tag %}
-                            {% if tag.wikidata %}
-                                <span itemscope itemtype="http://schema.org/Thing">
-                                    <meta itemprop="url" content="https://www.wikidata.org/wiki/{{ tag.wikidata }}">
-                                    <a href="{{ page.link(tag.id) }}.html" rel="tag" itemprop="sameAs">{{ tag.title }}</a>
-                                </span>
-                            {% else %}
-                                <a href="{{ page.link(tag.id) }}.html" rel="tag">{{ tag.title }}</a>
-                            {% endif %}
-                        {% else %}
-                            {{ t }}
-                        {% endif %}
-                        &middot;
-                    {% endfor %}
-                </p>
-            {% endif %}
-        </div>
-
-    </div><!-- .row -->
-
-    {{ page.body|md2html|raw }}
-
-    {% if page.metadata.images is defined %}
-        <h3 id="images" class="mt-4">Images</h3>
-        <p>
-            {% if page.metadata.images|length == 1 %}
-                Click on the image to go to its canonical record.
-            {% else %}
-                Click on the images to go to their canonical records.
-            {% endif %}
-        </p>
         <div class="row">
-            {% for idx,image in page.metadata.images %}
-                <figure class="figure col-md-2">
-                    <a href="{{ image.link }}">
-                        <img src="{{ image.image }}" class="figure-img img-fluid rounded" />
-                    </a>
-                    <figcaption class="figure-caption text-center">{{image.caption}}</figcaption>
-                </figure>
-            {% endfor %}
-        </div>
-    {% endif %}
+
+            <div class="col-md-5">
+                {% if page.metadata.image is defined %}
+                    <img src="{{ page.metadata.image }}" class="img-fluid mr-2 mb-2 float-left" />
+                {% elseif page.metadata.commons is defined %}
+                    {% include 'embeds/commons.html.twig' with { embed: { matches: { 1: page.metadata.commons } } } %}
+                {% endif %}
+            </div>
+
+            <div class="col-md-7">
+                <p>
+                    <strong>Item number:</strong>
+                    <span itemprop="identifier">{{ page.id|basename }}</span>
+                </p>
+
+                {% if page.metadata.date is defined %}
+                    <p>
+                        <strong>Date:</strong>
+                        {{ macros.date(page.metadata.date, page.metadata.date_precision) }}
+                    </p>
+                {% endif %}
+
+                <p>
+                    <strong>Storage location:</strong>
+                    {% if page.metadata.storage_location %}
+                        {% set sl = database.query('select * from pages where id = "/storage-locations/'~page.metadata.storage_location~'"').fetch %}
+                        <a href="{{ page.link(sl.id) }}.html" itemprop="itemLocation">{{ sl.title }}</a>
+                    {% endif %}
+                </p>
+
+                <p>
+                    {% if page.metadata.license == 'cc-by' %}
+                        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+                        This work is licensed under a
+                        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+                    {% elseif page.metadata.license == 'pd' %}
+                        <span xmlns:dct="http://purl.org/dc/terms/">
+                            <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
+                                <img src="https://licensebuttons.net/p/mark/1.0/80x15.png"
+                                     alt="Public Domain Mark" />
+                            </a>
+                            This work is free of known copyright restrictions and is in the public domain.
+                        </span>
+                    {% elseif page.metadata.license == 'copyright' %}
+                        &copy;
+                        {{ macros.date(page.metadata.date, 'year') }}
+                        {% if page.metadata.author is defined %}{{ page.metadata.author }}{% else %}<abbr title="Anonymous author">Anon.</abbr>{% endif %}
+                    {% else %}
+                        No license has been specified for this file.
+                        Please <a href="{{ page.link('/contact') }}.html">contact us</a> for more information about reuse.
+                    {% endif %}
+                </p>
+
+                {% if page.metadata.tags is defined %}
+                    <p>
+                        <strong>Tags:</strong>
+                        {% for t in page.metadata.tags %}
+                            {% set tag = database.query('SELECT * FROM pages WHERE id = "/tags/'~t~'"').fetch() %}
+                            {% if tag %}
+                                {% if tag.wikidata %}
+                                    <span itemscope itemtype="http://schema.org/Thing">
+                                        <meta itemprop="url" content="https://www.wikidata.org/wiki/{{ tag.wikidata }}">
+                                        <a href="{{ page.link(tag.id) }}.html" rel="tag" itemprop="sameAs">
+                                            {{ tag.title }}
+                                        </a>
+                                    </span>
+                                {% else %}
+                                    <a href="{{ page.link(tag.id) }}.html" rel="tag">{{ tag.title }}</a>
+                                {% endif %}
+                            {% else %}
+                                {{ t }}
+                            {% endif %}
+                        {% endfor %}
+                    </p>
+                {% endif %}
+
+                {% if page.metadata.description is defined %}
+                    <strong>Description:</strong>
+                    <div itemprop="description">{{ page.metadata.description|md2html|raw }}</div>
+                {% endif %}
+            </div>
+
+        </div><!-- .row -->
+
+        {{ page.body|md2html|raw }}
+
+        {% if page.metadata.images is defined %}
+            <h3 id="images" class="mt-4">Images</h3>
+            <p>
+                {% if page.metadata.images|length == 1 %}
+                    Click on the image to go to its canonical record.
+                {% else %}
+                    Click on the images to go to their canonical records.
+                {% endif %}
+            </p>
+            <div class="row">
+                {% for idx,image in page.metadata.images %}
+                    <figure class="figure col-md-2">
+                        <a href="{{ image.link }}">
+                            <img src="{{ image.image }}" class="figure-img img-fluid rounded" />
+                        </a>
+                        <figcaption class="figure-caption text-center">{{image.caption}}</figcaption>
+                    </figure>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+    </div>
 
 {% endblock %}

@@ -28,27 +28,19 @@
 
 {% set items = database.query('select * from pages where "/storage-locations/"||storage_location = :storage_location', {storage_location: page.id}).fetchAll() %}
 {% for item in items %}
-  {% if item.image %}
+  {% if item.commons is defined and item.commons %}
+    {% set image = commons(item.commons).imageinfo.0.thumburl %}
+  {% elseif item.image %}
     {% set image = item.image %}
   {% else %}
     {% set image = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Noun_Project_unknown_icon_762411_cc.svg/480px-Noun_Project_unknown_icon_762411_cc.svg.png' %}
   {% endif %}
-  {% set caption = 'Item ' ~ item.id|basename ~ ', \\textbf{' ~ item.title ~ '} ' ~ item.description ~ ' \\url{' ~ site.config.url ~ item.id ~ '}' %}
-  {% if loop.index % 2 == 1 %}
-    \begin{figure}
-      \begin{minipage}{0.45\textwidth}
-        \includegraphics[width=\linewidth]{{'{'}}{{ tex_url(image)|raw }}{{'}'}}
-        \caption{ {{ caption|raw }} }
-      \end{minipage}\hfill{% endif %}{% if loop.index % 2 == 0 %}
-      \begin{minipage}{0.45\textwidth}
-        \includegraphics[width=\linewidth]{{'{'}}{{ tex_url(image)|raw }}{{'}'}}
-        \caption{ {{ caption|raw }} }
-      \end{minipage}
-    \end{figure}
-  {% endif %}
-  {% if loop.index == loop.length and loop.length % 2 == 1 %}
-    \end{figure}
-  {% endif %}
+  {% set caption = 'Item ' ~ item.id|basename ~ ', \\textbf{' ~ item.title ~ '} ' ~ item.description ~ ' \\url{' ~ site.config.url ~ item.id ~ '.html}' %}
+  \begin{figure}
+    \centering
+    \includegraphics[height=0.45\textheight]{{'{'}}{{ tex_url(image)|raw }}{{'}'}}
+    \caption{ {{ caption|raw }} }
+  \end{figure}
 {% endfor %}
 
 \end{document}

@@ -20,10 +20,15 @@
     {% endif %}
 
     <div class="row">
-        {% for p in database.query('SELECT p.* FROM pages p, json_each(p.tags) j WHERE "/tags/"||j.value LIKE "'~page.id~'"') %}
+        {% for p in database.query('SELECT p.* FROM pages p, json_each(p.tags) j WHERE "/tags/"||j.value LIKE "'~page.id~'" ORDER BY p.date') %}
             <figure class="figure col-md-2">
                 <a href="{{ page.link(p.id) }}.html">
-                    <img src="{{ p.image }}" class="figure-img img-fluid rounded" />
+                    {% if p.commons is defined and p.commons %}
+                        {% set commons = commons(p.commons) %}
+                        <img src="{{ commons.imageinfo.0.thumburl|escape('html_attr') }}" class="figure-img img-fluid rounded" />
+                    {% else %}
+                        <img src="{{ p.image }}" class="figure-img img-fluid rounded" />
+                    {% endif %}
                 </a>
                 <figcaption class="figure-caption text-center">
                     <a href="{{ page.link(p.id) }}.html">
