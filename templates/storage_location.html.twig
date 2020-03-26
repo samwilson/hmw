@@ -11,8 +11,10 @@
         It is also available as <a href="{{ page.link(page.id) }}.pdf">a PDF</a>.
     </p>
 
-    {% if page.metadata.description %}
-        {{ page.metadata.description|md2html|raw }}
+    {% if page.metadata.description is defined and page.metadata.description %}
+        <div itemprop="description">
+            {{ page.metadata.description|md2html|raw }}
+        </div>
     {% endif %}
 
     <ol>

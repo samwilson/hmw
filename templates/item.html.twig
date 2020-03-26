@@ -40,14 +40,14 @@
                 <p>
                     {% if page.metadata.license == 'cc-by' %}
                         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-                        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+                        <img alt="Creative Commons License" width="80" height="15" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
                         This work is licensed under a
                         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
                     {% elseif page.metadata.license == 'pd' %}
                         <span xmlns:dct="http://purl.org/dc/terms/">
                             <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
                                 <img src="https://licensebuttons.net/p/mark/1.0/80x15.png"
-                                     alt="Public Domain Mark" />
+                                     alt="Public Domain Mark" width="80" height="15" />
                             </a>
                             This work is free of known copyright restrictions and is in the public domain.
                         </span>
@@ -80,11 +80,12 @@
                             {% else %}
                                 {{ t }}
                             {% endif %}
+                            &middot;
                         {% endfor %}
                     </p>
                 {% endif %}
 
-                {% if page.metadata.description is defined %}
+                {% if page.metadata.description is defined and page.metadata.description %}
                     <strong>Description:</strong>
                     <div itemprop="description">{{ page.metadata.description|md2html|raw }}</div>
                 {% endif %}

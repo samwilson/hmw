@@ -35,7 +35,7 @@
   {% else %}
     {% set image = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Noun_Project_unknown_icon_762411_cc.svg/480px-Noun_Project_unknown_icon_762411_cc.svg.png' %}
   {% endif %}
-  {% set caption = 'Item ' ~ item.id|basename ~ ', \\textbf{' ~ item.title ~ '} ' ~ item.description ~ ' \\url{' ~ site.config.url ~ item.id ~ '.html}' %}
+  {% set caption = 'Item ' ~ item.id|basename ~ ', \\textbf{' ~ item.title ~ '} ' ~ ' \\url{' ~ site.config.url ~ item.id ~ '.html}' %}
   \begin{figure}
     \centering
     \includegraphics[height=0.45\textheight]{{'{'}}{{ tex_url(image)|raw }}{{'}'}}

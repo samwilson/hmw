@@ -8,13 +8,17 @@
 \setcounter{secnumdepth}{0}
 
 % Citation back references.
-\usepackage[pagebackref=true]{hyperref}
-\renewcommand*{\backref}[1]{}
+\usepackage[backref=page]{hyperref}
 \renewcommand*{\backrefalt}[4]{\emph{%
-	\ifcase #1 Not cited.\todo{Not cited!}%
-	\or Cited on page~#2.%
-	\else Cited on pages #2.%
-	\fi%
+	\ifthenelse
+	{\equal{#1}{0}}
+	{Not cited in the text.}
+	{
+		\ifthenelse
+		{\equal{#1}{1}}
+		{Cited on page~#2.}
+		{Cited on pages #2.}
+	}
 }}
 
 % Smaller quotations
