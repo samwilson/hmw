@@ -63,24 +63,26 @@
 
                 {% if page.metadata.tags is defined %}
                     <p>
-                        <strong>Tags:</strong>
+                        <strong>Tags:</strong><br />
+                        &middot;
                         {% for t in page.metadata.tags %}
                             {% set tag = database.query('SELECT * FROM pages WHERE id = "/tags/'~t~'"').fetch() %}
                             {% if tag %}
                                 {% if tag.wikidata %}
-                                    <span itemscope itemtype="http://schema.org/Thing">
+                                    <span itemscope itemtype="http://schema.org/Thing" class="tag">
                                         <meta itemprop="url" content="https://www.wikidata.org/wiki/{{ tag.wikidata }}">
                                         <a href="{{ page.link(tag.id) }}.html" rel="tag" itemprop="sameAs">
                                             {{ tag.title }}
                                         </a>
                                     </span>
                                 {% else %}
-                                    <a href="{{ page.link(tag.id) }}.html" rel="tag">{{ tag.title }}</a>
+                                    <a class="tag" href="{{ page.link(tag.id) }}.html" rel="tag">{{ tag.title }}</a>
                                 {% endif %}
-                            {% else %}
-                                {{ t }}
+                                &middot;
+                            {% elseif t %}
+                                <span class="tag">{{ t }}</span>
+                                &middot;
                             {% endif %}
-                            &middot;
                         {% endfor %}
                     </p>
                 {% endif %}
