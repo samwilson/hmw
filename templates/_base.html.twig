@@ -27,14 +27,35 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="{{page.link('/index')}}.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ page.link('assets/book.pdf') }}">Book (PDF)</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ page.link('/tags') }}.html">Tags</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ page.link('/items') }}.html">Items</a></li>
-                    <li class="nav-item"><a class="nav-link" href="{{ page.link('/storage-locations') }}.html">Storage locations</a></li>
+                    <li class="nav-item {% if page.id == '/index' %}active{% endif %}"><a class="nav-link" href="{{page.link('/index')}}.html">Home</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ page.link('assets/book.pdf') }}" title="Download PDF of the book">
+                            Book<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Adobe_PDF_icon.svg" height="16" alt="PDF file type icon" />
+                        </a>
+                    </li>
+                    <li class="nav-item {% if page.id == '/tags' %}active{% endif %}">
+                        <a class="nav-link" href="{{ page.link('/tags') }}.html">Tags</a>
+                    </li>
+                    <li class="nav-item {% if page.id == '/items' %}active{% endif %}">
+                        <a class="nav-link" href="{{ page.link('/items') }}.html">Items</a>
+                    </li>
+                    <li class="nav-item {% if page.id == '/storage-locations' %}active{% endif %}">
+                        <a class="nav-link" href="{{ page.link('/storage-locations') }}.html">Storage locations</a>
+                    </li>
                 </ul>
+                <span class="mr-3">
+                    <a class="btn btn-outline-danger" title="Tell us about anything wrong with this website!"
+                       href="https://github.com/samwilson/hmw/issues/new?title=[Website error]&body={{ '
+Error reported via: ' ~ site.config.url ~ page.id ~ '.html
+
+[Please provide as much information as possible. You can delete this line.]
+
+'|e('url') }}">
+                        Report error
+                    </a>
+                </span>
                 <form action="https://duckduckgo.com/" method="get" id="search-form" class="form-inline my-2 my-lg-0">
                     <input type="hidden" name="sites" value="{{ site.config.url }}" /><!-- This site only -->
                     <input type="hidden" name="kn" value="-1" /><!-- No new window -->
