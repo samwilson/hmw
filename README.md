@@ -46,12 +46,12 @@ Items are in sequentially-numbered markdown files in `content/items/`.
 ```
 ---
 template: item
-itemtype: CreativeWork|Article|Photograph|DigitalDocument|ArchiveComponent|Manuscript
+itemtype: Photograph|CreativeWork|Article|DigitalDocument|ArchiveComponent|Manuscript
 title: 
 author: 
 commons: 
 image: 
-license: pd|cc-by
+license: pd|cc-by|copyright
 date: 
 date_precision: day|month|year|circa
 storage_location: 
