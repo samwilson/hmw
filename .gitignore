@@ -4,6 +4,10 @@ cache/
 output/
 assets/
 
+config.local.yaml
+.idea/
+.netlify/
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof

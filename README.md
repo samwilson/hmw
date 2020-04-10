@@ -49,8 +49,10 @@ template: item
 itemtype: Photograph|CreativeWork|Article|DigitalDocument|ArchiveComponent|Manuscript
 title: 
 author: 
-commons: 
-image: 
+images:
+  - commons: 
+    flickr: 
+    caption: 
 license: pd|cc-by|copyright
 date: 
 date_precision: day|month|year|circa
