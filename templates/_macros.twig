@@ -4,7 +4,7 @@
         {% set datetime = date_create(datetime) %}
     {% endif %}
 
-    <time datetime="{{ datetime.format('c') }}" itemprop="date">
+    <time datetime="{{ datetime.format('c') }}" itemprop="dateCreated">
         {% if precision == 'circa' %}
             <abbr title="circa">c.</abbr>&nbsp;{{ datetime.format('Y') }}
         {% elseif precision == 'year' %}
