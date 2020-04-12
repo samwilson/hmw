@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="tree.svg"
-   inkscape:export-filename="/home/sam/code/hmw/master/assets/tree.png"
+   inkscape:export-filename="/home/sam/code/hmw/assets/tree.png"
    inkscape:export-xdpi="93.889999"
    inkscape:export-ydpi="93.889999">
   <title
@@ -398,6 +398,49 @@
          d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
     </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9-6-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3-8-4"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       inkscape:stockid="InfiniteLineEnd"
+       id="InfiniteLineEnd-7"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <g
+         id="g5145-7"
+         style="fill:#000000">
+        <circle
+           id="circle5147-5"
+           r="0.85333335"
+           cy="0"
+           cx="3.2"
+           style="stroke-width:1.06666672" />
+        <circle
+           id="circle5149-4"
+           r="0.85333335"
+           cy="0"
+           cx="6.9333334"
+           style="stroke-width:1.06666672" />
+        <circle
+           id="circle5151-8"
+           r="0.85333335"
+           cy="0"
+           cx="10.666667"
+           style="stroke-width:1.06666672" />
+      </g>
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -410,7 +453,7 @@
      inkscape:cx="793.70081"
      inkscape:cy="561.25983"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      objecttolerance="10000"
      inkscape:window-width="1859"
@@ -615,7 +658,7 @@
          id="tspan5487"
          x="21.864666"
          y="1104.1671"
-         style="font-size:8px">8 February 2020 https://archives.org.au/hmw</tspan>
+         style="font-size:8px">CC-BY-SA, 12 April 2020, https://hmwilson.archives.org.au/</tspan>
     </text>
     <text
        x="44.506672"
@@ -1391,19 +1434,19 @@
          style="font-size:8px">1912–1920</tspan>
     </text>
     <text
-       x="1228.3464"
-       y="151.18106"
+       x="1228.2294"
+       y="147.10345"
        id="text6313"
        style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan6315"
-         x="1228.3464"
-         y="151.18106">Tita Clifton</tspan>
+         x="1228.2294"
+         y="147.10345">Tita Clifton</tspan>
       <tspan
          sodipodi:role="line"
-         x="1228.3464"
-         y="160.78107"
+         x="1228.2294"
+         y="156.70346"
          id="tspan3201"
          class="description"
          style="font-size:8px">d.aft.1920</tspan>
@@ -1564,41 +1607,41 @@
     <path
        id="path3205"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6)"
-       d="m 1224.5669,185.1968 h -15.118 v 34.01574 m 15.118,0 h -15.118 v 75.59055 m 15.118,-30.23622 h -15.118 m 15.118,64.25197 h -15.118 v -34.01575 l -113.3859,-10e-6"
+       d="m 1224.5669,173.85819 h -15.118 v 45.35434 m 15.118,0 h -15.118 l 0,75.59056 m 15.118,-30.23622 h -15.118 m 15.118,64.25197 h -15.118 v -34.01575 l -113.3859,-10e-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccc" />
     <text
-       x="1228.3464"
-       y="188.97632"
+       x="1227.6844"
+       y="177.33968"
        id="text3192"
        style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3194"
-         x="1228.3464"
-         y="188.97632">Frederick Lodge Martin</tspan>
+         x="1227.6844"
+         y="177.33968">Frederick Lodge Martin</tspan>
       <tspan
          sodipodi:role="line"
-         x="1228.3464"
-         y="198.57632"
+         x="1227.6844"
+         y="186.93968"
          class="description"
          id="tspan6821"
          style="font-size:8px">1914–1941</tspan>
     </text>
     <text
-       x="1228.3464"
-       y="222.99208"
+       x="1227.6844"
+       y="223.13863"
        id="text3215"
        style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan3217"
-         x="1228.3464"
-         y="222.99208">Dennis Lodge Martin</tspan>
+         x="1227.6844"
+         y="223.13863">Dennis Lodge Martin</tspan>
       <tspan
          sodipodi:role="line"
-         x="1228.3464"
-         y="232.59209"
+         x="1227.6844"
+         y="232.73863"
          id="tspan6823"
          class="description"
          style="font-size:8px">1916–1945</tspan>
@@ -1612,7 +1655,7 @@
          sodipodi:role="line"
          id="tspan3221"
          x="1228.3464"
-         y="268.34641">Patricia Hanson Martin</tspan>
+         y="268.34641">Patricia Helen Martin</tspan>
       <tspan
          sodipodi:role="line"
          x="1228.3464"
@@ -1642,7 +1685,7 @@
     <path
        id="path3205-2"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6)"
-       d="m 1224.5669,37.79522 h -15.118 v 30.236221 m 15.118,0 h -15.118 v 30.23622 m 15.118,18.897639 h -15.118 m 15.118,30.23621 h -15.118 V 98.267661 l -113.3859,3e-6"
+       d="m 1224.5669,37.79522 h -15.118 v 30.236221 m 15.118,0 h -15.118 v 30.23622 m 15.118,18.897639 h -15.118 m 15.118,26.45667 h -15.118 l 0,-45.354309 -113.3859,3e-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccc" />
     <path
@@ -2133,6 +2176,7 @@
          y="359.05508">Enid Joan M<tspan
    style="font-size:smaller;baseline-shift:super"
    id="tspan3307">c</tspan>
+
 Rae</tspan>
       <tspan
          sodipodi:role="line"
@@ -2292,7 +2336,7 @@ Rae</tspan>
          sodipodi:role="line"
          id="tspan6835"
          x="1228.3464"
-         y="291.02356">John Dulford Walmond</tspan>
+         y="291.02356">John Dulford Walrond</tspan>
       <tspan
          sodipodi:role="line"
          x="1228.3464"
@@ -2848,5 +2892,22 @@ Rae</tspan>
          id="tspan4097"
          x="395.54181"
          y="443.39587">Robert Wilson</tspan></text>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-2);marker-end:url(#InfiniteLineEnd-7)"
+       d="m 1360.63,211.65347 h 34.0157"
+       id="path5661-5-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       x="1228.6025"
+       y="209.43207"
+       id="text7529-1"
+       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline">
+      <tspan
+         sodipodi:role="line"
+         x="1228.6025"
+         y="209.43207"
+         id="tspan7533-4">Sylvia</tspan>
+    </text>
   </g>
 </svg>

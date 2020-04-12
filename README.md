@@ -11,9 +11,10 @@ For more information, please contact [Sam Wilson](https://samwilson.id.au/).
 How to build the book, tree, and website:
 
 1. Update the date in `tree/tree.svg`
-1. Export `assets/tree.png` and `assets/tree.pdf` from Inkscape
-2. Build the book: `./book/typeset.sh`
-1. Send to Netlify: `netlify deploy --dir output --prod`
+2. Export `assets/tree.png` and `assets/tree.pdf` from Inkscape
+3. Build the book: `./book/typeset.sh`
+4. Build the website: `basildon .`
+5. Send to Netlify: `netlify deploy --dir output --prod`
 
 ## LaTeX information
 
