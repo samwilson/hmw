@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    {% for p in database.query('select * from pages where id not in ("/404", "/sitemap") order by id asc') %}
+        <url>
+            <loc>{{ site.config.url }}{{ p.id }}.html</loc>
+            <changefreq>weekly</changefreq>
+        </url>
+    {% endfor %}
+
+</urlset>
