@@ -449,19 +449,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.75187993"
-     inkscape:cx="793.70081"
-     inkscape:cy="561.25983"
+     inkscape:zoom="1.5037599"
+     inkscape:cx="1306.2133"
+     inkscape:cy="898.38125"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
-     showgrid="false"
+     inkscape:current-layer="layer1"
+     showgrid="true"
      objecttolerance="10000"
      inkscape:window-width="1859"
      inkscape:window-height="1025"
      inkscape:window-x="61"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      units="mm"
      inkscape:snap-bbox="true"
@@ -2177,6 +2177,7 @@
    style="font-size:smaller;baseline-shift:super"
    id="tspan3307">c</tspan>
 
+
 Rae</tspan>
       <tspan
          sodipodi:role="line"
@@ -2387,8 +2388,8 @@ Rae</tspan>
          y="94.488136">John Bruan Luard Gilmore</tspan>
     </text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6);marker-end:url(#InfiniteLineEnd)"
-       d="m 1360.63,79.370023 h 34.0157"
+       style="fill:none;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotM-6-9-6)"
+       d="m 1360.63,79.370023 71.811,-1.9e-5"
        id="path5661-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -2908,6 +2909,17 @@ Rae</tspan>
          x="1228.6025"
          y="209.43207"
          id="tspan7533-4">Sylvia</tspan>
+    </text>
+    <text
+       x="1435.5466"
+       y="83.843636"
+       id="text3279-9"
+       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline">
+      <tspan
+         sodipodi:role="line"
+         id="tspan3281-1"
+         x="1435.5466"
+         y="83.843636">Charlotte</tspan>
     </text>
   </g>
 </svg>
