@@ -3,7 +3,7 @@
 {% block main %}
     {% import '_macros.twig' as macros %}
 
-    <h2>Items</h2>
+    <h1>Items</h1>
     <ol>
         {% for item in database.query('select * from pages where template="item" order by date asc') %}
             <li>

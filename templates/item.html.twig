@@ -4,7 +4,7 @@
     {% import '_macros.twig' as macros %}
     <div itemscope itemtype="http://schema.org/{{ page.metadata.itemtype ?? 'ArchiveComponent' }}">
 
-        <h2 itemprop="name">{{ page.metadata.title }}</h2>
+        <h1 itemprop="name">{{ page.metadata.title }}</h1>
 
         <div class="row">
 
@@ -45,32 +45,6 @@
                     {% endif %}
                 </p>
 
-                <p>
-                    {% if page.metadata.license == 'cc-by' %}
-                        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-                        <img alt="Creative Commons License" width="80" height="15" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
-                        This work is licensed under a
-                        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-                    {% elseif page.metadata.license == 'pd' %}
-                        <span xmlns:dct="http://purl.org/dc/terms/">
-                            <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
-                                <img src="https://licensebuttons.net/p/mark/1.0/80x15.png"
-                                     alt="Public Domain Mark" width="80" height="15" />
-                            </a>
-                            This work is free of known copyright restrictions and is in the public domain.
-                        </span>
-                    {% elseif page.metadata.license == 'copyright' %}
-                        &copy;
-                        {% if page.metadata.date is defined and page.metadata.date %}
-                            {{ macros.date(page.metadata.date, 'year') }}
-                        {% endif %}
-                        {% if page.metadata.author is defined %}{{ page.metadata.author }}{% else %}<abbr title="Anonymous author">Anon.</abbr>{% endif %}
-                    {% else %}
-                        No license has been specified for this file.
-                        Please <a href="{{ page.link('/contact') }}.html">contact us</a> for more information about reuse.
-                    {% endif %}
-                </p>
-
                 {% if page.metadata.tags is defined %}
                     <p>
                         <strong>Tags:</strong><br />
@@ -101,6 +75,33 @@
                     <strong>Description:</strong>
                     <div itemprop="description">{{ page.metadata.description|md2html|raw }}</div>
                 {% endif %}
+
+                <p>
+                    {% if page.metadata.license == 'cc-by' %}
+                        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                            <img alt="Creative Commons License" width="80" height="15" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+                        This work is licensed under a
+                        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+                    {% elseif page.metadata.license == 'pd' %}
+                        <span xmlns:dct="http://purl.org/dc/terms/">
+                            <a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
+                                <img src="https://licensebuttons.net/p/mark/1.0/80x15.png"
+                                     alt="Public Domain Mark" width="80" height="15" />
+                            </a>
+                            This work is free of known copyright restrictions and is in the public domain.
+                        </span>
+                    {% elseif page.metadata.license == 'copyright' %}
+                        &copy;
+                        {% if page.metadata.date is defined and page.metadata.date %}
+                            {{ macros.date(page.metadata.date, 'year') }}
+                        {% endif %}
+                        {% if page.metadata.author is defined %}{{ page.metadata.author }}{% else %}<abbr title="Anonymous author">Anon.</abbr>{% endif %}
+                    {% else %}
+                        No license has been specified for this file.
+                        Please <a href="{{ page.link('/contact') }}.html">contact us</a> for more information about reuse.
+                    {% endif %}
+                </p>
+
             </div>
 
         </div><!-- .row -->

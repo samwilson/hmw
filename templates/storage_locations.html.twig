@@ -2,7 +2,7 @@
 
 {% block main %}
 
-    <h2>Storage locations</h2>
+    <h1>Storage locations</h1>
     <ol>
         {% for sl in database.query('select * from pages where id in (
         select "/storage-locations/"||storage_location from pages where storage_location is not null group by storage_location
