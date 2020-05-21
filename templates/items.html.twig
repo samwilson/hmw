@@ -4,15 +4,27 @@
     {% import '_macros.twig' as macros %}
 
     <h1>Items</h1>
-    <ol>
-        {% for item in database.query('select * from pages where template="item" order by date asc') %}
-            <li>
-                Item {{ item.id|basename }}:
-                <a href="{{ page.link(item.id) }}.html">{{ item.title }}</a>{% if item.date %},
-                {{ macros.date(item.date, item.date_precision) }}
-                {% endif %}
-            </li>
-        {% endfor %}
-    </ol>
+    <table class="table table-sm">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Date</th>
+        </tr>
+        </thead>
+        <tbody>
+            {% for item in database.query('select * from pages where template="item" order by date asc') %}
+                <tr>
+                    <td>{{ item.id|basename }}</td>
+                    <td><a href="{{ page.link(item.id) }}.html">{{ item.title }}</a></td>
+                    <td>
+                        {% if item.date %}
+                            {{ macros.date(item.date, item.date_precision) }}
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
 
 {% endblock %}
