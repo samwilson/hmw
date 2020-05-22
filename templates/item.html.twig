@@ -20,7 +20,7 @@
                     {% elseif page.metadata.images.0.flickr is defined %}
                         {% set imgSrc = flickr(page.metadata.images.0.flickr).urls.medium_image %}
                     {% endif %}
-                    <img src="{{ imgSrc|escape('html_attr') }}" class="img-fluid mr-2 mb-2 float-left" />
+                    <img alt="Main image for this item." src="{{ imgSrc|escape('html_attr') }}" class="img-fluid mr-2 mb-2 float-left" />
                 {% endif %}
             </div>
 

@@ -1,5 +1,9 @@
 {% extends '_base.html.twig' %}
 
+{% block head %}
+    <link rel="alternate" type="application/pdf" href="{{ page.link(page.id) }}.pdf" />
+{% endblock %}
+
 {% block main %}
 
     <h1>

@@ -13,9 +13,10 @@
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
           crossorigin="anonymous">
     <link rel="stylesheet" href="{{ page.link('/assets/style.css') }}" />
-    <link rel="alternate" type="application/pdf" href="{{ page.link(page.id) }}.pdf" />
-    <link rel="alternate" type="application/pdf" href="{{ page.link(page.id) }}.json" />
     <link rel="canonical" href="{{ site.config.url }}{{ page.id }}.html" />
+    {% if page.metadata.description is defined and page.metadata.description %}
+        <meta name="description" content="{{ page.metadata.description|e('html_attr') }}">
+    {% endif %}
     {% block head %}{% endblock %}
 </head>
 <body>
