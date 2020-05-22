@@ -76,6 +76,13 @@
                     <div itemprop="description">{{ page.metadata.description|md2html|raw }}</div>
                 {% endif %}
 
+                {% if page.metadata.author is defined and page.metadata.author %}
+                    <p>
+                        <strong>Author:</strong>
+                        <span itemprop="author">{{ page.metadata.author }}</span>
+                    </p>
+                {% endif %}
+
                 <p>
                     {% if page.metadata.license == 'cc-by' %}
                         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
@@ -95,7 +102,11 @@
                         {% if page.metadata.date is defined and page.metadata.date %}
                             {{ macros.date(page.metadata.date, 'year') }}
                         {% endif %}
-                        {% if page.metadata.author is defined %}{{ page.metadata.author }}{% else %}<abbr title="Anonymous author">Anon.</abbr>{% endif %}
+                        {% if page.metadata.author is defined and page.metadata.author %}
+                            {{ page.metadata.author }}
+                        {% else %}
+                            <abbr title="Anonymous author">Anon.</abbr>
+                        {% endif %}
                     {% else %}
                         No license has been specified for this file.
                         Please <a href="{{ page.link('/contact') }}.html">contact us</a> for more information about reuse.
