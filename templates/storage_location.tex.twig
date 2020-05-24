@@ -26,7 +26,7 @@
 \listoffigures
 \clearpage
 
-{% set items = database.query('select * from pages where "/storage-locations/"||storage_location = :storage_location', {storage_location: page.id}).fetchAll() %}
+{% set items = database.query('select * from pages where "/storage-locations/"||storage_location = :storage_location ORDER BY storage_location_key ASC', {storage_location: page.id}).fetchAll() %}
 {% for item in items %}
   {% set images = json_decode(item.images) %}
   {% if images.0.commons is defined %}

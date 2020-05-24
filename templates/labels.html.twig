@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% if page.metadata.title is defined %}{{ page.metadata.title }}{% else %}Untitled{% endif %}
+        ::
+        {{ site.title }}
+    </title>
+    <style>
+        .label { width:20%; display:inline-block; text-align:center; margin-bottom:1em; }
+        .label img { width:100% }
+    </style>
+</head>
+<body>
+<p><a href="{{ page.link('/index') }}.html">&larr; return to home</a></p>
+
+{% for i in page.metadata.start .. page.metadata.end %}
+    <span class="label">
+        <img src="{{ page.link(qrcode(site.config.url~'/items/'~i~'.html')) }}" alt="QR code" />
+        HMW {{ i }}
+    </span>
+{% endfor %}
+
+</body>
+</html>

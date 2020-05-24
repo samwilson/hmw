@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block main %}
+    {% import '_macros.twig' as macros %}
 
     <h1>
         <a href="{{ page.link('/storage-locations') }}.html">Storage location:</a>
@@ -21,10 +22,12 @@
         </div>
     {% endif %}
 
-    <ol>
-    {% for item in database.query('select * from pages where "/storage-locations/"||storage_location = :storage_location', {storage_location: page.id}) %}
-        <li><a href="{{ page.link(item.id) }}.html">{{ item.title }}</a></li>
-    {% endfor %}
-    </ol>
+    <p>The items below are ordered according to their physical position in the storage location.</p>
+
+    <div class="row">
+        {% for item in database.query('select * from pages where "/storage-locations/"||storage_location = :storage_location ORDER BY storage_location_key ASC', {storage_location: page.id}) %}
+            {{ macros.gallery_item(site, page, item) }}
+        {% endfor %}
+    </div>
 
 {% endblock %}
