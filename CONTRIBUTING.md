@@ -3,13 +3,14 @@ Contributing
 
 ## Building and deploying
 
-How to build the book, tree, and website:
+How to build the book, tree, and website
+(after installing Basildon with `composer install`):
 
 1. Update the date in `tree/tree.svg`
 2. Export `assets/tree.png` and `assets/tree.pdf` from Inkscape
 3. Build the book: `./book/typeset.sh`
-4. Build the website: `basildon .`
-5. Send to Netlify: `netlify deploy --dir output --prod`
+5. Build the website: `composer build`
+6. Send to Netlify: `composer deploy`
 
 ## LaTeX information
 
