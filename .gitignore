@@ -3,6 +3,7 @@ hmw.kilepr
 cache/
 output/
 assets/
+vendor/
 
 config.local.yaml
 .idea/
