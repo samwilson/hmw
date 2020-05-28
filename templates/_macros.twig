@@ -19,8 +19,8 @@
 
 {% macro gallery_item(site, page, item) %}
 
-    <figure class="figure col-md-2">
-        <a href="{{ page.link(item.id) }}.html">
+    <a href="{{ page.link(item.id) }}.html" title="View details of this item" class="figure col-md-2">
+        <figure>
             {% set imgSrc = site.config.img_placeholder %}
             {% set images = json_decode(item.images) %}
             {% if images.0.commons is defined %}
@@ -29,14 +29,17 @@
                 {% set imgSrc = flickr(images.0.flickr).urls.medium_image %}
             {% endif %}
             <img src="{{ imgSrc|escape('html_attr') }}" class="figure-img img-fluid rounded" alt="" />
-        </a>
-        <figcaption class="figure-caption text-center">
-            <a href="{{ page.link(item.id) }}.html">
-                <strong>{{ item.title }}</strong>{% if item.date %},
+            <figcaption class="figure-caption text-center">
+                <strong><em>Item {{ item.id|basename }}</em> &ndash; {{ item.title }}</strong>{% if item.date %},
                 {{ _self.date(item.date, item.date_precision) }}
                 {% endif %}
-            </a>
-        </figcaption>
-    </figure>
+                {% if item.storage_location %}
+                    <em class="storage-location" title="Storage location">
+                        ({{ item.storage_location }}{% if item.storage_location_key %}-{{ item.storage_location_key }}{% endif %})
+                    </em>
+                {% endif %}
+            </figcaption>
+        </figure>
+    </a>
 
 {% endmacro %}
