@@ -42,7 +42,9 @@
                     {% if page.metadata.storage_location %}
                         {% set sl = database.query('select * from pages where id = "/storage-locations/'~page.metadata.storage_location~'"').fetch %}
                         <a href="{{ page.link(sl.id) }}.html" itemprop="itemLocation">{{ sl.title }}</a>
-                        {% if page.metadata.storage_location_key is defined %}({{ page.metadata.storage_location_key }}){% endif %}
+                        {% if page.metadata.storage_location_key is defined and page.metadata.storage_location_key %}
+                            ({{ page.metadata.storage_location_key }})
+                        {% endif %}
                     {% endif %}
                 </p>
 

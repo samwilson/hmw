@@ -1,6 +1,6 @@
 {
     "require": {
-        "samwilson/basildon": "^0.2"
+        "samwilson/basildon": "^0.3"
     },
     "scripts": {
         "build": "basildon .",
