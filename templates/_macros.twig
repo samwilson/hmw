@@ -19,7 +19,7 @@
 
 {% macro gallery_item(site, page, item) %}
 
-    <a href="{{ page.link(item.id) }}.html" title="View details of this item" class="figure col-md-2">
+    <a href="{{ page.link(item.id) }}.html" title="View details of this item" class="figure col-md-2 item-figure">
         <figure>
             {% set imgSrc = site.config.img_placeholder %}
             {% set images = json_decode(item.images) %}
