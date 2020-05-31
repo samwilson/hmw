@@ -9,6 +9,9 @@
 
     {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
         {% set wditem = wikidata( page.metadata.wikidata ) %}
+        {% if wditem.claims.P625 is defined %}
+            <pre>{{ dump(wditem.claims.P625.0.mainsnak.datavalue) }}</pre>
+        {% endif %}
         <p>
           <a href="https://www.wikidata.org/wiki/{{ wditem.id }}">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png"

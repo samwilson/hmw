@@ -1,0 +1,53 @@
+{% extends '_base.html.twig' %}
+
+{% block head %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin="" />
+{% endblock %}
+
+{% block scripts %}
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+            integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+            crossorigin=""></script>
+    <script>
+        const map = L.map('map')
+            .setView({lon:115, lat:-30}, 6);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; <a href="https://openstreetmap.org/copyright" rel="copyright">OpenStreetMap contributors</a>'
+        }).addTo(map);
+        L.control.scale().addTo(map);
+
+        let label = null;
+        {% set tags = database.query('SELECT * FROM pages WHERE id LIKE "/tags/%" AND ((lat IS NOT NULL AND lon IS NOT NULL) OR wikidata IS NOT NULL) ') %}
+        {% for tag in tags %}
+            {% set lat = false %}
+            {% set lon = false %}
+            {% if tag.lat and tag.lon %}
+                {% set lat = tag.lat %}
+                {% set lon = tag.lon %}
+            {% else %}
+                {% set wditem = wikidata(tag.wikidata) %}
+                {% if wditem.claims.P625 is defined %}
+                    {% set lat = wditem.claims.P625.0.mainsnak.datavalue.value.latitude %}
+                    {% set lon = wditem.claims.P625.0.mainsnak.datavalue.value.longitude %}
+                {% endif %}
+            {% endif %}
+            {% if lat and lon %}
+                label = document.createElement('a');
+                label.textContent = "{{ tag.title }}";
+                label.href = "{{ page.link(tag.id) }}.html";
+                label.title = "View this tag's details";
+                L.marker({ lon:{{ lon }}, lat:{{ lat }} }).bindPopup( label ).addTo( map );
+            {% endif %}
+        {% endfor %}
+
+    </script>
+{% endblock %}
+
+{% block main %}
+    <h1>{{ page.metadata.title }}</h1>
+    {{ page.body|md2html|raw }}
+    <div id="map"></div>
+{% endblock %}
