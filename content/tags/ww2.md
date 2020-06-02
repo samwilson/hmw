@@ -1,5 +1,5 @@
 ---
 template: tag
 title: World War Two
-wikidata: 
+wikidata: Q362
 ---

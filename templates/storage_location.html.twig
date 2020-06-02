@@ -22,7 +22,11 @@
         </div>
     {% endif %}
 
-    <p>The items below are ordered according to their physical position in the storage location.</p>
+    <p>
+        The
+        {{ database.query('select COUNT(*) AS total from pages where "/storage-locations/"||storage_location = :storage_location', {storage_location: page.id}).fetchColumn }}
+        items below are ordered according to their physical position in the storage location.
+    </p>
 
     <div class="row">
         {% for item in database.query('select * from pages where "/storage-locations/"||storage_location = :storage_location ORDER BY CAST(storage_location_key AS INTEGER) ASC', {storage_location: page.id}) %}
