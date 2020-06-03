@@ -1,3 +1,4 @@
 .item-figure { display:block; margin-bottom:0.5em; padding-top:0.5em }
 .item-figure:hover { text-decoration:none; background-color:#efefef }
 #map { height:600px }
+blockquote { border-left:3px solid #efefef; padding-left:1em; margin-left:1em }
