@@ -2,7 +2,7 @@
 \documentclass[a4paper]{article}
 
 \usepackage[margin=2cm]{geometry}
-\usepackage{graphicx, hyperref}
+\usepackage{graphicx, hyperref, sidecap}
 \hypersetup{hidelinks}
 \extrafloats{200}
 
@@ -22,26 +22,63 @@
 \begin{document}
 \pagestyle{plain}
 \maketitle
+
+\begin{center}
+
+  {% if page.metadata.description is defined and page.metadata.description %}
+    \textbf{Description:}
+    {{ page.metadata.description|md2latex|raw }}
+  {% endif %}
+
+  \vfill
+
+  This document is an index to the items stored in {{ page.metadata.title }}.
+  It can be found online at \url{{ '{' }}{{ site.config.url }}{{ page.id }}.html{{ '}' }}
+
+  Items can be found at URLs of the form \\
+  \texttt{ {{ site.config.url }}/items/\textbf{ID}.html} \\
+  where \texttt{\textbf{ID}} is the item's identifying integer.
+  For example, item 45 is at: \\
+  \url{{ '{' }}{{ site.config.url }}/items/45.html{{ '}' }}
+
+\end{center}
+
 \clearpage
 \listoffigures
 \clearpage
 
 {% set items = database.query('select * from pages where "/storage-locations/"||storage_location = :storage_location ORDER BY CAST(storage_location_key AS INTEGER) ASC', {storage_location: page.id}).fetchAll() %}
 {% for item in items %}
+  {% set portrait = false %}
   {% set images = json_decode(item.images) %}
   {% if images.0.commons is defined %}
-    {% set image = commons(images.0.commons).imageinfo.0.thumburl %}
+    {% set commons_data = commons(images.0.commons) %}
+    {% set image = commons_data.imageinfo.0.thumburl %}
+    {% set portrait = commons_data.imageinfo.0.thumbwidth < commons_data.imageinfo.0.thumbheight %}
   {% elseif images.0.flickr is defined %}
     {% set image = flickr(images.0.flickr).urls.medium_image %}
   {% else %}
     {% set image = site.config.img_placeholder %}
   {% endif %}
-  {% set caption = 'Item ' ~ item.id|basename ~ ', \\textbf{' ~ item.title ~ '} ' ~ ' \\url{' ~ site.config.url ~ item.id ~ '.html}' %}
-  \begin{figure}
+  {% set date = 'date unknown' %}
+  {% if item.date %}
+    {% set datetime = date_create(item.date) %}
+    {% if item.date_precision == 'circa' %}
+      {% set date = 'c.~' ~ datetime.format('Y') %}
+    {% elseif item.date_precision == 'year' %}
+      {% set date = datetime.format('Y') %}
+    {% elseif item.date_precision == 'month' %}
+      {% set date = datetime.format('Y F') %}
+    {% else %}
+      {% set date = datetime.format('Y F j l') %}
+    {% endif %}
+  {% endif %}
+  {% set caption = 'Item ' ~ item.id|basename ~ ' -- ' ~ item.title ~ ' (' ~ date ~ ')' %}
+  \begin{SCfigure}
     \centering
-    \includegraphics[height=0.45\textheight]{{'{'}}{{ tex_url(image)|raw }}{{'}'}}
     \caption{ {{ caption|raw }} }
-  \end{figure}
+    \includegraphics[{% if portrait %}height=0.45\textheight{% else %}width=0.7\textwidth{% endif %}]{{'{'}}{{ tex_url(image)|raw }}{{'}'}}
+  \end{SCfigure}
 {% endfor %}
 
 \end{document}
