@@ -30,6 +30,15 @@
                     <span itemprop="identifier">{{ page.id|basename }}</span>
                 </p>
 
+                {% if page.metadata.parent_item is defined and page.metadata.parent_item %}
+                    <p>
+                        <strong>Parent item:</strong>
+                        {% set parent_item = database.query('SELECT * FROM pages WHERE id = "/items/'~page.metadata.parent_item~'"').fetch() %}
+                        <a href="{{ page.link(parent_item.id) }}.html">{{ parent_item.title }}</a>
+                        (#{{ parent_item.id|basename }})
+                    </p>
+                {% endif %}
+
                 {% if page.metadata.date is defined and page.metadata.date %}
                     <p>
                         <strong>Date:</strong>
@@ -150,6 +159,16 @@
                         </a>
                         <figcaption class="figure-caption text-center">{{image.caption}}</figcaption>
                     </figure>
+                {% endfor %}
+            </div>
+        {% endif %}
+
+        {% set subitems = database.query('SELECT * FROM pages WHERE parent_item = '~(page.id|basename)).fetchAll() %}
+        {% if subitems %}
+            <div id="subitems">
+                <h3>Sub-items</h3>
+                {% for item in subitems %}
+                    {{ macros.gallery_item(site, page, item) }}
                 {% endfor %}
             </div>
         {% endif %}
