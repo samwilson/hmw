@@ -44,6 +44,7 @@ Items are in sequentially-numbered markdown files in `content/items/`.
 ---
 template: item
 itemtype: Photograph|CreativeWork|Article|DigitalDocument|ArchiveComponent|Manuscript
+parent_item: 
 title: 
 author: 
 images:
