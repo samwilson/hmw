@@ -1,6 +1,7 @@
 ---
 template: tag
-title: Bill Byron
+title: Corporal William (Bill) Byron (c.1855–1919)
+wikidata: Q96273605
 ---
 
 > 2167, Private William BYRON, a 44 year old Drover from Roebourne, Western Australia.
