@@ -3,20 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        {% if page.metadata.title is defined %}{{ page.metadata.title }}{% else %}Untitled{% endif %}
-        ::
-        {{ site.title }}
-    </title>
+    <title>{{ page.metadata.title }} :: {{ site.title }}</title>
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
           crossorigin="anonymous">
     <link rel="stylesheet" href="{{ page.link('/assets/style.css') }}" />
     <link rel="canonical" href="{{ site.config.url }}{{ page.id }}.html" />
+    <meta property="og:url" content="{{ site.config.url }}{{ page.id }}.html" />
+    <meta property="og:title" content="{{ page.metadata.title|e('html_attr') }}" />
     {% if page.metadata.description is defined and page.metadata.description %}
         <meta name="description" content="{{ page.metadata.description|e('html_attr') }}">
+        <meta property="og:description" content="{{ page.metadata.description|e('html_attr') }}" />
     {% endif %}
+    <meta name="twitter:creator" content="@samwilson" />
     {% block head %}{% endblock %}
 </head>
 <body>

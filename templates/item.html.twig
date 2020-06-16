@@ -1,5 +1,18 @@
 {% extends '_base.html.twig' %}
 
+{% block head %}
+    {% if page.metadata.images.0 is defined %}
+        {% if page.metadata.images.0.commons is defined %}
+            {% set imgSrc = commons(page.metadata.images.0.commons).imageinfo.0.thumburl %}
+        {% elseif page.metadata.images.0.flickr is defined %}
+            {% set imgSrc = flickr(page.metadata.images.0.flickr).urls.medium_image %}
+        {% endif %}
+        {% if imgSrc is defined %}
+            <meta property="og:image" content="{{ imgSrc|escape('html_attr') }}" />
+        {% endif %}
+    {% endif %}
+{% endblock %}
+
 {% block main %}
     {% import '_macros.twig' as macros %}
     <div itemscope itemtype="http://schema.org/{{ page.metadata.itemtype ?? 'ArchiveComponent' }}">
