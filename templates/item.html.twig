@@ -9,6 +9,7 @@
         {% endif %}
         {% if imgSrc is defined %}
             <meta property="og:image" content="{{ imgSrc|escape('html_attr') }}" />
+            <meta name="twitter:card" content="summary_large_image">
         {% endif %}
     {% endif %}
 {% endblock %}
