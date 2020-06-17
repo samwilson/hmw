@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5d58808092558708576326a1346bc3d",
+    "content-hash": "62da5a8f3235dfee28e17ea3af45a121",
     "packages": [
         {
             "name": "addwiki/mediawiki-api-base",
@@ -371,16 +371,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.5.4",
+            "version": "6.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "a4a1b6930528a8f7ee03518e6442ec7a44155d9d"
+                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/a4a1b6930528a8f7ee03518e6442ec7a44155d9d",
-                "reference": "a4a1b6930528a8f7ee03518e6442ec7a44155d9d",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
+                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
                 "shasum": ""
             },
             "require": {
@@ -388,7 +388,7 @@
                 "guzzlehttp/promises": "^1.0",
                 "guzzlehttp/psr7": "^1.6.1",
                 "php": ">=5.5",
-                "symfony/polyfill-intl-idn": "1.17.0"
+                "symfony/polyfill-intl-idn": "^1.17.0"
             },
             "require-dev": {
                 "ext-curl": "*",
@@ -434,7 +434,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2020-05-25T19:35:05+00:00"
+            "time": "2020-06-16T21:01:06+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1201,16 +1201,16 @@
         },
         {
             "name": "samwilson/basildon",
-            "version": "0.3.0",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/samwilson/basildon.git",
-                "reference": "00c6ac32a4ee306021d158201c06c547446c357a"
+                "reference": "630b63e196f8c0be3db4e0184981744697615423"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samwilson/basildon/zipball/00c6ac32a4ee306021d158201c06c547446c357a",
-                "reference": "00c6ac32a4ee306021d158201c06c547446c357a",
+                "url": "https://api.github.com/repos/samwilson/basildon/zipball/630b63e196f8c0be3db4e0184981744697615423",
+                "reference": "630b63e196f8c0be3db4e0184981744697615423",
                 "shasum": ""
             },
             "require": {
@@ -1252,7 +1252,7 @@
                 "GPL-3.0-or-later"
             ],
             "description": "A static site generator.",
-            "time": "2020-05-30T00:24:22+00:00"
+            "time": "2020-06-17T04:24:54+00:00"
         },
         {
             "name": "samwilson/phpflickr",
@@ -1299,16 +1299,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "0f0a271bc9b7d02a053d36fcdcb12662e2a8096e"
+                "reference": "34ac555a3627e324b660e318daa07572e1140123"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/0f0a271bc9b7d02a053d36fcdcb12662e2a8096e",
-                "reference": "0f0a271bc9b7d02a053d36fcdcb12662e2a8096e",
+                "url": "https://api.github.com/repos/symfony/console/zipball/34ac555a3627e324b660e318daa07572e1140123",
+                "reference": "34ac555a3627e324b660e318daa07572e1140123",
                 "shasum": ""
             },
             "require": {
@@ -1388,7 +1388,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-07T19:47:44+00:00"
+            "time": "2020-06-15T12:59:21+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1452,7 +1452,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -1515,7 +1515,7 @@
         },
         {
             "name": "symfony/inflector",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/inflector.git",
@@ -1588,7 +1588,7 @@
         },
         {
             "name": "symfony/options-resolver",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/options-resolver.git",
@@ -2247,7 +2247,7 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
@@ -2311,7 +2311,7 @@
         },
         {
             "name": "symfony/property-access",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-access.git",
@@ -2394,16 +2394,16 @@
         },
         {
             "name": "symfony/property-info",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/property-info.git",
-                "reference": "8bec4622480515449873913ab687bf0fc86374c2"
+                "reference": "75d79faca45092829b55eb83f73068e34c6567c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/property-info/zipball/8bec4622480515449873913ab687bf0fc86374c2",
-                "reference": "8bec4622480515449873913ab687bf0fc86374c2",
+                "url": "https://api.github.com/repos/symfony/property-info/zipball/75d79faca45092829b55eb83f73068e34c6567c5",
+                "reference": "75d79faca45092829b55eb83f73068e34c6567c5",
                 "shasum": ""
             },
             "require": {
@@ -2418,7 +2418,7 @@
             },
             "require-dev": {
                 "doctrine/annotations": "~1.7",
-                "phpdocumentor/reflection-docblock": "^3.0|^4.0",
+                "phpdocumentor/reflection-docblock": "^3.0|^4.0|^5.0",
                 "symfony/cache": "^4.4|^5.0",
                 "symfony/dependency-injection": "^4.4|^5.0",
                 "symfony/serializer": "^4.4|^5.0"
@@ -2481,7 +2481,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-06-04T09:56:18+00:00"
+            "time": "2020-06-15T11:50:15+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -2557,7 +2557,7 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
@@ -2642,7 +2642,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v5.1.1",
+            "version": "v5.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
