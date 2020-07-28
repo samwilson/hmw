@@ -16,6 +16,6 @@ latexmk
 #ps2pdf Main.ps
 #rm *.dvi *.log *.aux *.toc
 
-cp main.pdf ../assets/book.pdf
+mv main.pdf ../assets/book.pdf
 
-convert -resize 100x100 main.pdf[0] ../assets/book_titlepage.png
+convert -resize 100x100 ../assets/book.pdf[0] ../assets/book_titlepage.png
