@@ -1,0 +1,4 @@
+ID,Title,Storage Location,SL Key
+{% for i in database.query('select * from pages where "/storage-locations/"||storage_location = :storage_location ORDER BY CAST(storage_location_key AS INTEGER) ASC', {storage_location: page.id}) %}
+{{i.id|basename}},{{i.title}},{{i.storage_location}},{{i.storage_location_key}}
+{% endfor %}
