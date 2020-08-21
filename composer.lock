@@ -691,16 +691,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.1.0",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "481c0174b9c99b189959e2bb9d6f52188ed1f692"
+                "reference": "63cd8c14708b9544d3f61d3c15b747fda1c95c6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/481c0174b9c99b189959e2bb9d6f52188ed1f692",
-                "reference": "481c0174b9c99b189959e2bb9d6f52188ed1f692",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/63cd8c14708b9544d3f61d3c15b747fda1c95c6e",
+                "reference": "63cd8c14708b9544d3f61d3c15b747fda1c95c6e",
                 "shasum": ""
             },
             "require": {
@@ -778,7 +778,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2020-08-09T15:57:10+00:00"
+            "time": "2020-08-18T10:57:55+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -1301,16 +1301,16 @@
         },
         {
             "name": "samwilson/basildon",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/samwilson/basildon.git",
-                "reference": "626f63ba68f3b4b77edc349f2e388c9589145f33"
+                "reference": "eda7aeecc255a12b3f1fbf0eeae4e4e30e1d6f15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samwilson/basildon/zipball/626f63ba68f3b4b77edc349f2e388c9589145f33",
-                "reference": "626f63ba68f3b4b77edc349f2e388c9589145f33",
+                "url": "https://api.github.com/repos/samwilson/basildon/zipball/eda7aeecc255a12b3f1fbf0eeae4e4e30e1d6f15",
+                "reference": "eda7aeecc255a12b3f1fbf0eeae4e4e30e1d6f15",
                 "shasum": ""
             },
             "require": {
@@ -1331,7 +1331,7 @@
                 "twig/twig": "^3.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.5",
+                "ergebnis/composer-normalize": "^2.7",
                 "php-parallel-lint/php-console-highlighter": "^0.5",
                 "php-parallel-lint/php-parallel-lint": "1.2.0",
                 "phpunit/phpunit": "^8.5",
@@ -1352,20 +1352,20 @@
                 "GPL-3.0-or-later"
             ],
             "description": "A static site generator.",
-            "time": "2020-08-12T01:44:17+00:00"
+            "time": "2020-08-20T08:47:15+00:00"
         },
         {
             "name": "samwilson/phpflickr",
-            "version": "4.13.1",
+            "version": "4.14.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/samwilson/phpflickr.git",
-                "reference": "96f0c64fbb35891bd09381bebc0cc8d8c35fe051"
+                "reference": "30026afb87e5acb4a3bd75b666fdc39a3a45b161"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samwilson/phpflickr/zipball/96f0c64fbb35891bd09381bebc0cc8d8c35fe051",
-                "reference": "96f0c64fbb35891bd09381bebc0cc8d8c35fe051",
+                "url": "https://api.github.com/repos/samwilson/phpflickr/zipball/30026afb87e5acb4a3bd75b666fdc39a3a45b161",
+                "reference": "30026afb87e5acb4a3bd75b666fdc39a3a45b161",
                 "shasum": ""
             },
             "require": {
@@ -1395,7 +1395,7 @@
                 "GPL-3.0-or-later"
             ],
             "description": "A PHP wrapper for the Flickr API, including Oauth.",
-            "time": "2020-07-06T02:09:44+00:00"
+            "time": "2020-08-12T08:41:42+00:00"
         },
         {
             "name": "symfony/console",
