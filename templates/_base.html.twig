@@ -31,11 +31,21 @@
             </button>
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                {% set pdf_icon %}
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Adobe_PDF_icon.svg" height="16" alt="PDF file type icon" />
+                {% endset %}
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item {% if page.id == '/index' %}active{% endif %}"><a class="nav-link" href="{{page.link('/index')}}.html">Home</a></li>
+                    <li class="nav-item {% if page.id == '/index' %}active{% endif %}">
+                        <a class="nav-link" href="{{page.link('/index')}}.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ page.link('assets/tree.pdf') }}" title="Download PDF of the tree">
+                            Tree{{ pdf_icon }}
+                        </a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ page.link('assets/book.pdf') }}" title="Download PDF of the book">
-                            Book<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Adobe_PDF_icon.svg" height="16" alt="PDF file type icon" />
+                            Book{{ pdf_icon }}
                         </a>
                     </li>
                     <li class="nav-item {% if page.id == '/tags' %}active{% endif %}">
