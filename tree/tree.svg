@@ -441,6 +441,32 @@
            style="stroke-width:1.06666672" />
       </g>
     </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9-6-1-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3-8-6-40"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9-6-1-6-4"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3-8-6-40-6"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -449,9 +475,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5037599"
-     inkscape:cx="1306.2133"
-     inkscape:cy="898.38125"
+     inkscape:zoom="1.0633188"
+     inkscape:cx="856.87723"
+     inkscape:cy="613.41119"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -616,7 +642,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Page"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <text
        x="27.521145"
        y="51.98864"
@@ -2178,6 +2205,7 @@
    id="tspan3307">c</tspan>
 
 
+
 Rae</tspan>
       <tspan
          sodipodi:role="line"
@@ -2396,9 +2424,9 @@ Rae</tspan>
     <path
        id="path3358"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 771.02363,873.07081 H 740.7874 l 10e-6,-381.7323 c -3.77953,0 -3.77953,-7.55905 0,-7.55905 V 370.39363 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -86.92913 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -86.92913 m 30.23622,-15.11809 h -15.11812 l -15.1181,-2e-5 v 15.11811"
+       d="M 771.02363,873.07081 H 740.7874 l 10e-6,-268.34647 c -3.77953,0 -3.77953,-7.55905 0,-7.55905 V 491.47653 c -3.77953,-0.13802 -3.77953,-7.69707 0,-7.75873 v -56.2892 c -3.77953,-0.34206 -3.77953,-7.90111 0,-7.90111 v -49.13386 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -86.92913 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -86.92913 m 30.23622,-15.11809 h -15.11812 l -15.1181,-2e-5 v 15.11811"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccc" />
+       sodipodi:nodetypes="ccccccccccccccccc" />
     <text
        x="1228.6887"
        y="510.23621"
@@ -2481,7 +2509,7 @@ Rae</tspan>
     </text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1)"
-       d="m 699.21261,487.55898 h 56.6929 v 34.01575 h 15.11812"
+       d="m 699.2126,600.94481 h 56.6929 l 1e-5,-79.37008 h 15.11812"
        id="path5161-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -2550,60 +2578,56 @@ Rae</tspan>
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <text
-       x="585.33978"
-       y="483.58414"
+       x="584.70654"
+       y="606.1955"
        id="text1426"
-       transform="translate(0,-3.1872704e-5)"
        style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan1424"
-         x="585.33978"
-         y="483.58414">William Wilson</tspan>
+         x="584.70654"
+         y="606.1955">William Wilson</tspan>
     </text>
     <text
-       x="586.81219"
-       y="496.4736"
+       x="586.17896"
+       y="619.08496"
        id="text1783"
-       transform="translate(0,-3.1872704e-5)"
        style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
          id="tspan1781"
-         x="586.81219"
-         y="496.4736">Janet Garrick</tspan>
+         x="586.17896"
+         y="619.08496">Janet Garrick</tspan>
       <tspan
          sodipodi:role="line"
-         x="586.81219"
-         y="506.07361"
+         x="586.17896"
+         y="628.68494"
          id="tspan1785"
          class="description"
          style="font-size:8px">d.1871</tspan>
     </text>
     <text
-       x="396.203"
-       y="511.59171"
+       x="395.56973"
+       y="634.20306"
        id="text1783-4"
-       transform="translate(0,-3.1872704e-5)"
        style="font-size:12px;line-height:0.80000001;font-family:serif">
       <tspan
          sodipodi:role="line"
-         x="396.203"
-         y="511.59171"
+         x="395.56973"
+         y="634.20306"
          id="tspan1812">David Garrick</tspan>
       <tspan
          sodipodi:role="line"
-         x="396.203"
-         y="521.19171"
+         x="395.56973"
+         y="643.80304"
          id="tspan2123">(or Garique)</tspan>
     </text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-4)"
-       d="m 582.04725,491.33854 h -15.11811 v 30.23623 h -56.69291"
+       d="m 582.04725,616.06292 h -15.11811 l -10e-6,22.67717 h -56.69291"
        id="path3370-3-9"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc"
-       transform="translate(0,-3.1872704e-5)" />
+       sodipodi:nodetypes="cccc" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-36)"
        d="m 699.21261,272.12591 h 56.6929 v 3.77953 h 15.11812"
@@ -2795,7 +2819,7 @@ Rae</tspan>
        sodipodi:nodetypes="cc" />
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-4-8)"
-       d="M 582.04725,479.99993 H 566.92913 V 445.98418 H 510.23622"
+       d="m 582.04725,600.94481 h -15.11812 l 0,-37.79527 h -56.69291"
        id="path3370-3-9-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -2885,14 +2909,13 @@ Rae</tspan>
     <text
        xml:space="preserve"
        style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline"
-       x="395.54181"
-       y="443.39587"
-       id="text4099"
-       transform="translate(0,-3.1872704e-5)"><tspan
+       x="394.90854"
+       y="566.0072"
+       id="text4099"><tspan
          sodipodi:role="line"
          id="tspan4097"
-         x="395.54181"
-         y="443.39587">Robert Wilson</tspan></text>
+         x="394.90854"
+         y="566.0072">Robert Wilson</tspan></text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-2);marker-end:url(#InfiniteLineEnd-7)"
        d="m 1360.63,211.65347 h 34.0157"
@@ -2921,5 +2944,61 @@ Rae</tspan>
          x="1435.5466"
          y="83.843636">Charlotte</tspan>
     </text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="585.09106"
+       y="416.93915"
+       id="text1475"><tspan
+         sodipodi:role="line"
+         id="tspan1473"
+         x="585.09106"
+         y="416.93915"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif">Robert Waters</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="584.70697"
+       y="431.94006"
+       id="text1479"><tspan
+         sodipodi:role="line"
+         id="tspan1477"
+         x="584.70697"
+         y="431.94006"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif">Susan Betts</tspan></text>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1-6)"
+       d="m 699.2126,423.30702 h 56.69291 v 30.23622 l 15.11812,0"
+       id="path5161-3-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="586.94653"
+       y="479.89877"
+       id="text1764"><tspan
+         sodipodi:role="line"
+         id="tspan1762"
+         x="586.94653"
+         y="479.89877"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif">James Mark Innes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="585.90491"
+       y="496.3092"
+       id="text1768"><tspan
+         sodipodi:role="line"
+         id="tspan1766"
+         x="585.90491"
+         y="496.3092"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif">Alison Hume</tspan></text>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1-6-4)"
+       d="m 699.2126,487.55898 56.69291,0 v -15.11811 l 15.11812,0"
+       id="path5161-3-0-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
   </g>
 </svg>
