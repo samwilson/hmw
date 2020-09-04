@@ -84,6 +84,15 @@ Error reported via: ' ~ site.config.url ~ page.id ~ '.html
         </nav>
     </header>
     <main class="container-fluid flex-shrink-0 mt-4">
+        <div class="alert alert-warning" role="alert">
+            <h4 class="alert-heading">
+                This is a test site! The real one is at
+                <a href="https://archives.org.au/hmw" class="alert-link">archives.org.au/hmw</a>
+            </h4>
+            Welcome to this experimental site for the archives.
+            It is a test of a new way of organising this material, but is not yet fully operational
+            (and there is a chance that it never will be, if it's determined to not be the right direction to go in).
+        </div>
         {% block main %}
             <h2>{% if page.metadata.title is defined %}{{ page.metadata.title }}{% else %}Untitled{% endif %}</h2>
             {{ page.body|md2html|raw }}
