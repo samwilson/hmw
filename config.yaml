@@ -5,4 +5,8 @@ embeds:
 output_exclude:
   - "|_redirects|"
   - "|robots.txt|"
+  - "|favicon.*|"
+  - "|site.webmanifest|"
+  - "|android.*.png|"
+  - "|apple.*.png|"
 img_placeholder: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Noun_Project_unknown_icon_762411_cc.svg/480px-Noun_Project_unknown_icon_762411_cc.svg.png

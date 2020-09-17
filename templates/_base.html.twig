@@ -10,6 +10,9 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="{{ page.link('/assets/style.css') }}" />
     <link rel="canonical" href="{{ site.config.url }}{{ page.id }}.html" />
+    <link rel="icon" type="image/x-icon" href="{{ page.link('favicon.ico') }}" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ page.link('favicon-32x32.png') }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ page.link('favicon-16x16.png') }}" />
     <meta property="og:url" content="{{ site.config.url }}{{ page.id }}.html" />
     <meta property="og:title" content="{{ page.metadata.title|e('html_attr') }}" />
     <meta property="twitter:title" content="{{ page.metadata.title|e('html_attr') }}" />
@@ -18,7 +21,7 @@
         <meta property="og:description" content="{{ page.metadata.description|e('html_attr') }}" />
         <meta name="twitter:description" content="{{ page.metadata.description|e('html_attr') }}">
     {% endif %}
-    <meta name="twitter:creator" content="@samwilson" />
+    <meta name="twitter:creator" content="@archivesorgau" />
     {% block head %}{% endblock %}
 </head>
 <body>
