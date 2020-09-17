@@ -146,7 +146,7 @@
 
         {{ page.body|md2html|raw }}
 
-        {% if page.metadata.images is defined %}
+        {% if page.metadata.images is defined and page.metadata.images %}
             <h3 id="images" class="mt-4">Images</h3>
             <p>
                 {% if page.metadata.images|length == 1 %}
