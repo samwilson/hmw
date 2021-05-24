@@ -3,10 +3,10 @@
         "samwilson/basildon": "^1.0"
     },
     "scripts": {
-        "build": "basildon .",
+        "build": "basildon . -t 100000",
         "deploy": [
             "@build",
-            "netlify deploy --prod -d output"
+            "./node_modules/.bin/netlify deploy --prod -d output"
         ]
     }
 }

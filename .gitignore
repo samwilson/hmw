@@ -2,6 +2,7 @@ main.pdf
 hmw.kilepr
 cache/
 vendor/
+node_modules/
 
 /output/*
 !/output/_redirects
