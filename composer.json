@@ -2,6 +2,9 @@
     "require": {
         "samwilson/basildon": "^1.0"
     },
+    "config": {
+        "process-timeout": 0
+    },
     "scripts": {
         "build": "basildon . -t 100000",
         "deploy": [
