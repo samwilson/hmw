@@ -93,13 +93,17 @@ Error reported via: ' ~ site.config.url ~ page.id ~ '.html
         {% endblock %}
     </main>
     <footer class="footer mt-auto py-3 container-fluid">
-        <p class="text-right small">
+        <p class="text-right small noprint">
             &bull;
             <a href="https://github.com/samwilson/hmw/edit/master/content{{ page.id }}{{ site.ext }}">Edit this page</a>
             &bull;
             <a href="https://github.com/samwilson/hmw/issues">Website issues</a>
             &bull;
         </p>
+        <ul class="printonly">
+            <li>Permanent URL: <code>{{ site.config.url }}{{ page.id }}.html</code></li>
+            <li>Edit at <code>https://github.com/samwilson/hmw/edit/master/content{{ page.id }}{{ site.ext }}</code></li>
+        </ul>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>

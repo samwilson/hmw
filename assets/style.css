@@ -1,4 +1,17 @@
 .item-figure { display:block; margin-bottom:0.5em; padding-top:0.5em }
 .item-figure:hover { text-decoration:none; background-color:#efefef }
+.item .qrcode { width:5em; text-align:center; font-size:smaller }
+.item .qrcode img { display:block; width:100% }
 #map { height:600px }
 blockquote { border-left:3px solid #efefef; padding-left:1em; margin-left:1em }
+.printonly { display:none }
+
+@media print {
+    figure { page-break-inside:avoid; width:48%; max-width:48%; flex:auto }
+    .noprint { display:none }
+    .printonly { display:unset }
+    a, code { color:black }
+    .item .main-image { width:100%; max-width:100%; text-align:center }
+    abbr[title]:after { content:"" }
+    abbr[title] { text-decoration:none }
+}

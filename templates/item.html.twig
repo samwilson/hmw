@@ -16,15 +16,15 @@
 
 {% block main %}
     {% import '_macros.twig' as macros %}
-    <div itemscope itemtype="http://schema.org/{{ page.metadata.itemtype ?? 'ArchiveComponent' }}">
+    <div itemscope itemtype="http://schema.org/{{ page.metadata.itemtype ?? 'ArchiveComponent' }}" class="item">
 
-        <h1 itemprop="name">{{ page.metadata.title }}</h1>
+        <h1 itemprop="name" class="text-center">{{ page.metadata.title }}</h1>
 
         <div class="row">
 
-            <div class="col-md-5">
+            <div class="col-md-5 main-image">
                 {% if page.metadata.image is defined %}
-                    <img src="{{ page.metadata.image }}" class="img-fluid mr-2 mb-2 float-left" />
+                    <img src="{{ page.metadata.image }}" class="img-fluid mr-2 mb-2" />
                 {% elseif page.metadata.commons is defined %}
                     {% include 'embeds/commons.html.twig' with { embed: { matches: { 1: page.metadata.commons } } } %}
                 {% elseif page.metadata.images.0 is defined %}
@@ -34,11 +34,17 @@
                     {% elseif page.metadata.images.0.flickr is defined %}
                         {% set imgSrc = flickr(page.metadata.images.0.flickr).urls.medium_image %}
                     {% endif %}
-                    <img alt="Main image for this item." src="{{ imgSrc|escape('html_attr') }}" class="img-fluid mr-2 mb-2 float-left" />
+                    <img alt="Main image for this item." src="{{ imgSrc|escape('html_attr') }}" class="img-fluid mr-2 mb-2" />
                 {% endif %}
             </div>
 
             <div class="col-md-7">
+                <p class="float-right qrcode">
+                    <a href="{{ site.config.url~'/items/'~(page.id|basename)~'.html' }}">
+                        <img src="{{ page.link(qrcode(site.config.url~'/items/'~(page.id|basename)~'.html')) }}" alt="QR code" />
+                        Permalink
+                    </a>
+                </p>
                 <p>
                     <strong>Item number:</strong>
                     <span itemprop="identifier">{{ page.id|basename }}</span>
@@ -150,9 +156,9 @@
             <h3 id="images" class="mt-4">Images</h3>
             <p>
                 {% if page.metadata.images|length == 1 %}
-                    Click on the image to go to its canonical record.
+                    The image below links to its canonical record.
                 {% else %}
-                    Click on the images to go to their canonical records.
+                    The images below are linked to their canonical records.
                 {% endif %}
             </p>
             <div class="row">
@@ -169,10 +175,13 @@
                         {% set imgSrc = commons.imageinfo.0.thumburl %}
                     {% endif %}
                     <figure class="figure col-md-2">
-                        <a href="{{ imgHref}}">
+                        <a href="{{ imgHref }}">
                             <img src="{{ imgSrc }}" class="figure-img img-fluid rounded" />
                         </a>
-                        <figcaption class="figure-caption text-center">{{image.caption}}</figcaption>
+                        <figcaption class="figure-caption text-center">
+                            {{image.caption}}
+                            <span class="printonly"><br /><code>{{ imgHref }}</code></span>
+                        </figcaption>
                     </figure>
                 {% endfor %}
             </div>
