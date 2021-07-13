@@ -39,12 +39,7 @@
             </div>
 
             <div class="col-md-7">
-                <p class="float-right qrcode">
-                    <a href="{{ site.config.url~'/items/'~(page.id|basename)~'.html' }}">
-                        <img src="{{ page.link(qrcode(site.config.url~'/items/'~(page.id|basename)~'.html')) }}" alt="QR code" />
-                        Permalink
-                    </a>
-                </p>
+                {{ macros.page_qrcode(site, page) }}
                 <p>
                     <strong>Item number:</strong>
                     <span itemprop="identifier">{{ page.id|basename }}</span>

@@ -8,7 +8,34 @@
 
     <ol>
         {% for p in database.query('SELECT * FROM pages WHERE id IN (SELECT "/tags/"||j.value FROM pages p, json_each(p.tags) j) ORDER BY pages.title') %}
-            <li><a href="{{ page.link(p.id) }}.html">{{ p.title }}</a></li>
+            <li>
+                <a href="{{ page.link(p.id) }}.html">{{ p.title }}</a>
+                {% if p.wikidata is defined and p.wikidata %}
+                    {% set wditem = wikidata( p.wikidata ) %}
+                    {{ wditem.descriptions.en.value }}
+
+                    {% if wditem.claims.P569 is defined %}
+                        <abbr title="born">b.</abbr> {{ wditem.claims.P569.0.mainsnak.datavalue.value.time|date('Y') }}
+                    {% endif %}
+                    {% if wditem.claims.P570 is defined %}
+                        <abbr title="died">d.</abbr> {{ wditem.claims.P570.0.mainsnak.datavalue.value.time|date('Y') }}
+                    {% endif %}
+
+                    <a href="https://www.wikidata.org/wiki/{{ wditem.id }}">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png"
+                             alt="Small Wikidata logo" />
+                    </a>
+
+                    {% if wditem.claims.P2889 is defined %}
+                        <small>
+                            <a href="https://www.familysearch.org/tree/person/details/{{ wditem.claims.P2889.0.mainsnak.datavalue.value }}"
+                                title="View on FamilySearch.org">
+                                {{ wditem.claims.P2889.0.mainsnak.datavalue.value }}
+                            </a>
+                        </small>
+                    {% endif %}
+                {% endif %}
+            </li>
         {% endfor %}
     </ol>
 
