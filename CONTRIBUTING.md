@@ -14,17 +14,22 @@ How to build the book, tree, and website
 
 ## LaTeX information
 
-Biography headers:
+Biography headers (the `Full Name` should match what's in the tree, i.e. "name at birth"):
 
-	\biohead{Full Name}{Photo caption, if applicable.}
+    \biohead{Full Name}{Photo caption, if applicable.}
+    \index{Last, Name For Index}
+
+Reference a biography with:
+
+    \bioref{File_Name}
 
 Index entries:
 
-	\idx{text to display and index}
+    \idx{text to display and index}
 
 Page references:
 
-	\p{LABEL} outputs e.g. "p. 3" with an escaped space after the full stop
+    \p{LABEL} outputs e.g. "p. 3" with an escaped space after the full stop
 
     \photo{filename}{Caption.}
 

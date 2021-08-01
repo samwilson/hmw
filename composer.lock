@@ -1378,16 +1378,16 @@
         },
         {
             "name": "samwilson/basildon",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/samwilson/basildon.git",
-                "reference": "5aee037438e560c4723aa79ff357351b844fbdb9"
+                "reference": "3ee4627170b47c552af0d2a05450039d0310d73c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samwilson/basildon/zipball/5aee037438e560c4723aa79ff357351b844fbdb9",
-                "reference": "5aee037438e560c4723aa79ff357351b844fbdb9",
+                "url": "https://api.github.com/repos/samwilson/basildon/zipball/3ee4627170b47c552af0d2a05450039d0310d73c",
+                "reference": "3ee4627170b47c552af0d2a05450039d0310d73c",
                 "shasum": ""
             },
             "require": {
@@ -1433,9 +1433,9 @@
             "description": "A static site generator.",
             "support": {
                 "issues": "https://github.com/samwilson/basildon/issues",
-                "source": "https://github.com/samwilson/basildon/tree/2.0.0"
+                "source": "https://github.com/samwilson/basildon/tree/2.1.0"
             },
-            "time": "2021-07-12T08:31:42+00:00"
+            "time": "2021-07-16T07:51:01+00:00"
         },
         {
             "name": "samwilson/phpflickr",

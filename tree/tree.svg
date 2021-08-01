@@ -2,23 +2,23 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1587.4016"
    height="1122.5197"
    id="svg3472"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
    sodipodi:docname="tree.svg"
    inkscape:export-filename="/home/sam/code/hmw/assets/tree.png"
    inkscape:export-xdpi="93.889999"
-   inkscape:export-ydpi="93.889999">
+   inkscape:export-ydpi="93.889999"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <title
      id="title5165">Family Tree</title>
   <style
@@ -475,19 +475,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0633188"
-     inkscape:cx="856.87723"
-     inkscape:cy="613.41119"
+     inkscape:zoom="0.65064204"
+     inkscape:cx="793.83127"
+     inkscape:cy="560.98435"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
-     showgrid="true"
+     showgrid="false"
      objecttolerance="10000"
-     inkscape:window-width="1859"
-     inkscape:window-height="1025"
-     inkscape:window-x="61"
-     inkscape:window-y="27"
+     inkscape:window-width="1868"
+     inkscape:window-height="1051"
+     inkscape:window-x="52"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      units="mm"
      inkscape:snap-bbox="true"
@@ -498,7 +498,8 @@
      inkscape:snap-object-midpoints="true"
      inkscape:snap-bbox-midpoints="false"
      inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:bbox-paths="false">
+     inkscape:bbox-paths="false"
+     inkscape:pagecheckerboard="0">
     <inkscape:grid
        type="xygrid"
        id="grid3480"
@@ -648,26 +649,22 @@
        x="27.521145"
        y="51.98864"
        id="text5475"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5477"
          x="27.521145"
          y="51.98864"
-         style="font-size:46.66666794px">Family Tree</tspan>
-      <tspan
+         style="font-size:46.6667px">Family Tree</tspan><tspan
          sodipodi:role="line"
          x="27.521145"
          y="73.120415"
          id="tspan5479"
-         style="font-size:19.20000076px;line-height:1;font-family:serif;stroke-width:1.06666672">Showing the ancestors of H. Margaret Wilson's children,</tspan>
-      <tspan
+         style="font-size:19.2px;line-height:1;font-family:serif;stroke-width:1.06667">Showing the ancestors of H. Margaret Wilson's children,</tspan><tspan
          sodipodi:role="line"
          x="27.521145"
          y="92.320412"
          id="tspan5481"
-         style="font-size:19.20000076px;line-height:1;font-family:serif;stroke-width:1.06666672">and the descendents of her grandparents.</tspan>
-    </text>
+         style="font-size:19.2px;line-height:1;font-family:serif;stroke-width:1.06667">and the descendents of her grandparents.</tspan></text>
     <rect
        style="fill:none;stroke:#000000;stroke-width:1.82173228;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5483"
@@ -679,25 +676,21 @@
        x="21.864666"
        y="1104.1671"
        id="text5485"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5487"
          x="21.864666"
          y="1104.1671"
-         style="font-size:8px">CC-BY-SA, 12 April 2020, https://hmwilson.archives.org.au/</tspan>
-    </text>
+         style="font-size:8px">CC-BY-SA, 12 April 2020, https://hmwilson.archives.org.au/</tspan></text>
     <text
        x="44.506672"
        y="107.86535"
        id="text4547"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan4549"
          x="44.506672"
-         y="107.86535">= Article exists on Wikipedia</tspan>
-    </text>
+         y="107.86535">= Article exists on Wikipedia</tspan></text>
     <image
        transform="translate(0,3.1872704e-5)"
        sodipodi:absref="/home/sam/code/hmw/master/misc/Wikipedia_svg_logo.svg_100px.png"
@@ -720,128 +713,107 @@
        x="1228.3464"
        y="646.29913"
        id="text3482"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3484"
          x="1228.3464"
-         y="646.29913">Helen Margaret Hall</tspan>
-      <tspan
+         y="646.29913">Helen Margaret Hall</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="655.89911"
          class="description"
          id="tspan3486"
-         style="font-size:8px">1915–2000</tspan>
-    </text>
+         style="font-size:8px">1915–2000</tspan></text>
     <text
        x="1228.3464"
        y="668.97638"
        id="text3482-3"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="668.97638"
-         id="tspan3486-3">William Murray Wilson</tspan>
-      <tspan
+         id="tspan3486-3">William Murray Wilson</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="678.57635"
          class="description"
          id="tspan3012"
-         style="font-size:8px">1914–1953</tspan>
-    </text>
+         style="font-size:8px">1914–1953</tspan></text>
     <text
        x="1228.3464"
        y="623.62201"
        id="text3014"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3016"
          x="1228.3464"
-         y="623.62201">Peter Innes Donegan</tspan>
-      <tspan
+         y="623.62201">Peter Innes Donegan</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="633.22198"
          class="description"
          id="tspan3020"
-         style="font-size:8px">1913–1939</tspan>
-    </text>
+         style="font-size:8px">1913–1939</tspan></text>
     <text
        x="1001.5748"
        y="226.77162"
        id="text3014-8"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="226.77162"
-         id="tspan3094">Harold Aubrey Hall</tspan>
-      <tspan
+         id="tspan3094">Harold Aubrey Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="236.37163"
          class="description"
          id="tspan3092"
-         style="font-size:8px">1871–1963</tspan>
-    </text>
+         style="font-size:8px">1871–1963</tspan></text>
     <text
        x="1001.5748"
        y="249.44876"
        id="text3014-4"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="249.44876"
-         id="tspan3020-4">Helen Rose Lodge</tspan>
-      <tspan
+         id="tspan3020-4">Helen Rose Lodge</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="259.04877"
          class="description"
          id="tspan3100"
-         style="font-size:8px">1888–1967</tspan>
-    </text>
+         style="font-size:8px">1888–1967</tspan></text>
     <text
        x="1228.3464"
        y="532.91333"
        id="text4335"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan4337"
          x="1228.3464"
-         y="532.91333">Joan Leake Hall</tspan>
-      <tspan
+         y="532.91333">Joan Leake Hall</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="542.51331"
          class="description"
          id="tspan5397"
-         style="font-size:8px">1919–?</tspan>
-    </text>
+         style="font-size:8px">1919–?</tspan></text>
     <text
        x="1228.3464"
        y="563.14954"
        id="text4339"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan4341"
          x="1228.3464"
-         y="563.14954">Constance Boyd Hall</tspan>
-      <tspan
+         y="563.14954">Constance Boyd Hall</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="572.74951"
          class="description"
          id="tspan3164"
-         style="font-size:8px">1912–?</tspan>
-    </text>
+         style="font-size:8px">1912–?</tspan></text>
     <path
        id="path3102-5-5"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
@@ -858,35 +830,29 @@
        x="1436.2203"
        y="650.07874"
        id="text4612"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="1436.2203"
          y="650.07874"
-         id="tspan4616">Ron</tspan>
-    </text>
+         id="tspan4616">Ron</tspan></text>
     <text
        x="1436.2205"
        y="672.75586"
        id="text4618"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="1436.2205"
          y="672.75586"
-         id="tspan4622">Alan</tspan>
-    </text>
+         id="tspan4622">Alan</tspan></text>
     <text
        x="1436.2205"
        y="627.40155"
        id="text4626"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan4628"
          x="1436.2205"
-         y="627.40155">Judy</tspan>
-    </text>
+         y="627.40155">Judy</tspan></text>
     <path
        id="path4925-5"
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL);marker-end:url(#DotM-09)"
@@ -897,33 +863,28 @@
        x="1436.2205"
        y="850.39368"
        id="text5743"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5745"
          x="1436.2205"
          y="850.39368"
          class="no-issue"
-         style="font-style:italic;font-size:8px">No issue</tspan>
-    </text>
+         style="font-style:italic;font-size:8px">No issue</tspan></text>
     <text
        y="755.90546"
        x="1228.3464"
        id="text5455"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          y="755.90546"
          x="1228.3464"
          id="tspan5457"
-         sodipodi:role="line">Iris Arnold</tspan>
-      <tspan
+         sodipodi:role="line">Iris Arnold</tspan><tspan
          y="765.50543"
          x="1228.3464"
          id="tspan5459"
          class="description"
          sodipodi:role="line"
-         style="font-size:8px">1925–1959</tspan>
-    </text>
+         style="font-size:8px">1925–1959</tspan></text>
     <path
        id="path3082"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-09-9)"
@@ -934,132 +895,111 @@
        x="1001.5748"
        y="737.00781"
        id="text3085"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3087"
          x="1001.5748"
-         y="737.00781">James Herbert Wilson</tspan>
-      <tspan
+         y="737.00781">James Herbert Wilson</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="746.60779"
          id="tspan3089"
          class="description"
-         style="font-size:8px">1872–1942</tspan>
-    </text>
+         style="font-size:8px">1872–1942</tspan></text>
     <text
        x="1001.5748"
        y="759.68494"
        id="text3091"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3093"
          x="1001.5748"
-         y="759.68494">Edith Olive Hall</tspan>
-      <tspan
+         y="759.68494">Edith Olive Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="769.28491"
          id="tspan3095"
          class="description"
-         style="font-size:8px">1882–1966</tspan>
-    </text>
+         style="font-size:8px">1882–1966</tspan></text>
     <text
        x="1228.3464"
        y="733.22833"
        id="text5203"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5205"
          x="1228.3464"
-         y="733.22833">Herbert Bruce Wilson</tspan>
-      <tspan
+         y="733.22833">Herbert Bruce Wilson</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="742.82831"
          id="tspan5207"
          class="description"
-         style="font-size:8px">1918–2005</tspan>
-    </text>
+         style="font-size:8px">1918–2005</tspan></text>
     <text
        x="1227.6991"
        y="836.63104"
        id="text5209"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5211"
          x="1227.6991"
-         y="836.63104">Lilian Jessie Rae Wilson</tspan>
-      <tspan
+         y="836.63104">Lilian Jessie Rae Wilson</tspan><tspan
          sodipodi:role="line"
          x="1227.6991"
          y="846.23102"
          id="tspan5213"
          class="description"
-         style="font-size:8px">1910–2011</tspan>
-    </text>
+         style="font-size:8px">1910–2011</tspan></text>
     <text
        x="1229.3319"
        y="919.78064"
        id="text5215"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5217"
          x="1229.3319"
-         y="919.78064">Olive Adele Wilson</tspan>
-      <tspan
+         y="919.78064">Olive Adele Wilson</tspan><tspan
          sodipodi:role="line"
          x="1229.3319"
          y="929.38062"
          id="tspan5219"
          class="description"
-         style="font-size:8px">1908–1970</tspan>
-    </text>
+         style="font-size:8px">1908–1970</tspan></text>
     <text
-       x="1228.3464"
-       y="986.45667"
+       x="1228.0009"
+       y="1008.4579"
        id="text5221"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5223"
-         x="1228.3464"
-         y="986.45667">Frederick Gordon Wilson</tspan>
-      <tspan
+         x="1228.0009"
+         y="1008.4579">Frederick Gordon Wilson</tspan><tspan
          sodipodi:role="line"
-         x="1228.3464"
-         y="996.05664"
+         x="1228.0009"
+         y="1018.0579"
          id="tspan5225"
          class="description"
-         style="font-size:8px">1906–1963</tspan>
-    </text>
+         style="font-size:8px">1906–1963</tspan></text>
     <text
        x="1228.3464"
        y="1065.8267"
        id="text5227"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
-         id="tspan5229"
          x="1228.3464"
-         y="1065.8267">Dorothy Jean McHarg Wilson</tspan>
-      <tspan
+         y="1065.8267"
+         id="tspan9380">Dorothy Jean McHarg Wilson</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="1075.4266"
          id="tspan5231"
          class="description"
-         style="font-size:8px">1904–1974</tspan>
-    </text>
+         style="font-size:8px">1904–1974</tspan></text>
     <path
        id="path5241"
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
-       d="m 1209.4489,744.56687 v 317.48033 h 15.118 m -15.118,-79.37009 h 15.118 m 0,-147.40159 h -15.118 v 79.37008 h 15.118 m -15.118,-185.19683 V 665.1968 h 15.118 m 0,64.25197 h -15.118 v 15.1181 H 1096.063"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
+       d="m 1209.4489,744.56687 v 317.48033 h 15.118 m -15.118,-56.6929 h 15.118 m 0,-170.07878 h -15.118 v 79.37008 h 15.118 m -15.118,-185.19683 V 665.1968 h 15.118 m 0,64.25197 h -15.118 v 15.1181 H 1096.063"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccc" />
     <path
@@ -1072,103 +1012,86 @@
        x="1227.6991"
        y="859.30823"
        id="text5449"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5451"
          x="1227.6991"
-         y="859.30823">Frank Bertram Hussey</tspan>
-      <tspan
+         y="859.30823">Frank Bertram Hussey</tspan><tspan
          sodipodi:role="line"
          x="1227.6991"
          y="868.9082"
          id="tspan5453"
          class="description"
-         style="font-size:8px">1908–1985</tspan>
-    </text>
+         style="font-size:8px">1908–1985</tspan></text>
     <text
        x="774.8031"
        y="525.35425"
        id="text5489"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5491"
          x="774.8031"
-         y="525.35425">William Wilson</tspan>
-      <tspan
+         y="525.35425">William Wilson</tspan><tspan
          sodipodi:role="line"
          x="774.8031"
          y="534.95422"
          id="tspan5226"
          class="description"
-         style="font-size:8px">1839–1914</tspan>
-    </text>
+         style="font-size:8px">1839–1914</tspan></text>
     <text
        x="774.8031"
        y="548.03143"
        id="text5493"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5495"
          x="774.8031"
-         y="548.03143">Mary McHarg</tspan>
-    </text>
+         y="548.03143">Mary McHarg</tspan></text>
     <text
        x="1002.5602"
        y="711.90662"
        id="text5497"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5499"
          x="1002.5602"
-         y="711.90662">Jessie Wilson</tspan>
-      <tspan
+         y="711.90662">Jessie Wilson</tspan><tspan
          sodipodi:role="line"
          x="1002.5602"
          y="721.50659"
          class="description"
          id="tspan3296"
-         style="font-size:8px">1876–1889</tspan>
-    </text>
+         style="font-size:8px">1876–1889</tspan></text>
     <text
        x="774.8031"
        y="873.07086"
        id="text6113"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6115"
          x="774.8031"
-         y="873.07086">James Anderton Hall</tspan>
-      <tspan
+         y="873.07086">James Anderton Hall</tspan><tspan
          sodipodi:role="line"
          x="774.8031"
          y="882.67084"
          id="tspan6117"
          class="description"
-         style="font-size:8px">1829–1888</tspan>
-    </text>
+         style="font-size:8px">1829–1888</tspan></text>
     <text
        x="774.8031"
        y="895.74799"
        id="text6119"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6121"
          x="774.8031"
-         y="895.74799">Lilian Helena Bruce</tspan>
-      <tspan
+         y="895.74799">Lilian Helena Bruce</tspan><tspan
          sodipodi:role="line"
          x="774.8031"
          y="905.34796"
          id="tspan6123"
          class="description"
-         style="font-size:8px">1856–1929</tspan>
-    </text>
+         style="font-size:8px">1856–1929</tspan></text>
     <path
        id="path5241-6"
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
@@ -1179,164 +1102,137 @@
        x="1001.6436"
        y="813.95392"
        id="text6149"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6151"
          x="1001.6436"
-         y="813.95392">Ada Maud Florence Hall</tspan>
-      <tspan
+         y="813.95392">Ada Maud Florence Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.6436"
          y="823.55389"
          id="tspan6153"
          class="description"
-         style="font-size:8px">1875–1942</tspan>
-    </text>
+         style="font-size:8px">1875–1942</tspan></text>
     <text
        x="1001.5748"
        y="869.29126"
        id="text6155"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6157"
          x="1001.5748"
-         y="869.29126">Lillian Bertha Ella Hall</tspan>
-      <tspan
+         y="869.29126">Lillian Bertha Ella Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="878.89124"
          id="tspan6159"
          class="description"
-         style="font-size:8px">1877–1881</tspan>
-    </text>
+         style="font-size:8px">1877–1881</tspan></text>
     <text
        x="1001.5748"
        y="914.64557"
        id="text6161"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6163"
          x="1001.5748"
-         y="914.64557">James Herbert Hamersley Hall</tspan>
-      <tspan
+         y="914.64557">James Herbert Hamersley Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="924.24554"
          id="tspan6165"
          class="description"
-         style="font-size:8px">1880–1918</tspan>
-    </text>
+         style="font-size:8px">1880–1918</tspan></text>
     <text
        x="1001.5748"
        y="971.33856"
        id="text6167"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6169"
          x="1001.5748"
-         y="971.33856">Hubert Sylvian Hall</tspan>
-      <tspan
+         y="971.33856">Hubert Sylvian Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="980.93854"
          id="tspan6171"
          class="description"
-         style="font-size:8px">1885–1929</tspan>
-    </text>
+         style="font-size:8px">1885–1929</tspan></text>
     <text
        x="1001.5748"
        y="1028.0315"
        id="text6173"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6175"
          x="1001.5748"
-         y="1028.0315">Sydney (Cecil?) Randel Hall</tspan>
-      <tspan
+         y="1028.0315">Sydney (Cecil?) Randel Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="1037.6315"
          id="tspan6177"
          class="description"
-         style="font-size:8px">1887–1887</tspan>
-    </text>
+         style="font-size:8px">1887–1887</tspan></text>
     <text
        x="774.8031"
        y="302.36212"
        id="text6179"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6181"
          x="774.8031"
-         y="302.36212">Thomas Soutter Lodge</tspan>
-      <tspan
+         y="302.36212">Thomas Soutter Lodge</tspan><tspan
          sodipodi:role="line"
          x="774.8031"
          y="311.96213"
          id="tspan6183"
          class="description"
-         style="font-size:8px">1852–1938</tspan>
-    </text>
+         style="font-size:8px">1852–1938</tspan></text>
     <text
        x="774.8031"
        y="279.685"
        id="text6185"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6187"
          x="774.8031"
-         y="279.685">Sarah Constance Leake</tspan>
-      <tspan
+         y="279.685">Sarah Constance Leake</tspan><tspan
          sodipodi:role="line"
          x="774.8031"
          y="289.285"
          id="tspan6189"
          class="description"
-         style="font-size:8px">1860–1939</tspan>
-    </text>
+         style="font-size:8px">1860–1939</tspan></text>
     <text
        x="774.80304"
        y="170.07869"
        id="text6215"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6217"
          x="774.80304"
-         y="170.07869">William Shakespeare Hall</tspan>
-      <tspan
+         y="170.07869">William Shakespeare Hall</tspan><tspan
          sodipodi:role="line"
          x="774.80304"
          y="179.6787"
          id="tspan6219"
          class="description"
-         style="font-size:8px">1825–1895</tspan>
-    </text>
+         style="font-size:8px">1825–1895</tspan></text>
     <text
        x="774.80304"
        y="147.40152"
        id="text6221"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6223"
          x="774.80304"
-         y="147.40152">Hannah Boyd Lazenby</tspan>
-      <tspan
+         y="147.40152">Hannah Boyd Lazenby</tspan><tspan
          sodipodi:role="line"
          x="774.80304"
          y="157.00153"
          id="tspan6225"
          class="description"
-         style="font-size:8px">1849–1911</tspan>
-    </text>
+         style="font-size:8px">1849–1911</tspan></text>
     <path
        id="path5241-6-3"
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
@@ -1347,191 +1243,157 @@
        x="1001.5748"
        y="177.63773"
        id="text6251"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6253"
          x="1001.5748"
-         y="177.63773">Henry Ernest Hall</tspan>
-      <tspan
+         y="177.63773">Henry Ernest Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="187.23773"
          id="tspan6255"
          class="description"
-         style="font-size:8px">1869–1941</tspan>
-    </text>
+         style="font-size:8px">1869–1941</tspan></text>
     <text
        x="1001.5748"
        y="147.40154"
        id="text6257"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6259"
          x="1001.5748"
-         y="147.40154">Grace Hall</tspan>
-      <tspan
+         y="147.40154">Grace Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="157.00154"
          id="tspan6261"
          class="description"
-         style="font-size:8px">1875–1875</tspan>
-    </text>
+         style="font-size:8px">1875–1875</tspan></text>
     <text
        x="1001.5748"
        y="79.370026"
        id="text6263"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6265"
          x="1001.5748"
-         y="79.370026">Joy Hannah Emma</tspan>
-      <tspan
+         y="79.370026">Joy Hannah Emma</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="88.970024"
-         id="tspan3251">Margaret Hall</tspan>
-      <tspan
+         id="tspan3251">Margaret Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="98.570023"
          id="tspan6267"
          class="description"
-         style="font-size:8px">1876–1960</tspan>
-    </text>
+         style="font-size:8px">1876–1960</tspan></text>
     <text
        x="1001.5748"
        y="37.795219"
        id="text6269"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6271"
          x="1001.5748"
          y="37.795219">William Shakespeare Hall <tspan
    id="tspan6275"
    class="name-suffix"
-   style="font-style:italic">Jr.</tspan>
-</tspan>
-      <tspan
+   style="font-style:italic">Jr.</tspan></tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="47.395218"
          id="tspan6273"
          class="description"
-         style="font-size:8px">1878–1879</tspan>
-    </text>
+         style="font-size:8px">1878–1879</tspan></text>
     <text
        x="1001.5748"
        y="113.38578"
        id="text6277"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6279"
          x="1001.5748"
-         y="113.38578">Gervase Clifton</tspan>
-      <tspan
+         y="113.38578">Gervase Clifton</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="122.98578"
          id="tspan6281"
          class="description"
-         style="font-size:8px">1863–1932</tspan>
-    </text>
+         style="font-size:8px">1863–1932</tspan></text>
     <text
        x="1228.3464"
        y="120.94482"
        id="text6283"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="120.94482"
-         id="tspan7773">Millicent Joyce Branson Clifton</tspan>
-      <tspan
+         id="tspan7773">Millicent Joyce Branson Clifton</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="130.54482"
          id="tspan6287"
          class="description"
-         style="font-size:8px">1912–1920</tspan>
-    </text>
+         style="font-size:8px">1912–1920</tspan></text>
     <text
        x="1228.2294"
        y="147.10345"
        id="text6313"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6315"
          x="1228.2294"
-         y="147.10345">Tita Clifton</tspan>
-      <tspan
+         y="147.10345">Tita Clifton</tspan><tspan
          sodipodi:role="line"
          x="1228.2294"
          y="156.70346"
          id="tspan3201"
          class="description"
-         style="font-size:8px">d.aft.1920</tspan>
-    </text>
+         style="font-size:8px">d.aft.1920</tspan></text>
     <flowRoot
        id="flowRoot6388"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.80000019px;line-height:0.01%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1">
-      <flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.8px;line-height:0.01%;font-family:Serif;-inkscape-font-specification:Serif;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
          id="flowRegion6390"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:1.06666672px">
-        <rect
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:1.06667px"><rect
            id="rect6392"
            width="50.94701"
            height="30.836348"
            x="136.7525"
            y="68.720985"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:1.13777781px" />
-      </flowRegion>
-      <flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:1.13777781px" /></flowRegion><flowPara
          id="flowPara6394"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.73333359px;line-height:1;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:1.06666672px"> </flowPara>
-    </flowRoot>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.7333px;line-height:1;font-family:Serif;-inkscape-font-specification:Serif;stroke-width:1.06667px"> </flowPara></flowRoot>
     <text
        x="1001.5748"
        y="336.3779"
        id="text3160"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3162"
          x="1001.5748"
-         y="336.3779">Robert John Lodge</tspan>
-      <tspan
+         y="336.3779">Robert John Lodge</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="345.97791"
          id="tspan5392"
          class="description"
-         style="font-size:8px">1894–1971</tspan>
-    </text>
+         style="font-size:8px">1894–1971</tspan></text>
     <text
        x="1001.5748"
        y="283.46451"
        id="text3164"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3166"
          x="1001.5748"
-         y="283.46451">Joan Soutter Lodge</tspan>
-      <tspan
+         y="283.46451">Joan Soutter Lodge</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="293.06451"
          id="tspan3301"
          class="description"
-         style="font-size:8px">b.1892</tspan>
-    </text>
+         style="font-size:8px">b.1892</tspan></text>
     <path
        id="path3170"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-09-3)"
@@ -1542,53 +1404,44 @@
        x="1001.5748"
        y="306.14166"
        id="text3166"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3168"
          x="1001.5748"
-         y="306.14166">Norman Martin</tspan>
-      <tspan
+         y="306.14166">Norman Martin</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="315.74167"
          id="tspan3298"
          class="description"
-         style="font-size:8px">b.1881</tspan>
-    </text>
+         style="font-size:8px">b.1881</tspan></text>
     <text
        x="1436.2205"
        y="544.25189"
        id="text3205"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3207"
          x="1436.2205"
-         y="544.25189">Jill</tspan>
-    </text>
+         y="544.25189">Jill</tspan></text>
     <text
        x="1436.2206"
        y="570.70862"
        id="text3209"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3211"
          x="1436.2206"
-         y="570.70862">Ian</tspan>
-    </text>
+         y="570.70862">Ian</tspan></text>
     <text
        x="1436.2205"
        y="593.38574"
        id="text3213"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3215"
          x="1436.2205"
-         y="593.38574">Kim</tspan>
-    </text>
+         y="593.38574">Kim</tspan></text>
     <path
        id="path3219"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-mid:none;marker-end:url(#DotM-6)"
@@ -1599,38 +1452,32 @@
        x="1228.3464"
        y="71.810966"
        id="text3185"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="71.810966"
-         id="tspan3189">Madge Louise Clifton</tspan>
-      <tspan
+         id="tspan3189">Madge Louise Clifton</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="81.410965"
          id="tspan3199"
          class="description"
-         style="font-size:8px">1906–2005</tspan>
-    </text>
+         style="font-size:8px">1906–2005</tspan></text>
     <text
        x="1228.3464"
        y="41.574749"
        id="text3193"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3195"
          x="1228.3464"
-         y="41.574749">Lily Clifton</tspan>
-      <tspan
+         y="41.574749">Lily Clifton</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="51.174747"
          id="tspan3197"
          class="description"
-         style="font-size:8px">d.aft.1920</tspan>
-    </text>
+         style="font-size:8px">d.aft.1920</tspan></text>
     <path
        id="path3205"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6)"
@@ -1641,74 +1488,62 @@
        x="1227.6844"
        y="177.33968"
        id="text3192"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3194"
          x="1227.6844"
-         y="177.33968">Frederick Lodge Martin</tspan>
-      <tspan
+         y="177.33968">Frederick Lodge Martin</tspan><tspan
          sodipodi:role="line"
          x="1227.6844"
          y="186.93968"
          class="description"
          id="tspan6821"
-         style="font-size:8px">1914–1941</tspan>
-    </text>
+         style="font-size:8px">1914–1941</tspan></text>
     <text
        x="1227.6844"
        y="223.13863"
        id="text3215"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3217"
          x="1227.6844"
-         y="223.13863">Dennis Lodge Martin</tspan>
-      <tspan
+         y="223.13863">Dennis Lodge Martin</tspan><tspan
          sodipodi:role="line"
          x="1227.6844"
          y="232.73863"
          id="tspan6823"
          class="description"
-         style="font-size:8px">1916–1945</tspan>
-    </text>
+         style="font-size:8px">1916–1945</tspan></text>
     <text
        x="1228.3464"
        y="268.34641"
        id="text3219"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3221"
          x="1228.3464"
-         y="268.34641">Patricia Helen Martin</tspan>
-      <tspan
+         y="268.34641">Patricia Helen Martin</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="277.94641"
          id="tspan6825"
          class="description"
-         style="font-size:8px">b.1921</tspan>
-    </text>
+         style="font-size:8px">b.1921</tspan></text>
     <text
        x="1228.3464"
        y="332.59836"
        id="text3223"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3225"
          x="1228.3464"
-         y="332.59836">Constance Janet Martin</tspan>
-      <tspan
+         y="332.59836">Constance Janet Martin</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="342.19836"
          id="tspan6827"
          class="description"
-         style="font-size:8px">b.1929</tspan>
-    </text>
+         style="font-size:8px">b.1929</tspan></text>
     <path
        id="path3205-2"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6)"
@@ -1725,35 +1560,29 @@
        x="1436.2206"
        y="215.433"
        id="text3279"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3281"
          x="1436.2206"
-         y="215.433">Trevor</tspan>
-    </text>
+         y="215.433">Trevor</tspan></text>
     <text
        x="1436.2206"
        y="234.33064"
        id="text3283"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3285"
          x="1436.2206"
-         y="234.33064">Joan</tspan>
-    </text>
+         y="234.33064">Joan</tspan></text>
     <text
        x="1436.2205"
        y="257.00781"
        id="text3287"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3289"
          x="1436.2205"
-         y="257.00781">Martin</tspan>
-    </text>
+         y="257.00781">Martin</tspan></text>
     <path
        id="path3317"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9)"
@@ -1764,355 +1593,301 @@
        x="1436.2205"
        y="298.58258"
        id="text3319"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3321"
          x="1436.2205"
-         y="298.58258">Son</tspan>
-    </text>
+         y="298.58258">Son</tspan></text>
     <text
        x="1436.2206"
        y="317.48026"
        id="text3323"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3325"
          x="1436.2206"
-         y="317.48026">Son</tspan>
-    </text>
+         y="317.48026">Son</tspan></text>
     <text
        x="1436.2205"
        y="336.37787"
        id="text3327"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3329"
          x="1436.2205"
-         y="336.37787">Robert</tspan>
-    </text>
+         y="336.37787">Robert</tspan></text>
     <text
        x="1436.2206"
        y="355.27548"
        id="text3331"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3333"
          x="1436.2206"
-         y="355.27548">Julie</tspan>
-    </text>
+         y="355.27548">Julie</tspan></text>
     <text
        x="1436.2205"
        y="374.17316"
        id="text3335"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3337"
          x="1436.2205"
-         y="374.17316">Kim</tspan>
-    </text>
+         y="374.17316">Kim</tspan></text>
     <text
        x="1228.3464"
        y="718.11017"
        id="text3227"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3229"
          x="1228.3464"
-         y="718.11017">Daphne June Robinson</tspan>
-    </text>
+         y="718.11017">Daphne June Robinson</tspan></text>
     <text
        x="1229.3319"
        y="942.45782"
        id="text3231"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3233"
          x="1229.3319"
-         y="942.45782">James William Lang</tspan>
-      <tspan
+         y="942.45782">James William Lang</tspan><tspan
          sodipodi:role="line"
          x="1229.3319"
          y="952.0578"
          id="tspan3235"
          class="description"
-         style="font-size:8px">b.1900</tspan>
-    </text>
+         style="font-size:8px">b.1900</tspan></text>
     <text
        x="1436.2205"
        y="869.29126"
        id="text3237"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="1436.2205"
          y="869.29126"
-         id="tspan3241">Adele Denise Lang</tspan>
-    </text>
+         id="tspan3241">Adele Denise Lang</tspan></text>
     <text
        x="1435.2351"
        y="904.4798"
        id="text3245"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3247"
          x="1435.2351"
-         y="904.4798">Stuart James Lang</tspan>
-    </text>
+         y="904.4798">Stuart James Lang</tspan></text>
     <text
-       x="1228.3464"
-       y="971.33856"
+       x="1228.0946"
+       y="985.7807"
        id="text3249"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3252"
-         x="1228.3464"
-         y="971.33856">Jessie Bowden</tspan>
-    </text>
+         x="1228.0946"
+         y="985.7807">Jessie M. Bowden</tspan><tspan
+         sodipodi:role="line"
+         x="1228.0946"
+         y="995.38068"
+         id="tspan13365"
+         class="description">1907–</tspan></text>
     <text
-       x="1228.3464"
-       y="1009.1338"
+       x="1228.0009"
+       y="1032.136"
        id="text3254"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3256"
-         x="1228.3464"
-         y="1009.1338">Helen Nelson</tspan>
-    </text>
+         x="1228.0009"
+         y="1032.136">Helen Nelson</tspan></text>
     <text
-       x="1436.2205"
-       y="982.67706"
+       x="1435.8748"
+       y="1008.2225"
        id="text3258"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
-         id="tspan3260"
-         x="1436.2205"
-         y="982.67706">Beverly Lorraine</tspan>
-      <tspan
-         sodipodi:role="line"
-         x="1436.2205"
-         y="992.27704"
-         id="tspan7079">Wilson</tspan>
-    </text>
+         x="1435.8748"
+         y="1008.2225"
+         id="tspan7079">Beverly Lorraine Wilson</tspan></text>
     <text
-       x="1436.2205"
-       y="1016.6928"
+       x="1435.6219"
+       y="1039.1885"
        id="text3262"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3264"
-         x="1436.2205"
-         y="1016.6928">Trevor Wilson</tspan>
-    </text>
+         x="1435.6219"
+         y="1039.1885">Trevor Wilson</tspan></text>
     <path
        id="path3268"
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9)"
-       d="m 1360.63,997.79522 h 56.6929 m 15.1181,15.11808 h -15.1181 v -34.01572 h 15.1181"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9)"
+       d="m 1360.63,1020.4724 h 56.6928 l 10e-5,-7.559 m 15.1181,22.6771 -15.1182,10e-5 v -30.2362 l 15.1182,-1e-4"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccc" />
+       sodipodi:nodetypes="ccccccc" />
     <text
-       x="1436.2205"
-       y="925.98425"
+       x="1435.8748"
+       y="945.17462"
        id="text3270"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3272"
-         x="1436.2205"
-         y="925.98425">Maimie Rose Wilson</tspan>
-    </text>
+         x="1435.8748"
+         y="945.17462">Maimie Rose Wilson</tspan></text>
     <text
-       x="1436.2205"
-       y="948.66138"
+       x="1435.8748"
+       y="974.20673"
        id="text3276"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3278"
-         x="1436.2205"
-         y="948.66138">Dorothy Adele Wilson</tspan>
-    </text>
+         x="1435.8748"
+         y="974.20673">Dorothy Adele Wilson</tspan></text>
     <text
        x="1228.3464"
        y="1088.5039"
        id="text3280"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3282"
          x="1228.3464"
-         y="1088.5039">Robert Gordon Agnew</tspan>
-    </text>
+         y="1088.5039">Robert Gordon Agnew</tspan><tspan
+         sodipodi:role="line"
+         x="1228.3464"
+         y="1098.1039"
+         id="tspan1560"
+         class="description">1904–</tspan></text>
     <text
-       x="1436.2205"
-       y="1035.5905"
+       x="1436.1163"
+       y="1057.1753"
        id="text3284"
-       style="font-size:10.66666698px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:10.6667px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3286"
-         x="1436.2205"
-         y="1035.5905">Robert David Garrick</tspan>
-      <tspan
+         x="1436.1163"
+         y="1057.1753">Robert David Garrick</tspan><tspan
          sodipodi:role="line"
-         x="1436.2205"
-         y="1044.1238"
-         id="tspan1334">Agnew</tspan>
-      <tspan
+         x="1436.1163"
+         y="1065.7086"
+         id="tspan1334">Agnew</tspan><tspan
          sodipodi:role="line"
-         x="1436.2205"
-         y="1052.6571"
+         x="1436.1163"
+         y="1074.2421"
          id="tspan6073"
          class="description"
-         style="font-size:8px">1930–1987</tspan>
-    </text>
+         style="font-size:8px">1930–1987</tspan></text>
     <text
-       x="1436.2205"
-       y="1077.1654"
+       x="1435.8748"
+       y="1091.3721"
        id="text3288"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3290"
-         x="1436.2205"
-         y="1077.1654">Rosamund Agnew</tspan>
-    </text>
+         x="1435.8748"
+         y="1091.3721">Rosamund Agnew</tspan></text>
     <path
        id="path3294"
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9);marker-end:none"
-       d="m 1360.63,1077.1653 h 56.6929 v -45.3543 m 15.1181,41.5748 -15.1181,-10e-5 v -41.5748 l 15.1181,10e-5"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9);marker-end:none"
+       d="m 1360.63,1077.1653 h 56.6929 m 15.1181,11.3386 -15.1181,-10e-5 v -34.0157 l 15.1181,10e-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc" />
+       sodipodi:nodetypes="cccccc" />
     <text
        x="1000.916"
        y="677.89087"
        id="text3298"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3300"
          x="1000.916"
-         y="677.89087">Charles William McHarg Wilson</tspan>
-      <tspan
+         y="677.89087">Charles William McHarg Wilson</tspan><tspan
          sodipodi:role="line"
          x="1000.916"
          y="687.49084"
          id="tspan3302"
          class="description"
-         style="font-size:8px">1873–1957</tspan>
-    </text>
+         style="font-size:8px">1873–1957</tspan></text>
     <text
        x="1001.6436"
        y="651.4342"
        id="text3304"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3306"
          x="1001.6436"
-         y="651.4342">Agnes Hay Wilson</tspan>
-      <tspan
+         y="651.4342">Agnes Hay Wilson</tspan><tspan
          sodipodi:role="line"
          x="1001.6436"
          y="661.03418"
          id="tspan3308"
          class="description"
-         style="font-size:8px">1878–1958</tspan>
-    </text>
+         style="font-size:8px">1878–1958</tspan></text>
     <text
        x="1000.9274"
        y="624.97748"
        id="text3310"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3312"
          x="1000.9274"
-         y="624.97748">Robert Crichton Wilson</tspan>
-      <tspan
+         y="624.97748">Robert Crichton Wilson</tspan><tspan
          sodipodi:role="line"
          x="1000.9274"
          y="634.57745"
          id="tspan3314"
          class="description"
-         style="font-size:8px">1870–1935</tspan>
-    </text>
+         style="font-size:8px">1870–1935</tspan></text>
     <text
        x="1000.9904"
        y="594.74127"
        id="text3316"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3318"
          x="1000.9904"
-         y="594.74127">Mary Agnus Wilson</tspan>
-      <tspan
+         y="594.74127">Mary Agnus Wilson</tspan><tspan
          sodipodi:role="line"
          x="1000.9904"
          y="604.34125"
          id="tspan3320"
          class="description"
-         style="font-size:8px">1868–1957</tspan>
-    </text>
+         style="font-size:8px">1868–1957</tspan></text>
     <text
        x="1001.6436"
        y="553.1665"
        id="text3322"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3324"
          x="1001.6436"
-         y="553.1665">Andrew Oswald Wilson</tspan>
-      <tspan
+         y="553.1665">Andrew Oswald Wilson</tspan><tspan
          sodipodi:role="line"
          x="1001.6436"
          y="562.76648"
          id="tspan3326"
          class="description"
-         style="font-size:8px">1866–1950</tspan>
-    </text>
+         style="font-size:8px">1866–1950</tspan></text>
     <text
        x="1001.5175"
        y="522.93024"
        id="text3328"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3330"
          x="1001.5175"
-         y="522.93024">William Garrick Wilson</tspan>
-      <tspan
+         y="522.93024">William Garrick Wilson</tspan><tspan
          sodipodi:role="line"
          x="1001.5175"
          y="532.53021"
          id="tspan3332"
          class="description"
-         style="font-size:8px">1865–1933</tspan>
-    </text>
+         style="font-size:8px">1865–1933</tspan></text>
     <text
        x="1002.4393"
        y="575.48273"
        id="text3334"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3336"
          x="1002.4393"
-         y="575.48273">May</tspan>
-    </text>
+         y="575.48273">May</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6);marker-end:url(#InfiniteLineEnd)"
        d="m 1096.063,563.14954 h 56.6929"
@@ -2123,20 +1898,17 @@
        x="1000.9904"
        y="495.82538"
        id="text3389"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3391"
          x="1000.9904"
-         y="495.82538">Margaret Rae Wilson</tspan>
-      <tspan
+         y="495.82538">Margaret Rae Wilson</tspan><tspan
          sodipodi:role="line"
          x="1000.9904"
          y="505.42538"
          id="tspan3393"
          class="description"
-         style="font-size:8px">d.1959</tspan>
-    </text>
+         style="font-size:8px">d.1959</tspan></text>
     <path
        id="path3395"
        style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9)"
@@ -2145,8 +1917,8 @@
        sodipodi:nodetypes="cccccccccccccccccccccc" />
     <path
        id="path6822"
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-6-9)"
-       d="m 1432.441,944.88183 h -15.1181 m 15.1181,-22.67717 h -15.1181 v 49.13387 H 1360.63"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-6-9)"
+       d="m 1432.441,971.33856 h -15.1181 m 15.1181,-30.23622 h -15.1181 l 0,52.91339 H 1360.63"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
     <path
@@ -2159,84 +1931,67 @@
        x="585.16467"
        y="766.94598"
        id="text7785"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan7787"
          x="585.16467"
-         y="766.94598">Henry Edward Hall</tspan>
-      <tspan
+         y="766.94598">Henry Edward Hall</tspan><tspan
          sodipodi:role="line"
          x="585.16467"
          y="776.54596"
          id="tspan8745"
          class="description"
-         style="font-size:8px">1790–1859</tspan>
-    </text>
+         style="font-size:8px">1790–1859</tspan></text>
     <text
        x="584.85022"
        y="789.62317"
        id="text7789"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan7791"
          x="584.85022"
-         y="789.62317">Sarah Theodisia Branson</tspan>
-      <tspan
+         y="789.62317">Sarah Theodisia Branson</tspan><tspan
          sodipodi:role="line"
          x="584.85022"
          y="799.22314"
          id="tspan8747"
          class="description"
-         style="font-size:8px">1793–1858</tspan>
-    </text>
+         style="font-size:8px">1793–1858</tspan></text>
     <text
        x="1001.5748"
        y="359.05508"
        id="text3303"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan3305"
          x="1001.5748"
          y="359.05508">Enid Joan M<tspan
    style="font-size:smaller;baseline-shift:super"
-   id="tspan3307">c</tspan>
-
-
-
-Rae</tspan>
-      <tspan
+   id="tspan3307">c</tspan>Rae</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="368.65509"
          class="description"
          id="tspan5399"
-         style="font-size:8px">1893–1949</tspan>
-    </text>
+         style="font-size:8px">1893–1949</tspan></text>
     <text
        x="585.27655"
        y="360.61319"
        id="text5149"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="585.27655"
          y="360.61319"
-         id="tspan5153">Robert John Lodge</tspan>
-    </text>
+         id="tspan5153">Robert John Lodge</tspan></text>
     <text
        x="586.38397"
        y="379.06619"
        id="text5157"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5159"
          x="586.38397"
-         y="379.06619">Mary Anne Souter</tspan>
-    </text>
+         y="379.06619">Mary Anne Souter</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6)"
        d="m 699.21261,366.6141 h 56.69291 l -10e-6,-68.03148 h 17.00788"
@@ -2247,92 +2002,77 @@ Rae</tspan>
        x="1228.3464"
        y="374.17316"
        id="text5401"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5403"
          x="1228.3464"
-         y="374.17316">Nancy Lodge</tspan>
-      <tspan
+         y="374.17316">Nancy Lodge</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="383.77316"
          id="tspan5405"
          class="description"
-         style="font-size:8px">1921–?</tspan>
-    </text>
+         style="font-size:8px">1921–?</tspan></text>
     <text
        x="1228.3464"
        y="400.62985"
        id="text5637"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5639"
          x="1228.3464"
-         y="400.62985">Henry Soutter Lodge</tspan>
-      <tspan
+         y="400.62985">Henry Soutter Lodge</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="410.22986"
          id="tspan5641"
          class="description"
-         style="font-size:8px">1924–?</tspan>
-    </text>
+         style="font-size:8px">1924–?</tspan></text>
     <text
        x="1228.3464"
        y="423.30701"
        id="text5643"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5645"
          x="1228.3464"
-         y="423.30701">Gladys Jean Smith</tspan>
-      <tspan
+         y="423.30701">Gladys Jean Smith</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="432.90701"
          id="tspan5647"
          class="description"
-         style="font-size:8px">1946–?</tspan>
-    </text>
+         style="font-size:8px">1946–?</tspan></text>
     <text
        x="1228.3464"
        y="449.7637"
        id="text5649"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5651"
          x="1228.3464"
-         y="449.7637">Thomas Alexander John Lodge</tspan>
-      <tspan
+         y="449.7637">Thomas Alexander John Lodge</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="459.36371"
          id="tspan5653"
          class="description"
-         style="font-size:8px">1926–?</tspan>
-    </text>
+         style="font-size:8px">1926–?</tspan></text>
     <text
        x="1228.3464"
        y="476.2204"
        id="text5655"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5657"
          x="1228.3464"
-         y="476.2204">Mathew Oliver Lodge</tspan>
-      <tspan
+         y="476.2204">Mathew Oliver Lodge</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="485.8204"
          id="tspan5659"
          class="description"
-         style="font-size:8px">1933–?</tspan>
-    </text>
+         style="font-size:8px">1933–?</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6);marker-end:url(#InfiniteLineEnd)"
        d="m 1360.63,408.18892 c 23.7381,0 23.9343,0 34.0157,0"
@@ -2349,42 +2089,35 @@ Rae</tspan>
        x="1227.6843"
        y="355.10559"
        id="text6829"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6831"
          x="1227.6843"
-         y="355.10559">Ian Wallman</tspan>
-    </text>
+         y="355.10559">Ian Wallman</tspan></text>
     <text
        x="1228.3464"
        y="291.02356"
        id="text6833"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6835"
          x="1228.3464"
-         y="291.02356">John Dulford Walrond</tspan>
-      <tspan
+         y="291.02356">John Dulford Walrond</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="300.62357"
          id="tspan6837"
          class="description"
-         style="font-size:8px">?–1942</tspan>
-    </text>
+         style="font-size:8px">?–1942</tspan></text>
     <text
        x="1228.3464"
        y="253.22829"
        id="text7529"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="253.22829"
-         id="tspan7533">Derrick Mowbay Robertson</tspan>
-    </text>
+         id="tspan7533">Derrick Mowbay Robertson</tspan></text>
     <path
        id="path4925-5-2"
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL);marker-end:url(#DotM-09)"
@@ -2395,26 +2128,22 @@ Rae</tspan>
        x="1436.2205"
        y="279.685"
        id="text5743-0"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5745-4"
          x="1436.2205"
          y="279.685"
          class="no-issue"
-         style="font-style:italic;font-size:8px">No issue</tspan>
-    </text>
+         style="font-style:italic;font-size:8px">No issue</tspan></text>
     <text
        x="1228.3464"
        y="94.488136"
        id="text7577"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan7579"
          x="1228.3464"
-         y="94.488136">John Bruan Luard Gilmore</tspan>
-    </text>
+         y="94.488136">John Bruan Luard Gilmore</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotM-6-9-6)"
        d="m 1360.63,79.370023 71.811,-1.9e-5"
@@ -2431,20 +2160,17 @@ Rae</tspan>
        x="1228.6887"
        y="510.23621"
        id="text4335-8"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan4337-1"
          x="1228.6887"
-         y="510.23621">Maurice Salom</tspan>
-      <tspan
+         y="510.23621">Maurice Salom</tspan><tspan
          sodipodi:role="line"
          x="1228.6887"
          y="519.83618"
          id="tspan5397-2"
          class="description"
-         style="font-size:8px">?–?</tspan>
-    </text>
+         style="font-size:8px">?–?</tspan></text>
     <path
        id="path4925-5-8"
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL-9);marker-end:url(#DotM-09-0)"
@@ -2455,33 +2181,28 @@ Rae</tspan>
        x="1436.3912"
        y="521.45392"
        id="text5743-5"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5745-0"
          x="1436.3912"
          y="521.45392"
          class="no-issue"
-         style="font-style:italic;font-size:8px">No issue</tspan>
-    </text>
+         style="font-style:italic;font-size:8px">No issue</tspan></text>
     <text
        x="584.83813"
        y="131.38445"
        id="text6221-3"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6223-6"
          x="584.83813"
-         y="131.38445">George Lazenby</tspan>
-      <tspan
+         y="131.38445">George Lazenby</tspan><tspan
          sodipodi:role="line"
          x="584.83813"
          y="140.98445"
          id="tspan6225-7"
          class="description"
-         style="font-size:8px">1807–1895</tspan>
-    </text>
+         style="font-size:8px">1807–1895</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
        d="m 771.02363,143.62199 h -15.11812 v -2e-5 h -56.6929"
@@ -2500,13 +2221,11 @@ Rae</tspan>
        x="584.9126"
        y="154.40662"
        id="text4742"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan4744"
          x="584.9126"
-         y="154.40662">Mary Ann Wells</tspan>
-    </text>
+         y="154.40662">Mary Ann Wells</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1)"
        d="m 699.2126,600.94481 h 56.6929 l 1e-5,-79.37008 h 15.11812"
@@ -2518,31 +2237,26 @@ Rae</tspan>
        y="585.82678"
        id="text3173"
        transform="translate(0,-3.1872704e-5)"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="585.82678"
-         id="tspan3177">Alan Louis Mathew Berryman</tspan>
-      <tspan
+         id="tspan3177">Alan Louis Mathew Berryman</tspan><tspan
          sodipodi:role="line"
          x="1228.3464"
          y="595.42676"
          id="tspan5395"
          class="description"
-         style="font-size:8px">1909–1976</tspan>
-    </text>
+         style="font-size:8px">1909–1976</tspan></text>
     <text
        x="396.41464"
        y="731.0069"
        id="text3360"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="396.41464"
          y="731.0069"
-         id="tspan3366">Thomas Strong Hall</tspan>
-    </text>
+         id="tspan3366">Thomas Strong Hall</tspan></text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3)"
        d="M 582.04725,763.4645 H 566.92914 V 737.00781 H 510.23623"
@@ -2553,24 +2267,20 @@ Rae</tspan>
        x="396.17657"
        y="809.51294"
        id="text4566"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan4568"
          x="396.17657"
-         y="809.51294">Charlotte Catharina Hall</tspan>
-    </text>
+         y="809.51294">Charlotte Catharina Hall</tspan></text>
     <text
        x="396.73322"
        y="824.63104"
        id="text4570"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan4572"
          x="396.73322"
-         y="824.63104">Thomas Branson</tspan>
-    </text>
+         y="824.63104">Thomas Branson</tspan></text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3)"
        d="M 582.04725,786.14167 H 566.92914 V 816.3779 H 510.23623"
@@ -2581,47 +2291,39 @@ Rae</tspan>
        x="584.70654"
        y="606.1955"
        id="text1426"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan1424"
          x="584.70654"
-         y="606.1955">William Wilson</tspan>
-    </text>
+         y="606.1955">William Wilson</tspan></text>
     <text
        x="586.17896"
        y="619.08496"
        id="text1783"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan1781"
          x="586.17896"
-         y="619.08496">Janet Garrick</tspan>
-      <tspan
+         y="619.08496">Janet Garrick</tspan><tspan
          sodipodi:role="line"
          x="586.17896"
          y="628.68494"
          id="tspan1785"
          class="description"
-         style="font-size:8px">d.1871</tspan>
-    </text>
+         style="font-size:8px">d.1871</tspan></text>
     <text
        x="395.56973"
        y="634.20306"
        id="text1783-4"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="395.56973"
          y="634.20306"
-         id="tspan1812">David Garrick</tspan>
-      <tspan
+         id="tspan1812">David Garrick</tspan><tspan
          sodipodi:role="line"
          x="395.56973"
          y="643.80304"
-         id="tspan2123">(or Garique)</tspan>
-    </text>
+         id="tspan2123">(or Garique)</tspan></text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-4)"
        d="m 582.04725,616.06292 h -15.11811 l -10e-6,22.67717 h -56.69291"
@@ -2638,67 +2340,56 @@ Rae</tspan>
        x="585.42834"
        y="262.34546"
        id="text6185-3"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="585.42834"
          y="262.34546"
-         id="tspan1252">Rose Ellen Leake</tspan>
-      <tspan
+         id="tspan1252">Rose Ellen Leake</tspan><tspan
          sodipodi:role="line"
          x="585.42834"
          y="271.94547"
          class="description"
          id="tspan6189-6"
-         style="font-size:8px">d.1888</tspan>
-    </text>
+         style="font-size:8px">d.1888</tspan></text>
     <text
        x="585.15295"
        y="285.02261"
        id="text2861"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="585.15295"
          y="285.02261"
-         id="tspan2858">George Walpole Leake</tspan>
-      <tspan
+         id="tspan2858">George Walpole Leake</tspan><tspan
          sodipodi:role="line"
          x="585.15295"
          y="294.62262"
          class="description"
          id="tspan7534"
-         style="font-size:8px">1825–1895</tspan>
-    </text>
+         style="font-size:8px">1825–1895</tspan></text>
     <text
        x="1000.8391"
        y="427.90384"
        id="text5622"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan5620"
          x="1000.8391"
-         y="427.90384">Ernest Albert Donegan</tspan>
-    </text>
+         y="427.90384">Ernest Albert Donegan</tspan></text>
     <text
        x="1000.9127"
        y="447.54233"
        id="text5626"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="1000.9127"
          y="447.54233"
-         id="tspan5628">Lynda Amy Kathleen Innes</tspan>
-      <tspan
+         id="tspan5628">Lynda Amy Kathleen Innes</tspan><tspan
          sodipodi:role="line"
          x="1000.9127"
          y="457.14233"
          class="description"
          id="tspan2972"
-         style="font-size:8px">1887–1977</tspan>
-    </text>
+         style="font-size:8px">1887–1977</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.00157475;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6723)"
        d="m 1096.063,434.6456 h 83.1496 v 185.19685 h 26.4567 c 0,-3.77953 7.5591,-3.77953 7.5591,0 h 11.3385"
@@ -2709,24 +2400,20 @@ Rae</tspan>
        x="773.49457"
        y="457.13397"
        id="text2517"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          x="773.49457"
          y="457.13397"
-         id="tspan2519">Eliza Nixon Waters</tspan>
-    </text>
+         id="tspan2519">Eliza Nixon Waters</tspan></text>
     <text
        x="775.49323"
        y="475.01202"
        id="text2525"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan2523"
          x="775.49323"
-         y="475.01202">James Malcolm E. Innes</tspan>
-    </text>
+         y="475.01202">James Malcolm E. Innes</tspan></text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1-0)"
        d="m 869.29134,461.10229 h 113.38583 l 10e-6,-15.11811 h 15.11811"
@@ -2747,7 +2434,7 @@ Rae</tspan>
        y="0"
        xlink:href="#wikipedia-logo"
        id="use1336"
-       transform="translate(1458.8977,938.71285)"
+       transform="translate(1455.1772,961.27195)"
        width="100%"
        height="100%" />
     <use
@@ -2763,20 +2450,17 @@ Rae</tspan>
        x="774.14105"
        y="919.98328"
        id="text6113-3"
-       style="font-size:12px;line-height:0.80000001;font-family:serif">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan1357"
          x="774.14105"
-         y="919.98328">Frederick William Teesdale</tspan>
-      <tspan
+         y="919.98328">Frederick William Teesdale</tspan><tspan
          sodipodi:role="line"
          id="tspan1359"
          x="774.14105"
          y="929.58325"
          class="description"
-         style="font-size:8px">1864–1931</tspan>
-    </text>
+         style="font-size:8px">1864–1931</tspan></text>
     <path
        id="path4925-5-2-8"
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL-1);marker-end:url(#DotM-09-7)"
@@ -2787,15 +2471,13 @@ Rae</tspan>
        x="941.26251"
        y="905.41418"
        id="text5743-0-7"
-       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"><tspan
          sodipodi:role="line"
          id="tspan5745-4-0"
          x="941.26251"
          y="905.41418"
          class="no-issue"
-         style="font-style:italic;font-size:8px">No issue</tspan>
-    </text>
+         style="font-style:italic;font-size:8px">No issue</tspan></text>
     <use
        style="display:inline"
        x="0"
@@ -2840,7 +2522,7 @@ Rae</tspan>
        height="100%" />
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline"
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"
        x="396.18829"
        y="271.82791"
        id="text3080"
@@ -2857,7 +2539,7 @@ Rae</tspan>
          style="font-size:8px">1784–1838</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline"
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"
        x="396.25275"
        y="294.50507"
        id="text3084"
@@ -2874,7 +2556,7 @@ Rae</tspan>
          style="font-size:8px">1801–1872</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline"
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"
        x="207.21191"
        y="260.48932"
        id="text3606"
@@ -2891,7 +2573,7 @@ Rae</tspan>
          style="font-size:8px">1756–1799</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline"
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"
        x="207.94434"
        y="283.16647"
        id="text3612"
@@ -2908,7 +2590,7 @@ Rae</tspan>
          style="font-size:8px">1758–1836</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline"
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"
        x="394.90854"
        y="566.0072"
        id="text4099"><tspan
@@ -2926,24 +2608,20 @@ Rae</tspan>
        x="1228.6025"
        y="209.43207"
        id="text7529-1"
-       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"><tspan
          sodipodi:role="line"
          x="1228.6025"
          y="209.43207"
-         id="tspan7533-4">Sylvia</tspan>
-    </text>
+         id="tspan7533-4">Sylvia</tspan></text>
     <text
        x="1435.5466"
        y="83.843636"
        id="text3279-9"
-       style="font-size:12px;line-height:0.80000001;font-family:serif;display:inline">
-      <tspan
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"><tspan
          sodipodi:role="line"
          id="tspan3281-1"
          x="1435.5466"
-         y="83.843636">Charlotte</tspan>
-    </text>
+         y="83.843636">Charlotte</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"

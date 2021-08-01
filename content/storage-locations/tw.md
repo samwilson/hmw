@@ -1,5 +1,5 @@
 ---
 template: storage_location
-title: TW
-description: 
+title: T.W.
+description: Items stored with T.W.
 ---

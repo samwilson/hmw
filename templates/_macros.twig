@@ -58,7 +58,7 @@
 {% endmacro %}
 
 {% macro page_qrcode(site, page) %}
-    <p class="float-right qrcode">
+    <p class="qrcode">
         <a href="{{ site.config.url~page.id~'.html' }}" title="Permanent and stable URL for this page">
             <img src="{{ page.link(qrcode(site.config.url~page.id~'.html')) }}" alt="QR code" />
             Permalink

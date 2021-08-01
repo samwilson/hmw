@@ -1,7 +1,7 @@
 .item-figure { display:block; margin-bottom:0.5em; padding-top:0.5em }
 .item-figure:hover { text-decoration:none; background-color:#efefef }
 
-.qrcode { width:5em; text-align:center; font-size:smaller }
+.qrcode a { display:block; width:5em; text-align:center; font-size:smaller; float:right; margin-left:1em }
 .qrcode img { display:block; width:100% }
 
 #map { height:600px }

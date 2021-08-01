@@ -3,50 +3,49 @@
 {% block main %}
     {% import '_macros.twig' as macros %}
 
-    <h1>{{ page.metadata.title }}</h1>
+    <article class="container">
+        <h1>{{ page.metadata.title }}</h1>
 
-    {{ macros.page_qrcode(site, page) }}
+        {{ macros.page_qrcode(site, page) }}
 
-    {{ page.body|md2html|raw }}
+        {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
+            {% set wditem = wikidata( page.metadata.wikidata ) %}
+            <p>
+              <a href="https://www.wikidata.org/wiki/{{ wditem.id }}">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png"
+                       alt="Small Wikidata logo" />
+                  {{ wditem.labels.en.value }} ({{ wditem.id }})</a>:
+                {{ wditem.descriptions.en.value }}
+            </p>
+            <table>
+                {% if wditem.claims.P569 is defined %}
+                <tr>
+                    <th>Date of birth:</th>
+                    <td>{{ wditem.claims.P569.0.mainsnak.datavalue.value.time|date('j F Y') }}</td>
+                </tr>
+                {% endif %}
+                {% if wditem.claims.P570 is defined %}
+                <tr>
+                    <th>Date of death:</th>
+                    <td>{{ wditem.claims.P570.0.mainsnak.datavalue.value.time|date('j F Y') }}</td>
+                </tr>
+                {% endif %}
+            </table>
+            <p>
+                <strong>Authority control</strong> &mdash;
+                {% if wditem.claims.P2889 is defined %}
+                    FamilySearch:
+                    <a href="https://www.familysearch.org/tree/person/details/{{ wditem.claims.P2889.0.mainsnak.datavalue.value }}">
+                        {{ wditem.claims.P2889.0.mainsnak.datavalue.value }}
+                    </a>
+                {% endif %}
+            </p>
+        {% endif %}
 
-    {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
-        {% set wditem = wikidata( page.metadata.wikidata ) %}
-        <p>
-          <a href="https://www.wikidata.org/wiki/{{ wditem.id }}">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png"
-                   alt="Small Wikidata logo" />
-              {{ wditem.labels.en.value }} ({{ wditem.id }})</a>:
-            {{ wditem.descriptions.en.value }}
-        </p>
-        <table>
-            <tr>
-                <th>Date of birth:</th>
-                <td>
-                    {% if wditem.claims.P569 is defined %}
-                        {{ wditem.claims.P569.0.mainsnak.datavalue.value.time|date('j F Y') }}
-                    {% endif %}
-                </td>
-            </tr>
-            <tr>
-                <th>Date of death:</th>
-                <td>
-                    {% if wditem.claims.P570 is defined %}
-                        {{ wditem.claims.P570.0.mainsnak.datavalue.value.time|date('j F Y') }}
-                    {% endif %}
-                </td>
-            </tr>
-        </table>
-        <p>
-            <strong>Authority control</strong> &mdash;
-            {% if wditem.claims.P2889 is defined %}
-                FamilySearch:
-                <a href="https://www.familysearch.org/tree/person/details/{{ wditem.claims.P2889.0.mainsnak.datavalue.value }}">
-                    {{ wditem.claims.P2889.0.mainsnak.datavalue.value }}
-                </a>
-            {% endif %}
-        </p>
-    {% endif %}
+        {{ page.body|md2html|raw }}
+    </article>
 
+    <h2>Items</h2>
     <div class="row">
         {% for item in database.query('SELECT p.* FROM pages p, json_each(p.tags) j WHERE "/tags/"||j.value LIKE "'~page.id~'" ORDER BY p.date') %}
             {{ macros.gallery_item(site, page, item) }}
