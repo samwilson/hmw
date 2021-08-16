@@ -32,12 +32,17 @@
                 {% endif %}
             </table>
             <p>
-                <strong>Authority control</strong> &mdash;
+                <strong>Authority control:</strong>
                 {% if wditem.claims.P2889 is defined %}
-                    FamilySearch:
+                    FamilySearch
                     <a href="https://www.familysearch.org/tree/person/details/{{ wditem.claims.P2889.0.mainsnak.datavalue.value }}">
-                        {{ wditem.claims.P2889.0.mainsnak.datavalue.value }}
-                    </a>
+                        {{ wditem.claims.P2889.0.mainsnak.datavalue.value }}</a>.
+                {% endif %}
+                {% if wditem.claims.P2949 is defined %}
+                    WikiTree
+                    <a href="https://www.wikitree.com/wiki/{{ wditem.claims.P2949.0.mainsnak.datavalue.value }}"
+                       title="View on WikiTree">
+                        {{ wditem.claims.P2949.0.mainsnak.datavalue.value }}</a>.
                 {% endif %}
             </p>
         {% endif %}
