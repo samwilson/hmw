@@ -1,0 +1,23 @@
+{% autoescape 'csv' %}
+Wikidata,Code,Title,Date of Birth,Date of Death,WikiTree,FamilySearch
+{% for p in database.query('SELECT * FROM pages WHERE id IN (SELECT "/tags/"||j.value FROM pages p, json_each(p.tags) j) ORDER BY pages.title') %}
+{{p.wikidata}},{{p.id|basename}},{{p.title}},
+    {%- if p.wikidata is defined and p.wikidata -%}
+        {%- set wditem = wikidata( p.wikidata ) -%}
+        {%- if wditem.claims.P569 is defined -%}{# Date of Birth #}
+            {{- wditem.claims.P569.0.mainsnak.datavalue.value.time|date('Y-m-d') -}}
+        {%- endif -%},
+        {%- if wditem.claims.P570 is defined -%}{# Date of Death #}
+            {{- wditem.claims.P570.0.mainsnak.datavalue.value.time|date('Y') -}}
+        {%- endif -%},
+        {%- if wditem.claims.P2949 is defined -%}{# WikiTree #}
+            {{- wditem.claims.P2949.0.mainsnak.datavalue.value -}}
+        {%- endif -%},
+        {%- if wditem.claims.P2889 is defined -%}{# FamilySearch #}
+            {{- wditem.claims.P2889.0.mainsnak.datavalue.value -}}
+        {%- endif -%}
+    {%- endif %}
+
+    {# The above newline is required. #}
+{% endfor %}
+{% endautoescape %}

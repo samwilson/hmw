@@ -145,7 +145,9 @@
 
         </div><!-- .row -->
 
-        {{ page.body|md2html|raw }}
+        <article class="container">
+            {{ page.body|md2html|raw }}
+        </article>
 
         {% if page.metadata.images is defined and page.metadata.images %}
             <h3 id="images" class="mt-4">Images</h3>

@@ -6,6 +6,8 @@
 
     {{ page.body|md2html|raw }}
 
+    <p>Tags' metadata is also available for download: <a href="tags.csv"><code>tags.csv</code></a></p>
+
     <ol>
         {% for p in database.query('SELECT * FROM pages WHERE id IN (SELECT "/tags/"||j.value FROM pages p, json_each(p.tags) j) ORDER BY pages.title') %}
             <li>

@@ -17,3 +17,9 @@ blockquote { border-left:3px solid #efefef; padding-left:1em; margin-left:1em }
     abbr[title]:after { content:"" }
     abbr[title] { text-decoration:none }
 }
+
+.footnotes { font-size: 0.7em; }
+.footnotes hr { border:1px solid #bbb; border-width:1px 0 0 0; }
+.footnotes li p,
+.footnotes li blockquote { margin-bottom: 0; }
+.footnote-ref { font-size: 0.7em; }
