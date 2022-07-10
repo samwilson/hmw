@@ -1,12 +1,12 @@
 {
     "require": {
-        "samwilson/basildon": "^2.0"
+        "samwilson/basildon": "^3.0"
     },
     "config": {
         "process-timeout": 0
     },
     "scripts": {
-        "build": "basildon . -t 100000",
+        "build": "basildon build . -t 100000",
         "deploy": [
             "@build",
             "./node_modules/.bin/netlify deploy --prod -d output"

@@ -1,0 +1,15 @@
+{% extends '_base.html.twig' %}
+
+{% block head %}
+    <meta http-equiv="refresh" content="0; url={{page.link(page.metadata.target)}}.html" />
+{% endblock %}
+
+{% block main %}
+    <h1>Page moved</h1>
+    <p>This page has moved to:</p>
+    <p>
+        <a href="{{page.link(page.metadata.target)}}.html">
+            {{page.link(page.metadata.target)}}
+        </a>
+    </p>
+{% endblock %}

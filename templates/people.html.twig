@@ -1,0 +1,56 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+    {% import '_macros.twig' as macros %}
+
+    <h1>People</h1>
+    <table class="table table-sm">
+        <thead>
+        <tr>
+            <th>Person</th>
+            <th>Date of Birth</th>
+            <th>Date of Death</th>
+            <th>Wikidata</th>
+        </tr>
+        </thead>
+        <tbody>
+            {% for person in database.query('SELECT * FROM pages WHERE template="person" ORDER BY title ASC').fetchAll() %}
+
+                {% set wditem = false %}
+                {% if person.wikidata %}
+                    {% set wditem = wikidata( person.wikidata ) %}
+                {% endif %}
+
+                <tr>
+                    <td><a href="{{ page.link(person.id) }}.html">{{ person.title }}</a></td>
+                    <td>
+                        {% if person.birth_date %}
+                            {{ macros.date(person.birth_date, person.birth_date_precision) }}
+                        {% endif %}
+                        {% if wditem.claims.P569 is defined %}
+                            {{ wditem.claims.P569.0.mainsnak.datavalue.value.time|date('j F Y') }}</td>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if person.death_date %}
+                            {{ macros.date(person.death_date, person.death_date_precision) }}
+                        {% endif %}
+                        {% if wditem.claims.P570 is defined %}
+                            {{ wditem.claims.P570.0.mainsnak.datavalue.value.time|date('j F Y') }}</td>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if wditem %}
+                            <a href="https://www.wikidata.org/wiki/{{ wditem.id }}" title="{{ wditem.labels.en.value }}">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png"
+                                    alt="Small Wikidata logo" />
+                                {{ wditem.id }}
+                            </a>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

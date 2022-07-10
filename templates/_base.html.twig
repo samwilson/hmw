@@ -3,7 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.metadata.title }} :: {{ site.title }}</title>
+    <title>
+        {% if page.metadata.title is defined and page.metadata.title %}
+            {{ page.metadata.title }} ::
+        {% endif %}
+        {{ site.title }}
+    </title>
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
@@ -14,8 +19,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ page.link('favicon-32x32.png') }}" />
     <link rel="icon" type="image/png" sizes="16x16" href="{{ page.link('favicon-16x16.png') }}" />
     <meta property="og:url" content="{{ site.config.url }}{{ page.id }}.html" />
-    <meta property="og:title" content="{{ page.metadata.title|e('html_attr') }}" />
-    <meta property="twitter:title" content="{{ page.metadata.title|e('html_attr') }}" />
+    {% if page.metadata.title is defined and page.metadata.title %}
+        <meta property="og:title" content="{{ page.metadata.title|e('html_attr') }}" />
+        <meta property="twitter:title" content="{{ page.metadata.title|e('html_attr') }}" />
+    {% endif %}
     {% if page.metadata.description is defined and page.metadata.description %}
         <meta name="description" content="{{ page.metadata.description|e('html_attr') }}">
         <meta property="og:description" content="{{ page.metadata.description|e('html_attr') }}" />
@@ -61,10 +68,8 @@
                             Tree{{ pdf_icon }}
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ page.link('assets/book.pdf') }}" title="Download PDF of the book">
-                            Book{{ pdf_icon }}
-                        </a>
+                    <li class="nav-item {% if page.id == '/people/index' %}active{% endif %}">
+                        <a class="nav-link" href="{{ page.link('/people/index') }}.html">People</a>
                     </li>
                     <li class="nav-item {% if page.id == '/tags' %}active{% endif %}">
                         <a class="nav-link" href="{{ page.link('/tags') }}.html">Tags</a>

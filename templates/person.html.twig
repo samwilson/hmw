@@ -1,0 +1,23 @@
+{% extends '_base.html.twig' %}
+{% import '_macros.twig' as macros %}
+
+{% block main %}
+
+    <article class="container">
+        <h1>{{ page.metadata.title }}</h1>
+        {{ page.body|md2html|raw }}
+    </article>
+
+    {% set items = database.query('SELECT p.* FROM pages p, json_each(p.tags) j WHERE "/tags/"||j.value LIKE "'~page.id~'" ORDER BY p.date').fetchAll() %}
+    {% if items|length > 0 %}
+        <h2>Items</h2>
+        <div class="row">
+            {% for item in items %}
+                {{ macros.gallery_item(site, page, item) }}
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    {{ macros.utterances() }}
+
+{% endblock %}

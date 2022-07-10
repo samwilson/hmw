@@ -6,7 +6,7 @@
    height="1122.5197"
    id="svg3472"
    version="1.1"
-   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="tree.svg"
    inkscape:export-filename="/home/sam/code/hmw/assets/tree.png"
    inkscape:export-xdpi="93.889999"
@@ -467,6 +467,19 @@
          d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
     </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-5"
+       style="overflow:visible">
+      <path
+         id="path3959-4"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.426667pt"
+         inkscape:connector-curvature="0" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -475,16 +488,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.64255951"
-     inkscape:cx="793.70081"
-     inkscape:cy="561.81567"
+     inkscape:zoom="1.0643967"
+     inkscape:cx="793.40716"
+     inkscape:cy="560.88108"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      objecttolerance="10000"
-     inkscape:window-width="1868"
-     inkscape:window-height="1051"
-     inkscape:window-x="52"
+     inkscape:window-width="2502"
+     inkscape:window-height="1411"
+     inkscape:window-x="1978"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="false"
@@ -499,7 +512,8 @@
      inkscape:snap-bbox-midpoints="false"
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:bbox-paths="false"
-     inkscape:pagecheckerboard="0">
+     inkscape:pagecheckerboard="0"
+     inkscape:snap-text-baseline="true">
     <inkscape:grid
        type="xygrid"
        id="grid3480"
@@ -618,7 +632,7 @@
           </cc:Agent>
         </dc:rights>
         <dc:language>en</dc:language>
-        <dc:source>https://samwilson.github.io/hmw/</dc:source>
+        <dc:source>https://hmwilson.archives.org.au</dc:source>
         <cc:license
            rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
       </cc:Work>
@@ -657,12 +671,12 @@
          style="font-size:46.6667px">Family Tree</tspan><tspan
          sodipodi:role="line"
          x="27.521145"
-         y="73.041992"
+         y="72.43074"
          id="tspan5479"
          style="font-size:19.2px;line-height:1;font-family:serif;stroke-width:1.06667">Showing the ancestors of H. Margaret Wilson's children,</tspan><tspan
          sodipodi:role="line"
          x="27.521145"
-         y="92.241997"
+         y="91.630737"
          id="tspan5481"
          style="font-size:19.2px;line-height:1;font-family:serif;stroke-width:1.06667">and the descendents of her grandparents.</tspan></text>
     <rect
@@ -681,7 +695,7 @@
          id="tspan5487"
          x="21.864666"
          y="1104.1671"
-         style="font-size:8px">CC-BY-SA, 1 August 2021, https://hmwilson.archives.org.au/</tspan></text>
+         style="font-size:8px">CC-BY-SA, 6 June 2022, https://hmwilson.archives.org.au/</tspan></text>
     <text
        x="44.506672"
        y="107.86535"
@@ -709,21 +723,25 @@
      id="layer1"
      transform="translate(0,3.1872704e-5)"
      style="display:inline">
-    <text
-       x="1228.3464"
-       y="646.29913"
-       id="text3482"
-       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
-         sodipodi:role="line"
-         id="tspan3484"
+    <a
+       id="a1522"
+       xlink:href="https://hmwilson.archives.org.au/tags/helen-margaret-hall.html">
+      <text
          x="1228.3464"
-         y="646.29913">Helen Margaret Hall</tspan><tspan
-         sodipodi:role="line"
-         x="1228.3464"
-         y="655.89911"
-         class="description"
-         id="tspan3486"
-         style="font-size:8px">1915–2000</tspan></text>
+         y="646.29913"
+         id="text3482"
+         style="font-size:12px;line-height:0.8;font-family:serif"><tspan
+           sodipodi:role="line"
+           id="tspan3484"
+           x="1228.3464"
+           y="646.29913">Helen Margaret Hall</tspan><tspan
+           sodipodi:role="line"
+           x="1228.3464"
+           y="655.89911"
+           class="description"
+           id="tspan3486"
+           style="font-size:8px">1915–2000</tspan></text>
+    </a>
     <text
        x="1228.3464"
        y="668.97638"
@@ -816,13 +834,19 @@
          style="font-size:8px">1912–?</tspan></text>
     <path
        id="path3102-5-5"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
+       style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
        d="m 1432.441,668.97634 h -15.1181 v -15.11811 m 15.1181,-7.55906 h -15.1181 v 7.55906 H 1360.63"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <path
+       id="path3102-5-5-8"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-5)"
+       d="m 1432.441,430.86611 h -15.1182 l 10e-5,-18.89763 m 15.1181,-7.55906 h -15.1181 l -10e-5,7.55906 H 1360.63"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <path
        id="path3102-5-5-1"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
+       style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
        d="m 1432.441,623.62201 h -15.1182 l 10e-5,11.33858 H 1360.63"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -855,7 +879,7 @@
          y="627.40155">Judy</tspan></text>
     <path
        id="path4925-5"
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL);marker-end:url(#DotM-09)"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL);marker-end:url(#DotM-09)"
        d="m 1432.441,846.61411 -71.7959,0.45212"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -887,7 +911,7 @@
          style="font-size:8px">1925–1959</tspan></text>
     <path
        id="path3082"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-09-9)"
+       style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-09-9)"
        d="m 1224.5669,559.37003 h -15.118 m 15.118,-30.23622 h -15.1179 l -10e-5,37.79528 m 15.118,75.59054 h -15.118 v -75.59054 l -15.1182,10e-6 V 347.71648 c -3.7796,0 -3.7796,-7.55905 0,-7.55905 v -41.57481 c -3.7796,0 -3.7796,-7.55905 0,-7.55905 v -56.69291 h -98.2677"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccc" />
@@ -1003,7 +1027,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.06666672;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.06666667, 1.06666667;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.06667;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.06667, 1.06667;stroke-dashoffset:0;stroke-opacity:1"
        d="m 1360.63,653.85823 c 56.6929,0 37.7952,-18.89764 56.6929,-18.89764"
        id="path5447"
        inkscape:connector-curvature="0"
@@ -1094,7 +1118,7 @@
          style="font-size:8px">1856–1929</tspan></text>
     <path
        id="path5241-6"
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
        d="m 982.67716,971.33854 v 56.69296 l 15.11811,-10e-5 M 982.67716,914.64562 v 56.69292 h 15.11811 m 0,-102.04725 h -15.11811 v 45.35433 h 15.11811 m -15.11811,-105.82678 3e-5,-49.13385 h 15.11808 m 0,49.13385 h -15.11808 l -3e-5,75.59056 H 869.29134"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccc" />
@@ -1235,7 +1259,7 @@
          style="font-size:8px">1849–1911</tspan></text>
     <path
        id="path5241-6-3"
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
        d="m 982.67716,143.62199 v 79.37008 h 15.11811 m -15.11811,-49.13385 h 15.11811 m 0,-30.23623 H 982.67716 V 75.590498 h 15.11811 m -15.11811,0 V 34.015693 h 15.11811 M 982.67716,154.96058 H 869.29134"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccc" />
@@ -1396,7 +1420,7 @@
          style="font-size:8px">b.1892</tspan></text>
     <path
        id="path3170"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-09-3)"
+       style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-09-3)"
        d="m 982.67716,275.90546 v 56.69291 h 15.11811 m -15.11811,-86.92913 v 30.23622 h 15.11811 m 0,-30.23622 h -15.11811 v 45.35432 H 869.29134"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
@@ -1444,7 +1468,7 @@
          y="593.38574">Kim</tspan></text>
     <path
        id="path3219"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-mid:none;marker-end:url(#DotM-6)"
+       style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-mid:none;marker-end:url(#DotM-6)"
        d="m 1432.441,566.9291 h -15.1181 v 22.67716 m 15.1181,-49.13385 h -15.1181 v 26.45669 m 15.1181,22.67716 h -15.1181 V 570.70863 H 1360.63"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
@@ -1480,8 +1504,8 @@
          style="font-size:8px">d.aft.1920</tspan></text>
     <path
        id="path3205"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6)"
-       d="m 1224.5669,173.85819 h -15.118 v 45.35434 m 15.118,0 h -15.118 l 0,75.59056 m 15.118,-30.23622 h -15.118 m 15.118,64.25197 h -15.118 v -34.01575 l -113.3859,-10e-6"
+       style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6)"
+       d="m 1224.5669,173.85819 h -15.118 v 45.35434 m 15.118,0 h -15.118 v 75.59056 m 15.118,-30.23622 h -15.118 m 15.118,64.25197 h -15.118 v -34.01575 l -113.3859,-10e-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccc" />
     <text
@@ -1546,13 +1570,13 @@
          style="font-size:8px">b.1929</tspan></text>
     <path
        id="path3205-2"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6)"
-       d="m 1224.5669,37.79522 h -15.118 v 30.236221 m 15.118,0 h -15.118 v 30.23622 m 15.118,18.897639 h -15.118 m 15.118,26.45667 h -15.118 l 0,-45.354309 -113.3859,3e-6"
+       style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6)"
+       d="m 1224.5669,37.79522 h -15.118 v 30.236221 m 15.118,0 h -15.118 v 30.23622 m 15.118,18.897639 h -15.118 m 15.118,26.45667 h -15.118 V 98.267661 l -113.3859,3e-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccc" />
     <path
        id="path3219-6"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-mid:none;marker-end:url(#DotM-6)"
+       style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-mid:none;marker-end:url(#DotM-6)"
        d="m 1432.441,230.55111 h -15.1181 m 15.1181,-18.89763 h -15.1181 v 41.57481 m 15.1181,0 h -15.1181 m 0,0 v 3.77953 H 1360.63"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
@@ -1585,7 +1609,7 @@
          y="257.00781">Martin</tspan></text>
     <path
        id="path3317"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9)"
+       style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9)"
        d="m 1417.3229,332.59837 h 15.1181 m -15.1181,-18.89763 h 15.1181 m 0,37.79527 h -15.1181 m 15.1181,18.89763 h -15.1181 v -49.13385 m 15.1181,-26.4567 h -15.1181 v 45.35434 H 1360.63"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccc" />
@@ -1593,7 +1617,7 @@
        x="1436.2205"
        y="298.58258"
        id="text3319"
-       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0.8;font-family:Serif;-inkscape-font-specification:'Serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
          sodipodi:role="line"
          id="tspan3321"
          x="1436.2205"
@@ -1602,7 +1626,7 @@
        x="1436.2206"
        y="317.48026"
        id="text3323"
-       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0.8;font-family:Serif;-inkscape-font-specification:'Serif, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><tspan
          sodipodi:role="line"
          id="tspan3325"
          x="1436.2206"
@@ -1634,6 +1658,24 @@
          id="tspan3337"
          x="1436.2205"
          y="374.17316">Kim</tspan></text>
+    <text
+       x="1436.2205"
+       y="408.18893"
+       id="text3335-8"
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"><tspan
+         sodipodi:role="line"
+         id="tspan3337-0"
+         x="1436.2205"
+         y="408.18893">Jane</tspan></text>
+    <text
+       x="1436.2205"
+       y="434.64563"
+       id="text3335-1"
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"><tspan
+         sodipodi:role="line"
+         id="tspan3337-05"
+         x="1436.2205"
+         y="434.64563">Jenny</tspan></text>
     <text
        x="1228.3464"
        y="718.11017"
@@ -1889,7 +1931,7 @@
          x="1002.4393"
          y="575.48273">May</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6);marker-end:url(#InfiniteLineEnd)"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6);marker-end:url(#InfiniteLineEnd)"
        d="m 1096.063,563.14954 h 56.6929"
        id="path3338"
        inkscape:connector-curvature="0"
@@ -1911,20 +1953,20 @@
          style="font-size:8px">d.1959</tspan></text>
     <path
        id="path3395"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9)"
+       style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9)"
        d="m 997.79529,491.33851 h -15.11811 v 26.4567 m 15.11811,192.7559 h -15.11811 m 15.11811,-158.74016 h -15.11811 m 15.11811,41.57481 h -15.11811 m 15.11811,30.23622 h -15.11811 m 15.11811,26.45669 h -15.11811 m 15.11811,26.45669 h -15.11811 m 15.11811,-158.74015 h -15.11811 v 18.89763 m 15.11809,196.53545 H 982.67716 V 536.69285 H 869.29134"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccccccccc" />
     <path
        id="path6822"
        style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-6-9)"
-       d="m 1432.441,971.33856 h -15.1181 m 15.1181,-30.23622 h -15.1181 l 0,52.91339 H 1360.63"
+       d="m 1432.441,971.33856 h -15.1181 m 15.1181,-30.23622 h -15.1181 v 52.91339 H 1360.63"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
     <path
        inkscape:connector-curvature="0"
        id="path6822-7"
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-6-9)"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-6-9)"
        d="m 1432.441,899.52749 h -15.1181 v -15.11811 m 15.1181,-18.8976 h -15.1181 v 18.8976 h -15.1181 l -10e-5,45.35433 H 1360.63"
        sodipodi:nodetypes="ccccccccc" />
     <text
@@ -1993,7 +2035,7 @@
          x="586.38397"
          y="379.06619">Mary Anne Souter</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6)"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6)"
        d="m 699.21261,366.6141 h 56.69291 l -10e-6,-68.03148 h 17.00788"
        id="path5161"
        inkscape:connector-curvature="0"
@@ -2027,7 +2069,7 @@
          y="410.22986"
          id="tspan5641"
          class="description"
-         style="font-size:8px">1924–?</tspan></text>
+         style="font-size:8px">b.1924</tspan></text>
     <text
        x="1228.3464"
        y="423.30701"
@@ -2074,14 +2116,8 @@
          class="description"
          style="font-size:8px">1933–?</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6);marker-end:url(#InfiniteLineEnd)"
-       d="m 1360.63,408.18892 c 23.7381,0 23.9343,0 34.0157,0"
-       id="path5661"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
        id="path6818"
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9-6)"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9-6)"
        d="m 1224.5669,472.44089 h -15.118 v -26.4567 m 15.118,-49.13386 h -15.118 m 15.118,49.13386 h -15.118 v -75.59055 m 15.118,-1e-5 h -15.118 V 343.93695 H 1096.063"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccc" />
@@ -2120,7 +2156,7 @@
          id="tspan7533">Derrick Mowbay Robertson</tspan></text>
     <path
        id="path4925-5-2"
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL);marker-end:url(#DotM-09)"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL);marker-end:url(#DotM-09)"
        d="m 1432.441,275.90546 -71.7959,0.4521"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -2145,14 +2181,14 @@
          x="1228.3464"
          y="94.488136">John Bruan Luard Gilmore</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.06700003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotM-6-9-6)"
+       style="fill:none;stroke:#000000;stroke-width:1.067;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotM-6-9-6)"
        d="m 1360.63,79.370023 71.811,-1.9e-5"
        id="path5661-5"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        id="path3358"
-       style="fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 771.02363,873.07081 H 740.7874 l 10e-6,-268.34647 c -3.77953,0 -3.77953,-7.55905 0,-7.55905 V 491.47653 c -3.77953,-0.13802 -3.77953,-7.69707 0,-7.75873 v -56.2892 c -3.77953,-0.34206 -3.77953,-7.90111 0,-7.90111 v -49.13386 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -86.92913 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -86.92913 m 30.23622,-15.11809 h -15.11812 l -15.1181,-2e-5 v 15.11811"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccc" />
@@ -2173,7 +2209,7 @@
          style="font-size:8px">?–?</tspan></text>
     <path
        id="path4925-5-8"
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL-9);marker-end:url(#DotM-09-0)"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL-9);marker-end:url(#DotM-09-0)"
        d="M 1432.441,517.79522 H 1360.63"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -2204,7 +2240,7 @@
          class="description"
          style="font-size:8px">1807–1895</tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
        d="m 771.02363,143.62199 h -15.11812 v -2e-5 h -56.6929"
        id="path4753"
        inkscape:connector-curvature="0"
@@ -2227,7 +2263,7 @@
          x="584.9126"
          y="154.40662">Mary Ann Wells</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1)"
+       style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1)"
        d="m 699.2126,600.94481 h 56.6929 l 1e-5,-79.37008 h 15.11812"
        id="path5161-3"
        inkscape:connector-curvature="0"
@@ -2258,7 +2294,7 @@
          y="731.0069"
          id="tspan3366">Thomas Strong Hall</tspan></text>
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3)"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3)"
        d="M 582.04725,763.4645 H 566.92914 V 737.00781 H 510.23623"
        id="path3370"
        inkscape:connector-curvature="0"
@@ -2282,7 +2318,7 @@
          x="396.73322"
          y="824.63104">Thomas Branson</tspan></text>
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3)"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3)"
        d="M 582.04725,786.14167 H 566.92914 V 816.3779 H 510.23623"
        id="path3370-3"
        inkscape:connector-curvature="0"
@@ -2325,13 +2361,13 @@
          y="643.80304"
          id="tspan2123">(or Garique)</tspan></text>
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-4)"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-4)"
        d="m 582.04725,616.06292 h -15.11811 l -10e-6,22.67717 h -56.69291"
        id="path3370-3-9"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-36)"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-36)"
        d="m 699.21261,272.12591 h 56.6929 v 3.77953 h 15.11812"
        id="path5161-5"
        inkscape:connector-curvature="0"
@@ -2391,7 +2427,7 @@
          id="tspan2972"
          style="font-size:8px">1887–1977</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.00157475;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6723)"
+       style="fill:none;stroke:#000000;stroke-width:1.00157;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6723)"
        d="m 1096.063,434.6456 h 83.1496 v 185.19685 h 26.4567 c 0,-3.77953 7.5591,-3.77953 7.5591,0 h 11.3385"
        id="path6270"
        inkscape:connector-curvature="0"
@@ -2415,7 +2451,7 @@
          x="775.49323"
          y="475.01202">James Malcolm E. Innes</tspan></text>
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1-0)"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1-0)"
        d="m 869.29134,461.10229 h 113.38583 l 10e-6,-15.11811 h 15.11811"
        id="path5161-3-7"
        inkscape:connector-curvature="0"
@@ -2463,7 +2499,7 @@
          style="font-size:8px">1864–1931</tspan></text>
     <path
        id="path4925-5-2-8"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL-1);marker-end:url(#DotM-09-7)"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL-1);marker-end:url(#DotM-09-7)"
        d="M 937.32284,903.30702 H 869.29135"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -2488,25 +2524,25 @@
        width="100%"
        height="100%" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-5)"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-5)"
        d="M 582.04725,283.46449 H 510.23623"
        id="path3370-3-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-5-9)"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-5-9)"
        d="M 393.07087,268.34638 H 321.25985"
        id="path3370-3-2-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-4-8)"
-       d="m 582.04725,600.94481 h -15.11812 l 0,-37.79527 h -56.69291"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-4-8)"
+       d="M 582.04725,600.94481 H 566.92913 V 563.14954 H 510.23622"
        id="path3370-3-9-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06582677;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-46)"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-46)"
        d="m 740.78741,778.58261 h -41.5748"
        id="path3370-6"
        inkscape:connector-curvature="0"
@@ -2599,7 +2635,7 @@
          x="394.90854"
          y="566.0072">Robert Wilson</tspan></text>
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-2);marker-end:url(#InfiniteLineEnd-7)"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-2);marker-end:url(#InfiniteLineEnd-7)"
        d="m 1360.63,211.65347 h 34.0157"
        id="path5661-5-1"
        inkscape:connector-curvature="0"
@@ -2645,8 +2681,8 @@
          y="431.94006"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif">Susan Betts</tspan></text>
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1-6)"
-       d="m 699.2126,423.30702 h 56.69291 v 30.23622 l 15.11812,0"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1-6)"
+       d="m 699.2126,423.30702 h 56.69291 v 30.23622 h 15.11812"
        id="path5161-3-0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -2673,8 +2709,8 @@
          y="496.3092"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:serif;-inkscape-font-specification:serif">Alison Hume</tspan></text>
     <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06666672px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1-6-4)"
-       d="m 699.2126,487.55898 56.69291,0 v -15.11811 l 15.11812,0"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6-1-6-4)"
+       d="m 699.2126,487.55898 h 56.69291 v -15.11811 h 15.11812"
        id="path5161-3-0-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />

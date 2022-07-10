@@ -15,16 +15,10 @@
             and indexes to archival material (such as photographs and letters) relating to these people and their wider families.
         </p>
         <p>
-            <a href="{{ page.link('assets/book.pdf') }}" class="float-right">
-                <img src="{{ page.link('assets/book_titlepage.png') }}" class="img-thumbnail" title="Download the book" alt="Thumbnail of the cover page of the book." />
-            </a>
-            All the people featured in the tree have biographies in an A4 downloadable book.
-        </p>
-        <p>
-            <a href="{{ page.link('assets/book.pdf') }}" class="btn btn-info">Download <code>book.pdf</code></a>
-        </p>
-        <p>
             Currently, the archive holds
+            <a href="{{ page.link('/people/index') }}.html">
+                {{ database.query('select count(*) from pages where template = "person"').fetchColumn }}
+                people</a>, and
             <a href="{{ page.link('/items') }}.html">
                 {{ database.query('select count(*) from pages where template = "item"').fetchColumn }}
                 items</a>,
