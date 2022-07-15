@@ -1,12 +1,13 @@
 ---
 template: person
 title: James Herbert Wilson
+wikidata: Q108117390
 ---
 
 At the Perth Barracks, c.1900.
 
 James Herbert Wilson (known as `Jim' to everyone save his mother; she called him Herbert)
-was born on 6 February 1872 in Collingwood, Melbourne[^VicPioneers] to \bioref{Mary_McHarg} and \bioref{William_Wilson}.
+was born on 6 February 1872 in Collingwood, Melbourne[^VicPioneers] to \bioref{Mary_McHarg} and [William Wilson](./william-wilson.html).
 
 The family had land in Kinglake in Murrindindi Shire,[^VicNames]
 and in his early 20s Jim went there to grow potatoes so that he could earn some money to support the family[^rae1] back in Melbourne.

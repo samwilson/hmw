@@ -480,6 +480,19 @@
          style="fill-rule:evenodd;stroke:#000000;stroke-width:0.426667pt"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-6-9-6-3-4-8-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-86-3-8-2-2-3-8"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.426667pt" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -488,19 +501,19 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0643967"
-     inkscape:cx="793.40716"
-     inkscape:cy="560.88108"
+     inkscape:zoom="0.65575012"
+     inkscape:cx="793.74747"
+     inkscape:cy="561.18937"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
+     inkscape:current-layer="svg3472"
+     showgrid="true"
      objecttolerance="10000"
-     inkscape:window-width="2502"
-     inkscape:window-height="1411"
-     inkscape:window-x="1978"
+     inkscape:window-width="1862"
+     inkscape:window-height="1051"
+     inkscape:window-x="58"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     showguides="false"
+     showguides="true"
      inkscape:guide-bbox="true"
      units="mm"
      inkscape:snap-bbox="true"
@@ -695,7 +708,7 @@
          id="tspan5487"
          x="21.864666"
          y="1104.1671"
-         style="font-size:8px">CC-BY-SA, 6 June 2022, https://hmwilson.archives.org.au/</tspan></text>
+         style="font-size:8px">CC-BY-SA, 15July 2022, https://hmwilson.archives.org.au/</tspan></text>
     <text
        x="44.506672"
        y="107.86535"
@@ -722,7 +735,8 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,3.1872704e-5)"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <a
        id="a1522"
        xlink:href="https://hmwilson.archives.org.au/tags/helen-margaret-hall.html">
@@ -742,36 +756,44 @@
            id="tspan3486"
            style="font-size:8px">1915–2000</tspan></text>
     </a>
-    <text
-       x="1228.3464"
-       y="668.97638"
-       id="text3482-3"
-       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
-         sodipodi:role="line"
+    <a
+       id="a3176"
+       xlink:href="http://localhost/hmw/output/people/william-murray-wilson.html">
+      <text
          x="1228.3464"
          y="668.97638"
-         id="tspan3486-3">William Murray Wilson</tspan><tspan
-         sodipodi:role="line"
+         id="text3482-3"
+         style="font-size:12px;line-height:0.8;font-family:serif"><tspan
+           sodipodi:role="line"
+           x="1228.3464"
+           y="668.97638"
+           id="tspan3486-3">William Murray Wilson</tspan><tspan
+           sodipodi:role="line"
+           x="1228.3464"
+           y="678.57635"
+           class="description"
+           id="tspan3012"
+           style="font-size:8px">1914–1953</tspan></text>
+    </a>
+    <a
+       id="a3203"
+       xlink:href="http://localhost/hmw/output/people/peter-innes-donegan.html">
+      <text
          x="1228.3464"
-         y="678.57635"
-         class="description"
-         id="tspan3012"
-         style="font-size:8px">1914–1953</tspan></text>
-    <text
-       x="1228.3464"
-       y="623.62201"
-       id="text3014"
-       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
-         sodipodi:role="line"
-         id="tspan3016"
-         x="1228.3464"
-         y="623.62201">Peter Innes Donegan</tspan><tspan
-         sodipodi:role="line"
-         x="1228.3464"
-         y="633.22198"
-         class="description"
-         id="tspan3020"
-         style="font-size:8px">1913–1939</tspan></text>
+         y="623.62201"
+         id="text3014"
+         style="font-size:12px;line-height:0.8;font-family:serif"><tspan
+           sodipodi:role="line"
+           id="tspan3016"
+           x="1228.3464"
+           y="623.62201">Peter Innes Donegan</tspan><tspan
+           sodipodi:role="line"
+           x="1228.3464"
+           y="633.22198"
+           class="description"
+           id="tspan3020"
+           style="font-size:8px">1913–1939</tspan></text>
+    </a>
     <text
        x="1001.5748"
        y="226.77162"
@@ -817,21 +839,25 @@
          class="description"
          id="tspan5397"
          style="font-size:8px">1919–?</tspan></text>
-    <text
-       x="1228.3464"
-       y="563.14954"
-       id="text4339"
-       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
-         sodipodi:role="line"
-         id="tspan4341"
+    <a
+       id="a5333"
+       xlink:href="http://localhost/hmw/output/people/constance-boyd-hall.html">
+      <text
          x="1228.3464"
-         y="563.14954">Constance Boyd Hall</tspan><tspan
-         sodipodi:role="line"
-         x="1228.3464"
-         y="572.74951"
-         class="description"
-         id="tspan3164"
-         style="font-size:8px">1912–?</tspan></text>
+         y="563.14954"
+         id="text4339"
+         style="font-size:12px;line-height:0.8;font-family:serif"><tspan
+           sodipodi:role="line"
+           id="tspan4341"
+           x="1228.3464"
+           y="563.14954">Constance Boyd Hall</tspan><tspan
+           sodipodi:role="line"
+           x="1228.3464"
+           y="572.74951"
+           class="description"
+           id="tspan3164"
+           style="font-size:8px">1912–?</tspan></text>
+    </a>
     <path
        id="path3102-5-5"
        style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM)"
@@ -915,21 +941,25 @@
        d="m 1224.5669,559.37003 h -15.118 m 15.118,-30.23622 h -15.1179 l -10e-5,37.79528 m 15.118,75.59054 h -15.118 v -75.59054 l -15.1182,10e-6 V 347.71648 c -3.7796,0 -3.7796,-7.55905 0,-7.55905 v -41.57481 c -3.7796,0 -3.7796,-7.55905 0,-7.55905 v -56.69291 h -98.2677"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccc" />
-    <text
-       x="1001.5748"
-       y="737.00781"
-       id="text3085"
-       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
-         sodipodi:role="line"
-         id="tspan3087"
+    <a
+       id="a2155"
+       xlink:href="https://hmwilson.archives.org.au/people/james-herbert-wilson.html">
+      <text
          x="1001.5748"
-         y="737.00781">James Herbert Wilson</tspan><tspan
-         sodipodi:role="line"
-         x="1001.5748"
-         y="746.60779"
-         id="tspan3089"
-         class="description"
-         style="font-size:8px">1872–1942</tspan></text>
+         y="737.00781"
+         id="text3085"
+         style="font-size:12px;line-height:0.8;font-family:serif"><tspan
+           sodipodi:role="line"
+           id="tspan3087"
+           x="1001.5748"
+           y="737.00781">James Herbert Wilson</tspan><tspan
+           sodipodi:role="line"
+           x="1001.5748"
+           y="746.60779"
+           id="tspan3089"
+           class="description"
+           style="font-size:8px">1872–1942</tspan></text>
+    </a>
     <text
        x="1001.5748"
        y="759.68494"
@@ -2017,14 +2047,21 @@
          id="tspan5399"
          style="font-size:8px">1893–1949</tspan></text>
     <text
-       x="585.27655"
-       y="360.61319"
+       x="585.37079"
+       y="351.19003"
        id="text5149"
        style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
-         x="585.27655"
-         y="360.61319"
-         id="tspan5153">Robert John Lodge</tspan></text>
+         x="585.37079"
+         y="351.19003"
+         id="tspan5153">Robert John Lodge <tspan
+   class="name-suffix"
+   id="tspan3355">Snr.</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="585.37079"
+         y="360.79004"
+         id="tspan8314"
+         class="description">c.1812–1893</tspan></text>
     <text
        x="586.38397"
        y="379.06619"
@@ -2036,7 +2073,7 @@
          y="379.06619">Mary Anne Souter</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#DotM-6-9-6)"
-       d="m 699.21261,366.6141 h 56.69291 l -10e-6,-68.03148 h 17.00788"
+       d="m 699.2126,359.05509 h 56.69291 v -60.47247 h 17.00788"
        id="path5161"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -2189,7 +2226,7 @@
     <path
        id="path3358"
        style="fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 771.02363,873.07081 H 740.7874 l 10e-6,-268.34647 c -3.77953,0 -3.77953,-7.55905 0,-7.55905 V 491.47653 c -3.77953,-0.13802 -3.77953,-7.69707 0,-7.75873 v -56.2892 c -3.77953,-0.34206 -3.77953,-7.90111 0,-7.90111 v -49.13386 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -86.92913 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -86.92913 m 30.23622,-15.11809 h -15.11812 l -15.1181,-2e-5 v 15.11811"
+       d="M 771.02363,873.07081 H 740.7874 l 10e-6,-268.34647 c -3.77953,0 -3.77953,-7.55905 0,-7.55905 V 491.47653 c -3.77953,-0.13802 -3.77953,-7.69707 0,-7.75873 v -56.2892 c -3.77953,-0.34206 -3.77953,-7.90111 0,-7.90111 v -56.69287 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -79.37012 c -3.77953,0 -3.77953,-7.55906 0,-7.55906 v -86.92913 m 30.23622,-15.11809 h -15.11812 l -15.1181,-2e-5 v 15.11811"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccc" />
     <text
@@ -2268,22 +2305,26 @@
        id="path5161-3"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
-    <text
-       x="1228.3464"
-       y="585.82678"
-       id="text3173"
-       transform="translate(0,-3.1872704e-5)"
-       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
-         sodipodi:role="line"
+    <a
+       id="a5328"
+       xlink:href="http://localhost/hmw/output/people/alan-louis-mathew-berryman.html">
+      <text
          x="1228.3464"
          y="585.82678"
-         id="tspan3177">Alan Louis Mathew Berryman</tspan><tspan
-         sodipodi:role="line"
-         x="1228.3464"
-         y="595.42676"
-         id="tspan5395"
-         class="description"
-         style="font-size:8px">1909–1976</tspan></text>
+         id="text3173"
+         transform="translate(0,-3.1872704e-5)"
+         style="font-size:12px;line-height:0.8;font-family:serif"><tspan
+           sodipodi:role="line"
+           x="1228.3464"
+           y="585.82678"
+           id="tspan3177">Alan Louis Mathew Berryman</tspan><tspan
+           sodipodi:role="line"
+           x="1228.3464"
+           y="595.42676"
+           id="tspan5395"
+           class="description"
+           style="font-size:8px">1909–1976</tspan></text>
+    </a>
     <text
        x="396.41464"
        y="731.0069"
@@ -2714,5 +2755,48 @@
        id="path5161-3-0-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-4-8-3)"
+       d="m 582.04725,351.49603 h -15.11811 l -10e-6,7.55906 h -56.69291"
+       id="path3370-3-9-8-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       x="398.36325"
+       y="353.05698"
+       id="text4099-5"><tspan
+         sodipodi:role="line"
+         id="tspan4097-6"
+         x="398.36325"
+         y="353.05698">Samuel Lodge</tspan><tspan
+         sodipodi:role="line"
+         x="398.36325"
+         y="362.65698"
+         id="tspan7067"
+         class="description">1829–1897</tspan></text>
+    <text
+       xml:space="preserve"
+       x="396.86188"
+       y="375.73413"
+       id="text11713"><tspan
+         sodipodi:role="line"
+         id="tspan11711"
+         x="396.86188"
+         y="375.73413">Mary Brettingham</tspan><tspan
+         sodipodi:role="line"
+         x="396.86188"
+         y="385.33414"
+         id="tspan12849"
+         class="description">1824–1916</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#wikipedia-logo"
+       id="use15513"
+       transform="translate(457.3819,243.27982)"
+       width="100%"
+       height="100%"
+       style="display:inline" />
   </g>
 </svg>

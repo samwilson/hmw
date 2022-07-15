@@ -5,16 +5,30 @@
 
     <article class="container">
         <h1>{{ page.metadata.title }}</h1>
+
+        {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
+            {% set wikidata_item = wikidata(page.metadata.wikidata) %}
+            {% if wikidata_item and wikidata_item.sitelinks.enwiki.title is defined %}
+                <h2>On Wikipedia</h2>
+                {{ wikipedia('en', wikidata_item.sitelinks.enwiki.title)|raw }}
+                <p><a href="https://en.wikipedia.org/wiki/{{wikidata_item.sitelinks.enwiki.title|replace({' ': '_'})}}">Read more on Wikipedia…</a></p>
+                {% if page.body %}
+                    <h2>Other notes</h2>
+                {% endif %}
+            {% endif %}
+        {% endif %}
         {{ page.body|md2html|raw }}
     </article>
 
-    {% set items = database.query('SELECT p.* FROM pages p, json_each(p.tags) j WHERE "/tags/"||j.value LIKE "'~page.id~'" ORDER BY p.date').fetchAll() %}
+    {% set items = database.query('SELECT p.* FROM pages p, json_each(p.people) j WHERE "/people/"||j.value LIKE "'~page.id~'" ORDER BY p.date').fetchAll() %}
     {% if items|length > 0 %}
-        <h2>Items</h2>
-        <div class="row">
-            {% for item in items %}
-                {{ macros.gallery_item(site, page, item) }}
-            {% endfor %}
+        <div class="container"><h2>Related iems</h2></div>
+        <div class="container-fluid">
+            <div class="row">
+                {% for item in items %}
+                    {{ macros.gallery_item(site, page, item) }}
+                {% endfor %}
+            </div>
         </div>
     {% endif %}
 

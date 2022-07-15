@@ -3,8 +3,8 @@ template: person
 title: Robert John Lodge
 ---
 
-Robert John ``Jack'' Lodge was born in \idx{Beverley}, Western Australia in 1894
-to Sarah (\p{Sarah_Constance_Leake}) and Thomas Lodge (\p{Thomas_Soutter_Lodge}),[^JackLodgeBirthCert]
+Robert John "Jack" Lodge was born in Beverley, Western Australia in 1894
+to [Sarah](./sarah-constance-leake.html) and [Thomas](./thomas-soutter-lodge.html) Lodge,[^JackLodgeBirthCert]
 the youngest of their three children and their only son.
 
 In 1939 (when his mother died) he was living in \idx{Capel}.[^SCLdeathNotice]

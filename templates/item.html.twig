@@ -74,6 +74,22 @@
                     {% endif %}
                 </p>
 
+                {% if page.metadata.people is defined %}
+                    <p>
+                        <strong>People:</strong><br />
+                        &middot;
+                        {% for p in page.metadata.people %}
+                            {% set person = database.query('SELECT * FROM pages WHERE id = "/people/'~p~'"').fetch() %}
+                            {% if person %}
+                                <a href="{{ page.link(person.id) }}.html">{{ person.title }}</a>
+                            {% else %}
+                                {{ p }}
+                            {% endif %}
+                            &middot;
+                        {% endfor %}
+                    </p>
+                {% endif %}
+
                 {% if page.metadata.tags is defined %}
                     <p>
                         <strong>Tags:</strong><br />
