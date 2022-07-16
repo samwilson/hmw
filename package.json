@@ -1,8 +1,8 @@
 {
     "private": true,
     "devDependencies": {
+        "netlify-cli": "^3.39.4",
         "select2": "^4.0.13",
-        "select2-bootstrap-theme": "0.1.0-beta.10",
-        "netlify-cli": "^3.30.7"
+        "select2-bootstrap-theme": "0.1.0-beta.10"
     }
 }

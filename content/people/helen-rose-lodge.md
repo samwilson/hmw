@@ -1,19 +1,17 @@
 ---
 template: person
-title: Helen Rose Lodge
+title: Helen Rose Hall (née Lodge)
 wikidata: Q96755346
 ---
 
-Photo from \emph{Judy's recipe book}.}
+Helen Rose Lodge was born on 3 April 1888 in Grass Valley (near Northam), Western Australia[^FamilyNotices] 
+to [Thomas Soutter Lodge](./thomas-soutter-lodge.html)
+and [Sarah Constance Lodge (née Leake)](./sarah-constance-leake.html).[^BMD]
 
-Helen Rose Lodge was born on April 3 1888 in Grass Valley (near \idx{Northam})[^FamilyNotices] 
-to \bioref{Thomas_Soutter_Lodge}
-and Sarah Constance Lodge (n\'{e}e Leake).[^BMD]
-
-She married[^HAHmarriage] \bioref{Harold_Aubrey_Hall} on 24 November 1910[^HallLodgeWedding] and they had three daughters:
-\bioref{Constance_Boyd_Hall} (1912),
-\bioref{Helen_Margaret_Hall} (1915), and
-\bioref{Joan_Leake_Hall} (1919).
+She married[^HAHmarriage] [Harold Aubrey Hall](./harold-aubrey-hall.html) on 24 November 1910[^HallLodgeWedding] and they had three daughters:
+[Constance](./constance-boyd-hall.html) (1912),
+[Margaret](./helen-margaret-hall.html) (1915), and
+[Joan](./joan-leake-hall.html) (1919).
 
 [^HAHmarriage]:
 	Index to Western Australian births, deaths and marriages.

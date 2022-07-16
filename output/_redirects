@@ -1,2 +1,10 @@
+# Redirects file: https://docs.netlify.com/routing/redirects/redirect-options/
+
+
 /main_page /
 /Rae's_documents/JAMES_HERBERT_WILSON.doc /items/32.html
+
+/tags/cmw.html           /people/charles-william-mcharg-wilson.html
+/tags/cmw                /people/charles-william-mcharg-wilson.html
+/tags/helen-hall.html    /people/helen-rose-lodge.html
+/tags/helen-hall         /people/helen-rose-lodge.html
