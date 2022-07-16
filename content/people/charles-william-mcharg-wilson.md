@@ -3,10 +3,11 @@ template: person
 title: Charles William McHarg Wilson
 ---
 
-Charlie Wilson was born in Fizroy on 26 September 1873 to William Wilson and Mary Wilson (née McHarg).[^birth]
+Charlie Wilson was born in Fitzroy on 26 September 1873
+to [William Wilson](./william-wilson.html) and [Mary Wilson (née McHarg)](./mary-mcharg.html).[^birth]
 The order of his middle names varies in some sources.
 
-When he was twelve years old, his brother Andrew (who was teaching in a school in Warrnambool)
+When he was twelve years old, his brother [Andrew](./andrew-oswald-wilson.html) (who was teaching in a school in Warrnambool)
 asked him to buy some items in Melbourne and post them to him.
 A money order was included, and Charlie made the purchases
 — but made sure to keep 10% of the funds back, as a commission to himself!
@@ -17,7 +18,7 @@ Charlie later became apprenticed to his uncle Robert, who had a high-class groce
 After about only a year Robert broke the apprenticeship,
 causing Charlie to sue his uncle and to be awarded £1,000 in compensation.
 
-With this sum, Charlie moved to Perth and started his timber merchant business *CM Wilson Pty Ltd*.
+With this sum, Charlie moved to Perth and started the timber merchant business *C.M. Wilson & Co. Pty Ltd*.
 
 By about 1920 he was back in Melbourne, and built his house *Linlathen* at 133 Mont Albert Road in Canterbury, Victoria.
 
@@ -38,8 +39,46 @@ He was tickisted businessmanistedised off in no uncertain terms, this was a time
 
 (That is how that file ends.)
 
+1947, August 21:[^TaxOffence1947]
+
+> TAX OFFENCE
+>
+> Alleged to have understated income derived during the year ended June, 1942,
+> C.M. Wilson and Co., Ltd., was sued in the Supreme Court today by the Commissioner of Taxation.
+>
+> Seeking a penalty under the Income Tax Assessment Act, the Commissioner alleged that
+> the company had understated its income by £1743, thus avoiding £1369/18/ tax.
+>
+> (PROCEEDING.)
+>
+> [Before Chief Justice Sir John Dwyer. Mr. N. Good for the Commonwealth. Messrs. H. P. Downing K.C. and E. Nicholson for the defendant company.]
+
+1947, October 16:[^MustPay1947]
+
+> Must Pay £1369 Tax
+>
+> Chief Justice Sir John Dwyer in the Supreme Court ordered timber merchants C. M. Wilson and Co. Ltd. to pay £1369/18/ tax.
+>
+> This was the amount of tax the company had evaded.
+>
+> Sued by the Taxation Commissioner, the company was alleged to have understated income
+> derived during the year ended June, 1942, by £1743, thus avoiding £1369/18/ tax.
+>
+> The Commissioner sought the maximum penalty — a £500 fine plus payment of double the tax avoided — a total penalty of £3239/16/.
+>
+> C. M. Wilson and Co. admitted understatement of sales and overstatement of
+> expenses, but denied this had been done knowingly and wilfully, or that its books had been falsified.
+>
+> [Before Chief Justice Sir John Dwyer. Mr. N. Good for the Commonwealth. Messrs H. P. Downing K.C. and E. Nicholson for the company.]
+
 [^birth]:
     1937 October 12.
     *Extract of C.M. Wilson's birth certificate.*
     H.M. Wilson Archives item 206.
     https://hmwilson.archives.org.au/items/206.html
+
+[^TaxOffence1947]: TAX OFFENCE ALLEGED (1947, August 21). The Daily News (Perth, WA : 1882 - 1955), p. 9 (CITY FINAL).
+    Retrieved July 16, 2022, from http://nla.gov.au/nla.news-article79614716
+
+[^MustPay1947]: Must Pay £1369 Tax (1947, October 16). The Daily News (Perth, WA : 1882 - 1955), p. 9 (HOME EDITION).
+    Retrieved July 16, 2022, from http://nla.gov.au/nla.news-article84017130 
