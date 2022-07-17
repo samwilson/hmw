@@ -52,7 +52,7 @@
             color: #007A70;
         }
         p:last-of-type {
-            margin: 0;
+            margin-bottom: 0;
         }
     </style>
 
@@ -81,6 +81,13 @@
                 <a id="back-link" href="{{page.link('/index')}}.html">
                     Go to the homepage
                 </a>
+                <br>
+                <span>— or —</span>
+                <br>
+                <a title="Report an issue with this website" id="button404"
+                    href="https://github.com/samwilson/hmw/issues/new?title=Page%20not%20found">
+                    Tell us what you were looking for
+                </a>
             </p>
             <p>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Coat_of_arms_of_the_Hall_family.jpg/200px-Coat_of_arms_of_the_Hall_family.jpg"
@@ -92,6 +99,8 @@
         </div>
     </main>
 <script>
+    {# URL for the report button. #}
+    document.getElementById('button404').href += '&body='+encodeURIComponent('(Issue reported via: '+document.location + ')');
 </script>
 </body>
 </html>

@@ -4,7 +4,7 @@ title: Robert John Lodge, Snr.
 wikidata: Q98156438
 ---
 
-Son of [Samuel Lodge](./samuel-lodge.md).
+Son of [Samuel Lodge](./samuel-lodge.html).
 
 Hampstead and Highgate Express - Saturday 29 December 1888, p7:[^express1888]
 

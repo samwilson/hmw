@@ -120,16 +120,16 @@
         },
         {
             "name": "carlos-mg89/oauth",
-            "version": "0.8.14",
+            "version": "0.8.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/carlos-mg89/PHPoAuthLib.git",
-                "reference": "c18cfd5c4fe0bf56e02bfa4250d402a10b9f8b9b"
+                "reference": "c14c44e4f8993009a10d56a41e61c19291824a29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/carlos-mg89/PHPoAuthLib/zipball/c18cfd5c4fe0bf56e02bfa4250d402a10b9f8b9b",
-                "reference": "c18cfd5c4fe0bf56e02bfa4250d402a10b9f8b9b",
+                "url": "https://api.github.com/repos/carlos-mg89/PHPoAuthLib/zipball/c14c44e4f8993009a10d56a41e61c19291824a29",
+                "reference": "c14c44e4f8993009a10d56a41e61c19291824a29",
                 "shasum": ""
             },
             "require": {
@@ -181,9 +181,10 @@
                 "security"
             ],
             "support": {
-                "source": "https://github.com/carlos-mg89/PHPoAuthLib/tree/0.8.14"
+                "issues": "https://github.com/carlos-mg89/PHPoAuthLib/issues",
+                "source": "https://github.com/carlos-mg89/PHPoAuthLib/tree/0.8.15"
             },
-            "time": "2022-03-30T08:29:00+00:00"
+            "time": "2022-07-15T08:38:14+00:00"
         },
         {
             "name": "cebe/markdown",
