@@ -1,5 +1,5 @@
 ---
-template: tag
+template: person
 title: Garrick Agnew
 wikidata: Q5523974
 wikitree: Agnew-1967

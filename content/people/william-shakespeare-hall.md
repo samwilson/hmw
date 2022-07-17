@@ -1,9 +1,10 @@
 ---
 template: person
 title: William Shakespeare Hall
+wikidata: Q8018316
 ---
 
-Paremts: \bioref{Sarah_Theodosia_Branson} and \bioref{Henry_Edward_Hall}.
+Parents: \bioref{Sarah_Theodosia_Branson} and \bioref{Henry_Edward_Hall}.
 
 Wife: \bioref{Hannah_Boyd_Lazenby}.
 

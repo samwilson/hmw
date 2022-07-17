@@ -9,7 +9,7 @@
         {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
             {% set wikidata_item = wikidata(page.metadata.wikidata) %}
             {% if wikidata_item and wikidata_item.sitelinks.enwiki.title is defined %}
-                <h2>On Wikipedia</h2>
+                <h2>Wikipedia</h2>
                 {{ wikipedia('en', wikidata_item.sitelinks.enwiki.title)|raw }}
                 <p><a href="https://en.wikipedia.org/wiki/{{wikidata_item.sitelinks.enwiki.title|replace({' ': '_'})}}">Read more on Wikipedia…</a></p>
                 {% if page.body %}

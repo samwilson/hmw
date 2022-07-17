@@ -10,6 +10,7 @@
             <th>Person</th>
             <th>Date of Birth</th>
             <th>Date of Death</th>
+            <th>Wikipedia</th>
             <th>Wikidata</th>
             <th>WikiTree</th>
             <th>FamilySearch</th>
@@ -41,6 +42,13 @@
                             {{ wditem.claims.P570.0.mainsnak.datavalue.value.time|date('j F Y') }}</td>
                         {% endif %}
                     </td>
+                    <td>
+                        {% if wditem.sitelinks.enwiki.title is defined %}
+                            <a href="https://en.wikipedia.org/wiki/{{ wditem.sitelinks.enwiki.title|replace({' ':'_'}) }}">
+                                {{ wditem.sitelinks.enwiki.title }}
+                            </a>
+                        {% endif %}
+                    </td>
                     <td class="small">
                         {% if wditem %}
                             <a href="https://www.wikidata.org/wiki/{{ wditem.id }}" title="{{ wditem.labels.en.value }}">
@@ -51,16 +59,16 @@
                         {% endif %}
                     </td>
                     <td class="small">
-                        {% if wditem and wditem.claims.P2889 is defined %}
-                            <a href="https://www.familysearch.org/tree/person/details/{{ wditem.claims.P2889.0.mainsnak.datavalue.value }}">
-                                {{ wditem.claims.P2889.0.mainsnak.datavalue.value }}</a>.
-                        {% endif %}
-                    </td>
-                    <td class="small">
                         {% if wditem and wditem.claims.P2949 is defined %}
                             <a href="https://www.wikitree.com/wiki/{{ wditem.claims.P2949.0.mainsnak.datavalue.value }}"
                                 title="View on WikiTree">
-                                {{ wditem.claims.P2949.0.mainsnak.datavalue.value }}</a>.
+                                {{ wditem.claims.P2949.0.mainsnak.datavalue.value }}</a>
+                        {% endif %}
+                    </td>
+                    <td class="small">
+                        {% if wditem and wditem.claims.P2889 is defined %}
+                            <a href="https://www.familysearch.org/tree/person/details/{{ wditem.claims.P2889.0.mainsnak.datavalue.value }}">
+                                {{ wditem.claims.P2889.0.mainsnak.datavalue.value }}</a>
                         {% endif %}
                     </td>
                 </tr>

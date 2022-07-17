@@ -1,6 +1,7 @@
 ---
 template: person
-title: Lilian Rae Wilson
+title: Lilian Rae Hussey (née Wilson)
+wikidata: Q108122058
 ---
 
 \photo{Rae_Hussey_in_New_Guinea_1943.png}{Rae in New Guinea, 1943.[^rae1943]}
