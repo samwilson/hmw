@@ -13,9 +13,6 @@ Dr Hussey died some time before 1936,[^MilitaryWedding] and May died in 1950.[^T
 He attended Guildford Grammar School 1920–1923[^FBHguildford]
 and then Duntroon (when it was in Melbourne).[^RaeWestAus]
 
-In the lead-up to the Second World War he was seconded from the Army to oversee the construction of the railway on Rottnest
-(from Kingston Barracks to Oliver Hill).[^RaeWestAus]
-
 On Tuesday 3 March 1936 he married Hilda McCue (of Rockdale NSW[^WestAus1936p4])
 in the hotel on Rottnest.[^WestAus1936p19]
 They were married in the Music Room.[^MilitaryWedding]
