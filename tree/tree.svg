@@ -501,16 +501,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.65575012"
-     inkscape:cx="793.74747"
-     inkscape:cy="561.18937"
+     inkscape:zoom="0.96223509"
+     inkscape:cx="793.46514"
+     inkscape:cy="561.19342"
      inkscape:document-units="mm"
-     inkscape:current-layer="svg3472"
+     inkscape:current-layer="layer2"
      showgrid="true"
      objecttolerance="10000"
-     inkscape:window-width="1862"
-     inkscape:window-height="1051"
-     inkscape:window-x="58"
+     inkscape:window-width="2502"
+     inkscape:window-height="1411"
+     inkscape:window-x="1978"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
@@ -670,8 +670,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Page"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <text
        x="27.521145"
        y="51.98864"
@@ -729,14 +728,21 @@
        x="26.456692"
        y="96.995712"
        style="display:inline;image-rendering:optimizeQuality" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#wikipedia-logo"
+       id="use16794"
+       transform="translate(1322.8937,368.00426)"
+       width="100%"
+       height="100%" />
   </g>
   <g
      inkscape:label="Tree"
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,3.1872704e-5)"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <a
        id="a1522"
        xlink:href="https://hmwilson.archives.org.au/tags/helen-margaret-hall.html">
@@ -2137,21 +2143,25 @@
          id="tspan5653"
          class="description"
          style="font-size:8px">1926–?</tspan></text>
-    <text
-       x="1228.3464"
-       y="476.2204"
-       id="text5655"
-       style="font-size:12px;line-height:0.8;font-family:serif"><tspan
-         sodipodi:role="line"
-         id="tspan5657"
+    <a
+       id="a16272"
+       xlink:href="https://hmwilson.archives.org.au/people/mathew-oliver-lodge.html">
+      <text
          x="1228.3464"
-         y="476.2204">Mathew Oliver Lodge</tspan><tspan
-         sodipodi:role="line"
-         x="1228.3464"
-         y="485.8204"
-         id="tspan5659"
-         class="description"
-         style="font-size:8px">1933–?</tspan></text>
+         y="476.2204"
+         id="text5655"
+         style="font-size:12px;line-height:0.8;font-family:serif"><tspan
+           sodipodi:role="line"
+           id="tspan5657"
+           x="1228.3464"
+           y="476.2204">Arthur Oliver Lodge</tspan><tspan
+           sodipodi:role="line"
+           x="1228.3464"
+           y="485.8204"
+           id="tspan5659"
+           class="description"
+           style="font-size:8px">1933–2022</tspan></text>
+    </a>
     <path
        id="path6818"
        style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#DotM-6-9-6)"

@@ -1,6 +1,7 @@
 ---
 template: person
 title: Peter Innes Donegan
+wikidata: Q63609937
 ---
 
 The eldest of three children of \bioref{Ernest_Albert_Donegan} and \bioref{Lynda_Amy_Kathleen_Innes},
