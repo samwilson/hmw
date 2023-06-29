@@ -32,6 +32,8 @@ Mid-thirties had a heart attack on the boat home from Devonport, got home and Ch
 
 Jim died on 1 June 1942 in Perth.[^rae2]
 
+https://archive.org/details/james-herbert-wilson-birth-certificate-1872
+
 [^VicPioneers]:
 	Victorian Pioneers Index 1837--1888, National Library of Australia.
 	Birth certificate number 1823.

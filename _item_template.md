@@ -13,6 +13,8 @@ date:
 date_precision: day|month|year|circa
 storage_location: 
 storage_location_key: 
+people:
+  - 
 tags:
   - 
 description: 

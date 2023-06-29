@@ -1,6 +1,6 @@
 {
     "require": {
-        "samwilson/basildon": "^3.0"
+        "samwilson/basildon": "^6"
     },
     "config": {
         "process-timeout": 0

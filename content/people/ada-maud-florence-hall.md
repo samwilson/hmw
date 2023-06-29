@@ -12,6 +12,7 @@ parent2: James_Anderton_Hall
 partner1: Anton_Solberg
 familysearch: LDWF-B1Q
 wikitree: Hall-22141
+wikidata: Q113960966
 ---
 
 Ada Maud Florence Hall was born in May 1875 to [Lilian Helena Bruce](./lilian-helena-bruce.html) and [James Anderton Hall](./james-anderton-hall.html).

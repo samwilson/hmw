@@ -24,3 +24,5 @@ blockquote { border-left:3px solid #efefef; padding-left:1em; margin-left:1em }
 .footnotes li blockquote { margin-bottom: 0; }
 sup.footnote-ref { font-size: smaller; }
 .footnotes .footnote-backrefs { display: none; }
+
+.infobox { width: 350px; }

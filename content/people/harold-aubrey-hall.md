@@ -9,7 +9,8 @@ images:
 
 Harold Aubrey Hall (1871—1963) was a Western Australian pastoral station manager and stockman.
 
-He was born in 1871[^ADBWSHall] to [Shakespeare](./william-shakespeare-hall.html) and [Sarah](./sarah-theodosia-branson.html) Hall.
+He was born in 1871[^ADBWSHall] to {linkperson|william-shakespeare-hall|Shakespeare}
+and {linkperson|sarah-theodosia-branson|Sarah} Hall.
 
 Mayor of Cossack from 1898—1901.[^CossackMayoralty]
 
