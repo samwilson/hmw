@@ -10,7 +10,7 @@
             "inkscape --export-type=png --export-filename=assets/tree.png tree/tree.svg",
             "inkscape --export-type=pdf --export-filename=assets/tree.pdf tree/tree.svg"
         ],
-        "build-site": "basildon build . -t 100000",
+        "build-site": "basildon build .",
         "build": [
             "@build-tree",
             "@build-site"

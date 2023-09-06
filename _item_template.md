@@ -9,6 +9,7 @@ images:
     flickr: 
     caption: 
 license: pd|cc-by|copyright
+pd_year:
 date: 
 date_precision: day|month|year|circa
 storage_location: 

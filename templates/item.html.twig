@@ -153,7 +153,14 @@
                             <abbr title="Anonymous author">Anon.</abbr>
                         {% endif %}
                     {% else %}
-                        No license has been specified for this file.
+                        No license has been specified for this work.
+                    {% endif %}
+
+                    {% if page.metadata.pd_year is defined and page.metadata.pd_year %}
+                        <br>
+                        This work
+                        {% if page.metadata.pd_year > 'now'|date('Y') %}will enter{% else %}entered{% endif %}
+                        the public domain in {{ page.metadata.pd_year }}.
                     {% endif %}
                 </p>
 
