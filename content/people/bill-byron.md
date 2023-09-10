@@ -1,5 +1,5 @@
 ---
-template: tag
+template: person
 title: Corporal William (Bill) Byron (c.1855–1919)
 wikidata: Q96273605
 ---
