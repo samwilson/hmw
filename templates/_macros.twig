@@ -19,7 +19,7 @@
 
 {% macro gallery_item(site, page, item) %}
 
-    <a href="{{ page.link(item.id) }}.html" title="View details of this item" class="figure col-md-2 item-figure">
+    <a href="{{ page.link(item.id) }}.html" title="View details of this item" class="figure col-md-2 item-figure text-center">
         <figure>
             {% set imgSrc = site.config.img_placeholder %}
             {% if item.image is defined and item.image %}
@@ -32,7 +32,7 @@
                     {% set imgSrc = flickr(images.0.flickr).urls.medium_image %}
                 {% endif %}
             {% endif %}
-            <figcaption class="figure-caption text-center">
+            <figcaption class="figure-caption">
                 <strong><em>Item {{ item.id|basename }}</em> &ndash; {{ item.title }}</strong>{% if item.date %},
                 {{ _self.date(item.date, item.date_precision) }}
                 {% endif %}

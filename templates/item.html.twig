@@ -74,7 +74,7 @@
                     {% endif %}
                 </p>
 
-                {% if page.metadata.people is defined %}
+                {% if page.metadata.people is defined and page.metadata.people %}
                     <p>
                         <strong>People:</strong><br />
                         &middot;
@@ -178,7 +178,8 @@
                 {% if page.metadata.images|length == 1 %}
                     The image below links to its canonical record.
                 {% else %}
-                    The images below are linked to their canonical records.
+                    The images below are linked to their canonical records,
+                    from where you can download the full high-resolution versions.
                 {% endif %}
             </p>
             <div class="row">
