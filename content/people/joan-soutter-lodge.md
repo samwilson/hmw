@@ -1,6 +1,6 @@
 ---
 template: person
-title: Joan Soutter Lodge
+title: Joan Soutter Martin (née Lodge)
 wikidata: Q122696293
 ---
 
@@ -8,12 +8,12 @@ Joan Soutter Lodge was the eldest daughter of {linkperson|sarah-constance-leake}
 
 Her two younger siblings are listed in the WA BMD index (Helen is listed twice in 1888), but Joan is not.
 
-She married {linkperson|norman-martin} on 30 April 1913. The report published in *The South-Western News* was as follows:[^SouthWestNews1913]
+She married {linkperson|norman-martin} on 30 April 1913.[^TheWest1938] The report published in *The South-Western News* was as follows:[^SouthWestNews1913]
 
 {{{quotation
 WEDDINGS.
 
-MARTIN--LODGE.
+MARTIN—LODGE.
 
 On Tuesday afternoon the marriage took place at St Mary's Church, Busselton, of Mr. Norman Martin, second son of Mr. F. Martin, of "Lindors," St Briavels, Gloucestershire (England), and Miss Joan Soutter Lodge, younger daughter of Mr. and Mrs. Thos. S. Lodge, of "Strelly," Busselton.
 
@@ -24,10 +24,12 @@ The bridesmaids were Miss Thelma McLeod, whose frock was a pale blue satin chann
 The reception was held at "Strelly," where afternoon tea was served under the picturesque trees at the side of the house. Subsequently the bride and bridegroom left by motor for Yallingup, where they will spend a few days prior to leaving for England by the R.M.S. *Orontes* on an extended trip. Mrs. Martin travelled in a smart brown and white striped coat and skirt. Her hat was brown felt, turned up with white straw, and trimmed with a brown and white cord, arid the long tail feathers of the Macau.
 }}}
 
-She died aged 97 on 27 January 1990, in Subiaco.[^mcb]
+She died aged 97 on 27 January 1990, in Subiaco.[^MCB] Her ashes were "taken by funeral directory at Karrakatta Cemetery",[^MCB] and there's no record of whether there a memorial was placed.
 
+[^TheWest1938]: Family Notices (1938, April 29). The West Australian (Perth, WA : 1879 - 1954), p. 1.
+	Retrieved August 29, 2017, from http://nla.gov.au/nla.news-article41681091
 [^SouthWestNews1913]:
 	1913 'Family Notices.' The South-Western News, 2 May 1913, p.~3,
 	retrieved 3 February 2015 from http://nla.gov.au/nla.news-article147529167
-[^mcb]: Died aged 97, 1990-01-27.
+[^MCB]: Died aged 97, 1990-01-27.
 	https://portal.mcb.wa.gov.au/name-search/ns-detail/?id=b15fb8b1-fd1c-ec11-b6e7-00224814cbf0

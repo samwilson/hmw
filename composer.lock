@@ -1741,16 +1741,16 @@
         },
         {
             "name": "samwilson/basildon",
-            "version": "6.1.0",
+            "version": "6.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/samwilson/basildon.git",
-                "reference": "84496795d767d573332ca23fc5d849e2423c8efc"
+                "reference": "15d234c8927b05664802fda69208a45b4f7e4e8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samwilson/basildon/zipball/84496795d767d573332ca23fc5d849e2423c8efc",
-                "reference": "84496795d767d573332ca23fc5d849e2423c8efc",
+                "url": "https://api.github.com/repos/samwilson/basildon/zipball/15d234c8927b05664802fda69208a45b4f7e4e8b",
+                "reference": "15d234c8927b05664802fda69208a45b4f7e4e8b",
                 "shasum": ""
             },
             "require": {
@@ -1762,7 +1762,7 @@
                 "getdkan/lunr.php": "^1.0",
                 "league/flysystem": "^1.0",
                 "myclabs/php-enum": "^1.5",
-                "samwilson/commonmark-latex": "^0.3",
+                "samwilson/commonmark-latex": "^0.4",
                 "samwilson/commonmark-shortcodes": "^0.3",
                 "samwilson/phpflickr": "^4.13",
                 "symfony/cache": "^5.0",
@@ -1799,22 +1799,22 @@
             "description": "A static site generator.",
             "support": {
                 "issues": "https://github.com/samwilson/basildon/issues",
-                "source": "https://github.com/samwilson/basildon/tree/6.1.0"
+                "source": "https://github.com/samwilson/basildon/tree/6.2.0"
             },
-            "time": "2023-08-26T08:48:33+00:00"
+            "time": "2023-09-15T13:31:29+00:00"
         },
         {
             "name": "samwilson/commonmark-latex",
-            "version": "0.3.2",
+            "version": "0.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/samwilson/commonmark-latex.git",
-                "reference": "230edb6d7dcb8f26fabab1b9e58b7e8c3c16910e"
+                "reference": "6c9c43bd0678e58f4d171b14766cebfa0aeae358"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samwilson/commonmark-latex/zipball/230edb6d7dcb8f26fabab1b9e58b7e8c3c16910e",
-                "reference": "230edb6d7dcb8f26fabab1b9e58b7e8c3c16910e",
+                "url": "https://api.github.com/repos/samwilson/commonmark-latex/zipball/6c9c43bd0678e58f4d171b14766cebfa0aeae358",
+                "reference": "6c9c43bd0678e58f4d171b14766cebfa0aeae358",
                 "shasum": ""
             },
             "require": {
@@ -1844,9 +1844,9 @@
             "description": "A LaTeX renderer for CommonMark.",
             "support": {
                 "issues": "https://github.com/samwilson/commonmark-latex/issues",
-                "source": "https://github.com/samwilson/commonmark-latex/tree/0.3.2"
+                "source": "https://github.com/samwilson/commonmark-latex/tree/0.4.0"
             },
-            "time": "2023-08-27T02:18:31+00:00"
+            "time": "2023-09-15T13:03:24+00:00"
         },
         {
             "name": "samwilson/commonmark-shortcodes",
