@@ -3,9 +3,9 @@ template: person
 title: Thomas Soutter Lodge
 ---
 
-\emph{The West Australian}, 1 March 1938:[^PioneerFarmer1938]
+*The West Australian*, 1 March 1938:[^PioneerFarmer1938]
 
-\begin{quotation}
+{{{quotation
 A PIONEER FARMER
 
 The Late Mr. Thomas Lodge.
@@ -27,7 +27,7 @@ Mr. Lodge leaves a widow, three children (Mrs. Aubrey Hall, of Carnarvon,
 Mrs. Norman Martin, of Cottesloe, and Mr. Jack Lodge, of Capel) and eleven grandchildren.
 
 His remains were interred in the Church of England portion of the Karrakatta cemetery on Friday last.
-\end{quotation}
+}}}
 
 [^PioneerFarmer1938]:
 	A Pioneer Farmer. (1938, March 1). \emph{The West Australian} (Perth, WA: 1879--1954), p.\ 3.
