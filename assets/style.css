@@ -18,11 +18,12 @@ blockquote { border-left:3px solid #efefef; padding-left:1em; margin-left:1em }
     abbr[title] { text-decoration:none }
 }
 
-.footnotes { font-size: smaller; }
-.footnotes hr { border:1px solid #bbb; border-width:1px 0 0 0; }
+.footnotes { font-size:smaller }
+.footnotes hr { border:1px solid #bbb; border-width:1px 0 0 0; overflow:hidden }
 .footnotes li p,
-.footnotes li blockquote { margin-bottom: 0; }
-sup.footnote-ref { font-size: smaller; }
-.footnotes .footnote-backrefs { display: none; }
+.footnotes li blockquote { margin-bottom:0 }
+sup a.footnote-ref { border:1px solid #dde5ec; margin-right:2px; border-radius:3px; padding:0px 2px }
+sup a.footnote-ref:hover { text-decoration:none; background-color: #e9f0ff; }
+.footnote-backref { display:none }
 
 .infobox { width: 350px; }

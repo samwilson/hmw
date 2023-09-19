@@ -1,15 +1,15 @@
 ---
 template: person
-title: Ada Maud Florence Hall
+title: Ada Maud Florence Solberg (née Hall)
 birth_date: 1875-05-01
 birth_date_precision: month
 birth_place:
 death_date: 1942-01-01
 death_date_precision: year
 death_place:
-parent1: Lilian_Helena_Bruce
-parent2: James_Anderton_Hall
-partner1: Anton_Solberg
+parent1: lilian-helena-bruce
+parent2: james-anderton-hall
+partner1: anton-solberg
 familysearch: LDWF-B1Q
 wikitree: Hall-22141
 wikidata: Q113960966
@@ -79,10 +79,8 @@ in the local press and a daily paper circulating in Christiania.
 [^2]: WA BMD|type=marriage|year=1893|district=Fremantle|number=196
 [^3]: [BREAKING THE BONDS](http://nla.gov.au/nla.news-article81380016) (1916, May 18).
       The Daily News (Perth, WA : 1882 - 1950), p. 8 (THIRD EDITION).
-
 [^AdaHallBabtism]:
-	``Australia Births and Baptisms, 1792--1981'', FamilySearch
-	(\url{https://familysearch.org/ark:/61903/1:1:XTXQ-CYY} accessed 8 August 2015),
+	``Australia Births and Baptisms, 1792--1981'', FamilySearch,
+	https://familysearch.org/ark:/61903/1:1:XTXQ-CYY accessed 8 August 2015,
 	Ada Maud Florence Hall, 26 May 1878; citing Roebourne, Western Australia, Australia;
 	FHL microfilm 284,852.
-      
