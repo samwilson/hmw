@@ -48,54 +48,54 @@ An information notice at the Settlement railway station read as follows:[^Captai
 > 
 > He left Rottnest Island at the end of 1937 and served in New Guinea during World War II. Frank Hussey held the rank of Captain while stationed on Rottnest Island, but reached the rank of Brigadier by the time he was discharged from the Army in 1958.
 
-[![Captain Hussey railcar at Settlement railway station.](https://w.wiki/5QW4)](https://w.wiki/5QW6)
+{{{commons|'Captain_Hussey'_at_Settlement_railway_station_(Rottnest).jpg}}}
 
 Photo: *Captain Hussey* at the Settlement railway station, May 2015.[^CaptainHusseyPhoto]
 
 [^WesternMail1936]:
-No title. (1936, January 23). Western Mail (Perth, WA: 1885--1954), p. 31. Retrieved May 3, 2015, from http://nla.gov.au/nla.news-article37778931
+    No title. (1936, January 23). Western Mail (Perth, WA: 1885--1954), p. 31. Retrieved May 3, 2015, from http://nla.gov.au/nla.news-article37778931
 
 [^CaptainHusseyPhoto]:
-Wilson, Sam (2015). Photo of *Captain Hussey*. CC-BY-SA https://w.wiki/5QW6
+    Wilson, Sam (2015). Photo of *Captain Hussey*. CC-BY-SA https://w.wiki/5QW6
 
 [^CaptainHusseyDisplay]:
-Photo of the information display about Frank Hussey at the Settlement railway station, Rottnest. https://flic.kr/p/tDFQtA
+    Photo of the information display about Frank Hussey at the Settlement railway station, Rottnest. https://flic.kr/p/tDFQtA
 
 [^TheWest1950]:
-"Family Notices", *The West Australian* 19 September 1950, p.26.
-http://nla.gov.au/nla.news-article47887243
-"HUSSEY: On September 17, 1950, at Mount Hospital, Perth, May Elizabeth Laroche, of 4 Harper-terrace, South Perth, widow of Dr. Bertram Hussey, of Toodyay, loved mother of Lesley (Mrs. Young, of New Zealand), Vivienne (Mrs. Whitfleld, of Konnongorring) and Frank (of Melbourne)."
+    "Family Notices", *The West Australian* 19 September 1950, p.26.
+    http://nla.gov.au/nla.news-article47887243
+    "HUSSEY: On September 17, 1950, at Mount Hospital, Perth, May Elizabeth Laroche, of 4 Harper-terrace, South Perth, widow of Dr. Bertram Hussey, of Toodyay, loved mother of Lesley (Mrs. Young, of New Zealand), Vivienne (Mrs. Whitfleld, of Konnongorring) and Frank (of Melbourne)."
 
 [^RaeWestAus]:
-*Fortress named a heritage icon*, 11 November 2010. Kent Acott.
-https://au.news.yahoo.com/thewest/a/8298751/fortress-named-a-heritage-icon/
-http://www.webcitation.org/6YFHtUpaU
-https://web.archive.org/web/20160306205725/https://au.news.yahoo.com/thewest/a/8298751/fortress-named-a-heritage-icon/
+    *Fortress named a heritage icon*, 11 November 2010. Kent Acott.
+    https://au.news.yahoo.com/thewest/a/8298751/fortress-named-a-heritage-icon/
+    http://www.webcitation.org/6YFHtUpaU
+    https://web.archive.org/web/20160306205725/https://au.news.yahoo.com/thewest/a/8298751/fortress-named-a-heritage-icon/
 
 [^MilitaryWedding]:
-Brilliant Military Wedding. (1936, March 8). Sunday Times (Perth, WA: 1902 - 1954), p. 24.
-Retrieved May 3, 2015, from http://nla.gov.au/nla.news-article58764110
+    Brilliant Military Wedding. (1936, March 8). Sunday Times (Perth, WA: 1902 - 1954), p. 24.
+    Retrieved May 3, 2015, from http://nla.gov.au/nla.news-article58764110
 
 [^WestAus1936p4]:
-No title. (1936, March 4). The West Australian (Perth, WA: 1879 - 1954), p. 4.
-Retrieved May 3, 2015, from http://nla.gov.au/nla.news-article25131060
+    No title. (1936, March 4). The West Australian (Perth, WA: 1879 - 1954), p. 4.
+    Retrieved May 3, 2015, from http://nla.gov.au/nla.news-article25131060
 
 [^FBHguildford]:
-Accomplished Old Guildfordians, 9 March 2012.
-http://www.oldguildfordians.com.au/documents/accomplished/Accomplished_Old_Guildfordians.pdf
-https://ap.ptly.com/wa/ggs/uploads/files/Accomplished/Accomplished_Old_Guildfordians.pdf
-https://web.archive.org/web/20220706090159/https://ap.ptly.com/wa/ggs/uploads/files/Accomplished/Accomplished_Old_Guildfordians.pdf
+    Accomplished Old Guildfordians, 9 March 2012.
+    URL: http://www.oldguildfordians.com.au/documents/accomplished/Accomplished_Old_Guildfordians.pdf
+    URL 2: https://ap.ptly.com/wa/ggs/uploads/files/Accomplished/Accomplished_Old_Guildfordians.pdf
+    Archived URL 3: https://web.archive.org/web/20220706090159/https://ap.ptly.com/wa/ggs/uploads/files/Accomplished/Accomplished_Old_Guildfordians.pdf
 
 [^WestAus1936p19]:
-1936 `ISLAND WEDDINGS.', *The West Australian* (Perth, WA: 1879--1954), 4 March, p. 19, viewed 3 May, 2015.
-http://nla.gov.au/nla.news-article25131045
+    1936 `ISLAND WEDDINGS.', *The West Australian* (Perth, WA: 1879--1954), 4 March, p. 19, viewed 3 May, 2015.
+    http://nla.gov.au/nla.news-article25131045
 
 [^FBHwar]:
-SP196/3, H14: Captain Bertram Frank Hussey [24 pages] [Box 2], in National Archives of Australia, 1927--1939.
-http://recordsearch.naa.gov.au/SearchNRetrieve/Interface/DetailsReports/ItemDetail.aspx?Barcode=3224471
+    SP196/3, H14: Captain Bertram Frank Hussey [24 pages] [Box 2], in National Archives of Australia, 1927--1939.
+    http://recordsearch.naa.gov.au/SearchNRetrieve/Interface/DetailsReports/ItemDetail.aspx?Barcode=3224471
 
 [^RIA2004]:
-Annual Report for the year ended 30 June 2004, Rottnest Island Authority.
-http://www.rottnestisland.com/docs/ria-annual-report/annual_report_0304.pdf?Status=Master
-http://www.webcitation.org/6YFHlBal3
-https://web.archive.org/web/20130427172939/http://www.rottnestisland.com/docs/ria-annual-report/annual_report_0304.pdf?Status=Master
+    Annual Report for the year ended 30 June 2004, Rottnest Island Authority.
+    http://www.rottnestisland.com/docs/ria-annual-report/annual_report_0304.pdf?Status=Master
+    http://www.webcitation.org/6YFHlBal3
+    https://web.archive.org/web/20130427172939/http://www.rottnestisland.com/docs/ria-annual-report/annual_report_0304.pdf?Status=Master

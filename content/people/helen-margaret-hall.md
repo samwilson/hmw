@@ -68,7 +68,7 @@ They had one daughter, in 1938.[^JHBirthNotice]
 Peter died in 1939 in an aviation accident.
 
 She remarried on 2 July 1941[^MurrayMargMarriageNotice] to {link|people/william-murray-wilson}
-(also in St~George's Cathedral[^MurrayMargMarriageNotice]), with whom she had two sons.
+(also in St George's Cathedral[^MurrayMargMarriageNotice]), with whom she had two sons.
 
 Lived at 8 Outram Street in West Perth for nine years (including WW2) with Judy.[^OutramStPhoto]
 She rented the house from her father's cousin Ernest Hall.

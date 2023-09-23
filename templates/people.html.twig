@@ -4,6 +4,9 @@
     {% import '_macros.twig' as macros %}
 
     <h1>People</h1>
+
+    {{ page.body|md2html|raw }}
+
     <table class="table table-sm">
         <thead>
         <tr>
@@ -49,7 +52,7 @@
                             </a>
                         {% endif %}
                     </td>
-                    <td class="small">
+                    <td class="">
                         {% if wditem %}
                             <a href="https://www.wikidata.org/wiki/{{ wditem.id }}" title="{{ wditem.labels.en.value }}">
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/20px-Wikidata-logo.svg.png"
@@ -58,14 +61,18 @@
                             </a>
                         {% endif %}
                     </td>
-                    <td class="small">
-                        {% if wditem and wditem.claims.P2949 is defined %}
-                            <a href="https://www.wikitree.com/wiki/{{ wditem.claims.P2949.0.mainsnak.datavalue.value }}"
-                                title="View on WikiTree">
-                                {{ wditem.claims.P2949.0.mainsnak.datavalue.value }}</a>
+                    <td>
+                        {% set wikitree = false %}
+                        {% if person.wikitree is defined and person.wikitree %}
+                            {% set wikitree = person.wikitree %}
+                        {% elseif wditem and wditem.claims.P2949 is defined %}
+                            {% set wikitree = wditem.claims.P2949.0.mainsnak.datavalue.value %}
+                        {% endif %}
+                        {% if wikitree %}
+                            <a href="https://www.wikitree.com/wiki/{{ wikitree }}" title="View on WikiTree">{{ wikitree }}</a>
                         {% endif %}
                     </td>
-                    <td class="small">
+                    <td class="">
                         {% if wditem and wditem.claims.P2889 is defined %}
                             <a href="https://www.familysearch.org/tree/person/details/{{ wditem.claims.P2889.0.mainsnak.datavalue.value }}">
                                 {{ wditem.claims.P2889.0.mainsnak.datavalue.value }}</a>

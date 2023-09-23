@@ -74,13 +74,13 @@ in the local press and a daily paper circulating in Christiania.
 >
 > A decree nisi, returnable in six months, with the custody of the youngest child, was granted the petitioner.
 
-[^1]: [Australia Births and Baptisms, 1792–1981](https://familysearch.org/ark:/61903/1:1:XTXQ-CYY), FamilySearch, accessed 8 August 2015.
+[^1]: Australia Births and Baptisms, 1792–1981 https://familysearch.org/ark:/61903/1:1:XTXQ-CYY FamilySearch, accessed 8 August 2015.
       Ada Maud Florence Hall, 26 May 1878; citing Roebourne, Western Australia, Australia; FHL microfilm 284,852.
 [^2]: WA BMD|type=marriage|year=1893|district=Fremantle|number=196
-[^3]: [BREAKING THE BONDS](http://nla.gov.au/nla.news-article81380016) (1916, May 18).
+[^3]: BREAKING THE BONDS http://nla.gov.au/nla.news-article81380016 (1916, May 18).
       The Daily News (Perth, WA : 1882 - 1950), p. 8 (THIRD EDITION).
 [^AdaHallBabtism]:
-	``Australia Births and Baptisms, 1792--1981'', FamilySearch,
+	"Australia Births and Baptisms, 1792--1981", FamilySearch,
 	https://familysearch.org/ark:/61903/1:1:XTXQ-CYY accessed 8 August 2015,
 	Ada Maud Florence Hall, 26 May 1878; citing Roebourne, Western Australia, Australia;
 	FHL microfilm 284,852.

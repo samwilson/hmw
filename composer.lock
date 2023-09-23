@@ -1804,16 +1804,16 @@
         },
         {
             "name": "samwilson/commonmark-latex",
-            "version": "0.4.0",
+            "version": "0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/samwilson/commonmark-latex.git",
-                "reference": "6c9c43bd0678e58f4d171b14766cebfa0aeae358"
+                "reference": "6eebac03c1b891721d28d241304cd7b5258124ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/samwilson/commonmark-latex/zipball/6c9c43bd0678e58f4d171b14766cebfa0aeae358",
-                "reference": "6c9c43bd0678e58f4d171b14766cebfa0aeae358",
+                "url": "https://api.github.com/repos/samwilson/commonmark-latex/zipball/6eebac03c1b891721d28d241304cd7b5258124ef",
+                "reference": "6eebac03c1b891721d28d241304cd7b5258124ef",
                 "shasum": ""
             },
             "require": {
@@ -1843,9 +1843,9 @@
             "description": "A LaTeX renderer for CommonMark.",
             "support": {
                 "issues": "https://github.com/samwilson/commonmark-latex/issues",
-                "source": "https://github.com/samwilson/commonmark-latex/tree/0.4.0"
+                "source": "https://github.com/samwilson/commonmark-latex/tree/0.4.1"
             },
-            "time": "2023-09-15T13:03:24+00:00"
+            "time": "2023-09-23T10:18:20+00:00"
         },
         {
             "name": "samwilson/commonmark-shortcodes",

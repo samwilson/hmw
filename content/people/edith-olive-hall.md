@@ -33,7 +33,7 @@ WILSON—HALL.—On January 30, at St. John's Church, Perth, by the Rev. Canon L
 
 Lived at 98 Herbert Road, Shenton Park. Died 18 August 1966,[^deathCert] buried at Karrakatta (Presbyterian, IA 208).[^findagrave][^mcb]
 
-[^mcb]: WA MCB |id=KC00026433 |first_name=EDITH OLIVE |last_name=WILSON |aged=83 |date_of_death=18/08/1966 |suburb=West Perth |cemetery=|area=Presbyterian|section=IA|gravesite=208|access_date=2022-06-23 |url=https://portal.mcb.wa.gov.au/name-search/ns-detail/?id=a48a4a4b-e51c-ec11-b6e7-00224814c0bd 
+[^mcb]: {cite-mcb |id=KC00026433 |first_name=EDITH OLIVE |last_name=WILSON |aged=83 |date_of_death=18/08/1966 |suburb=West Perth |cemetery=|area=Presbyterian|section=IA|gravesite=208|access_date=2022-06-23 |url=https://portal.mcb.wa.gov.au/name-search/ns-detail/?id=a48a4a4b-e51c-ec11-b6e7-00224814c0bd }
 
 Died at Killara Rest Home, 24 Outram Street, West Perth.[^deathCert]
 
