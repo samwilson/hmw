@@ -1,0 +1,9 @@
+{% autoescape 'tex' %}
+{% if shortcode.attrs.2 is defined %}
+    {% set label = shortcode.attrs.2 %}
+{% else %}
+    {% set person = database.query('select * from pages where id = "/'~shortcode.attrs.1~'"').fetch %}
+    {% set label = person.title %}
+{% endif %}
+{{ label }} (p.~\pageref{ page_{{shortcode.attrs.1}} })
+{% endautoescape %}

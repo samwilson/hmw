@@ -10,4 +10,6 @@ parent2: mary-mcharg
 wikitree: Wilson-85055
 ---
 
-"Agnes Hay, born 17 August 1878, spinster, died 1958 aged 80 years (cerebral thrombosis)."<ref>[[William Wilson's family (1839 to 2-5-1914)]]</ref>
+"Agnes Hay, born 17 August 1878, spinster, died 1958 aged 80 years (cerebral thrombosis)."[^1]
+
+[^1]: William Wilson's family (1839 to 2-5-1914).

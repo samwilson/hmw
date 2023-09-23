@@ -3,10 +3,10 @@ template: person
 title: John Dulford Walrond
 ---
 
-From Natal, \idx{South Africa}.[^MartinWalmondEngagement][^MartinWalmondMarriage]
+From Natal, South Africa.[^MartinWalmondEngagement][^MartinWalmondMarriage]
 His father was F.E. Walrond.[^MartinWalmondEngagement]
 
-Engaged to \bioref{Patricia_Hanson_Martin} in 1940,[^MartinWalmondEngagement]
+Engaged to {link|people/patricia-helen-martin} in 1940,[^MartinWalmondEngagement]
 married in April 1942.[^MartinWalmondMarriage]
 
 Sergeant John Dulford Walrond of the 2/16th Australian Infantry Battalion[^WestAust1943][^AWMJohnWalrond] (service number WX3524)
@@ -14,15 +14,13 @@ died in Papua on 8 December 1942.[^AWMJohnWalrond]
 
 He lived at 128 Broome Street, Cottesloe, Western Australia.[^WestAust1943]
 
-
 [^MartinWalmondEngagement]:
-	ENGAGEMENTS. (1940, July 22). \emph{The West Australian} (Perth, WA : 1879--1954), p. 10.
-	Retrieved April 11, 2020, from \url{http://nla.gov.au/nla.news-article46727944}
+	ENGAGEMENTS. (1940, July 22). *The West Australian* (Perth, WA : 1879--1954), p. 10.
+	Retrieved April 11, 2020, from http://nla.gov.au/nla.news-article46727944
 
 [^MartinWalmondMarriage]:
-	Family Notices (1942, April 23). \emph{The West Australian} (Perth, WA : 1879--1954), p. 1.
-	Retrieved April 11, 2020, from \url{http://nla.gov.au/nla.news-article47329581}
-
+	Family Notices (1942, April 23). *The West Australian* (Perth, WA : 1879--1954), p. 1.
+	Retrieved April 11, 2020, from http://nla.gov.au/nla.news-article47329581
 
 https://honouravenueskingspark.com.au/component/hap/plaque/1752-sgt-john-walrond
 https://web.archive.org/web/20220706113306/https://honouravenueskingspark.com.au/component/hap/plaque/1752-sgt-john-walrond
@@ -50,7 +48,7 @@ Dedicated by
     Nephew on 23 September 2009
 More information
 
-    Biography presented during plaque dedication:
+Biography presented during plaque dedication:
 
     Sergeant John Dulford Walrond of 2/16 Battalion was born in Orange Grove, Johannesburg, South Africa in August 1914, the son of Francis and Mildred Walrond.
 
@@ -66,13 +64,13 @@ More information
     
     
 [^WestAust1943]:
-	Advertising (1943, April 7). \emph{The West Australian} (Perth, WA : 1879--1954), p. 1.
-	Retrieved April 11, 2020, from \url{http://nla.gov.au/nla.news-article46752091}
+	Advertising (1943, April 7). *The West Australian* (Perth, WA : 1879--1954), p. 1.
+	Retrieved April 11, 2020, from http://nla.gov.au/nla.news-article46752091
 
 
 [^AWMJohnWalrond]:
 	Australian War Memorial catalogue entry.
-	\url{https://www.awm.gov.au/collection/P10299621}
+	https://www.awm.gov.au/collection/P10299621
 
 [^MartinWalmondEngagement]:
 	ENGAGEMENTS. (1940, July 22). *The West Australian* (Perth, WA: 1879–1954), p. 10.

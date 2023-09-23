@@ -4,15 +4,13 @@ title: William Shakespeare Hall
 wikidata: Q8018316
 ---
 
-Parents: \bioref{Sarah_Theodosia_Branson} and \bioref{Henry_Edward_Hall}.
+Parents: {link|people/sarah-theodosia-branson} and {link|people/henry-edward-hall}.
 
-Wife: \bioref{Hannah_Boyd_Lazenby}.
+Wife: {link|people/hannah-boyd-lazenby}.
 
 Children:
-\bioref{Henry_Ernest_Hall},
-\bioref{Harold_Aubrey_Hall},
-\bioref{Grace_Hall},
-\bioref{Joy_Hannah_Emma_Margaret_Hall},
-and \bioref{William_Shakespeare_Hall_Jr}.
-
-\wikipedia{William_Shakespeare_Hall}
+{link|people/henry-ernest-hall},
+{link|people/harold-aubrey-hall},
+{link|people/grace-hall},
+{link|people/joy-hannah-emma-margaret-hall},
+and {link|people/william-shakespeare-hall-jr}.

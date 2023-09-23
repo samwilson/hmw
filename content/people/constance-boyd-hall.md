@@ -36,10 +36,10 @@ Their wedding was reported on the following Wednesday in the *Northern Times*:[^
 [^Connie1983]: Autobiography by C. B. Berryman, 1983. https://archive.org/details/C.B.Berryman1983
 
 [^ConnieBirthNotice]:
-	Family Notices. (1912, September 3). \emph{The West Australian} (Perth, WA: 1879--1954), p. 1.
-	Retrieved November 18, 2014, from \url{http://nla.gov.au/nla.news-article26520217}
-	``BIRTHS. \dots HALL.---On August 9, at their residence, Roebourne to Mr. and Mrs. Aubrey Hall---a daughter.''
+	Family Notices. (1912, September 3). *The West Australian* (Perth, WA: 1879--1954), p. 1.
+	Retrieved November 18, 2014, from http://nla.gov.au/nla.news-article26520217
+	``BIRTHS. … HALL.---On August 9, at their residence, Roebourne to Mr. and Mrs. Aubrey Hall---a daughter.''
 
 [^Connie1983OralHistory]:
 	Oral history interview with Constance Berryman, 1983.
-	\url{https://archive.org/details/SLWA_b1794680/}
+	https://archive.org/details/SLWA_b1794680/

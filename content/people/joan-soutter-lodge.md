@@ -4,11 +4,11 @@ title: Joan Soutter Martin (née Lodge)
 wikidata: Q122696293
 ---
 
-Joan Soutter Lodge was the eldest daughter of {linkperson|sarah-constance-leake} and {linkperson|thomas-soutter-lodge}.
+Joan Soutter Lodge was the eldest daughter of {link|people/sarah-constance-leake} and {link|people/thomas-soutter-lodge}.
 
 Her two younger siblings are listed in the WA BMD index (Helen is listed twice in 1888), but Joan is not.
 
-She married {linkperson|norman-martin} on 30 April 1913.[^TheWest1938] The report published in *The South-Western News* was as follows:[^SouthWestNews1913]
+She married {link|people/norman-martin} on 30 April 1913.[^TheWest1938] The report published in *The South-Western News* was as follows:[^SouthWestNews1913]
 
 {{{quotation
 WEDDINGS.

@@ -44,7 +44,7 @@ An information notice at the Settlement railway station read as follows:[^Captai
 >
 > In an interview recorded in 1981, Frank Hussey described some of the challenges they had to overcome in constructing extensions to the railway line:
 >
->"A very large problem was to stop the embankments blowing away\dots what we did was ped down lots of ti-tree, and after trying various other things we found that by far the best thing was the Rottnest Daisy, to get that growing on the banks."
+>"A very large problem was to stop the embankments blowing away… what we did was ped down lots of ti-tree, and after trying various other things we found that by far the best thing was the Rottnest Daisy, to get that growing on the banks."
 > 
 > He left Rottnest Island at the end of 1937 and served in New Guinea during World War II. Frank Hussey held the rank of Captain while stationed on Rottnest Island, but reached the rank of Brigadier by the time he was discharged from the Army in 1958.
 

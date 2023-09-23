@@ -6,7 +6,7 @@ wikidata: Q112970816
 
 Eldest daughter of [Joan](joan-soutter-lodge.html) and Norman Martin.[^MartinWalmondMarriage]
 
-First married John_Dulford_Walmond
+First married John Dulford Walmond
 (engaged in 1940;[^MartinWalmondEngagement] married 21 April 1942 at Christ Church, Claremont[^MartinWalmondMarriage]),
 who died 1942.
 They had no children.

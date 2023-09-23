@@ -3,16 +3,16 @@ template: person
 title: Olive Adele Wilson
 ---
 
-Adele was born in 1908 to \bioref{James_Herbert_Wilson} and \bioref{Edith_Olive_Hall},
+Adele was born in 1908 to {link|people/james-herbert-wilson} and {link|people/edith-olive-hall},
 and grew up in Lyall Street in South Perth.[^rae1]
 
-She married \bioref{James_William_Lang} in 1936.
-Their wedding was reported in \emph{The West Australian} as follows:\ref{WestAust1936}
+She married {link|people/james-william-lang} in 1936.
+Their wedding was reported in *The West Australian* as follows:[^WestAust1936]
 
-\begin{quotation}
+{{{quotation
 Lang—Wilson Wedding.
 
-\textsc{The} marriage was solemnised in the \idx{Ross Memorial Church}, on Tuesday evening, April 21, between Miss Adele Wilson,
+{smallcaps|The} marriage was solemnised in the Ross Memorial Church, on Tuesday evening, April 21, between Miss Adele Wilson,
 second daughter of Mr. and Mrs. J. H. Wilson, of Shenton Park, and Mr. James Lang, elder son of Mr. and Mrs. J. W. Lang,
 of Salisbury-street, Subiaco. Dr. Munro Ford officiated. The bride, who was given away by her father,
 wore a frock of parchment satin, the cowled bodice falling Into soft folds and the draped sleeves finished with small buttons
@@ -32,12 +32,12 @@ Mrs. Lang's frock was of black velvet with touches of gold and she wore a becomi
 Dr. Munro Ford presided at the wedding breakfast and the usual toasts were honoured.
 During the evening the bride and bridegroom left for their honeymoon, the bride travelling in a smart brown crepe ensemble in military style,
 with stone-marten furs. Mr. and Mrs. Lang will make their future home at Nedlands.
-\end{quotation}
+}}}
 
 [^rae1]:
-	Hussey, R. c.1990, http://hmwilson.archives.org.au/Rae\%27s_documents/JAMES_HERBERT_WILSON.doc
+	Hussey, R. c.1990, http://hmwilson.archives.org.au/Rae's_documents/JAMES_HERBERT_WILSON.doc
 	unpublished manuscript, held in the  H. M. Wilson Archives.
 
 [^WestAust1936]:
-	SOCIAL AND PERSONAL (1936, April 30). \emph{The West Australian} (Perth, WA: 1879--1954), p.~8.
-	Retrieved April 7, 2020, from \url{http://nla.gov.au/nla.news-article25148694}
+	SOCIAL AND PERSONAL (1936, April 30). *The West Australian* (Perth, WA: 1879--1954), p.8.
+	Retrieved April 7, 2020, from http://nla.gov.au/nla.news-article25148694

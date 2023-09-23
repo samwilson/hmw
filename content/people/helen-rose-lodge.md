@@ -15,16 +15,16 @@ She married[^HAHmarriage] [Harold Aubrey Hall](./harold-aubrey-hall.html) on 24 
 
 [^HAHmarriage]:
 	Index to Western Australian births, deaths and marriages.
-	Registration \#14 in Sussex district. 1910.
+	Registration #14 in Sussex district. 1910.
 
 [^HallLodgeWedding]:
-	\emph{Family Notices} (1910, December 8). The West Australian (Perth, WA: 1879--1954), p.\ 1.
-	\url{https://hmwilson.archives.org.au/items/114.html}
-	\url{http://nla.gov.au/nla.news-article26297910}
+	*Family Notices* (1910, December 8). The West Australian (Perth, WA: 1879--1954), p. 1.
+	https://hmwilson.archives.org.au/items/114.html
+	http://nla.gov.au/nla.news-article26297910
 
 [^BMD]:
 	WA Registry of Births, Deaths and Marriages, reg. no. 637, 1888.
 
 [^FamilyNotices]:
-	Family Notices. \emph{The West Australian} 11 April 1888, p. 2. Retrieved 4 November 2014,
-	from \url{http://nla.gov.au/nla.news-article3117791}.
+	Family Notices. *The West Australian* 11 April 1888, p. 2. Retrieved 4 November 2014,
+	from http://nla.gov.au/nla.news-article3117791

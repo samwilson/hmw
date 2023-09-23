@@ -9,8 +9,8 @@ images:
 
 Harold Aubrey Hall (1871—1963) was a Western Australian pastoral station manager and stockman.
 
-He was born in 1871[^ADBWSHall] to {linkperson|william-shakespeare-hall|Shakespeare}
-and {linkperson|sarah-theodosia-branson|Sarah} Hall.
+He was born in 1871[^ADBWSHall] to {link|people/william-shakespeare-hall|Shakespeare}
+and {link|people/sarah-theodosia-branson|Sarah} Hall.
 
 Mayor of Cossack from 1898—1901.[^CossackMayoralty]
 
@@ -89,7 +89,7 @@ He was an adept horseman, and rode well into his 80s. He died in 1963.
 	Retrieved July 8, 2020, from http://nla.gov.au/nla.news-article74893394
 
 [^NorthernTimes1933]:
-	A BUSH TRAGEDY. (1933, December 20). \emph{Northern Times} (Carnarvon, WA: 1905–1952), p. 5.
+	A BUSH TRAGEDY. (1933, December 20). *Northern Times* (Carnarvon, WA: 1905–1952), p. 5.
 	Retrieved July 13, 2020, from http://nla.gov.au/nla.news-article74871116
 
 [^Connie1983]: Autobiography by C. B. Berryman, 1983. https://archive.org/details/C.B.Berryman1983

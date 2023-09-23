@@ -30,5 +30,5 @@ His remains were interred in the Church of England portion of the Karrakatta cem
 }}}
 
 [^PioneerFarmer1938]:
-	A Pioneer Farmer. (1938, March 1). \emph{The West Australian} (Perth, WA: 1879--1954), p.\ 3.
-	Retrieved June 23, 2020, from \url{http://nla.gov.au/nla.news-article41663658}
+	A Pioneer Farmer. (1938, March 1). *The West Australian* (Perth, WA: 1879--1954), p. 3.
+	Retrieved June 23, 2020, from http://nla.gov.au/nla.news-article41663658

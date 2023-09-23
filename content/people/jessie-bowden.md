@@ -4,7 +4,7 @@ title: Jessie M. Bowden
 ---
 
 Born in 1907 in Beverley (first name spelled 'Jessey' in the BMD index).[^BMD_WA_birth_1907]
-Married \bioref{Frederick_Gordon_Wilson} in 1929.[^BMD_WA_marriage_1929]
+Married {link|people/frederick-gordon-wilson} in 1929.[^BMD_WA_marriage_1929]
 Died in Gascoyne, 1953.[^BMD_WA_death_1953]
 
 [^BMD_WA_birth_1907]:

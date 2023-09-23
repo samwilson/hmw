@@ -4,11 +4,11 @@ title: Joan Leake Salom (née Hall)
 wikidata: Q94465147
 ---
 
-Joan Leake Hall was born on 24 August 1919 in \idx{Roeburne},[^JLHbirth]
+Joan Leake Hall was born on 24 August 1919 in Roeburne,[^JLHbirth]
 the youngest of the three children (all daughters)
-of \bioref{Harold_Aubrey_Hall} and \bioref{Helen_Rose_Lodge}.
+of {link|people/harold-aubrey-hall} and {link|people/helen-rose-lodge}.
 
-She married \bioref{Maurice_Salom}, and they had no children.
+She married {link|people/maurice-salom}, and they had no children.
 
 "Hall is a pleasant, nice looking girl with a shy, ladylike manner.
 She is polite, [?] spoken and unobtrusive.
@@ -22,5 +22,5 @@ Died aged 73 in 1993. Memorial in the Karrakatta rose gardens (Lawn 2, Garden GG
 
 [^JLHbirth]:
 	Family Notices (1919, November 5). The West Australian, p. 1.
-	Retrieved October 23, 2016, from \url{http://nla.gov.au/nla.news-article27666905}.
-	``HALL.---On August 24, at Roebourne, to Mr. and Mrs. Aubrey Hall---a daughter (Joan Leake).''
+	Retrieved October 23, 2016, from http://nla.gov.au/nla.news-article27666905
+	"HALL.—On August 24, at Roebourne, to Mr. and Mrs. Aubrey Hall---a daughter (Joan Leake)."

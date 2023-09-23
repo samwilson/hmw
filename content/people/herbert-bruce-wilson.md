@@ -4,7 +4,7 @@ title: Herbert Bruce Wilson
 ---
 
 Born in 1918 in Perth.[^BruceWilsonBirth]
-Married twice, first to \bioref{Daphne_June_Robinson}, and then to \bioref{Iris_Arnold}.
+Married twice, first to {link|people/daphne-june-robinson}, and then to {link|people/iris-arnold}.
 Died on 3 October 2005.
 
 [^BruceWilsonBirth]: Western Australian Registry of Births (1918).

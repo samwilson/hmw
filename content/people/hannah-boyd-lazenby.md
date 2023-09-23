@@ -12,5 +12,5 @@ Their marriage was announced in the paper on 11 November as follows:[^HBLMarriag
 
 [^HBLMarriageNotice]:
 	Marriages and Deaths. Marriages. (1868, November 11).
-	\emph{The Inquirer and Commercial News} (Perth, WA: 1855--1901), p. 2.
-	Retrieved November 19, 2014, from \url{http://nla.gov.au/nla.news-article69384582}
+	*The Inquirer and Commercial News* (Perth, WA: 1855--1901), p. 2.
+	Retrieved November 19, 2014, from http://nla.gov.au/nla.news-article69384582

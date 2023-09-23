@@ -40,23 +40,24 @@ Hampstead and Highgate Express - Saturday 29 December 1888, p7:[^express1888]
 > unfailing courtesy have gained for you the respect and the affectionate regard of all who have been associated with you."
 > ---City Press.
 
-*Norfolk News*, Saturday 15 April 1893, p.13:
-\url{https://www.britishnewspaperarchive.co.uk/viewer/bl/0000247/18930415/162/0013}
+*Norfolk News*, Saturday 15 April 1893:[^NorfolkNews]
 
-\begin{quotation}
-\textsc{The Late Mr. Robert John Lodge.}---The \emph{Times} gives the following memoir of the late Mr. R. J. Lodge,
+{{{quotation
+{smallcaps|The Late Mr. Robert John Lodge.}—The *Times* gives the following memoir of the late Mr. R. J. Lodge,
 the father of Mrs. Henry Morgan, the wife of Mr. Henry Morgan, of the King Street Street Old Brewery.
 Our contemporary says:---The death of Mr. Robert John Lodge, for many years the well-known manager of the Marine
 Insurance Company, to which office he was appointed in 1839, occurred at his residence at Highgate on the 1st inst.,
 within a few days of his 83rd birthday. Mr. Lodge was well known in connection with the salvage operations of the
-Royal Charter in 1859, when \textpounds 322,103 was recovered and distributed at a cost of but 5 1.3 per cent.;
-also the salvage of \punds 90,000 from the wreck of the Alfonso XII, out of 26 2-3 fathoms of water, an unprecedented
+Royal Charter in 1859, when £322,103 was recovered and distributed at a cost of but 5 1.3 per cent.;
+also the salvage of £90,000 from the wreck of the Alfonso XII, out of 26 2-3 fathoms of water, an unprecedented
 experience. These and similar successes quite revolutionised the premium rate on specie, demonstrating, as they did,
 the probability of its recovery even under the most adverse conditions. On the retirement of Mr. Lodge from his
 official duties in 1888, he recieved a farewell address signed by the official of some twenty of the principal
 marine assurance companies and sixty members of Lloyd's. Mr. Lodge was of a singularly genial temperament, and was
 much beloved in Highgate, where he had resided for more than forty years, filling for the last thirteen years the
 office of treasurer to the Highgate Literary and Scientific Institution.
-\end{quotation}
+}}}
 
 [^express1888]: https://www.britishnewspaperarchive.co.uk/viewer/bl/0001981/18881229/142/0007
+[^NorfolkNews]: *Norfolk News*, Saturday 15 April 1893, p.13:
+    https://www.britishnewspaperarchive.co.uk/viewer/bl/0000247/18930415/162/0013

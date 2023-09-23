@@ -1,0 +1,42 @@
+{% autoescape 'tex' %}
+\documentclass[a4paper]{memoir}
+
+\usepackage{graphicx, url, listings, float, }
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,  % Colours links instead of ugly boxes
+    urlcolor   = black, % Colour for external hyperlinks
+    linkcolor  = black, % Colour of internal links
+    citecolor  = black  % Colour of citations
+}
+
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{2mm}
+
+\lstset{
+    basicstyle=\normalsize\fontencoding{T1}\ttfamily,
+    showstringspaces=true
+}
+
+\title{ {{site.title}}: Biographies }
+\author{}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+
+    {{ page.body|md2latex|raw }}
+
+    {% for p in database.query('SELECT * FROM pages WHERE template = "person" ORDER BY title ASC').fetchAll() %}
+
+        \section{ {{ p.title }} }
+        \label{ page_{{ p.id }} }
+
+        {{ p.body|md2latex|raw }}
+
+    {% endfor %}
+
+\end{document}
+{% endautoescape %}

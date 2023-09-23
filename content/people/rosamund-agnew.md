@@ -1,6 +1,7 @@
 ---
 template: person
 title: Rosamund Agnew
+
 ---
 
-Daughter of \bioref{Robert_Gordon_Agnew} and \bioref{Dorothy_Jean_McHarg_Wilson}.
+Daughter of {link|people/robert-gordon-agnew} and {link|people/dorothy-jean-mcharg-wilson}.
