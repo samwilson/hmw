@@ -48,7 +48,7 @@
         <aside class="float-md-right row align-items-center mb-4 ml-md-3 shadow-sm p-1 col-md-4">
             {% if wikidata_item.claims.P18 is defined %}
                 {% set commons = commons(wikidata_item.claims.P18[0].mainsnak.datavalue.value) %}
-                    <figure itemscope itemtype="http://schema.org/ImageObject" class="figure col-12">
+                    <figure itemscope itemtype="http://schema.org/ImageObject" class="figure col-12 text-center">
                         <a href="{{ commons.imageinfo.0.descriptionurl|escape('html_attr') }}" title="View on Wikimedia Commons">
                             <img src="{{ commons.imageinfo.0.thumburl|escape('html_attr') }}" class="figure-img img-fluid" />
                         </a>
@@ -95,7 +95,7 @@
         {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
             {% set wikidata_item = wikidata(page.metadata.wikidata) %}
             {% if wikidata_item and wikidata_item.sitelinks.enwiki.title is defined %}
-                <h2>Wikipedia</h2>
+                <h2>On Wikipedia</h2>
                 {{ wikipedia('en', wikidata_item.sitelinks.enwiki.title)|raw }}
                 <p><a href="https://en.wikipedia.org/wiki/{{wikidata_item.sitelinks.enwiki.title|replace({' ': '_'})}}">Read more on Wikipedia…</a></p>
                 {% if page.body %}

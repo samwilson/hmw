@@ -22,3 +22,10 @@ Crossing paths:
 
 Items are in sequentially-numbered markdown files in `content/items/`.
 A template for them is in `_item_template.md`.
+
+## Wikimedia Commons
+
+Useful templates:
+
+* [PD-Australia](https://commons.wikimedia.org/wiki/Template:PD-Australia)
+* [cc-by-sa-4.0-heirs](https://commons.wikimedia.org/wiki/Template:Cc-by-sa-4.0-heirs)

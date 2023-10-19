@@ -124,7 +124,14 @@
                 {% if page.metadata.author is defined and page.metadata.author %}
                     <p>
                         <strong>Author:</strong>
-                        <span itemprop="author">{{ page.metadata.author }}</span>
+                        <span itemprop="author">
+                            {% set author_person = database.query('select * from pages where id = "/people/'~page.metadata.author~'"').fetch %}
+                            {% if author_person %}
+                                <a href="{{ page.link(author_person.id) }}.html">{{ author_person.title }}</a>
+                            {% else %}
+                                {{ page.metadata.author }}
+                            {% endif %}
+                        </span>
                     </p>
                 {% endif %}
 
@@ -163,6 +170,57 @@
                         the public domain in {{ page.metadata.pd_year }}.
                     {% endif %}
                 </p>
+
+                {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
+                    {% set wditem = wikidata(page.metadata.wikidata) %}
+                    <p>
+                        <strong>Authority control:</strong>
+                        Wikidata: <a href="https://www.wikidata.org/wiki/{{wditem.id}}">{{wditem.id}}</a>.
+                        {% set PROP_FORMATTER_URL = 'P1630' %}
+                        {% for claims in wditem.claims %}
+                            {% for snak in claims %}
+                                {% if snak.mainsnak.datatype == 'external-id' and snak.mainsnak.snaktype == 'value' %}
+                                    {% set value = snak.mainsnak.datavalue.value %}
+                                    {% set authControlItem = wikidata(snak.mainsnak.property) %}
+                                    <span class="label">{{authControlItem.labels.en.value}}:</span>
+                                    {% if attribute(authControlItem.claims, PROP_FORMATTER_URL).0 is defined %}
+                                        {% set url = attribute(authControlItem.claims, PROP_FORMATTER_URL).0.mainsnak.datavalue.value | replace({'$1': value}) %}
+                                        <a href="{{url}}" class="value">{{value}}</a>.
+                                    {% else %}
+                                        <span class="value">{{value}}</span>.
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    </p>
+                    {% if wditem.sitelinks.enwikisource is defined or wditem.claims.P1957 is defined %}
+                        <div class="alert alert-info" role="alert">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Wikisource-logo-with-text.svg/100px-Wikisource-logo-with-text.svg.png"
+                                        alt="Wikisource logo" class="img-fluid" />
+                                </div>
+                                <div class="col-9">
+                                    {% if wditem.sitelinks.enwikisource is defined %}
+                                        <p>
+                                            A transcription of this item is available on Wikisource:<br>
+                                            <a href="https://en.wikisource.org/wiki/{{wditem.sitelinks.enwikisource.title|replace({' ':'_'})}}" class="alert-link">
+                                                {{wditem.sitelinks.enwikisource.title}}
+                                            </a>
+                                        </p>
+                                    {% endif %}
+                                    {% if wditem.claims.P1957 is defined %}
+                                        <p class="small">
+                                            <a href="{{ wditem.claims.P1957.0.mainsnak.datavalue.value }}" class="alert-link">
+                                                Transcription project.
+                                            </a>
+                                        </p>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endif %}
 
             </div>
 
