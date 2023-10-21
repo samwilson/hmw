@@ -10,6 +10,7 @@
             <th>ID</th>
             <th>Title</th>
             <th>Date</th>
+            <th>Wikidata</th>
         </tr>
         </thead>
         <tbody>
@@ -20,6 +21,11 @@
                     <td>
                         {% if item.date %}
                             {{ macros.date(item.date, item.date_precision) }}
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if item.wikidata %}
+                            <a href="https://www.wikidata.org/wiki/{{item.wikidata}}">{{item.wikidata}}</a>
                         {% endif %}
                     </td>
                 </tr>
