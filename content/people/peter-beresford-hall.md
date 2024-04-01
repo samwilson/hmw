@@ -1,8 +1,9 @@
 ---
 template: person
 title: Peter Beresford Hall
-parent1: hubert-sylvian-hall
-parent2: isor-cecile-ester-deakin
+parents:
+  - hubert-sylvian-hall
+  - isor-cecile-ester-deakin
 ---
 
 1927, April 21). *Western Mail*:[^1]

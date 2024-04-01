@@ -8,10 +8,12 @@ birth_place: Western Australia
 death_date: 1963-01-01
 death_date_precision: year
 death_place: Perth, Western Australia
-parent1: James_Herbert_Wilson
-parent2: Edith_Olive_Hall
-partner1: Jessie_Bowden
-partner2: Helen_Nelson
+parents:
+  - james-herbert-wilson
+  - edith-olive-hall
+partners:
+  - jessie-bowden
+  - helen-nelson
 wikitree: Wilson-84994
 familysearch: K2TT-CKH
 images:

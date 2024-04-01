@@ -5,8 +5,9 @@ birth_date: 1878-08-17
 birth_date_precision: day
 death_date: 1958-01-01
 death_date_precision: year
-parent1: william-wilson
-parent2: mary-mcharg
+parents:
+  - william-wilson
+  - mary-mcharg
 wikitree: Wilson-85055
 ---
 

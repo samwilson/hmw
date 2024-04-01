@@ -45,7 +45,7 @@
     <article class="container person">
         <h1>{{ page.metadata.title }}</h1>
 
-        <aside class="float-md-right row align-items-center mb-4 ml-md-3 shadow-sm p-1 col-md-4">
+        <aside class="float-md-right row align-items-start mb-4 ml-md-3 shadow-sm p-1 col-md-4">
             {% if wikidata_item.claims.P18 is defined %}
                 {% set commons = commons(wikidata_item.claims.P18[0].mainsnak.datavalue.value) %}
                     <figure itemscope itemtype="http://schema.org/ImageObject" class="figure col-12 text-center">
@@ -65,6 +65,66 @@
             {{_self.dateAndPlaceField(wikidata_item, 'Born:', 'birth_date', PROP_DATE_OF_BIRTH)}}
 
             {{_self.dateAndPlaceField(wikidata_item, 'Died:', 'death_date', PROP_DATE_OF_DEATH)}}
+
+            <div class="col-3"><strong>Parents:</strong></div>
+            <div class="col-9">
+                {% if page.metadata.parents is defined and page.metadata.parents %}
+                    <ul class="list-unstyled mb-0">
+                        {% for p in page.metadata.parents %}
+                            {% set parent = database.query('SELECT * FROM pages WHERE id = "/people/'~p~'"').fetch() %}
+                            {% if parent.id is defined %}
+                                <li><a href="{{page.link(parent.id)}}.html">{{parent.title}}</a></li>
+                            {% else %}
+                                <li>{{p}}</li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+
+            <div class="col-3"><strong>Partners:</strong></div>
+            <div class="col-9">
+                {% set partners = [] %}
+                {# First collect all partners listed on this page. #}
+                {% if page.metadata.partners is defined and page.metadata.partners %}
+                    {% for p in page.metadata.partners %}
+                        {% set partner = database.query('SELECT * FROM pages WHERE id = "/people/'~p~'"').fetch() %}
+                        {% if partner.id is defined %}
+                            {% set partners = partners|merge([partner]) %}
+                        {% else %}
+                            {% set partners = partners|merge([p]) %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                {# Then find all pages that reference this one as a partner. #}
+                {% set other_partners = database.query('SELECT p.* FROM pages p, json_each(p.partners) r WHERE r.value = "'~(page.id|basename)~'"').fetchAll() %}
+                {% for other_partner in other_partners %}
+                    {% set partners = partners|merge([other_partner]) %}
+                {% endfor %}
+                {# Then output them all together. #}
+                <ul class="list-unstyled mb-0">
+                    {% for partner in partners %}
+                        {% if partner.id is defined %}
+                            <li><a href="{{page.link(partner.id)}}.html">{{partner.title}}</a></li>
+                        {% else %}
+                            <li>{{partner}}</li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col-3"><strong>Children:</strong></div>
+            <div class="col-9">
+                {% set children = database.query('SELECT pages.* FROM pages,json_each(pages.parents) parents
+                    WHERE parents.value = "'~(page.id|basename)~'"').fetchAll() %}
+                {% if children %}
+                    <ul class="list-unstyled mb-0">
+                        {% for child in children %}
+                            <li><a href="{{page.link(child.id)}}.html">{{child.title}}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
 
             <div class="col-12">
                 <small>

@@ -7,9 +7,11 @@ birth_place: High Wycombe, Buckinghamshire, England
 death_date: 1838-07-11
 death_date_precision: day
 death_place: Perth, Western Australia
-parent1: Luke Leake (1756–1799)
-parent2: Ann Leake (née Heading)
-partner1: Mary-Ann Walpole
+parents:
+  - Luke Leake (1756–1799)
+  - Ann Leake (née Heading)
+partners:
+  - Mary-Ann Walpole
 wikitree: Leake-768
 ---
 

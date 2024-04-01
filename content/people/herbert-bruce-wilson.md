@@ -1,6 +1,7 @@
 ---
 template: person
 title: Herbert Bruce Wilson
+wikitree: Wilson-85025
 ---
 
 Born in 1918 in Perth.[^BruceWilsonBirth]

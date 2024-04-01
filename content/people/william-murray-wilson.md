@@ -2,8 +2,12 @@
 template: person
 title: William Murray Wilson
 wikidata: Q88222462
-parent_1: james-herbert-wilson
-parent_2: edith-olive-hall
+parents:
+  - james-herbert-wilson
+  - edith-olive-hall
+partners:
+  - helen-margaret-hall
+wikitree: Wilson-84876
 ---
 
 Photo 1942.

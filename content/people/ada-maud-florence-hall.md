@@ -7,9 +7,11 @@ birth_place:
 death_date: 1942-01-01
 death_date_precision: year
 death_place:
-parent1: lilian-helena-bruce
-parent2: james-anderton-hall
-partner1: anton-solberg
+parents:
+  - lilian-helena-bruce
+  - james-anderton-hall
+partners:
+  - Anton Solberg
 familysearch: LDWF-B1Q
 wikitree: Hall-22141
 wikidata: Q113960966

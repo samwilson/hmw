@@ -8,9 +8,11 @@ birth_place: Roebourne, Western Australia
 death_date: 1966-08-18
 death_date_precision: day
 death_place: Perth, Western Australia
-parent1: james-anderton-hall
-parent2: lilian-helena-bruce
-partner1: james-herbert-wilson
+parents:
+  - james-anderton-hall
+  - lilian-helena-bruce
+partners:
+  - james-herbert-wilson
 wikitree: Hall-22340
 familysearch: K86L-2CW
 ---
