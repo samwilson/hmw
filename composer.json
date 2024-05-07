@@ -5,6 +5,11 @@
     "config": {
         "process-timeout": 0
     },
+    "autoload": {
+        "psr-4": {
+            "Samwilson\\Hmw\\": "./src"
+        }
+    },
     "scripts": {
         "build-tree": [
             "inkscape --export-type=png --export-filename=assets/tree.png tree/tree.svg",
@@ -20,5 +25,8 @@
             "@build",
             "./node_modules/.bin/netlify deploy --prod -d output"
         ]
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.4"
     }
 }

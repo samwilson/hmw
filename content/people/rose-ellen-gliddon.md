@@ -1,7 +1,12 @@
 ---
 template: person
 title: Rose Ellen Leake (née Gliddon)
-date_of_birth: 1823
-date_of_death: 1888
+birth_date: 1823-01-01
+birth_date_precision: year
+death_date: 1888-01-01
+death_date_precision: year
+parents:
+  - sarah-gliddon
+  - john-gliddon
 wikitree: Gliddon-20
 ---

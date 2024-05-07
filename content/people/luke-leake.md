@@ -3,7 +3,7 @@ template: person
 title: Luke Leake
 birth_date: 1784
 birth_date_precision: year
-birth_place: High Wycombe, Buckinghamshire, England
+birth_place: Q64116
 death_date: 1838-07-11
 death_date_precision: day
 death_place: Perth, Western Australia

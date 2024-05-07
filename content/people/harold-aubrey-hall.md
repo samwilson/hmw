@@ -2,6 +2,7 @@
 template: person
 title: Harold Aubrey Hall
 wikidata: Q33169956
+wikitree: Hall-47093
 trove_list: 145230
 images:
   - caption: c. 1950s[^HAHandDarky]

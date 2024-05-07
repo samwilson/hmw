@@ -1,6 +1,11 @@
 ---
 template: person
 title: Thomas Soutter Lodge
+parents:
+  - 
+partners:
+  - 
+wikitree: Lodge-1831
 ---
 
 *The West Australian*, 1 March 1938:[^PioneerFarmer1938]

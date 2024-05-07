@@ -1,7 +1,11 @@
 ---
 template: person
 title: William Shakespeare Hall
+parents:
+  - henry-edward-hall
+  - sarah-theodosia-branson
 wikidata: Q8018316
+wikitree: Hall-22337
 ---
 
 Parents: {link|people/sarah-theodosia-branson} and {link|people/henry-edward-hall}.

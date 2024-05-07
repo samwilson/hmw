@@ -4,15 +4,18 @@
     {% import '_macros.twig' as macros %}
 
     <h1>People</h1>
+    {% set people = database.query('SELECT * FROM pages WHERE template="person" ORDER BY title ASC').fetchAll() %}
 
-    {{ page.body|md2html|raw }}
-
+    <p>
+        The {{people|length|number_format}} biographies listed here
+        are also available as <a href="{{page.link('/people/index')}}.pdf">a PDF</a>.
+    </p>
     <table class="table table-sm">
         <thead>
         <tr>
             <th>Person</th>
-            <th>Date of Birth</th>
-            <th>Date of Death</th>
+            <th colspan="2">Birth</th>
+            <th>Death</th>
             <th>Wikipedia</th>
             <th>Wikidata</th>
             <th>WikiTree</th>
@@ -20,7 +23,7 @@
         </tr>
         </thead>
         <tbody>
-            {% for person in database.query('SELECT * FROM pages WHERE template="person" ORDER BY title ASC').fetchAll() %}
+            {% for person in people %}
 
                 {% set wditem = false %}
                 {% if person.wikidata %}
@@ -35,6 +38,23 @@
                         {% endif %}
                         {% if wditem.claims.P569 is defined %}
                             {{ wditem.claims.P569.0.mainsnak.datavalue.value.time|date('j F Y') }}</td>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% set birth_place_id = false %}
+                        {% if person.birth_place %}
+                            {% set birth_place_id = person.birth_place %}
+                        {% endif %}
+                        {% if wditem.claims.P19 is defined %}
+                            {% set birth_place_id = wditem.claims.P19.0.mainsnak.datavalue.value.id %}
+                        {% endif %}
+                        {% if birth_place_id %}
+                            {% set birth_place = wikidata( birth_place_id ) %}
+                            {# Force every place to have an English Wikipedia article. #}
+                            <a href="https://en.wikipedia.org/wiki/{{birth_place.sitelinks.enwiki.title|replace({' ':'_'})}}"
+                                title="Read more on Wikipedia">
+                                {{birth_place.labels.en.value}}
+                            </a>
                         {% endif %}
                     </td>
                     <td>

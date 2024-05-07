@@ -1,6 +1,10 @@
 ---
 template: person
 title: James Anderton Hall
+wikitree: Hall-22325
+parents:
+  - henry-edward-hall
+  - sarah-theodosia-branson
 ---
 
 Lived in Roebourne.[^WilsonHallMarriageNotice]

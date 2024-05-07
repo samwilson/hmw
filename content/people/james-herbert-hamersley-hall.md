@@ -4,7 +4,7 @@ title: James Herbert Edward Hall
 description: b.1880 Roebourne; d.1918 Roebourne.
 birth_date: 1880-05-20
 birth_date_precision: day
-birth_place: Hamersley Range, Western Australia
+birth_place: Q1573394
 death_date: 1918-09-04
 death_date_precision: day
 death_place: Roebourne, Western Australia

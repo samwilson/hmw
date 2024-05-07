@@ -4,10 +4,10 @@ title: Frederick Gordon Wilson
 description: 1906–1963
 birth_date: 1906-06-21
 birth_date_precision: day
-birth_place: Western Australia
+birth_place: Q3206
 death_date: 1963-01-01
 death_date_precision: year
-death_place: Perth, Western Australia
+death_place: Q3183
 parents:
   - james-herbert-wilson
   - edith-olive-hall

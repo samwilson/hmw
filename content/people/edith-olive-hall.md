@@ -4,7 +4,7 @@ title: Edith Olive Hall
 description: 1882–1966
 birth_date: 1882-09-08
 birth_date_precision: day
-birth_place: Roebourne, Western Australia
+birth_place: Q941071
 death_date: 1966-08-18
 death_date_precision: day
 death_place: Perth, Western Australia

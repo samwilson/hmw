@@ -1,7 +1,12 @@
 ---
 template: person
-title: Henry Edward Hastings Hall
+title: Henry Edward Hall jnr.
+parents:
+  - henry-edward-hall-2
+partners:
+  - sarah-theodosia-branson
 wikidata: Q46165389
+wikitree: Hall-4122
 ---
 
 Henry Edward Hall was born in 1790.

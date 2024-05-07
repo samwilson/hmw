@@ -2,6 +2,7 @@
 template: person
 title: Helen Margaret Hall
 wikidata: Q58030897
+wikitree: Hall-55121
 ---
 
 Helen Margaret Hall was born on 10 July 1915 in Busselton, Western Australia.[^1]

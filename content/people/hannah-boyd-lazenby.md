@@ -1,6 +1,7 @@
 ---
 template: person
 title: Hannah Boyd Lazenby
+wikitree: Lazenby-491
 ---
 
 Daughter of George Lazenby[^HBLMarriageNotice] (1807–1895, cabinetmaker).

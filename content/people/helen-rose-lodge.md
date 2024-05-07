@@ -2,6 +2,7 @@
 template: person
 title: Helen Rose Hall (née Lodge)
 wikidata: Q96755346
+wikitree: Lodge-1830
 ---
 
 Helen Rose Lodge was born on 3 April 1888 in Grass Valley (near Northam), Western Australia[^FamilyNotices] 
