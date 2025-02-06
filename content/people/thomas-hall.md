@@ -1,11 +1,11 @@
 ---
 template: person
-title: Henry Edward Hall snr.
+title: Thomas Hall
 parents:
-  - unknown-hall
+  - 
 partners:
   - 
-wikitree: Hall-22347
+wikitree: Hall-68569
 myheritage: 
 ancestry: 
 familysearch: 

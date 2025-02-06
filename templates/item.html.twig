@@ -70,6 +70,26 @@
                             <span title="Order in which this item appears in the storage location">
                                 ({{ page.metadata.storage_location_key }})
                             </span>
+                            {# Previous #}
+                            {% set prev_sql = 'SELECT * FROM pages WHERE storage_location = "'~page.metadata.storage_location~'"
+                                AND CAST(storage_location_key AS int) < CAST("'~page.metadata.storage_location_key~'" AS int)
+                                AND storage_location_key != "'~page.metadata.storage_location_key~'"
+                                ORDER BY CAST(storage_location_key AS int) DESC' %}
+                            {% set prev = database.query(prev_sql).fetch %}
+                            {% if prev %}
+                                <a href="{{ page.link(prev.id) }}.html" title="{{prev.title}}">←previous</a>
+                            {% endif %}
+                            &middot;
+                            {# Next #}
+                            {% set next_sql = 'SELECT * FROM pages WHERE storage_location = "'~page.metadata.storage_location~'"
+                                AND CAST(storage_location_key AS int) > CAST("'~page.metadata.storage_location_key~'" AS int)
+                                AND storage_location_key != "'~page.metadata.storage_location_key~'"
+                                ORDER BY CAST(storage_location_key AS int) ASC' %}
+                            {% set next = database.query(next_sql).fetch %}
+                            {% if next %}
+                                <a href="{{ page.link(next.id) }}.html" title="{{next.title}}">next→</a>
+                            {% endif %}
+
                         {% endif %}
                     {% endif %}
                 </p>
@@ -250,10 +270,27 @@
                         {% set flickr = flickr(image.flickr) %}
                         {% set imgHref = flickr.urls.photopage %}
                         {% set imgSrc = flickr.urls.medium_image %}
+
                     {% elseif image.commons is defined %}
                         {% set commons = commons(image.commons) %}
                         {% set imgHref = commons.imageinfo.0.descriptionurl %}
                         {% set imgSrc = commons.imageinfo.0.thumburl %}
+
+                    {% elseif image.ia is defined %}
+                        {# Fetch the IA details just to confirm that the ID is correct. #}
+                        {% set ia = get_xml('https://archive.org/download/' ~ image.ia ~ '/' ~ image.ia ~ '_files.xml') %}
+                        {% set found = false %}
+                        {% for f in ia.file %}
+                            {% if f._attributes.name == image.ia_file %}
+                                {% set found = true %}
+                            {% endif %}
+                        {% endfor %}
+                        {% if not found %}
+                            ERROR File not found: {{image.ia_file}}
+                        {% endif %}
+                        {% set imgHref = 'https://archive.org/details/' ~ image.ia ~ '/' ~ image.ia_file %}
+                        {% set imgSrc = 'https://archive.org/download/' ~ image.ia ~ '/' ~ image.ia_file %}
+
                     {% endif %}
                     <figure class="figure col-md-2">
                         <a href="{{ imgHref }}">

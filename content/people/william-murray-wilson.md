@@ -8,6 +8,7 @@ parents:
 partners:
   - helen-margaret-hall
 wikitree: Wilson-84876
+wabmd: 
 ---
 
 Photo 1942.

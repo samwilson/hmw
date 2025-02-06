@@ -146,6 +146,8 @@
                                 {% endif %}
                             {% endfor %}
                         {% endfor %}
+                    {% elseif page.metadata.wikitree is defined %}
+                        WikiTree: <a href="https://wikitree.com/wiki/{{page.metadata.wikitree}}">{{page.metadata.wikitree}}</a>
                     {% endif %}
                 </small>
             </div>

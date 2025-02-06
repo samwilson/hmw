@@ -35,8 +35,7 @@
                     <td>
                         {% if person.birth_date %}
                             {{ macros.date(person.birth_date, person.birth_date_precision) }}
-                        {% endif %}
-                        {% if wditem.claims.P569 is defined %}
+                        {% elseif wditem.claims.P569 is defined %}
                             {{ wditem.claims.P569.0.mainsnak.datavalue.value.time|date('j F Y') }}</td>
                         {% endif %}
                     </td>
@@ -60,8 +59,7 @@
                     <td>
                         {% if person.death_date %}
                             {{ macros.date(person.death_date, person.death_date_precision) }}
-                        {% endif %}
-                        {% if wditem.claims.P570 is defined %}
+                        {% elseif wditem.claims.P570 is defined %}
                             {{ wditem.claims.P570.0.mainsnak.datavalue.value.time|date('j F Y') }}</td>
                         {% endif %}
                     </td>

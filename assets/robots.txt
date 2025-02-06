@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://hmwilson.archives.org.au/sitemap.xml

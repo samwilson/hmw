@@ -3,6 +3,8 @@
 namespace Samwilson\Hmw;
 
 use App\Database;
+use App\Page;
+use App\Site;
 use GuzzleHttp\Client;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -44,6 +46,7 @@ class WikiTreeCommand extends Command {
         $response = $this->client->request( 'GET', $wikiTreeUrl );
 
         $profiles = json_decode( $response->getBody()->getContents(), true);
+        $site = new Site(dirname(__DIR__));
 
         foreach ($profiles[0]['profile']['Parents'] as $parent) {
             $parentPage = $this->db->query('select * from pages where wikitree = "' . $parent['Name'] . '"')->fetch();
@@ -72,6 +75,13 @@ class WikiTreeCommand extends Command {
                 if ($response === 'Y') {
                     file_put_contents($possibleFilename, $markdown);
                     $this->io->success('Saved ' . $possibleFilename);
+                    $child = new Page($site, $p->id);
+                    $childMeta = $child->getMetadata();
+                    if (is_array($childMeta['parents'])) {
+                        $childMeta['parents'] = array_filter($childMeta['parents']);
+                        $childMeta['parents'][] = substr(basename($possibleFilename), 0, -3);
+                    }
+                    $child->write($childMeta, $child->getBody());
                 }
                 continue;
             }
