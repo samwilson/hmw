@@ -114,7 +114,7 @@
                     <p>
                         <strong>Tags:</strong><br />
                         &middot;
-                        {% for t in page.metadata.tags %}
+                        {% for t in page.metadata.tags|filter(v => v != '') %}
                             {% set tag = database.query('SELECT * FROM pages WHERE id = "/tags/'~t~'"').fetch() %}
                             {% if tag %}
                                 {% if tag.wikidata %}
@@ -132,6 +132,8 @@
                                 <span class="tag">{{ t }}</span>
                                 &middot;
                             {% endif %}
+                        {% else %}
+                            <em>(No tags)</em>
                         {% endfor %}
                     </p>
                 {% endif %}
@@ -177,7 +179,7 @@
                         {% if page.metadata.author is defined and page.metadata.author %}
                             {{ page.metadata.author }}
                         {% else %}
-                            <abbr title="Anonymous author">Anon.</abbr>
+                            <abbr title="Unknown author">[author not known]</abbr>
                         {% endif %}
                     {% else %}
                         No license has been specified for this work.
