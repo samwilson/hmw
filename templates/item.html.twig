@@ -25,12 +25,12 @@
             <div class="col-md-5 main-image">
                 {% if page.metadata.image is defined %}
                     <img src="{{ page.metadata.image }}" class="img-fluid mr-2 mb-2" />
-                {% elseif page.metadata.commons is defined %}
-                    {% include 'embeds/commons.html.twig' with { embed: { matches: { 1: page.metadata.commons } } } %}
                 {% elseif page.metadata.images.0 is defined %}
                     {% set imgSrc = site.config.img_placeholder %}
                     {% if page.metadata.images.0.commons is defined %}
                         {% set imgSrc = commons(page.metadata.images.0.commons).imageinfo.0.thumburl %}
+                    {% elseif page.metadata.images.0.ia_file is defined %}
+                        {% set imgSrc = 'https://archive.org/download/' ~ page.metadata.images.0.ia ~ '/' ~ page.metadata.images.0.ia_file %}
                     {% elseif page.metadata.images.0.flickr is defined %}
                         {% set imgSrc = flickr(page.metadata.images.0.flickr).urls.medium_image %}
                     {% endif %}
@@ -179,7 +179,7 @@
                         {% if page.metadata.author is defined and page.metadata.author %}
                             {{ page.metadata.author }}
                         {% else %}
-                            <abbr title="Unknown author">[author not known]</abbr>
+                            [author not known]
                         {% endif %}
                     {% else %}
                         No license has been specified for this work.
@@ -287,9 +287,6 @@
                                 {% set found = true %}
                             {% endif %}
                         {% endfor %}
-                        {% if not found %}
-                            ERROR File not found: {{image.ia_file}}
-                        {% endif %}
                         {% set imgHref = 'https://archive.org/details/' ~ image.ia ~ '/' ~ image.ia_file %}
                         {% set imgSrc = 'https://archive.org/download/' ~ image.ia ~ '/' ~ image.ia_file %}
 

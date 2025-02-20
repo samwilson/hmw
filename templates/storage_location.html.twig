@@ -27,7 +27,7 @@
     <p>
         The
         {{ database.query('select COUNT(*) AS total from pages where "/storage-locations/"||storage_location = :storage_location', {storage_location: page.id}).fetchColumn }}
-        items below are ordered according to their physical position in the storage location.
+        items below are ordered to match to their position in the storage location.
     </p>
 
     <div class="row">

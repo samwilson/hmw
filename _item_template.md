@@ -7,6 +7,8 @@ author:
 images:
   - commons: 
     flickr: 
+    ia: 
+    ia_file: 
     caption: 
 license: pd|cc-by|copyright
 pd_year:
