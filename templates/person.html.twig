@@ -167,6 +167,18 @@
         {% endif %}
 
         {{ page.body|md2html|raw }}
+
+        {% if page.metadata.references is defined %}
+            <h2>References</h2>
+            <ol>
+                {% set refnum = 1 %}
+                {% for k,v in page.metadata.references %}
+                    <li value="{{refnum}}">{{v|md2html|raw}}</li>
+                    {% set refnum = refnum + 1 %}
+                {% endfor %}
+            </ol>
+        {% endif %}
+
     </article>
 
     {% set items = database.query('SELECT p.* FROM pages p, json_each(p.people) j WHERE "/people/"||j.value LIKE "'~page.id~'" ORDER BY p.date').fetchAll() %}
