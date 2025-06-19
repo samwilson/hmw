@@ -52,11 +52,11 @@
 {% for item in items %}
   {% set portrait = false %}
   {% set images = json_decode(item.images) %}
-  {% if images.0.commons is defined %}
+  {% if images.0.commons is defined and images.0.commons %}
     {% set commons_data = commons(images.0.commons) %}
     {% set image = commons_data.imageinfo.0.thumburl %}
     {% set portrait = commons_data.imageinfo.0.thumbwidth < commons_data.imageinfo.0.thumbheight %}
-  {% elseif images.0.flickr is defined %}
+  {% elseif images.0.flickr is defined and images.0.flickr %}
     {% set image = flickr(images.0.flickr).urls.medium_image %}
   {% else %}
     {% set image = site.config.img_placeholder %}

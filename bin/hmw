@@ -3,9 +3,11 @@
 
 require_once(__DIR__ . '/../vendor/autoload.php');
 
+use Samwilson\Hmw\NewItemCommand;
 use Samwilson\Hmw\WikiTreeCommand;
 use Symfony\Component\Console\Application;
 
 $app = new Application();
+$app->add(new NewItemCommand());
 $app->add(new WikiTreeCommand());
 $app->run();

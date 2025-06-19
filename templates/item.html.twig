@@ -2,9 +2,9 @@
 
 {% block head %}
     {% if page.metadata.images.0 is defined %}
-        {% if page.metadata.images.0.commons is defined %}
+        {% if page.metadata.images.0.commons is defined and page.metadata.images.0.commons %}
             {% set imgSrc = commons(page.metadata.images.0.commons).imageinfo.0.thumburl %}
-        {% elseif page.metadata.images.0.flickr is defined %}
+        {% elseif page.metadata.images.0.flickr is defined and page.metadata.images.0.flickr %}
             {% set imgSrc = flickr(page.metadata.images.0.flickr).urls.medium_image %}
         {% endif %}
         {% if imgSrc is defined %}
@@ -27,11 +27,11 @@
                     <img src="{{ page.metadata.image }}" class="img-fluid mr-2 mb-2" />
                 {% elseif page.metadata.images.0 is defined %}
                     {% set imgSrc = site.config.img_placeholder %}
-                    {% if page.metadata.images.0.commons is defined %}
+                    {% if page.metadata.images.0.commons is defined and page.metadata.images.0.commons %}
                         {% set imgSrc = commons(page.metadata.images.0.commons).imageinfo.0.thumburl %}
                     {% elseif page.metadata.images.0.ia_file is defined %}
                         {% set imgSrc = 'https://archive.org/download/' ~ page.metadata.images.0.ia ~ '/' ~ page.metadata.images.0.ia_file %}
-                    {% elseif page.metadata.images.0.flickr is defined %}
+                    {% elseif page.metadata.images.0.flickr is defined and page.metadata.images.0.flickr %}
                         {% set imgSrc = flickr(page.metadata.images.0.flickr).urls.medium_image %}
                     {% endif %}
                     <img alt="Main image for this item." src="{{ imgSrc|escape('html_attr') }}" class="img-fluid mr-2 mb-2" />
@@ -63,7 +63,7 @@
 
                 <p>
                     <strong>Storage location:</strong>
-                    {% if page.metadata.storage_location %}
+                    {% if page.metadata.storage_location and page.metadata.storage_location %}
                         {% set sl = database.query('select * from pages where id = "/storage-locations/'~page.metadata.storage_location~'"').fetch %}
                         <a href="{{ page.link(sl.id) }}.html" itemprop="itemLocation">{{ sl.title }}</a>
                         {% if page.metadata.storage_location_key is defined and page.metadata.storage_location_key %}
@@ -268,17 +268,17 @@
                 {% for idx,image in page.metadata.images %}
                     {% set imgHref = '' %}
                     {% set imgSrc = '' %}
-                    {% if image.flickr is defined %}
+                    {% if image.flickr is defined and image.flickr %}
                         {% set flickr = flickr(image.flickr) %}
                         {% set imgHref = flickr.urls.photopage %}
                         {% set imgSrc = flickr.urls.medium_image %}
 
-                    {% elseif image.commons is defined %}
+                    {% elseif image.commons is defined and image.commons %}
                         {% set commons = commons(image.commons) %}
                         {% set imgHref = commons.imageinfo.0.descriptionurl %}
                         {% set imgSrc = commons.imageinfo.0.thumburl %}
 
-                    {% elseif image.ia is defined %}
+                    {% elseif image.ia is defined and image.ia %}
                         {# Fetch the IA details just to confirm that the ID is correct. #}
                         {% set ia = get_xml('https://archive.org/download/' ~ image.ia ~ '/' ~ image.ia ~ '_files.xml') %}
                         {% set found = false %}
