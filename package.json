@@ -1,6 +1,6 @@
 {
     "private": true,
     "devDependencies": {
-        "netlify-cli": "^18"
+        "netlify-cli": "^22"
     }
 }
