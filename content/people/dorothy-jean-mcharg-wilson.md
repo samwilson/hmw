@@ -1,6 +1,7 @@
 ---
 template: person
 title: Dorothy Jean McHarg Wilson
+wikitree: Wilson-85035
 ---
 
 Eldest daughter of [Jim](./james-herbert-wilson.html) and [Edith](./edith-olive-hall.html) Wilson.[^WestAust1928]

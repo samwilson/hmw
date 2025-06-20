@@ -1,7 +1,8 @@
 ---
 template: person
-title: Lilian Rae Hussey (née Wilson)
+title: Lilian Jessie Rae Hussey (née Wilson)
 wikidata: Q108122058
+wikitree: Wilson-85026
 ---
 
 {{{commons|1943 Australian and American Nurses, Rae Hussey, New Guinea (cropped).png}}}

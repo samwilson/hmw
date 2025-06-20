@@ -2,7 +2,7 @@
 template: person
 title: James Herbert Wilson
 wikidata: Q108117390
-wikitree: Hall-22325
+wikitree: Wilson-84877
 ---
 
 At the Perth Barracks, c.1900.

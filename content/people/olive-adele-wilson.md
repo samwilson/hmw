@@ -1,6 +1,7 @@
 ---
 template: person
 title: Olive Adele Wilson
+wikitree: Wilson-85033
 ---
 
 Adele was born in 1908 to {link|people/james-herbert-wilson} and {link|people/edith-olive-hall},

@@ -1,6 +1,7 @@
 ---
 template: person
 title: Mary McHarg
+wikitree: McHarg-174
 ---
 
 Mary married [William Wilson](./william-wilson.html) in Melbourne in (possibly) 1864.[^MaryMcHargMarriage]
