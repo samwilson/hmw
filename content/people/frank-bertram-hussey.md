@@ -2,19 +2,37 @@
 template: person
 title: Frank Bertram Hussey
 wikidata: Q32059531
+wikitree: Hussey-2509
 images:
   - caption: During the war.
+references:
+  Beverley1963: |
+    Names Make News (1963, February 21). *The Beverley Times*, p. 5
+    Retrieved June 20, 2025, from http://nla.gov.au/nla.news-article202717362
+    "Hussey . . . Wonder what happened to him department.
+    Remember young Frank Hussey, who left Toodyay in 1928 for Duntroon and a soldier's life?
+    He was the son of Dr. Bertram Hussey, who now lies in the Nardy cemetery
+    on the river bank a few miles from Toodyay.
+    Frank — after a brilliant army career, ending as a brigadier of Engineers —
+    is now one of the top government men on the dam Site at Kununurra, in the Kimberley.
+    His sister is Mrs. Arthur Whitfield, of Konnongorring."
+  RaeWestAus: |
+    *Fortress named a heritage icon*, 11 November 2010. Kent Acott.
+    https://au.news.yahoo.com/thewest/a/8298751/fortress-named-a-heritage-icon/
+    http://www.webcitation.org/6YFHtUpaU
+    https://web.archive.org/web/20160306205725/https://au.news.yahoo.com/thewest/a/8298751/fortress-named-a-heritage-icon/
+
 ---
 
-Frank Hussey was born on 26 April 1908 in Toodyay[^RaeWestAus]
+**Frank Hussey** was born on 26 April 1908 in Toodyay{ref|RaeWestAus}
 to Dr Bertram Hussey and his wife May Elizabeth (née Laroche).[^WesternMail1936][^TheWest1950]
 Dr Hussey died some time before 1936,[^MilitaryWedding] and May died in 1950.[^TheWest1950]
 
 He attended Guildford Grammar School 1920–1923[^FBHguildford]
-and then Duntroon (when it was in Melbourne).[^RaeWestAus]
+and then Duntroon from 1928{ref|Beverley1963} (when it was in Melbourne).{ref|RaeWestAus}
 
 In the lead-up to the Second World War he was seconded from the Army to oversee the construction of the railway on Rottnest
-(from Kingston Barracks to Oliver Hill).[^RaeWestAus]
+(from Kingston Barracks to Oliver Hill).{ref|RaeWestAus}
 
 On Tuesday 3 March 1936 he married Hilda McCue (of Rockdale NSW[^WestAus1936p4])
 in the hotel on Rottnest.[^WestAus1936p19]
@@ -65,12 +83,6 @@ Photo: *Captain Hussey* at the Settlement railway station, May 2015.[^CaptainHus
     "Family Notices", *The West Australian* 19 September 1950, p.26.
     http://nla.gov.au/nla.news-article47887243
     "HUSSEY: On September 17, 1950, at Mount Hospital, Perth, May Elizabeth Laroche, of 4 Harper-terrace, South Perth, widow of Dr. Bertram Hussey, of Toodyay, loved mother of Lesley (Mrs. Young, of New Zealand), Vivienne (Mrs. Whitfleld, of Konnongorring) and Frank (of Melbourne)."
-
-[^RaeWestAus]:
-    *Fortress named a heritage icon*, 11 November 2010. Kent Acott.
-    https://au.news.yahoo.com/thewest/a/8298751/fortress-named-a-heritage-icon/
-    http://www.webcitation.org/6YFHtUpaU
-    https://web.archive.org/web/20160306205725/https://au.news.yahoo.com/thewest/a/8298751/fortress-named-a-heritage-icon/
 
 [^MilitaryWedding]:
     Brilliant Military Wedding. (1936, March 8). Sunday Times (Perth, WA: 1902 - 1954), p. 24.

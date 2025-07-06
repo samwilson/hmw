@@ -26,9 +26,7 @@
             "@build",
             "./node_modules/.bin/netlify deploy --prod -d output"
         ],
-        "newitem": [
-            "NEWFILE=\"content/items/$(( $(ls -1q content/items | wc -l) + 1 )).md\" cp _item_template.md $NEWFILE & echo Created $NEWFILE"
-        ]
+        "newitem": "./bin/hmw newitem"
     },
     "require-dev": {
         "symfony/var-dumper": "^6.4"

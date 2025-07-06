@@ -61,36 +61,42 @@
                     </p>
                 {% endif %}
 
-                <p>
-                    <strong>Storage location:</strong>
+                <p class="d-flex">
+                    <strong class="pr-2">Storage location:</strong>
                     {% if page.metadata.storage_location and page.metadata.storage_location %}
-                        {% set sl = database.query('select * from pages where id = "/storage-locations/'~page.metadata.storage_location~'"').fetch %}
-                        <a href="{{ page.link(sl.id) }}.html" itemprop="itemLocation">{{ sl.title }}</a>
-                        {% if page.metadata.storage_location_key is defined and page.metadata.storage_location_key %}
-                            <span title="Order in which this item appears in the storage location">
-                                ({{ page.metadata.storage_location_key }})
-                            </span>
-                            {# Previous #}
-                            {% set prev_sql = 'SELECT * FROM pages WHERE storage_location = "'~page.metadata.storage_location~'"
-                                AND CAST(storage_location_key AS int) < CAST("'~page.metadata.storage_location_key~'" AS int)
-                                AND storage_location_key != "'~page.metadata.storage_location_key~'"
-                                ORDER BY CAST(storage_location_key AS int) DESC' %}
-                            {% set prev = database.query(prev_sql).fetch %}
-                            {% if prev %}
-                                <a href="{{ page.link(prev.id) }}.html" title="{{prev.title}}">←previous</a>
+                        <span>
+                            {% set sl = database.query('select * from pages where id = "/storage-locations/'~page.metadata.storage_location~'"').fetch %}
+                            <a href="{{ page.link(sl.id) }}.html" itemprop="itemLocation">{{ sl.title }}</a>
+                            {% if page.metadata.storage_location_key is defined and page.metadata.storage_location_key %}
+                                <span title="Order in which this item appears in the storage location">
+                                    ({{ page.metadata.storage_location_key }})
+                                </span>
+                                {# Previous and next #}
+                                {% set prev_sql = 'SELECT * FROM pages WHERE storage_location = "'~page.metadata.storage_location~'"
+                                    AND CAST(storage_location_key AS int) < CAST("'~page.metadata.storage_location_key~'" AS int)
+                                    AND storage_location_key != "'~page.metadata.storage_location_key~'"
+                                    ORDER BY CAST(storage_location_key AS int) DESC' %}
+                                {% set prev = database.query(prev_sql).fetch %}
+                                {% set next_sql = 'SELECT * FROM pages WHERE storage_location = "'~page.metadata.storage_location~'"
+                                    AND CAST(storage_location_key AS int) > CAST("'~page.metadata.storage_location_key~'" AS int)
+                                    AND storage_location_key != "'~page.metadata.storage_location_key~'"
+                                    ORDER BY CAST(storage_location_key AS int) ASC' %}
+                                {% set next = database.query(next_sql).fetch %}
+                                {% if prev and next %}
+                                    <span class="text-nowrap">
+                                {% endif %}
+                                    {% if prev %}
+                                        <a href="{{ page.link(prev.id) }}.html" title="{{prev.title}}">←previous</a>
+                                    {% endif %}
+                                    &middot;
+                                    {% if next %}
+                                        <a href="{{ page.link(next.id) }}.html" title="{{next.title}}">next→</a>
+                                    {% endif %}
+                                {% if prev and next %}
+                                    </span>
+                                {% endif %}
                             {% endif %}
-                            &middot;
-                            {# Next #}
-                            {% set next_sql = 'SELECT * FROM pages WHERE storage_location = "'~page.metadata.storage_location~'"
-                                AND CAST(storage_location_key AS int) > CAST("'~page.metadata.storage_location_key~'" AS int)
-                                AND storage_location_key != "'~page.metadata.storage_location_key~'"
-                                ORDER BY CAST(storage_location_key AS int) ASC' %}
-                            {% set next = database.query(next_sql).fetch %}
-                            {% if next %}
-                                <a href="{{ page.link(next.id) }}.html" title="{{next.title}}">next→</a>
-                            {% endif %}
-
-                        {% endif %}
+                        </span>
                     {% endif %}
                 </p>
 
@@ -260,7 +266,7 @@
                 {% if page.metadata.images|length == 1 %}
                     The image below links to its canonical record.
                 {% else %}
-                    The images below are linked to their canonical records,
+                    The {{page.metadata.images|length}} images below are linked to their canonical records,
                     from where you can download the full high-resolution versions.
                 {% endif %}
             </p>
