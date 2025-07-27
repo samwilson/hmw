@@ -29,8 +29,8 @@
                     {% set imgSrc = site.config.img_placeholder %}
                     {% if page.metadata.images.0.commons is defined and page.metadata.images.0.commons %}
                         {% set imgSrc = commons(page.metadata.images.0.commons).imageinfo.0.thumburl %}
-                    {% elseif page.metadata.images.0.ia_file is defined %}
-                        {% set imgSrc = 'https://archive.org/download/' ~ page.metadata.images.0.ia ~ '/' ~ page.metadata.images.0.ia_file %}
+                    {% elseif page.metadata.images.0.ia is defined %}
+                        {% set imgSrc = 'https://archive.org/download/' ~ page.metadata.images.0.ia ~ '/' ~ ( page.metadata.images.0.ia_file | default( '__ia_thumb.jpg' ) ) %}
                     {% elseif page.metadata.images.0.flickr is defined and page.metadata.images.0.flickr %}
                         {% set imgSrc = flickr(page.metadata.images.0.flickr).urls.medium_image %}
                     {% endif %}
@@ -104,7 +104,7 @@
                     <p>
                         <strong>People:</strong><br />
                         &middot;
-                        {% for p in page.metadata.people %}
+                        {% for p in page.metadata.people|filter(v => v != '') %}
                             {% set person = database.query('SELECT * FROM pages WHERE id = "/people/'~p~'"').fetch() %}
                             {% if person %}
                                 <a href="{{ page.link(person.id) }}.html">{{ person.title }}</a>
@@ -112,6 +112,8 @@
                                 {{ p }}
                             {% endif %}
                             &middot;
+                        {% else %}
+                            <em>No people</em>
                         {% endfor %}
                     </p>
                 {% endif %}
@@ -139,7 +141,7 @@
                                 &middot;
                             {% endif %}
                         {% else %}
-                            <em>(No tags)</em>
+                            <em>No tags</em>
                         {% endfor %}
                     </p>
                 {% endif %}
@@ -287,14 +289,8 @@
                     {% elseif image.ia is defined and image.ia %}
                         {# Fetch the IA details just to confirm that the ID is correct. #}
                         {% set ia = get_xml('https://archive.org/download/' ~ image.ia ~ '/' ~ image.ia ~ '_files.xml') %}
-                        {% set found = false %}
-                        {% for f in ia.file %}
-                            {% if f._attributes.name == image.ia_file %}
-                                {% set found = true %}
-                            {% endif %}
-                        {% endfor %}
-                        {% set imgHref = 'https://archive.org/details/' ~ image.ia ~ '/' ~ image.ia_file %}
-                        {% set imgSrc = 'https://archive.org/download/' ~ image.ia ~ '/' ~ image.ia_file %}
+                        {% set imgHref = 'https://archive.org/details/' ~ image.ia %}
+                        {% set imgSrc = 'https://archive.org/download/' ~ image.ia ~ '/' ~ ( image.ia_file | default( '__ia_thumb.jpg' ) ) %}
 
                     {% endif %}
                     <figure class="figure col-md-2">

@@ -28,8 +28,8 @@
                 {% set images = json_decode(item.images) %}
                 {% if images.0.commons is defined %}
                     {% set imgSrc = commons(images.0.commons).imageinfo.0.thumburl %}
-                {% elseif images.0.ia_file is defined %}
-                    {% set imgSrc = 'https://archive.org/download/' ~ images.0.ia ~ '/' ~ images.0.ia_file %}
+                {% elseif images.0.ia is defined %}
+                    {% set imgSrc = 'https://archive.org/download/' ~ images.0.ia ~ '/' ~ ( images.0.ia_file | default( '__ia_thumb.jpg' ) ) %}
                 {% elseif images.0.flickr is defined and images.0.flickr %}
                     {% set imgSrc = flickr(images.0.flickr).urls.medium_image %}
                 {% endif %}
