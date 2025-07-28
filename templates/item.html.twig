@@ -34,7 +34,7 @@
                     {% elseif page.metadata.images.0.flickr is defined and page.metadata.images.0.flickr %}
                         {% set imgSrc = flickr(page.metadata.images.0.flickr).urls.medium_image %}
                     {% endif %}
-                    <img alt="Main image for this item." src="{{ imgSrc|escape('html_attr') }}" class="img-fluid mr-2 mb-2" />
+                    <img alt="Main image for this item." src="{{ imgSrc|escape('html_attr') }}" class="img-fluid mr-2 mb-2" style="view-transition-name: item-image" />
                 {% endif %}
             </div>
 
@@ -306,7 +306,7 @@
             </div>
         {% endif %}
 
-        {% set subitems = database.query('SELECT * FROM pages WHERE parent_item = '~(page.id|basename)).fetchAll() %}
+        {% set subitems = database.query('SELECT * FROM pages WHERE parent_item = '~(page.id|basename)~' ORDER BY date ASC, title ASC').fetchAll() %}
         {% if subitems %}
             <div id="subitems">
                 <h3>Sub-items</h3>
