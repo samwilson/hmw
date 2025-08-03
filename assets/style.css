@@ -27,3 +27,5 @@ sup a.footnote-ref:hover { text-decoration:none; background-color: #e9f0ff; }
 .footnote-backref { display:none }
 
 .infobox { width: 350px; }
+
+.illegible { color: #c82222; }

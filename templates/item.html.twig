@@ -20,15 +20,15 @@
 
         <h1 itemprop="name" class="text-center">{{ page.metadata.title }}</h1>
 
-        <div class="row">
+        <div class="">
 
-            <div class="col-md-5 main-image">
+            <div class="float-left main-image mr-3">
                 {% if page.metadata.image is defined %}
                     <img src="{{ page.metadata.image }}" class="img-fluid mr-2 mb-2" />
                 {% elseif page.metadata.images.0 is defined %}
                     {% set imgSrc = site.config.img_placeholder %}
                     {% if page.metadata.images.0.commons is defined and page.metadata.images.0.commons %}
-                        {% set imgSrc = commons(page.metadata.images.0.commons).imageinfo.0.thumburl %}
+                        {% set imgSrc = commons(page.metadata.images.0.commons, ( page.metadata.images.0.page | default(null) ) ).imageinfo.0.thumburl %}
                     {% elseif page.metadata.images.0.ia is defined %}
                         {% set imgSrc = 'https://archive.org/download/' ~ page.metadata.images.0.ia ~ '/' ~ ( page.metadata.images.0.ia_file | default( '__ia_thumb.jpg' ) ) %}
                     {% elseif page.metadata.images.0.flickr is defined and page.metadata.images.0.flickr %}
@@ -38,7 +38,7 @@
                 {% endif %}
             </div>
 
-            <div class="col-md-7">
+            <div class="">
                 {{ macros.page_qrcode(site, page) }}
                 <p>
                     <strong>Item number:</strong>
@@ -258,17 +258,18 @@
 
         </div><!-- .row -->
 
-        <article class="container">
+        <article class="container clearfix">
             {{ page.body|md2html|raw }}
         </article>
 
         {% if page.metadata.images is defined and page.metadata.images %}
+            <hr class="clearfix" />
             <h3 id="images" class="mt-4">Images</h3>
             <p>
                 {% if page.metadata.images|length == 1 %}
-                    The image below links to its canonical record.
+                    The image below links to its canonical location.
                 {% else %}
-                    The {{page.metadata.images|length}} images below are linked to their canonical records,
+                    The {{page.metadata.images|length}} images below are linked to their canonical locations,
                     from where you can download the full high-resolution versions.
                 {% endif %}
             </p>

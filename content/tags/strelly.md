@@ -1,5 +1,5 @@
 ---
 template: tag
-title: Strelly, Busselton
+title: Strelly Grange, Busselton
 wikidata: Q96248693
 ---

@@ -1,0 +1,11 @@
+{% if shortcode.attrs.commons is defined and shortcode.attrs.commons %}
+    {% set img_src = commons(shortcode.attrs.commons, ( shortcode.attrs.page | default(null) ) ).imageinfo.0.thumburl %}
+{% elseif shortcode.attrs.ia is defined %}
+    {% set img_src = 'https://archive.org/download/' ~ shortcode.attrs.ia ~ '/' ~ ( shortcode.attrs.ia_file | default( '__ia_thumb.jpg' ) ) %}
+{% endif %}
+{% if img_src %}
+    <figure class="figure float-right w-25">
+        <img src="{{ img_src }}" class="figure-img img-fluid rounded" alt="{{ shortcode.attrs.alt }}">
+        <figcaption class="figure-caption">{{ shortcode.attrs.caption }}</figcaption>
+    </figure>
+{% endif %}
