@@ -21,14 +21,12 @@
     <meta property="og:url" content="{{ site.config.url }}{{ page.id }}.html" />
     {% if page.metadata.title is defined and page.metadata.title %}
         <meta property="og:title" content="{{ page.metadata.title|e('html_attr') }}" />
-        <meta property="twitter:title" content="{{ page.metadata.title|e('html_attr') }}" />
     {% endif %}
     {% if page.metadata.description is defined and page.metadata.description %}
         <meta name="description" content="{{ page.metadata.description|e('html_attr') }}">
         <meta property="og:description" content="{{ page.metadata.description|e('html_attr') }}" />
         <meta name="twitter:description" content="{{ page.metadata.description|e('html_attr') }}">
     {% endif %}
-    <meta name="twitter:creator" content="@archivesorgau" />
 
     {# Matomo #}
     <script>

@@ -9,6 +9,7 @@ images:
     flickr: 
     ia: 
     ia_file: 
+    ia_leaf: 
     caption: 
 license: pd|cc-by|copyright
 pd_year:

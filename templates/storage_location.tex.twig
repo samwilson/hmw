@@ -1,4 +1,6 @@
 {% autoescape 'tex' %}
+{% import '_macros.twig' as macros %}
+
 \documentclass[a4paper]{article}
 
 \usepackage[margin=2cm]{geometry}
@@ -50,43 +52,47 @@
 
 {% set items = database.query('select * from pages where "/storage-locations/"||storage_location = :storage_location ORDER BY CAST(storage_location_key AS INTEGER) ASC', {storage_location: page.id}).fetchAll() %}
 {% for item in items %}
-  {% set images = json_decode(item.images) %}
-  {% set portrait = images.0.portrait | default( false ) %}
+    {% set images = json_decode(item.images) %}
 
-  {% if images.0.commons is defined and images.0.commons %}
-    {% set commons_data = commons(images.0.commons) %}
-    {% set image = commons_data.imageinfo.0.thumburl %}
-    {% set portrait = commons_data.imageinfo.0.thumbwidth < commons_data.imageinfo.0.thumbheight %}
+{#  {% set portrait = images.0.portrait | default( false ) %}#}
 
-  {% elseif images.0.flickr is defined and images.0.flickr %}
-    {% set image = flickr(images.0.flickr).urls.medium_image %}
+{#  {% if images.0.commons is defined and images.0.commons %}#}
+{#    {% set commons_data = commons(images.0.commons) %}#}
+{#    {% set image = commons_data.imageinfo.0.thumburl %}#}
+{#    {% set portrait = commons_data.imageinfo.0.thumbwidth < commons_data.imageinfo.0.thumbheight %}#}
 
-  {% elseif images.0.ia is defined and images.0.ia %}
-    {% set ia = get_xml('https://archive.org/download/' ~ images.0.ia ~ '/' ~ images.0.ia ~ '_files.xml') %}
-    {% set image = 'https://archive.org/download/' ~ images.0.ia ~ '/' ~ ( images.0.ia_file | default( '__ia_thumb.jpg' ) ) %}
+{#  {% elseif images.0.flickr is defined and images.0.flickr %}#}
+{#    {% set image = flickr(images.0.flickr).urls.medium_image %}#}
 
-  {% else %}
-    {% set image = site.config.img_placeholder %}
-  {% endif %}
-  {% set date = 'date unknown' %}
-  {% if item.date %}
-    {% set datetime = date_create(item.date) %}
-    {% if item.date_precision == 'circa' %}
-      {% set date = 'c.~' ~ datetime.format('Y') %}
-    {% elseif item.date_precision == 'year' %}
-      {% set date = datetime.format('Y') %}
-    {% elseif item.date_precision == 'month' %}
-      {% set date = datetime.format('Y F') %}
-    {% else %}
-      {% set date = datetime.format('Y F j l') %}
+{#  {% elseif images.0.ia is defined and images.0.ia %}#}
+{#    {% set ia = get_xml('https://archive.org/download/' ~ images.0.ia ~ '/' ~ images.0.ia ~ '_files.xml') %}#}
+{#    {% set image = 'https://archive.org/download/' ~ images.0.ia ~ '/' ~ ( images.0.ia_file | default( '__ia_thumb.jpg' ) ) %}#}
+
+{#  {% else %}#}
+{#    {% set image = site.config.img_placeholder %}#}
+{#  {% endif %}#}
+    {% if images.0 is defined %}
+        {% set date = 'date unknown' %}
+        {% if item.date %}
+            {% set datetime = date_create(item.date) %}
+            {% if item.date_precision == 'circa' %}
+                {% set date = 'c.~' ~ datetime.format('Y') %}
+            {% elseif item.date_precision == 'year' %}
+                {% set date = datetime.format('Y') %}
+            {% elseif item.date_precision == 'month' %}
+                {% set date = datetime.format('Y F') %}
+            {% else %}
+                {% set date = datetime.format('Y F j l') %}
+            {% endif %}
+        {% endif %}
+        {% set caption = 'Item ' ~ item.id|basename ~ ' -- ' ~ item.title ~ ' (' ~ date ~ ')' %}
+        \begin{SCfigure}
+            \centering
+            \caption{ {{ caption|raw }} }
+            {{ macros.image( images.0, false, '', 'tex' ) }}
+            {#    \includegraphics[{% if portrait %}height=0.45\textheight{% else %}width=0.7\textwidth{% endif %}]{{'{'}}{{ tex_url(image)|raw }}{{'}'}}#}
+        \end{SCfigure}
     {% endif %}
-  {% endif %}
-  {% set caption = 'Item ' ~ item.id|basename ~ ' -- ' ~ item.title ~ ' (' ~ date ~ ')' %}
-  \begin{SCfigure}
-    \centering
-    \caption{ {{ caption|raw }} }
-    \includegraphics[{% if portrait %}height=0.45\textheight{% else %}width=0.7\textwidth{% endif %}]{{'{'}}{{ tex_url(image)|raw }}{{'}'}}
-  \end{SCfigure}
 {% endfor %}
 
 \end{document}
