@@ -1,0 +1,6 @@
+{% import '_macros.twig' as macros %}
+{% set item = database.query('select * from pages where id = "/items/'~shortcode.attrs.1~'"').fetch %}
+<a href="{{ page.link(item.id) }}.html"><em>{{ item.title }}</em></a>
+{% if item.date %}
+    {{ macros.date(item.date, item.date_precision) }}
+{% endif %}

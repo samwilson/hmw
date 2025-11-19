@@ -129,13 +129,15 @@
 
 {% macro reflist(page) %}
     {% if page.metadata.references is defined and page.metadata.references %}
-        <h2>References</h2>
-        <ol>
-            {% set refnum = 1 %}
-            {% for k,v in page.metadata.references %}
-                <li value="{{refnum}}">{{v|md2html|raw}}</li>
-                {% set refnum = refnum + 1 %}
-            {% endfor %}
-        </ol>
+        <section class="macros-reflist">
+            <h2>References</h2>
+            <ol>
+                {% set refnum = 1 %}
+                {% for k,v in page.metadata.references %}
+                    <li value="{{refnum}}">{{v|md2html|raw}}</li>
+                    {% set refnum = refnum + 1 %}
+                {% endfor %}
+            </ol>
+        </section>
     {% endif %}
 {% endmacro %}

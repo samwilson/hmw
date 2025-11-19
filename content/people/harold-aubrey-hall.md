@@ -48,6 +48,8 @@ references:
       accessed 19 October 2021), memorial page for Harold Aubrey Hall (20 May 1871–11 Jan 1963),
       Find a Grave Memorial ID 223788802, citing Cossack Cemetery, Cossack, Karratha City, Western Australia, Australia.
       Maintained by Kathy A (contributor 48215744).
+  item10: "{cite-item|10}"
+  item269: "{cite-item|269}"
 ---
 
 **Harold Aubrey Hall** (1871—1963) was a Western Australian pastoral station manager and stockman.
@@ -55,9 +57,10 @@ references:
 He was born in 1871{ref|ADBWSHall} to {link|people/william-shakespeare-hall|Shakespeare}
 and {link|people/sarah-theodosia-branson|Sarah} Hall.
 
-Born 20 May 1871<ref>{{WA BMD|type=birth|year=1871|district=Perth|number=13090}}</ref><ref>[[1900-05-18 Copy of H A Hall birth certificate]]</ref> at his grandparents' home in Murray Street, Perth.<ref>[[Extract from birth certificate for Harold Aubrey Hall]]</ref><ref>[[Clipping re Aubrey Hall's death, The Countryman, 1963-01-24]]</ref>
+Born 20 May 1871<ref>{{WA BMD|type=birth|year=1871|district=Perth|number=13090}}</ref>{ref|item269} at his grandparents' home
+in Murray Street, Perth.<ref>[[Extract from birth certificate for Harold Aubrey Hall]]</ref><ref>[[Clipping re Aubrey Hall's death, The Countryman, 1963-01-24]]</ref>
 
-Given a copy of Tennyson's works by Jay, for his 25th birthday.<ref>[[Aubrey Hall's Works of Tennyson]]</ref>
+Given a copy of Tennyson's works by Jay, for his 25th birthday.{ref|item10}
 
 Mayor of Cossack from 1898—1901.{ref|CossackMayoralty}
 
