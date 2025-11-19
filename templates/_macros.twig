@@ -18,7 +18,7 @@
 {% endmacro %}
 
 {% macro image(image, link = true, class = '', format = 'html') %}
-    {% set img_src = '' %}
+    {% set img_src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Noun_Project_unknown_icon_762411_cc.svg/480px-Noun_Project_unknown_icon_762411_cc.svg.png' %}
     {% set img_href = '' %}
     {% set width = null %}
     {% if image.width is defined %}
@@ -97,9 +97,7 @@
                 {% endif %}
             </figcaption>
             {% set images = json_decode(item.images, true) %}
-            {% if images %}
-                {{ _self.image( images.0, false, 'figure-img img-fluid rounded' ) }}
-            {% endif %}
+            {{ _self.image( images.0|default({}), false, 'figure-img img-fluid rounded' ) }}
             {#            <img src="{{ imgSrc|escape('html_attr') }}" class="figure-img img-fluid rounded" alt="" style="view-transition-name: item-image" />#}
         </figure>
     </a>
@@ -127,4 +125,17 @@
             Permalink
         </a>
     </p>
+{% endmacro %}
+
+{% macro reflist(page) %}
+    {% if page.metadata.references is defined and page.metadata.references %}
+        <h2>References</h2>
+        <ol>
+            {% set refnum = 1 %}
+            {% for k,v in page.metadata.references %}
+                <li value="{{refnum}}">{{v|md2html|raw}}</li>
+                {% set refnum = refnum + 1 %}
+            {% endfor %}
+        </ol>
+    {% endif %}
 {% endmacro %}

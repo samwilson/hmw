@@ -250,6 +250,7 @@
 
         <article class="container clearfix">
             {{ page.body|md2html|raw }}
+            {{ macros.reflist(page) }}
         </article>
 
         {% if page.metadata.images is defined and page.metadata.images %}
