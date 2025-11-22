@@ -18,29 +18,42 @@
     {% import '_macros.twig' as macros %}
     <div itemscope itemtype="http://schema.org/{{ page.metadata.itemtype ?? 'ArchiveComponent' }}" class="item">
 
-        <h1 itemprop="name" class="text-center">{{ page.metadata.title }}</h1>
-
-        <div class="">
-
-            {% if page.metadata.images.0|default(false) %}
-                <div class="float-left main-image mr-3">
-                    {{ macros.image( page.metadata.images.0, true, 'img-fluid mr-2 mb-2' ) }}
+        <header class="container text-center">
+            <h1 itemprop="name">{{ page.metadata.title }}</h1>
+            {% if page.metadata.description is defined and page.metadata.description %}
+                <div class="lead">
+                    <div itemprop="description">{{ page.metadata.description|md2html|raw }}</div>
                 </div>
             {% endif %}
+        </header>
 
-            <div class="">
+        <div>
+            <div class="clearfix">
+
+                {% if page.metadata.images.0|default(false) %}
+                    <div class="float-left main-image mr-3">
+                        {{ macros.image( page.metadata.images.0, false, 'img-fluid mr-2 mb-2' ) }}
+                    </div>
+                {% endif %}
+
                 {{ macros.page_qrcode(site, page) }}
                 <p>
                     <strong>Item number:</strong>
                     <span itemprop="identifier">{{ page.id|basename }}</span>
                 </p>
 
-                {% if page.metadata.parent_item is defined and page.metadata.parent_item %}
+                {% if page.metadata.parent_item is defined and page.metadata.parent_item != '' %}
                     <p>
                         <strong>Parent item:</strong>
                         {% set parent_item = database.query('SELECT * FROM pages WHERE id = "/items/'~page.metadata.parent_item~'"').fetch() %}
                         <a href="{{ page.link(parent_item.id) }}.html">{{ parent_item.title }}</a>
-                        (#{{ parent_item.id|basename }})
+                        (
+                            <abbr title="ID of the parent item">#{{ parent_item.id|basename }}</abbr>,
+                            {% if parent_item.storage_location is defined and parent_item.storage_location != '' %}
+                                {% set parent_item_sl = database.query('SELECT * FROM pages WHERE id = "/storage-locations/'~parent_item.storage_location~'"').fetch() %}
+                                <a href="{{ page.link(parent_item_sl.id) }}.html" title="Storage location of the parent item">{{ parent_item_sl.title }}</a>
+                            {% endif %}
+                        )
                     </p>
                 {% endif %}
 
@@ -54,6 +67,9 @@
                 <p class="d-flex">
                     <strong class="pr-2">Storage location:</strong>
                     {% if page.metadata.storage_location and page.metadata.storage_location %}
+{#                        {% if parent_item_sl is defined %}#}
+{#                            {{ exit('An item and its parent should not both have a storage location.') }}#}
+{#                        {% endif %}#}
                         <span>
                             {% set sl = database.query('select * from pages where id = "/storage-locations/'~page.metadata.storage_location~'"').fetch %}
                             <a href="{{ page.link(sl.id) }}.html" itemprop="itemLocation">{{ sl.title }}</a>
@@ -92,9 +108,9 @@
 
                 {% if page.metadata.people is defined and page.metadata.people %}
                     <p>
-                        <strong>People:</strong><br />
-                        &middot;
+                        <strong>People:</strong>
                         {% for p in page.metadata.people|filter(v => v != '') %}
+                            &middot;
                             {% set person = database.query('SELECT * FROM pages WHERE id = "/people/'~p~'"').fetch() %}
                             {% if person %}
                                 <a href="{{ page.link(person.id) }}.html">{{ person.title }}</a>
@@ -110,9 +126,9 @@
 
                 {% if page.metadata.tags is defined and page.metadata.tags %}
                     <p>
-                        <strong>Tags:</strong><br />
-                        &middot;
+                        <strong>Tags:</strong>
                         {% for t in page.metadata.tags|filter(v => v != '') %}
+                            &middot;
                             {% set tag = database.query('SELECT * FROM pages WHERE id = "/tags/'~t~'"').fetch() %}
                             {% if tag %}
                                 {% if tag.wikidata %}
@@ -125,20 +141,14 @@
                                 {% else %}
                                     <a class="tag" href="{{ page.link(tag.id) }}.html" rel="tag">{{ tag.title }}</a>
                                 {% endif %}
-                                &middot;
                             {% elseif t %}
                                 <span class="tag">{{ t }}</span>
-                                &middot;
                             {% endif %}
+                            {% if loop.last %}&middot;{% endif %}
                         {% else %}
                             <em>No tags</em>
                         {% endfor %}
                     </p>
-                {% endif %}
-
-                {% if page.metadata.description is defined and page.metadata.description %}
-                    <strong>Description:</strong>
-                    <div itemprop="description">{{ page.metadata.description|md2html|raw }}</div>
                 {% endif %}
 
                 {% if page.metadata.author is defined and page.metadata.author %}
@@ -248,7 +258,8 @@
 
         </div><!-- .row -->
 
-        <article class="container clearfix">
+        <hr class="clearfix" />
+        <article class="container">
             {{ page.body|md2html|raw }}
             {{ macros.reflist(page) }}
         </article>
