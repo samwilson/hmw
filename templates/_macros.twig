@@ -29,19 +29,19 @@
         {% set height = image.height %}
     {% endif %}
 
-    {% if image.commons is defined %}
+    {% if image.commons is defined and image.commons %}
         {% set commons = commons(image.commons) %}
         {% set img_src = commons.imageinfo.0.thumburl %}
         {% set img_href = commons.imageinfo.0.descriptionurl %}
         {% set width = commons.imageinfo.0.thumbwidth %}
         {% set height = commons.imageinfo.0.thumbheight %}
 
-    {% elseif image.flickr is defined %}
+    {% elseif image.flickr is defined and image.flickr %}
         {% set flickr = flickr(image.flickr) %}
         {% set img_src = flickr.urls.medium_image %}
         {% set img_href = flickr.urls.photopage %}
 
-    {% elseif image.ia is defined and image.ia != '' %}
+    {% elseif image.ia is defined and image.ia %}
         {% set ia_meta = get_xml( 'https://archive.org/download/' ~ image.ia ~ '/' ~ image.ia ~ '_meta.xml') %}
         {% if image.ia_leaf is defined %}
             {% set img_href = 'https://archive.org/details/' ~ image.ia ~ '/page/n' ~ image.ia_leaf ~ '/mode/1up' %}

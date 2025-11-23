@@ -1,0 +1,41 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+
+    {% set items = database.query( 'SELECT * FROM pages WHERE images IS NOT NULL AND images != ""' ).fetchAll() %}
+    {% set ia_ids = {} %}
+    {% for item in items %}
+        {% set images = json_decode(item.images, true) %}
+        {% for image in images %}
+            {% if image.ia is defined and image.ia %}
+                {% set ia_ids = ia_ids|merge({(image.ia): true}) %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+
+    <article class="container">
+        <h1>Internet Archive</h1>
+        <p>The following <a href="https://archive.org">Internet Archive</a> items are used on this website:</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Identifier</th>
+                    <th>Title</th>
+                    <th>Subjects</th>
+                </tr>
+            </thead>
+            {% for ia_id in ia_ids|keys %}
+                {% set ia_meta = get_xml( 'https://archive.org/download/' ~ ia_id ~ '/' ~ ia_id ~ '_meta.xml') %}
+                <tr>
+                    <td><a href="https://archive.org/details/{{ ia_meta.identifier }}"><code>{{ ia_meta.identifier }}</code></a></td>
+                    <td>{{ ia_meta.title }}</td>
+                    <td>
+                        {% for subject in ia_meta.subject|default([]) %}
+                            <a href="https://archive.org/search.php?query=subject%3A%22{{ subject|url_encode }}%22">{{ subject }}</a>{% if not loop.last %},{% else %}{% endif %}
+                        {% endfor %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+    </article>
+{% endblock %}

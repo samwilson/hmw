@@ -117,7 +117,7 @@
                             {% else %}
                                 {{ p }}
                             {% endif %}
-                            &middot;
+                            {% if loop.last %}&middot;{% endif %}
                         {% else %}
                             <em>No people</em>
                         {% endfor %}
@@ -258,11 +258,13 @@
 
         </div><!-- .row -->
 
-        <hr class="clearfix" />
-        <article class="container">
-            {{ page.body|md2html|raw }}
-            {{ macros.reflist(page) }}
-        </article>
+        {% if page.body %}
+            <hr class="clearfix" />
+            <article class="container">
+                {{ page.body|md2html|raw }}
+                {{ macros.reflist(page) }}
+            </article>
+        {% endif %}
 
         {% if page.metadata.images is defined and page.metadata.images %}
             <hr class="clearfix" />

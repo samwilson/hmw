@@ -28,8 +28,6 @@ sup a.footnote-ref:hover { text-decoration:none; background-color: #e9f0ff; }
 
 .infobox { width: 350px; }
 
-.illegible { color: #c82222; }
+.shortcode-illegible { color: #c82222; cursor: help; }
 
-.macros-reflist li p {
-    margin: 0;
-}
+.macros-reflist li p { margin: 0; }
