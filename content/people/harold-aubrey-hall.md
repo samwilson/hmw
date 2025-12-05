@@ -50,6 +50,7 @@ references:
       Maintained by Kathy A (contributor 48215744).
   item10: "{cite-item|10}"
   item269: "{cite-item|269}"
+  item282: "{cite-item|282}"
 ---
 
 **Harold Aubrey Hall** (1871—1963) was a Western Australian pastoral station manager and stockman.
@@ -174,7 +175,7 @@ He died aged 91 on 11 January 1963, in Swanbourne.{ref|FindAGrave}
 * 1943-44, 1946-47: [[Woopenatty Station]], Arrino.
 * 1947: Block 411, Marvel Loch.
 * 1945, November: at Arrino.<ref>[[1945-11 Telegrams to Margaret Wilson]]</ref>
-* 1948: Woopenatty.
+* 1948: at Woopenatty. Applied to be a weighbridge officer with CBH.{ref|item282}
 * 1949: at Woopenatty, Arrino. Pastoral employee.<ref>{{WA electoral roll |year=1949 |num=1399 |division=Moore |subdivision=Irwin |details=Woopenatty, Arrino, pastoral employee }}</ref>
 * 1954: 59 Outram Street, West Perth.<ref>{{WA electoral roll |year=1954 |division=Perth |subdivision=West Perth |id=33266092:1207 |num=1880 |details=59 Outram Street, pastoral employee }}</ref>
 * 1958: retired to Perth.<ref name=1971vocab />

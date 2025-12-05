@@ -16,6 +16,8 @@
 
 {% block main %}
     {% import '_macros.twig' as macros %}
+    {% set subitems = database.query('SELECT * FROM pages WHERE parent_item = '~(page.id|basename)~' ORDER BY date ASC, title ASC').fetchAll() %}
+
     <div itemscope itemtype="http://schema.org/{{ page.metadata.itemtype ?? 'ArchiveComponent' }}" class="item">
 
         <header class="container text-center">
@@ -199,6 +201,10 @@
                         {% if page.metadata.pd_year > 'now'|date('Y') %}will enter{% else %}entered{% endif %}
                         the public domain in {{ page.metadata.pd_year }}.
                     {% endif %}
+
+                    {% if subitems %}
+                        Sub-items may have difference licenses.
+                    {% endif %}
                 </p>
 
                 {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
@@ -289,7 +295,6 @@
             </div>
         {% endif %}
 
-        {% set subitems = database.query('SELECT * FROM pages WHERE parent_item = '~(page.id|basename)~' ORDER BY date ASC, title ASC').fetchAll() %}
         {% if subitems %}
             <div id="subitems">
                 <h3>Sub-items</h3>

@@ -16,12 +16,20 @@ references:
     Frank — after a brilliant army career, ending as a brigadier of Engineers —
     is now one of the top government men on the dam Site at Kununurra, in the Kimberley.
     His sister is Mrs. Arthur Whitfield, of Konnongorring."
+  WestAus1936p4: |
+    No title. (1936, March 4). The West Australian (Perth, WA: 1879 - 1954), p. 4.
+    Retrieved May 3, 2015, from http://nla.gov.au/nla.news-article25131060
   RaeWestAus: |
     *Fortress named a heritage icon*, 11 November 2010. Kent Acott.
     https://au.news.yahoo.com/thewest/a/8298751/fortress-named-a-heritage-icon/
     http://www.webcitation.org/6YFHtUpaU
     https://web.archive.org/web/20160306205725/https://au.news.yahoo.com/thewest/a/8298751/fortress-named-a-heritage-icon/
-
+  Army1969: |
+    [Untitled article](http://nla.gov.au/nla.news-article266906969),
+    27 March 1969, p.3, *Australian Army* (newspaper). 
+  Army1970: |
+    [All at sea aver birthday](http://nla.gov.au/nla.news-article266996819),
+    3 December 1970, p.5, Australian Army (newspaper).
 ---
 
 **Frank Hussey** was born on 26 April 1908 in Toodyay{ref|RaeWestAus}
@@ -31,10 +39,12 @@ Dr Hussey died some time before 1936,[^MilitaryWedding] and May died in 1950.[^T
 He attended Guildford Grammar School 1920–1923[^FBHguildford]
 and then Duntroon from 1928{ref|Beverley1963} (when it was in Melbourne).{ref|RaeWestAus}
 
-In the lead-up to the Second World War he was seconded from the Army to oversee the construction of the railway on Rottnest
-(from Kingston Barracks to Oliver Hill).{ref|RaeWestAus}
+In the lead-up to the Second World War he was seconded
+from the Army to the federal Department of the Interior,
+to oversee the construction of the Kinston Barracks{ref|Army1969}
+and the railway on Rottnest Island.{ref|RaeWestAus}
 
-On Tuesday 3 March 1936 he married Hilda McCue (of Rockdale NSW[^WestAus1936p4])
+On Tuesday 3 March 1936 he married Hilda McCue (of Rockdale NSW{ref|WestAus1936p4})
 in the hotel on Rottnest.[^WestAus1936p19]
 They were married in the Music Room.[^MilitaryWedding]
 Captain K. Hall was the chairman at the reception.[^MilitaryWedding]
@@ -43,9 +53,21 @@ Hilda cut the cake with Frank's military sword.[^MilitaryWedding]
 He rose to the rank of Brigadier during WW2,[^FBHwar]
 and was discharged from the Army in 1958.[^CaptainHusseyDisplay]
 
-After the war, he married [Rae Wilson](./lilian-rae-wilson.html).
-Together they lived in Wyndham,
+After the war, he married {link|people/lilian-rae-wilson|Rae Wilson}.
+
+Frank retired from the Army in 1960,
+from the position of Directory of Inspection (in Melbourne).{ref|Army1969}
+
+Frank and Rae lived in Wyndham,
 where from 1960 to `63 he was an engineer on the Ord River Diversion Dam.
+
+In 1969 he was Col. Comdt. RAE in W. Cmd.{ref|Army1969}
+
+In 1949 as Directory of Army Transportation he was responsible
+for creating 36 Water Transport Squadron
+(formerly 3 Tn. Sqn., and 4 & 5 Water Tpt. Tp.) in East Fremantle.
+He was present at its 21st anniversary in 1970,
+when he was the Queen's representative of the RAE.{ref|Army1970}
 
 Frank died on 11 May 1985 at Hollywood Hospital in Perth.
 
@@ -88,9 +110,6 @@ Photo: *Captain Hussey* at the Settlement railway station, May 2015.[^CaptainHus
     Brilliant Military Wedding. (1936, March 8). Sunday Times (Perth, WA: 1902 - 1954), p. 24.
     Retrieved May 3, 2015, from http://nla.gov.au/nla.news-article58764110
 
-[^WestAus1936p4]:
-    No title. (1936, March 4). The West Australian (Perth, WA: 1879 - 1954), p. 4.
-    Retrieved May 3, 2015, from http://nla.gov.au/nla.news-article25131060
 
 [^FBHguildford]:
     Accomplished Old Guildfordians, 9 March 2012.

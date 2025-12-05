@@ -1,0 +1,4 @@
+{% apply spaceless %}
+{% set item = get_json( 'https://www.wikidata.org/wiki/Special:EntityData/' ~ shortcode.attrs.1 ~ '.json' ).entities|first %}
+{{ shortcode.attrs.2|default(item.labels.en.value) }}
+{% endapply %}
