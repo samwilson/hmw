@@ -1,0 +1,40 @@
+# Redirects file: https://docs.netlify.com/routing/redirects/redirect-options/
+
+/main_page /
+/Rae's_documents/JAMES_HERBERT_WILSON.doc /items/32.html
+/rae's_documents/james_herbert_wilson_continued.doc / 
+
+/tags/constance-boyd-hall.html      /people/constance-boyd-hall.html 
+/tags/constance-boyd-hall           /people/constance-boyd-hall
+/tags/bill-byron.html               /people/bill-byron.html
+/tags/bill-byron                    /people/bill-byron.html
+/tags/cmw.html                      /people/charles-william-mcharg-wilson.html
+/tags/cmw                           /people/charles-william-mcharg-wilson.html
+/tags/dennis-lodge-martin.html      /people/dennis-lodge-martin.html
+/tags/dennis-lodge-martin           /people/dennis-lodge-martin
+/tags/garrick-agnew.html            /people/garrick-agnew.html.html
+/tags/garrick-agnew                 /people/garrick-agnew.html
+/tags/harold-aubrey-hall.html       /people/harold-aubrey-hall.html
+/tags/harold-aubrey-hall            /people/harold-aubrey-hall
+/tags/helen-hall.html               /people/helen-rose-lodge.html
+/tags/helen-hall                    /people/helen-rose-lodge.html
+/tags/helen-margaret-hall.html      /people/helen-margaret-hall.html
+/tags/helen-margaret-hall           /people/helen-margaret-hall
+/tags/jhw.html                      /people/james-herbert-wilson.html
+/tags/jhw                           /people/james-herbert-wilson
+/tags/joan-leake-hall.html          /people/joan-leake-hall.html
+/tags/joan-leake-hall               /people/joan-leake-hall
+/tags/rae-hussey.html               /people/lilian-rae-wilson.html
+/tags/rae-hussey                    /people/lilian-rae-wilson
+/tags/sarah-constance-lodge.html    /people/sarah-constance-lodge.html
+/tags/sarah-constance-lodge         /people/sarah-constance-lodge
+/tags/william-murray-wilson.html    /people/william-murray-wilson.html
+/tags/william-murray-wilson         /people/william-murray-wilson
+/tags/william-shakespeare-hall.html /people/william-shakespeare-hall.html
+/tags/william-shakespeare-hall      /people/william-shakespeare-hall
+
+/people/mathew-oliver-lodge.html    /people/arthur-oliver-lodge.html
+/people/mathew-oliver-lodge         /people/arthur-oliver-lodge
+
+/Agnes_Hay_Wilson                   /people/agnes-hay-wilson.html
+/agnes_hay_wilson                   /people/agnes-hay-wilson.html
