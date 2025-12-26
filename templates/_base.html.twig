@@ -81,6 +81,17 @@
                     <li class="nav-item {% if page.id == '/storage-locations' %}active{% endif %}">
                         <a class="nav-link" href="{{ page.link('/storage-locations') }}.html">Storage locations</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="elsewhere-menu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Elsewhere
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="elsewhere-menu">
+                            <a class="dropdown-item" href="{{ page.link('/internetarchive') }}.html">Internet Archive</a>
+                            <a class="dropdown-item" href="{{ page.link('/wikidata') }}.html">Wikidata</a>
+                            <a class="dropdown-item" href="{{ page.link('/wikitree') }}.html">WikiTree</a>
+                            <a class="dropdown-item" href="{{ page.link('/wikimediacommons') }}.html">Wikimedia Commons</a>
+                        </div>
+                    </li>
                 </ul>
                 <span class="mr-3">
                     <a class="btn btn-outline-success" title="Tell us about anything to do with this website!"
