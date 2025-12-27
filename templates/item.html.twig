@@ -1,21 +1,13 @@
 {% extends '_base.html.twig' %}
+{% import '_macros.twig' as macros %}
 
 {% block head %}
     {% if page.metadata.images.0 is defined %}
-        {% if page.metadata.images.0.commons is defined and page.metadata.images.0.commons %}
-            {% set imgSrc = commons(page.metadata.images.0.commons).imageinfo.0.thumburl %}
-        {% elseif page.metadata.images.0.flickr is defined and page.metadata.images.0.flickr %}
-            {% set imgSrc = flickr(page.metadata.images.0.flickr).urls.medium_image %}
-        {% endif %}
-        {% if imgSrc is defined %}
-            <meta property="og:image" content="{{ imgSrc|escape('html_attr') }}" />
-            <meta name="twitter:card" content="summary_large_image">
-        {% endif %}
-    {% endif %}
+        {{ macros.image( page.metadata.images.0, false, '', 'meta' ) }}
+   {% endif %}
 {% endblock %}
 
 {% block main %}
-    {% import '_macros.twig' as macros %}
     {% set subitems = database.query('SELECT * FROM pages WHERE parent_item = '~(page.id|basename)~' ORDER BY date ASC, title ASC').fetchAll() %}
 
     <div itemscope itemtype="http://schema.org/{{ page.metadata.itemtype ?? 'ArchiveComponent' }}" class="item">

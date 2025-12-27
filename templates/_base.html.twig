@@ -25,7 +25,6 @@
     {% if page.metadata.description is defined and page.metadata.description %}
         <meta name="description" content="{{ page.metadata.description|e('html_attr') }}">
         <meta property="og:description" content="{{ page.metadata.description|e('html_attr') }}" />
-        <meta name="twitter:description" content="{{ page.metadata.description|e('html_attr') }}">
     {% endif %}
 
     {# Matomo #}

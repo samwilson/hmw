@@ -65,28 +65,20 @@
         <img src="{{ img_src }}" width="{{ img_width }}" height="{{img_height}}" class="{{ class }}" />
         {% if link %}</a>{% endif %}
         <span class="printonly"><br /><code>{{ img_href }}</code></span>
-    {% else %}
+    {% elseif format == 'tex' %}
         \includegraphics[{% if width < height %}height=0.45\textheight{% else %}width=0.7\textwidth{% endif %}]{{'{'}}{{ tex_url(img_src)|raw }}{{'}'}}
+    {% elseif format == 'meta' %}
+        <meta property="og:image" content="{{ img_src }}" />
+        {# <meta property="og:image:width" content="{{ img_width }}" />#}
+        {# <meta property="og:image:height" content="{{ img_height }}" />#}
+    {% else %}
+        {{ cancel( 'Invalid image format: ' ~ format ) }}
     {% endif %}
 {% endmacro %}
 
 {% macro gallery_item(site, page, item) %}
-
     <a href="{{ page.link(item.id) }}.html" title="View details of this item" class="figure col-md-2 item-figure text-center">
         <figure>
-{#            {% set imgSrc = site.config.img_placeholder %}#}
-{#            {% if item.image is defined and item.image %}#}
-{#                {% set imgSrc = item.image %}#}
-{#            {% else %}#}
-{#                {% set images = json_decode(item.images) %}#}
-{#                {% if images.0.commons is defined %}#}
-{#                    {% set imgSrc = commons(images.0.commons).imageinfo.0.thumburl %}#}
-{#                {% elseif images.0.ia is defined %}#}
-{#                    {% set imgSrc = 'https://archive.org/download/' ~ images.0.ia ~ '/' ~ ( images.0.ia_file | default( '__ia_thumb.jpg' ) ) %}#}
-{#                {% elseif images.0.flickr is defined and images.0.flickr %}#}
-{#                    {% set imgSrc = flickr(images.0.flickr).urls.medium_image %}#}
-{#                {% endif %}#}
-{#            {% endif %}#}
             <figcaption class="figure-caption">
                 <strong><em>Item {{ item.id|basename }}</em> &ndash; {{ item.title }}</strong>{% if item.date %},
                 {{ _self.date(item.date, item.date_precision) }}
@@ -99,10 +91,8 @@
             </figcaption>
             {% set images = json_decode(item.images, true) %}
             {{ _self.image( images.0|default({}), false, 'figure-img img-fluid rounded' ) }}
-            {#            <img src="{{ imgSrc|escape('html_attr') }}" class="figure-img img-fluid rounded" alt="" style="view-transition-name: item-image" />#}
         </figure>
     </a>
-
 {% endmacro %}
 
 {% macro utterances() %}
