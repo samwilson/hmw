@@ -283,16 +283,32 @@
                     from where you can download the full high-resolution versions.
                 {% endif %}
             </p>
+            {% set uses_ia = false %}
+            {% set uses_commons = false %}
             <div class="row">
                 {% for idx,image in page.metadata.images %}
                     <figure class="figure col-md-2">
                         {{ macros.image(image, true, 'figure-img img-fluid rounded') }}
                         <figcaption class="figure-caption text-center">
-                            {{image.caption}}
+                            {{image.caption|default('')}}
                         </figcaption>
                     </figure>
+                    {% if image.ia is defined and image.ia != '' %}
+                        {% set uses_ia = true %}
+                    {% endif %}
+                    {% if image.commons is defined and image.commons != '' %}
+                        {% set uses_commons = true %}
+                    {% endif %}
                 {% endfor %}
             </div>
+            {% if uses_ia or uses_commons %}
+                <p>
+                    This item's images are hosted on
+                    {% if uses_commons %}<a href="https://commons.wikimedia.org">Wikimedia Commons</a>{% endif -%}
+                    {%- if uses_ia and uses_commons %} and {% endif -%}
+                    {%- if uses_ia %}the <a href="https://archive.org">Internet Archive</a>{% endif %}.
+                </p>
+            {% endif %}
         {% endif %}
 
         {% if subitems %}
