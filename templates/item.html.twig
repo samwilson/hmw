@@ -66,6 +66,20 @@
                     </p>
                 {% endif %}
 
+                {% if page.metadata.author is defined and page.metadata.author %}
+                    <p>
+                        <strong>Author:</strong>
+                        <span itemprop="author">
+                            {% set author_person = database.query('select * from pages where id = "/people/'~page.metadata.author~'"').fetch %}
+                            {% if author_person %}
+                                <a href="{{ page.link(author_person.id) }}.html">{{ author_person.title }}</a>
+                            {% else %}
+                                {{ page.metadata.author }}
+                            {% endif %}
+                        </span>
+                    </p>
+                {% endif %}
+
                 <p class="d-flex">
                     <strong class="pr-2">Storage location:</strong>
                     {% if page.metadata.storage_location and page.metadata.storage_location %}
@@ -150,20 +164,6 @@
                         {% else %}
                             <em>No tags</em>
                         {% endfor %}
-                    </p>
-                {% endif %}
-
-                {% if page.metadata.author is defined and page.metadata.author %}
-                    <p>
-                        <strong>Author:</strong>
-                        <span itemprop="author">
-                            {% set author_person = database.query('select * from pages where id = "/people/'~page.metadata.author~'"').fetch %}
-                            {% if author_person %}
-                                <a href="{{ page.link(author_person.id) }}.html">{{ author_person.title }}</a>
-                            {% else %}
-                                {{ page.metadata.author }}
-                            {% endif %}
-                        </span>
                     </p>
                 {% endif %}
 

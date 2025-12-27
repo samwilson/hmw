@@ -67,7 +67,7 @@
                 {% set date = datetime.format('Y F j l') %}
             {% endif %}
         {% endif %}
-        {% set caption = 'Item ' ~ item.id|basename ~ ' -- ' ~ item.title ~ ' (' ~ date ~ ')' %}
+        {% set caption = 'Item ' ~ item.id|basename ~ ' -- ' ~ item.title|e('tex') ~ ' (' ~ date ~ ')' %}
         \begin{SCfigure}
             \centering
             \caption{ {{ caption|raw }} }
