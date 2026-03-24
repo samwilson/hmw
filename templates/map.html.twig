@@ -43,6 +43,24 @@
             {% endif %}
         {% endfor %}
 
+        {% set wikidataTags = database.query('SELECT * FROM pages WHERE tags IS NOT NULL') %}
+        {% for wikidataTag in wikidataTags %}
+            {% set pageTags = json_decode(wikidataTag.tags,true) %}
+            {% for pageTag in pageTags %}
+                {% if pageTag matches '/Q[0-9]+/' %}
+                    {% set wditem = wikidata(pageTag) %}
+                    {% if wditem.claims.P625 is defined %}
+                        {% set lat = wditem.claims.P625.0.mainsnak.datavalue.value.latitude %}
+                        {% set lon = wditem.claims.P625.0.mainsnak.datavalue.value.longitude %}
+                        label = document.createElement('a');
+                        label.innerHTML = "{{ wditem.labels.en.value }} ({{ wditem.id }})<br>Item {{ wikidataTag.id|basename }}: {{ wikidataTag.title }}";
+                        label.href = "{{ page.link(wikidataTag.id) }}.html";
+                        L.marker({ lon:{{ lon }}, lat:{{ lat }} }).bindPopup( label ).addTo( map );
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
     </script>
 {% endblock %}
 

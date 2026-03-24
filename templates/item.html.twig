@@ -150,7 +150,12 @@
                                     <a class="tag" href="{{ page.link(tag.id) }}.html" rel="tag">{{ tag.title }}</a>
                                 {% endif %}
                             {% elseif t %}
-                                <span class="tag">{{ t }}</span>
+                                {% if t matches '/Q[0-9]+/' %}
+                                    {% set wditem = wikidata(t) %}
+                                    <a class="tag" rel="tag" href="https://wikidata.org/wiki/{{ wditem.id }}">{{ wditem.labels.en.value }}</a>
+                                {% else %}
+                                    <span class="tag">{{ t }}</span>
+                                {% endif %}
                             {% endif %}
                             {% if loop.last %}&middot;{% endif %}
                         {% else %}
