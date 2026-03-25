@@ -51,6 +51,7 @@ references:
   item10: "{cite-item|10}"
   item269: "{cite-item|269}"
   item282: "{cite-item|282}"
+  item313: "{cite-item|313}"
 ---
 
 **Harold Aubrey Hall** (1871—1963) was a Western Australian pastoral station manager and stockman.
@@ -62,6 +63,9 @@ Born 20 May 1871<ref>{{WA BMD|type=birth|year=1871|district=Perth|number=13090}}
 in Murray Street, Perth.<ref>[[Extract from birth certificate for Harold Aubrey Hall]]</ref><ref>[[Clipping re Aubrey Hall's death, The Countryman, 1963-01-24]]</ref>
 
 Given a copy of Tennyson's works by Jay, for his 25th birthday.{ref|item10}
+
+In March 1898 a former Cossack postmaster, E.J. Ryan, repaid some money that Aubrey had lent him
+(possibly a year earlier, when Ryan may have been transferred from Cossack under something of a cloud, to become a telegraph operator at Eucla).{ref|item313}
 
 Mayor of Cossack from 1898—1901.{ref|CossackMayoralty}
 

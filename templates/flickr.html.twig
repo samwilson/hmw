@@ -1,0 +1,49 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+
+    {% set items = database.query( 'SELECT * FROM pages WHERE images IS NOT NULL AND images != ""' ).fetchAll() %}
+    {% set flickr_images = {} %}
+    {% for item in items %}
+        {% set images = json_decode(item.images, true) %}
+        {% for image in images %}
+            {% if image.flickr is defined and image.flickr %}
+                {% if flickr_images[image.flickr] is defined %}
+                    {% set items_list = flickr_images[ image.flickr ] | merge( [ item.id ] ) %}
+                {% else %}
+                    {% set items_list = [ item.id ] %}
+                {% endif %}
+                {% set flickr_images = flickr_images | merge( { ('F'~image.flickr): items_list } ) %}
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+
+    <article class="container">
+        <h1>Flickr</h1>
+        <p>The following <a href="https://flickr.com">Flickr</a> images are used on this website:</p>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Flickr ID</th>
+                <th>Title</th>
+                <th>Items</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for flickr_id,item_ids in flickr_images %}
+                {% set flickr = flickr( flickr_id|slice(1) ) %}
+                <tr>
+                    <td><a href="{{ flickr.urls.photopage }}"><code>{{ flickr.id }}</code></a></td>
+                    <td>{{ flickr.title }}</td>
+                    <td>
+                        {% for i in item_ids %}
+                            <a href="{{ page.link(i) }}".html>{{ i|basename }}</a>
+                            {% if not loop.last %}<br>{% endif %}
+                        {% endfor %}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </article>
+{% endblock %}
