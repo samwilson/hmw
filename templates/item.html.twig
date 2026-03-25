@@ -282,6 +282,7 @@
             </p>
             {% set uses_ia = false %}
             {% set uses_commons = false %}
+            {% set uses_flickr = false %}
             <div class="row">
                 {% for idx,image in page.metadata.images %}
                     <figure class="figure col-md-2">
@@ -296,14 +297,19 @@
                     {% if image.commons is defined and image.commons != '' %}
                         {% set uses_commons = true %}
                     {% endif %}
+                    {% if image.flickr is defined and image.flickr != '' %}
+                        {% set uses_flickr = true %}
+                    {% endif %}
                 {% endfor %}
             </div>
-            {% if uses_ia or uses_commons %}
+            {% if uses_ia or uses_commons or uses_flickr %}
                 <p>
                     This item's images are hosted on
                     {% if uses_commons %}<a href="https://commons.wikimedia.org">Wikimedia Commons</a>{% endif -%}
                     {%- if uses_ia and uses_commons %} and {% endif -%}
-                    {%- if uses_ia %}the <a href="https://archive.org">Internet Archive</a>{% endif %}.
+                    {%- if uses_ia %}the <a href="https://archive.org">Internet Archive</a>{% endif %}
+                    {%- if ( uses_commons or uses_ia ) and uses_flickr %} and {% endif -%}
+                    {%- if uses_flickr %}<a href="https://flickr.com">Flickr</a>{% endif %}.
                 </p>
             {% endif %}
         {% endif %}

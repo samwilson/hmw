@@ -37,7 +37,7 @@
                     <td>{{ flickr.title }}</td>
                     <td>
                         {% for i in item_ids %}
-                            <a href="{{ page.link(i) }}".html>{{ i|basename }}</a>
+                            <a href="{{ page.link(i) }}.html">{{ i|basename }}</a>
                             {% if not loop.last %}<br>{% endif %}
                         {% endfor %}
                     </td>
