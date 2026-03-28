@@ -86,6 +86,8 @@ class InternetArchiveCommand extends Command
                 echo 'OUT > '.$buffer;
             }
         });
+
+        $io->writeln('https://archive.org/details/' . $archiveId);
         return Command::SUCCESS;
     }
 

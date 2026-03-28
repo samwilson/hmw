@@ -1,6 +1,5 @@
 ---
 template: tag
-wikidata: 
-coordinates: -21.12, 117.81
+wikidata: Q5189705
 title: Croydon Station
 ---
