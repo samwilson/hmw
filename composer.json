@@ -17,7 +17,14 @@
             "inkscape --export-type=pdf --export-filename=assets/tree.pdf tree/tree.svg"
         ],
         "build-templates": "basildon build . --skip",
-        "build-site": "basildon build .",
+        "build-site": [
+          "basildon build .",
+          "pagefind --site output"
+        ],
+        "build-home": [
+          "basildon build . --page index --skip",
+          "pagefind --site output"
+        ],
         "build": [
             "@build-tree",
             "@build-site"

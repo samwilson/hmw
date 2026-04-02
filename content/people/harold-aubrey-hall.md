@@ -52,6 +52,7 @@ references:
   item269: "{cite-item|269}"
   item282: "{cite-item|282}"
   item313: "{cite-item|313}"
+  BMDbirth: "WA BMD index entry, birth in 1871. District: Perth. Number 13090."
 ---
 
 **Harold Aubrey Hall** (1871—1963) was a Western Australian pastoral station manager and stockman.
@@ -59,7 +60,7 @@ references:
 He was born in 1871{ref|ADBWSHall} to {link|people/william-shakespeare-hall|Shakespeare}
 and {link|people/sarah-theodosia-branson|Sarah} Hall.
 
-Born 20 May 1871<ref>{{WA BMD|type=birth|year=1871|district=Perth|number=13090}}</ref>{ref|item269} at his grandparents' home
+Born 20 May 1871{ref|BMDbirth}{ref|item269} at his grandparents' home
 in Murray Street, Perth.<ref>[[Extract from birth certificate for Harold Aubrey Hall]]</ref><ref>[[Clipping re Aubrey Hall's death, The Countryman, 1963-01-24]]</ref>
 
 Given a copy of Tennyson's works by Jay, for his 25th birthday.{ref|item10}
@@ -123,7 +124,8 @@ Engaged to Blanche Warburton in 1907.<ref>[[Joy Clifton to H A Hall, 18 May 1907
 
 Married Helen Rose Lodge when he was 39, on 24 November 1910.<ref>{{WA BMD|type=marriage|year=1910|district=Sussex|number=14}}</ref><ref>[[1910 Hall-Lodge wedding announcement]]</ref>
 
-Margaret was born in 1915, and soon afterwards Aubrey took a job as lighthouse keeper at Jarmen Island, the whole family moving there in part to get away from the extreme heat of [[Croydon station]].<ref name=Connie1983>[[C.B. Berryman 1983]]</ref>
+Margaret was born in 1915, and soon afterwards Aubrey took a job as lighthouse keeper at Jarmen Island,
+the whole family moving there in part to get away from the extreme heat of [[Croydon station]].<ref name=Connie1983>[[C.B. Berryman 1983]]</ref>
 Here they shared the accommodation with Mr Langer,
 a German national who in 1916 was taken from his post and interned.<ref name=Connie1983 />
 After his departure, Henry Ernest Hall joined Aubrey on Jarmen Island.
@@ -242,4 +244,4 @@ File:Aubrey sitting under Congdon St window (cropped 2).jpg | [[Aubrey sitting u
 [[File:Warehouse_and_office,_Cossack,_cropped.png|thumb|Aubrey's offices in Cossack.]]
 
 ## External links
-* [http://museum.wa.gov.au/online-collections/h-aubrey-hall-collection H. Aubrey Collection] at the WA Museum
+* [H. Aubrey Collection](http://museum.wa.gov.au/online-collections/h-aubrey-hall-collection) at the WA Museum.

@@ -32,3 +32,20 @@ sup a.footnote-ref:hover { text-decoration:none; background-color: #e9f0ff; }
 
 .macros-reflist { font-size: smaller; }
 .macros-reflist li p { margin: 0; }
+
+.pagefind-ui__drawer {
+    position: absolute;
+    width: 40em;
+    right: 0;
+    padding: 0.8rem;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    list-style: none;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
+.pagefind-ui__result {
+    padding: 0 0 calc(10px * var(--pagefind-ui-scale)) 0;
+}

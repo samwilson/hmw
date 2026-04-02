@@ -1,0 +1,68 @@
+{% import '_macros.twig' as macros %}
+{% autoescape 'tex' %}
+
+\documentclass[a4paper]{article}
+
+\usepackage{graphicx, url, listings, float, }
+\usepackage{fullpage}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks = true,  % Colours links instead of ugly boxes
+urlcolor   = black, % Colour for external hyperlinks
+linkcolor  = black, % Colour of internal links
+citecolor  = black  % Colour of citations
+}
+
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{0mm}
+
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=0mm}
+
+\lstset{
+  basicstyle=\normalsize\fontencoding{T1}\ttfamily,
+  showstringspaces=true
+}
+
+\title{ {{ page.metadata.title }} }
+\author{ \url{{'{'}}{{site.config.url }}{{ page.id }}.html {{'}}'}}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{ Biography }
+{{ page.body|md2latex|raw }}
+{{ macros.reflist(page.metadata.references|default([]), 'latex') }}
+
+{% set items = database.query('SELECT p.* FROM pages p, json_each(p.people) j WHERE "/people/"||j.value LIKE "'~page.id~'" ORDER BY p.date').fetchAll() %}
+{% if items|length > 0 %}
+    \section{Related items ({{items|length|number_format}})}
+    {% for item in items %}
+        \subsection{{'{'}}Item {{item.id|basename}}: {{item.title}}{{'}'}}
+        \label{ item-{{item.id|basename}} }
+
+        \textsc{Type:} {{ item.itemtype }}
+
+        \textsc{Date:} {{ macros.date(item.date, item.date_precision, 'latex') }}
+
+        \textsc{Description:} {{ item.description|md2latex|raw }}
+
+        {% set subitems = database.query('SELECT * FROM pages WHERE parent_item = '~(item.id|basename)~' ORDER BY date ASC, title ASC').fetchAll() %}
+        {% if subitems %}
+            \textsc{Sub-items:}
+            {% for subitem in subitems %}
+                {{- subitem.id|basename }} (p.\pageref{ item-{{subitem.id|basename}} }){% if loop.last %}.{% else %}, {% endif -%}
+            {%- endfor %}
+        {% endif %}
+
+        {{ item.body|md2latex(1, item.id)|raw }}
+    {% endfor %}
+{% endif %}
+
+\end{document}
+
+{% endautoescape %}

@@ -1,0 +1,7 @@
+{% import '_macros.twig' as macros %}
+{% autoescape 'tex' %}
+{% set item = database.query('select * from pages where id = "/items/'~shortcode.attrs.1~'"').fetch %}
+\emph{{'{'}}{{ item.title }}{{'}'}} (Item {{item.id|basename}}{% if item.date %},
+    {{- macros.date(item.date, item.date_precision, 'tex') -}}
+{%- endif %})
+{% endautoescape %}

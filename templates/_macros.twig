@@ -1,20 +1,30 @@
-{% macro date(datetime, precision) %}
-
-    {% if not instanceof(datetime,'\DateTime') %}
+{% macro date(datetime, precision, format = 'html') %}
+    {%- if not instanceof(datetime,'\DateTime') %}
         {% set datetime = date_create(datetime) %}
     {% endif %}
-
-    <time datetime="{{ datetime.format('c') }}" itemprop="dateCreated">
-        {% if precision == 'circa' %}
-            <abbr title="circa">c.</abbr>&nbsp;{{ datetime.format('Y') }}
+    {%- if format == 'html' %}
+        <time datetime="{{ datetime.format('c') }}" itemprop="dateCreated">
+            {% if precision == 'circa' %}
+                <abbr title="circa">c.</abbr>&nbsp;{{ datetime.format('Y') }}
+            {% elseif precision == 'year' %}
+                {{ datetime.format('Y') }}
+            {% elseif precision == 'month' %}
+                {{ datetime.format('Y F') }}
+            {% else %}
+                {{ datetime.format('Y F j l') }}
+            {% endif %}
+        </time>
+    {%- else %}
+        {%- if precision == 'circa' %}
+            c.~{{ datetime.format('Y') -}}
         {% elseif precision == 'year' %}
-            {{ datetime.format('Y') }}
+            {{- datetime.format('Y') -}}
         {% elseif precision == 'month' %}
-            {{ datetime.format('Y F') }}
-        {% else %}
-            {{ datetime.format('Y F j l') }}
-        {% endif %}
-    </time>
+            {{- datetime.format('Y F') -}}
+        {%- else %}
+            {{- datetime.format('Y F j l') -}}
+        {% endif -%}
+    {% endif -%}
 {% endmacro %}
 
 {% macro image(image, link = true, class = '', format = 'html') %}
@@ -118,17 +128,28 @@
     </p>
 {% endmacro %}
 
-{% macro reflist(page) %}
-    {% if page.metadata.references is defined and page.metadata.references %}
-        <section class="macros-reflist">
-            <h2>References</h2>
-            <ol>
+{% macro reflist(references, format = 'html') %}
+    {% if references and references|length > 0 %}
+        {% if format == 'html' %}
+            <section class="macros-reflist">
+                <h2>References</h2>
+                <ol>
+                    {% set refnum = 1 %}
+                    {% for k,v in references %}
+                        <li value="{{refnum}}">{{v|md2html|raw}}</li>
+                        {% set refnum = refnum + 1 %}
+                    {% endfor %}
+                </ol>
+            </section>
+        {% else %}
+            \subsection{References}
+            \begin{description}
                 {% set refnum = 1 %}
-                {% for k,v in page.metadata.references %}
-                    <li value="{{refnum}}">{{v|md2html|raw}}</li>
+                {% for k,v in references %}
+                    \item [\textsuperscript{[{{refnum}}]}] {{v|md2latex|raw}}
                     {% set refnum = refnum + 1 %}
                 {% endfor %}
-            </ol>
-        </section>
+            \end{description}
+        {% endif %}
     {% endif %}
 {% endmacro %}

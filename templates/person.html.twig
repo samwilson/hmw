@@ -17,7 +17,7 @@
     {% set wikidata_item = wikidata(page.metadata.wikidata) %}
 {% endif %}
 
-{% set wikitree_api_url = 'https://api.wikitree.com/api.php?action=getPerson&fields=Name,LongName,Derived.LongName,BirthDate,BirthLocation,DeathLocation,DeathDate,DataStatus,Parents,Mother,Father,Children,Spouses,Siblings' %}
+{% set wikitree_api_url = 'https://api.wikitree.com/api.php?appId=' ~ site.config.url ~ '&action=getPerson&fields=Name,LongName,Derived.LongName,BirthDate,BirthLocation,DeathLocation,DeathDate,DataStatus,Parents,Mother,Father,Children,Spouses,Siblings' %}
 {% set wikitree_profile = false %}
 {% if page.metadata.wikitree is defined and page.metadata.wikitree %}
     {% set wikitree_profile = get_json(wikitree_api_url ~ '&key=' ~ page.metadata.wikitree).0.person %}
@@ -162,8 +162,9 @@
         {% endif %}
 
         {{ page.body|md2html|raw }}
-        {{ macros.reflist(page) }}
+        {{ macros.reflist(page.metadata.references|default([])) }}
 
+        <p>This page is also <a href="{{ page.link(page.id) }}.pdf">available as a PDF</a>.</p>
     </article>
 
     {% set items = database.query('SELECT p.* FROM pages p, json_each(p.people) j WHERE "/people/"||j.value LIKE "'~page.id~'" ORDER BY p.date').fetchAll() %}

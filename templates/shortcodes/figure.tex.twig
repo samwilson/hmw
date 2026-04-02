@@ -1,0 +1,9 @@
+{% import "_macros.twig" as _macros %}
+{% autoescape 'tex' %}
+    \begin{figure}
+    \begin{center}
+    {{ _macros.image( shortcode.attrs, false, '', 'tex' ) }}
+    \caption{{ '{' }}{{shortcode.attrs.caption|md2latex|trim|raw}}{{ '}' }}
+    \end{center}
+    \end{figure}
+{% endautoescape %}
