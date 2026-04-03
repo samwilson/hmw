@@ -6,6 +6,7 @@ title:
 author: 
 images:
   - commons: 
+    commons_page: 
     flickr: 
     ia: 
     ia_file: 

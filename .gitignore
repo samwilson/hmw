@@ -4,6 +4,8 @@ cache/
 vendor/
 node_modules/
 
+basildon.local.yaml
+
 /output/*
 !/output/_redirects
 !/output/robots.txt

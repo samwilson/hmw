@@ -40,7 +40,7 @@
     {% endif %}
 
     {% if image.commons is defined and image.commons %}
-        {% set commons = commons(image.commons) %}
+        {% set commons = commons(image.commons, image.commons_page|default(null)) %}
         {% set img_src = commons.imageinfo.0.thumburl %}
         {% set img_href = commons.imageinfo.0.descriptionurl %}
         {% set width = commons.imageinfo.0.thumbwidth %}

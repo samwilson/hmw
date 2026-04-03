@@ -30,6 +30,8 @@ sup a.footnote-ref:hover { text-decoration:none; background-color: #e9f0ff; }
 
 .shortcode-illegible { color: #c82222; cursor: help; }
 
+.shortcode-sc { font-variant: small-caps; }
+
 .macros-reflist { font-size: smaller; }
 .macros-reflist li p { margin: 0; }
 

@@ -1,9 +1,0 @@
-flickr:
-  api_key: 03d7fb7f86353db9e4ebe5d1a18fca88
-  api_secret: 41bb61be9707eb69
-trove:
-  api_key: 6p5e582lggb91pk
-mediawiki:
-  commons.wikimedia.org:
-    username: Samwilson@mwcli
-    password: qe9tlgqj26u35ij5or2jgfeftsjmi7po

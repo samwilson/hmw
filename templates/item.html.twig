@@ -41,13 +41,13 @@
                         <strong>Parent item:</strong>
                         {% set parent_item = database.query('SELECT * FROM pages WHERE id = "/items/'~page.metadata.parent_item~'"').fetch() %}
                         <a href="{{ page.link(parent_item.id) }}.html">{{ parent_item.title }}</a>
-                        (
-                            <abbr title="ID of the parent item">#{{ parent_item.id|basename }}</abbr>,
-                            {% if parent_item.storage_location is defined and parent_item.storage_location != '' %}
+                        ({#
+                            #}<abbr title="ID of the parent item">#{{ parent_item.id|basename }}</abbr>{#
+                            #}{% if parent_item.storage_location is defined and parent_item.storage_location != '' %},
                                 {% set parent_item_sl = database.query('SELECT * FROM pages WHERE id = "/storage-locations/'~parent_item.storage_location~'"').fetch() %}
-                                <a href="{{ page.link(parent_item_sl.id) }}.html" title="Storage location of the parent item">{{ parent_item_sl.title }}</a>
-                            {% endif %}
-                        )
+                                <a href="{{ page.link(parent_item_sl.id) }}.html" title="Storage location of the parent item">{{ parent_item_sl.title }}</a>{#
+                            #}{% endif %}{#
+                        #})
                     </p>
                 {% endif %}
 
