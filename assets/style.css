@@ -38,6 +38,7 @@ sup a.footnote-ref:hover { text-decoration:none; background-color: #e9f0ff; }
 .pagefind-ui__drawer {
     position: absolute;
     width: 40em;
+    max-width: 100%;
     right: 0;
     padding: 0.8rem;
     margin: .125rem 0 0;

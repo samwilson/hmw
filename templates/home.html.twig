@@ -64,7 +64,7 @@
         <p>The following tasks are still to be completed:</p>
         <ol>
             {% for todo in database.query('SELECT * FROM pages WHERE todo IS NOT NULL AND todo != ""') %}
-                <li>{{ todo.todo }}</li>
+                <li><a href="{{ page.link(todo.id) }}.html">{{ todo.title }}</a>: {{ todo.todo }}</li>
             {% endfor %}
         </ol>
     </article>

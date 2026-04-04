@@ -34,6 +34,11 @@
                 <p>
                     <strong>Item number:</strong>
                     <span itemprop="identifier">{{ page.id|basename }}</span>
+                    {% if (page.id|basename) > 1 %}
+                        <a href="{{ page.link('/items/'~((page.id|basename) - 1)) }}.html">←previous</a>
+                    {% endif %}
+                    &middot;
+                    <a href="{{ page.link('/items/'~((page.id|basename) + 1)) }}.html">next→</a>
                 </p>
 
                 {% if page.metadata.parent_item is defined and page.metadata.parent_item != '' %}
