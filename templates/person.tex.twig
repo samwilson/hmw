@@ -47,7 +47,9 @@ citecolor  = black  % Colour of citations
 
         \textsc{Type:} {{ item.itemtype }}
 
-        \textsc{Date:} {{ macros.date(item.date, item.date_precision, 'latex') }}
+        {% if item.date %}
+            \textsc{Date:} {{ macros.date(item.date, item.date_precision, 'latex') }}
+        {% endif %}
 
         \textsc{Description:} {{ item.description|md2latex|raw }}
 
