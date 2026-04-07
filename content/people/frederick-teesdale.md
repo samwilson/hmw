@@ -5,7 +5,7 @@ description:
 images:
   - commons: Portrait_of_F.W._Teesdale_(1,_cropped).png
     caption: 
-keywords:
+tags:
   - 
 wikidata: Q27178308
 wikitree: Teesdale-55

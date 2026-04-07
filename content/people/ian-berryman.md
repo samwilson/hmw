@@ -19,7 +19,7 @@ parents:
   - constance-boyd-hall
 partners:
   - 
-keywords:
+tags:
   - 
 wikidata: Q132621466
 wikitree: 

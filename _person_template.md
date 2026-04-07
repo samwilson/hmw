@@ -8,7 +8,7 @@ images:
     ia: 
     ia_file: 
     caption: 
-keywords:
+tags:
   - 
 wikidata: 
 wikitree: 
