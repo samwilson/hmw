@@ -1,7 +1,7 @@
 {% import '_macros.twig' as macros %}
 {% autoescape 'tex' %}
 
-\documentclass[a4paper]{article}
+\documentclass[a4paper, twocolumn, 10pt]{article}
 
 \usepackage{graphicx, url, listings, float, }
 \usepackage{fullpage}
@@ -15,8 +15,12 @@ citecolor  = black  % Colour of citations
 
 \setcounter{tocdepth}{2}
 \setcounter{secnumdepth}{0}
-\setlength{\parindent}{0mm}
+
+% \setlength{\parindent}{0mm}
+
+\usepackage{parskip}
 \setlength{\parskip}{0mm}
+%\setlist{parsep=0pt}
 
 \usepackage{enumitem}
 \setlist[enumerate]{itemsep=0mm}

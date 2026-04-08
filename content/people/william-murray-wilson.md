@@ -1,13 +1,15 @@
 ---
 template: person
 title: William Murray Wilson
-wikidata: Q88222462
 parents:
   - james-herbert-wilson
   - edith-olive-hall
 partners:
   - helen-margaret-hall
+wikidata: Q88222462
 wikitree: Wilson-84876
+familysearch: LDWF-Y3Q
+ancestry: 312353766403
 wabmd: 
 references:
     RMWDeptAirLetter: |
@@ -88,28 +90,90 @@ references:
       http://nla.gov.au/nla.news-article18379987
       "He stood silently at attention during the proceedings, which lasted little more than 30 seconds.
       He was not represented by counsel."
+    item305: "{cite-item|305}"
+    item338: "{cite-item|338}"
+    459UnitHistory: |
+      National Archives of Australia. Item ID: 1158170.
+      Unit history of number 459 Squadron - February 1942 to April 1945.
+      Series number: A9186; Control symbol: 145.
+    AWM_NWA0923: |
+      National War Memorial. Photograph.
+      Gove, NT. 1945-06-29. An informal group portrait of a RAAF crew discussing their next armed reconnaissance flight in a Lockheed Ventura bomber of No. 13 Squadron RAAF.
+    FawcettMilitaryRecord: Letter from WC Fawcett re medals (Fawcett military record, page 19).
+    blueAddressbook: Small blue address book.
 ---
 
 **William Murray Wilson** (4 June 1914 – 28 September 1953; known as **Murray**) was a pilot and timber merchant from Perth, Western Australia.
 
-Murray was born in Claremont{ref|WABMD208} on 4 June 1914 to {link|people/james-herbert-wilson|Jim} and Edith Wilson.
-
-His father had a house in Shenton Park on half an acre. It was still there, although unrecognisable, in 2005.
+Murray was born in Claremont{ref|WABMD208} on 4 June 1914 to {link|people/james-herbert-wilson|Jim} and {link|people/edith-olive-hall|Edith} Wilson.
+He grew up at the family's home at 98 Herbert Road, Shenton Park.
+It was a half acre block; the house was still there, although unrecognisable, in 2005.
 
 He married {link|people/helen-margaret-hall|Margaret} on 2 July 1941.{ref|MurrayMargMarriageNotice}
 
 Murray served in the RAAF during the Second World War. Service number 406376.{ref|NAAA9300}
 His father died in June 1942, just after Murray turned 28.
 
+Notes from small blue address book:{ref|blueAddressbook}
+
+* 1941-12-14: Photos sent of Dumbarton Road, Christchurch Priory, and me yachting at Arundell.
+* 1941-12-21: Photos sent of Bournmouth Gardens, party "ye Jap Party".
+* 1942-01-11: Photos sent of: Buckingham Palace, Mathew & self under arch, London Bridge from Tower.
+* Undated: Self close up, Ron and Max, in hut in Stornoway.
+* Undated: Close up max, Ron, and self and of "Queen Silloth".
+
+Units and locations of service:{ref|item305}
+
+* 1940-11-11: No. 5 Initial Training School (ITS), {wdl|Q955792|RAAF Base Pearce}, to 1941-01-08.
+* 1941-01-09: No. 9 Elementary Flying Training School (EFTS) {wdl|Q7274977|Cunderdin}, to 1941-03-08.
+* 1941-03-09: No. 4 Service Flying Training School RAAF (SFTS) RAAF Geraldton to 1941-07-05.
+* 1941-07-06 to 1941-07-17: No. 5 ED Perth.
+
+On 17 July 1943 he left Australia and travelled to the UK, arriving on 2 September.
+
+He was based at No. 3 Personnel Reception Centre (PRC) Bournemouth for the first month,
+until 28 September when he was moved to No. 3 School of General Reconnaissance (S of GR) Squires Gate.
+He was there until 29 November.
+
+* 1941-12-24 to 1942-3-17: No. 1 (Coastal) Operational Training Unit RAF (OTU) Silloth.
+* 1942-03-18 to 1942-05-11: No. 500 Squadron RAF Stornoway.
+* 1942-05-12 to 1942-05-31: 1444 Ferry Training Flight (FTF) RAF Horsham St Faith.
+* 1942-06-01 to 1942-06-06: UK to the Middle East.
+* 1942-06-16 to 1943-02-28: No. 459 Squadron RAAF, Middle East{ref|459UnitHistory}
+* From 1943-02-28 until after August:{ref|item338} No. 75 Operational Training Unit RAF (75 OTU), RAF Gianaclis.
+
+Murray returned to Australia at the end of 1944,
+and was stationed with 13 Squadron RAAF at Gove in the Norther Territory.{ref|AWM_NWA0923}
+
+Aircraft flown:
+{wdl|Q654062|de Havilland Tiger Moth};
+{wdl|Q791469|Avro Anson};
+{wdl|Q1328822|Lockheed Hudson}, Mk I, II, III, V;
+{wdl|Q1050763|de Havilland Dragon Rapide} aka Dominie;
+{wdl|Q1493988|Martin Baltimore};
+{wdl|Q330417|Bristol Blenheim, Mk IV, V (aka Bisley); and
+{wdl|Q1867622|Lockheed Ventura}.
+
+His crew while he was with 459 Sqadron was: Roy Woodhouse (navigator, born c.1910, also crewed with Murray at East Sale);
+Jack McMasters (gunner from Melbourne who possibly had 10 children);
+Arthur Smiles;{ref|blueAddressbook} Bill McCarthy (from the Snowy Mountains);
+and Rasheed (from South Australia, possibly of Syrian descent).<ref name=roy>[[hmw:Roy Woodhouse's comments about Murray's logbook, c.1995]]</ref>
+
+At some point during the war he suffered a possible fractured ankle when he fell from the rafters in a mess hall.
+He was off duty for six weeks and so returned to Perth.
+There is a photo of him and Margaret at Safety Bay with his leg in plaster and using a walking stick.<ref name=roy />
+
 For his service during the war, Murray was awarded{ref|RMWDeptAirLetter} four campaign stars
 (1939–45 Star, Atlantic Star, Africa Star & Clasp, and Pacific Star)
 and three medals (Defence Medal, War Medal 1939–45, and Australia Service Medal 1939-45).
 
-In 1948 C.M. Wilson lent [Margaret](./helen-margaret-hall.html) one thousand pounds.{ref|perscomm}
+In 1948 his uncle C.M. Wilson lent {link|people/helen-margaret-hall|Margaret} one thousand pounds.{ref|perscomm}
 
-By the early `50s, Murray was a director in the timber firm C.M. Wilson Co Pty Ltd
+{{{figure|commons=WMW business card.png|caption=Murray's business card.|alt=Scan of a simple business card.}}}
+
+By the early '50s, Murray was a director in the timber firm C.M. Wilson Co Pty Ltd
 which was founded by his uncle Charles William McHarg Wilson
-and operated from premises on Troode Street in West Perth.{ref|CompanyChiefs}
+and operated from premises on Troode Street and Stone Street in West Perth.{ref|CompanyChiefs}
 
 On the evening of Monday, September 28 1953.{ref|WADeaths}{ref|WestAusDeathNotices}{ref|VictimEstate}
 just prior to a shareholders' meeting at the company offices, Murray and another director (William Ewart Livingstone)
@@ -123,7 +187,7 @@ Livingstone had brought his rifle with him that day with the intention of killin
 Fawcett was seen by Livingstone's daughter{ref|FawcettRemanded} leaving the office after the shooting and driving away.
 He went home to his wife at their home at 66 Victoria Avenue, Claremont
 (near Murray's home in Congdon Street, Swanbourne){ref|FawcettRemanded},
-told her what he had done, cleaned the gun, and (it is to be supposed) waited for the police to arrive.{ref|DoubleMurder}
+told her what he had done, cleaned the gun, and waited for the police to arrive.{ref|DoubleMurder}
 He was arrested either one{ref|TheAge1935} or four{ref|SMHDoubleMurder} hours later.
 The next day he was charged with murder,{ref|SMHDoubleMurder} but later a jury found against this.
 
@@ -135,3 +199,12 @@ The trial was held on the evening of Monday, 14 December,
 and the "elderly", "diminutive", "white-haired"{ref|NewAngle} Fawcett was
 found not guilty on the grounds of insanity.
 He was also in the timber trade.{ref|FawcettRemanded}
+
+Fawcett had expressed "interest in the Rifle Club movement" in 1940.{ref|FawcettMilitaryRecord}
+
+Electoral rolls:
+
+* 1939: 98 Herbert Road; Division: Perth; Sub-division:	Subiaco; Elector number: 9083; Occupation: civil servant.<ref>https://www.myheritage.com/research/record-10744-16407298/william-murray-wilson-in-australia-electoral-rolls</ref>
+* 1943: 98 Herbert Road; Division: Perth; Sub-division:	Subiaco; Elector number: 9433; Occupation: civil servant.<ref>https://www.myheritage.com/research/record-10744-16675466/william-murray-wilson-in-australia-electoral-rolls</ref>
+* 1949: Congdon Street; Division: Fremantle; Sub-division: Claremont; Elector number: 12729; Occupation: merchant.<ref>https://www.myheritage.com/research/record-10744-16824180/william-murray-wilson-in-australia-electoral-rolls</ref>
+

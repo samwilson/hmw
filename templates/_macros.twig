@@ -76,7 +76,7 @@
         {% if link %}</a>{% endif %}
         <span class="printonly"><br /><code>{{ img_href }}</code></span>
     {% elseif format == 'tex' %}
-        \includegraphics[{% if width < height %}height=0.45\textheight{% else %}width=0.7\textwidth{% endif %}]{{'{'}}{{ tex_url(img_src)|raw }}{{'}'}}
+        \includegraphics[{% if width < height %}height=0.45\textheight{% else %}width=0.7\linewidth{% endif %}]{{'{'}}{{ tex_url(img_src)|raw }}{{'}'}}
     {% elseif format == 'meta' %}
         <meta property="og:image" content="{{ img_src }}" />
         {# <meta property="og:image:width" content="{{ img_width }}" />#}
@@ -146,7 +146,7 @@
             \begin{description}
                 {% set refnum = 1 %}
                 {% for k,v in references %}
-                    \item [\textsuperscript{[{{refnum}}]}] {{v|md2latex|raw}}
+                    \item {\footnotesize [{{refnum}}] {{v|md2latex|raw}} }
                     {% set refnum = refnum + 1 %}
                 {% endfor %}
             \end{description}

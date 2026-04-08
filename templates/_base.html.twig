@@ -145,7 +145,11 @@ Reported from: ' ~ site.config.url ~ page.id ~ '.html
     <script>
         document.getElementById( 'search-form' ).remove();
         window.addEventListener('DOMContentLoaded', () => {
-            new PagefindUI({ element: "#pagefind", showSubResults: true });
+            new PagefindUI({
+                element: "#pagefind",
+                showSubResults: true,
+                showImages: false
+            });
         });
     </script>
     {% block scripts %}{% endblock %}
