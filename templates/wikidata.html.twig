@@ -1,0 +1,25 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+    <article class="container">
+        <h1>Wikidata</h1>
+        <p>The following <a href="https://www.wikidata.org">Wikidata</a> items are used on this website:</p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Wikidata ID</th>
+                    <th>Page title</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% set items = database.query( 'SELECT * FROM pages WHERE wikidata IS NOT NULL AND wikidata != ""' ).fetchAll() %}
+                {% for item in items %}
+                    <tr>
+                        <td><a href="https://www.wikidata.org/wiki/{{ item.wikidata }}">{{ item.wikidata }}</a></td>
+                        <td><a href="{{ page.link(item.id) }}.html">{{ item.title }}</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </article>
+{% endblock %}

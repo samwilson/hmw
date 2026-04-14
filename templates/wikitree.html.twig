@@ -1,0 +1,25 @@
+{% extends '_base.html.twig' %}
+
+{% block main %}
+    <article class="container">
+        <h1>WikiTree</h1>
+        <p>The following <a href="https://www.wikitree.com">WikiTree</a> profiles are:</p>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>WikiTree ID</th>
+                <th>Page title</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% set items = database.query( 'SELECT * FROM pages WHERE wikitree IS NOT NULL AND wikitree != ""' ).fetchAll() %}
+            {% for item in items %}
+                <tr>
+                    <td><a href="https://www.wikitree.com/wiki/{{ item.wikitree }}">{{ item.wikitree }}</a></td>
+                    <td><a href="{{ page.link(item.id) }}.html">{{ item.title }}</a></td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </article>
+{% endblock %}
