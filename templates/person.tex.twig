@@ -1,7 +1,7 @@
 {% import '_macros.twig' as macros %}
 {% autoescape 'tex' %}
 
-\documentclass[a4paper, twocolumn, 10pt]{article}
+\documentclass[a4paper, twocolumn, 9pt]{extarticle}
 
 \usepackage{graphicx, url, listings, float, }
 \usepackage{fullpage}
@@ -16,11 +16,12 @@ citecolor  = black  % Colour of citations
 \setcounter{tocdepth}{2}
 \setcounter{secnumdepth}{0}
 
-% \setlength{\parindent}{0mm}
-
 \usepackage{parskip}
-\setlength{\parskip}{0mm}
-%\setlist{parsep=0pt}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 
 \usepackage{enumitem}
 \setlist[enumerate]{itemsep=0mm}
@@ -38,7 +39,7 @@ citecolor  = black  % Colour of citations
 \maketitle
 \tableofcontents
 
-\section{ Biography }
+\section{Biography}
 {{ page.body|md2latex|raw }}
 {{ macros.reflist(page.metadata.references|default([]), 'latex') }}
 
@@ -46,10 +47,12 @@ citecolor  = black  % Colour of citations
 {% if items|length > 0 %}
     \section{Related items ({{items|length|number_format}})}
     {% for item in items %}
-        \subsection{{'{'}}Item {{item.id|basename}}: {{item.title}}{{'}'}}
+        \subsection{{'{'}}{{item.title}}{{'}'}}
         \label{ item-{{item.id|basename}} }
 
-        \textsc{Type:} {{ item.itemtype }}
+        \textsc{Identifier:} {{item.id|basename}}
+
+        \textsc{Type:} {{item.itemtype}}
 
         {% if item.date %}
             \textsc{Date:} {{ macros.date(item.date, item.date_precision, 'latex') }}
