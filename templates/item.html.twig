@@ -262,9 +262,32 @@
                     {% endif %}
                 {% endif %}
 
-            </div>
+                <div>
+                    <p class="mb-0"><strong>Cite this item:</strong></p>
+                    <p class="border p-1 overflow-hidden">
+                        Item {{ page.id|basename }} from <a href="{{ site.config.url }}">{{ site.config.title }}</a>:
+                        <em>{{ page.metadata.title }}</em>.
+                        {% if page.metadata.date %}
+                            {{ macros.date( page.metadata.date, page.metadata.date_precision ) }}.
+                        {% endif %}
+                        {% if page.metadata.author is defined and page.metadata.author %}
+                            {% set author_person = database.query('select * from pages where id = "/people/'~page.metadata.author~'"').fetch %}
+                            {% if author_person %}
+                                {{ author_person.title -}}
+                                {% if author_person.wikidata %} ({{ author_person.wikidata }}){% endif %}.
+                            {% else %}
+                                {{ page.metadata.author }}.
+                            {% endif %}
+                        {% else %}
+                            Author unknown.
+                        {% endif %}
+                        <span class="access-date"></span>
+                        <a href="{{ site.config.url }}{{ page.id }}.html">{{ site.config.url }}{{ page.id }}.html</a>
+                    </p>
+                </div>
 
-        </div><!-- .row -->
+            </span>{# End metadata. #}
+        </div>{# End container #}
 
         {% if page.body %}
             <hr class="clearfix" />

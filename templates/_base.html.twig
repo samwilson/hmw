@@ -152,6 +152,7 @@ Reported from: ' ~ site.config.url ~ page.id ~ '.html
             });
         });
     </script>
+    <script src="{{ page.link('/script.js') }}"></script>
     {% block scripts %}{% endblock %}
 </body>
 </html>
