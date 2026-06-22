@@ -24,7 +24,8 @@ Died 4th September 1918 at Roebourne Hospital, aged 38. Occupation: Station Over
 WW1:<ref>Title: [https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/DetailsReports/ItemDetail.aspx?Barcode=3007581&isAv=N Hall Herbert : SERN DEPOT 10885 : POB Roebourne WA : POE Geraldton WA : NOK M Tusdale] Series number: B2455. Item ID 3007581</ref>
 * Applied to enlist 30 September 1916, Geraldton. Postal address: Nullagine. Age 36 years 3 months. Height 5' 7".
 * Joined on 8 November 1916, as a Private, 93 Depot. Name: Herbert Hall. Later in 91 Depot and 22 Depot.
-* Admitted to Fremantle Hospital 20 December 1916 with {{illegible}} and gastritis. Discharged 24 January 1917. Notes on discharge: "Twelve months ago began to suffer from attacks of pain & vomiting after eating. Has had three attacks since. The last time on Nov 11th he vomited blood. Has had attacks of nausia but no vomiting since admission. He also suffers from chronic constipation." Recommendation of the board: Discharge as permanently unfit.
+* Admitted to Fremantle Hospital 20 December 1916 with {?} and gastritis. 
+  Discharged 24 January 1917. Notes on discharge: "Twelve months ago began to suffer from attacks of pain & vomiting after eating. Has had three attacks since. The last time on Nov 11th he vomited blood. Has had attacks of nausia but no vomiting since admission. He also suffers from chronic constipation." Recommendation of the board: Discharge as permanently unfit.
 * No entries in the regimental conduct sheet (Blackboy Hill).
 * Discharged 5 February 1917.
 
