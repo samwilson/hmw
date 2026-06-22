@@ -7,14 +7,14 @@ images:
 tags:
   - ww2
 wikidata: 
-wikitree: 
+wikitree: Butcher-7193
 familysearch: 
 geni: 
 ancestry: 
 myheritage: 
 references:
   vwma: |
-    [Alan Clifton Navin](https://vwma.org.au/explore/people/1401671 BUTCHER), Virtual War Memorial.
+    [Alan Clifton Navin BUTCHER](https://vwma.org.au/explore/people/1401671), Virtual War Memorial.
 ---
 
 **Alan Clifton Navin Butcher** was born in Katanning on 15 July 1916.
