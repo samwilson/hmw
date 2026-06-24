@@ -7,12 +7,15 @@ partners:
   - sarah-theodosia-branson
 wikidata: Q46165389
 wikitree: Hall-4122
+references:
+  brigittegastelancestry: "[Henry Edward Hastings Hall (1782-1859)](http://brigittegastelancestry.com/royal/bio/henryhallbio.html), Brigitte Gastel Ancestry."
+  1832grants: "{cite-item|376}"
 ---
 
-Henry Edward Hall was born in 1790.
-He died in 1859,[^brigittegastelancestry]
-the year after his wife [Sarah](./sarah-theodosia-branson.html) died.
+**Henry Edward Hall** was born in 1790 in England.
 
-[^brigittegastelancestry]:
-    http://brigittegastelancestry.com/royal/bio/henryhallbio.html
+On 28 July 1831 he was granted 16,594 acres of land on the Murray River,
+and on 30 June 1832 125 acres in Cockburn Sound.{ref|1832grants}
 
+He died in 1859,{ref|brigittegastelancestry}
+the year after his wife {link|people/sarah-theodosia-branson|Sarah} died.
