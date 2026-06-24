@@ -10,3 +10,12 @@ document.querySelectorAll('.access-date').forEach( ( el ) => {
 document.querySelectorAll('.tpl-item-cite-date time[data-date-precision="day"]').forEach( ( el ) => {
     el.innerText = ( new Date( el.dateTime ) ).toLocaleDateString(undefined, options);
 } );
+
+document.getElementById('search-form').remove();
+window.addEventListener('DOMContentLoaded', () => {
+    new PagefindUI({
+        element: "#pagefind",
+        showSubResults: true,
+        showImages: false
+    });
+});
