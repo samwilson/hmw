@@ -8,11 +8,6 @@ birth_place: Q1573394
 death_date: 1918-09-04
 death_date_precision: day
 death_place: Roebourne, Western Australia
-parents:
-    - james-anderton-hall
-    - lilian-helena-bruce
-partners:
-    - Flora Louise Hall (née Sherlock)
 wikitree: Hall-22339
 familysearch: 9V2B-6P3
 ---

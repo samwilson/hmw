@@ -6,7 +6,7 @@
    height="1122.5197"
    id="svg3472"
    version="1.1"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="tree.svg"
    inkscape:export-filename="/home/sam/code/hmw/assets/tree.png"
    inkscape:export-xdpi="93.889999"
@@ -175,7 +175,7 @@
          inkscape:connector-curvature="0"
          id="path3959-9-6"
          d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.42666668pt" />
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.426667pt" />
     </marker>
     <marker
        inkscape:stockid="DotM"
@@ -493,6 +493,32 @@
          d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
          style="fill-rule:evenodd;stroke:#000000;stroke-width:0.426667pt" />
     </marker>
+    <marker
+       inkscape:stockid="StopL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="StopL-1-5"
+       style="overflow:visible">
+      <path
+         id="path4064-0-3"
+         d="M 0,4.8213333 V -4.8213333"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.853333pt"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="DotM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="DotM-09-7-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3959-9-5-6"
+         d="m 2.0906667,0 c 0,1.1776 -0.9557334,2.1333333 -2.13333337,2.1333333 C -1.2202667,2.1333333 -2.176,1.1776 -2.176,0 c 0,-1.1776 0.9557333,-2.1333333 2.13333333,-2.1333333 C 1.1349333,-2.1333333 2.0906667,-1.1776 2.0906667,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:0.426667pt" />
+    </marker>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -501,16 +527,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.96223509"
-     inkscape:cx="793.46514"
-     inkscape:cy="561.19342"
+     inkscape:zoom="1.7007928"
+     inkscape:cx="1048.6286"
+     inkscape:cy="767.28925"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="true"
      objecttolerance="10000"
-     inkscape:window-width="2502"
-     inkscape:window-height="1411"
-     inkscape:window-x="1978"
+     inkscape:window-width="2560"
+     inkscape:window-height="1368"
+     inkscape:window-x="1920"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
@@ -526,7 +552,9 @@
      inkscape:snap-bbox-edge-midpoints="true"
      inkscape:bbox-paths="false"
      inkscape:pagecheckerboard="0"
-     inkscape:snap-text-baseline="true">
+     inkscape:snap-text-baseline="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid3480"
@@ -707,7 +735,7 @@
          id="tspan5487"
          x="21.864666"
          y="1104.1671"
-         style="font-size:8px">CC-BY-SA, 15July 2022, https://hmwilson.archives.org.au/</tspan></text>
+         style="font-size:8px">CC-BY-SA, 25 June 2026, https://hmwilson.archives.org.au</tspan></text>
     <text
        x="44.506672"
        y="107.86535"
@@ -1155,7 +1183,7 @@
     <path
        id="path5241-6"
        style="fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#DotM-09-9)"
-       d="m 982.67716,971.33854 v 56.69296 l 15.11811,-10e-5 M 982.67716,914.64562 v 56.69292 h 15.11811 m 0,-102.04725 h -15.11811 v 45.35433 h 15.11811 m -15.11811,-105.82678 3e-5,-49.13385 h 15.11808 m 0,49.13385 h -15.11808 l -3e-5,75.59056 H 869.29134"
+       d="m 982.67718,986.45667 -2e-5,41.57483 15.11811,-10e-5 m -15.11811,-113.38578 2e-5,71.81105 h 15.11811 m -2e-5,-117.16538 h -15.11811 v 45.35433 h 15.11811 m -15.11811,-105.82678 3e-5,-49.13385 h 15.11808 m 0,49.13385 h -15.11808 l -3e-5,75.59056 H 869.29134"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccc" />
     <text
@@ -1196,7 +1224,7 @@
          sodipodi:role="line"
          id="tspan6163"
          x="1001.5748"
-         y="914.64557">James Herbert Hamersley Hall</tspan><tspan
+         y="914.64557">James Herbert Edward Hall</tspan><tspan
          sodipodi:role="line"
          x="1001.5748"
          y="924.24554"
@@ -1204,17 +1232,36 @@
          class="description"
          style="font-size:8px">1880–1918</tspan></text>
     <text
-       x="1001.5748"
-       y="971.33856"
+       x="1001.3005"
+       y="938.8009"
+       id="text6161-3"
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"><tspan
+         sodipodi:role="line"
+         x="1001.3005"
+         y="938.8009"
+         id="tspan6165-7"
+         class="description"
+         style="font-size:8px"><tspan
+           id="tspan8015"
+           style="font-size:12px">Flora Louise Sherlock</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="1001.3005"
+         y="948.40088"
+         class="description"
+         style="font-size:8px"
+         id="tspan8017">1891 – aft.1968</tspan></text>
+    <text
+       x="1001.1188"
+       y="988.01764"
        id="text6167"
        style="font-size:12px;line-height:0.8;font-family:serif"><tspan
          sodipodi:role="line"
          id="tspan6169"
-         x="1001.5748"
-         y="971.33856">Hubert Sylvian Hall</tspan><tspan
+         x="1001.1188"
+         y="988.01764">Hubert Sylvian Hall</tspan><tspan
          sodipodi:role="line"
-         x="1001.5748"
-         y="980.93854"
+         x="1001.1188"
+         y="997.61761"
          id="tspan6171"
          class="description"
          style="font-size:8px">1885–1929</tspan></text>
@@ -2563,6 +2610,23 @@
          id="tspan5745-4-0"
          x="941.26251"
          y="905.41418"
+         class="no-issue"
+         style="font-style:italic;font-size:8px">No issue</tspan></text>
+    <path
+       id="path4925-5-2-8-2"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#StopL-1-5);marker-end:url(#DotM-09-7-5)"
+       d="M 1164.0945,922.2047 H 1096.063"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       x="1168.0341"
+       y="924.31183"
+       id="text5743-0-7-9"
+       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"><tspan
+         sodipodi:role="line"
+         id="tspan5745-4-0-1"
+         x="1168.0341"
+         y="924.31183"
          class="no-issue"
          style="font-style:italic;font-size:8px">No issue</tspan></text>
     <use
