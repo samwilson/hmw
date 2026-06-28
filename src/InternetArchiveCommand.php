@@ -46,12 +46,20 @@ class InternetArchiveCommand extends Command
         } );
 
         $archiveId = 'HMW' . $itemId;
+
+        // Check existence.
+        $existsData = json_decode((new Process(['ia', 'metadata', $archiveId]))->mustRun()->getOutput(), true);
+        if (isset($existsData['metadata'])) {
+            $io->error('Item exists: ' . $existsData['metadata']['identifier-access']);
+            return Command::FAILURE;
+        }
+
+        // Create zip.
         $zip = './' . $archiveId . '_images.zip';
         $continue = $io->ask('Create zip file ' . $zip . '?', 'Y');
         if ($continue !== 'Y') {
             return Command::SUCCESS;
         }
-
         $zipping = new Process(array_merge(['zip', '-j', $zip], $files));
         $zipping->setTimeout(null);
         $zipping->mustRun();
@@ -71,7 +79,7 @@ class InternetArchiveCommand extends Command
             'description' => $desc,
             'subject' => 'hmwilson.archives.org.au',
         ];
-        $command = ['ia', 'upload', $archiveId];
+        $command = ['ia', 'upload', $archiveId, '--open-after-upload'];
         foreach ( $metadata as $key => $val ) {
             $command[] = '-m';
             $command[] = "$key:$val";

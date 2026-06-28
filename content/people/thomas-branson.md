@@ -12,4 +12,5 @@ references:
 
 **Thomas Branson** (b.1760) was a farmer
 from {wdl|Q649462|Newton Burgoland} in Leicestershire.{ref|HMW1994}
-He married his first cousin, {link|people/charlotte-hall}.
+At some point he moved to nearby Shackerstone
+and married {link|people/charlotte-hall} (on 26 November 1789).

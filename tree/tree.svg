@@ -2458,40 +2458,10 @@
          x="396.41464"
          y="731.0069"
          id="tspan3366">Henry Edward Hall (I)</tspan></text>
-    <text
-       x="209.87349"
-       y="696.33258"
-       id="text3360-5"
-       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"><tspan
-         sodipodi:role="line"
-         x="209.87349"
-         y="696.33258"
-         id="tspan3366-3">Henry Edward's father</tspan></text>
-    <text
-       x="208.74127"
-       y="789.80121"
-       id="text3360-5-5"
-       style="font-size:12px;line-height:0.8;font-family:serif;display:inline"><tspan
-         sodipodi:role="line"
-         x="208.74127"
-         y="789.80121"
-         id="tspan3366-3-6">Charlotte Catharina's mother</tspan></text>
     <path
        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3)"
        d="M 582.04725,763.4645 H 566.92914 V 737.00781 H 510.23623"
        id="path3370"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-3)"
-       d="M 393.07087,729.44879 H 377.95276 V 702.9921 h -56.69291"
-       id="path3370-7"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
-    <path
-       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#DotM-6-9-6-3-3-2)"
-       d="m 393.07087,805.03935 h -15.11811 l 0,-11.33859 -56.69291,0"
-       id="path3370-7-1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <text
@@ -2969,9 +2939,5 @@
        width="100%"
        height="100%"
        style="display:inline" />
-    <path
-       id="path3243"
-       style="fill:none;stroke:#000000;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-width:1.06583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker-end:url(#DotM-6-9-6-3-3);stop-color:#000000;stop-opacity:1"
-       d="m 204.09449,695.43305 h -15.11811 v 41.5748 m 15.11811,49.13386 h -15.11811 v -49.13386 h -56.69291" />
   </g>
 </svg>

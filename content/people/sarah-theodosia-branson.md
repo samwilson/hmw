@@ -13,9 +13,12 @@ references:
   Inquirer1843B: |
     Advertising (1843, May 24). Inquirer (Perth, WA : 1840 - 1855),
     p. 2. Retrieved April 7, 2024, from http://nla.gov.au/nla.news-article65583964
+  DeathNotice: |
+    Family Notices (1858, February 24). The Inquirer and Commercial News, p. 2.
+    Retrieved June 27, 2026, from http://nla.gov.au/nla.news-article66009043
 ---
 
-**Sarah Theodosia Branson** was born in 1793.
+**Sarah Theodosia Branson** was baptised in April 1793.
 Her mother was Charlotte Catharina Hall
 (who was the sister of {link|people/henry-edward-hall-2},
 Sarah's future father-in-law).{ref|HMW1994}
@@ -28,3 +31,6 @@ Two of Shakespeare and Anderton's grandchildren, {link|people/helen-margaret-hal
 and {link|people/william-murray-wilson}, were married in 1949.
 
 Sarah died on 17 February 1858.{ref|WelcomeWalls}
+The notice in Perth's {wdl|Q7742123|Inquirer and Commercial News}
+gives her age as 63,{ref|DeathNotice}
+but this does not agree with her having been baptised in April 1793.
