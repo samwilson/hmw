@@ -52,7 +52,11 @@ references:
   item269: "{cite-item|269}"
   item282: "{cite-item|282}"
   item313: "{cite-item|313}"
+  item379: "{cite-item|379}"
   BMDbirth: "WA BMD index entry, birth in 1871. District: Perth. Number 13090."
+  electoralRolls: |
+    WA Legislative Assembly Electoral Rolls for Coorow, Carnamah and Three Springs 1904-2005,
+    database by Jill Tilly (2008), cited at https://www.carnamah.com.au/bio/harold-aubrey-hall
 ---
 
 **Harold Aubrey Hall** (1871—1963) was a Western Australian pastoral station manager and stockman.
@@ -156,9 +160,13 @@ A post mortem was held by Dr. Stewart, but the result is not yet known.
 What the tin contained or why it was left alongside the road is at present unknown.
 }}}
 
-Working at [[Woopenatty Station]] near Arrino from 1943 to 1955 (possibly not continuously). The electoral roll lists him as a "station-hand" in 1955, and before this as a "pastoral employee".<ref>''WA Legislative Assembly Electoral Rolls for Coorow, Carnamah and Three Springs 1904-2005'' database by Jill Tilly (2008), cited at https://www.carnamah.com.au/bio/harold-aubrey-hall</ref>
+Working at Woopenatty Station near Arrino from 1943 to 1955 (possibly not continuously).
+The electoral roll lists him as a "station-hand" in 1955,
+and before this as a "pastoral employee".{ref|electoralRolls}
 
 By the end of the 1950s he was living in a caravan at Comer Street in Como, Perth.<ref>[[Aubrey Hall with caravan, 4]]</ref>
+He was interviewed by Winifred Bisset of *Australian Women's Weekly* in 1958,
+when Aubrey was "believed to be the only living Western Australian whose parents came out to [the Swan River Colony] in the first year of its settlement."{ref|item379}
 
 He was an adept horseman, and rode well into his 80s.
 He died aged 91 on 11 January 1963, in Swanbourne.{ref|FindAGrave}

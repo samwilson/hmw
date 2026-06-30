@@ -48,11 +48,13 @@ class InternetArchiveCommand extends Command
         $archiveId = 'HMW' . $itemId;
 
         // Check existence.
+        $io->write('Checking for any existing item with ID "' . $archiveId . '" . . . ');
         $existsData = json_decode((new Process(['ia', 'metadata', $archiveId]))->mustRun()->getOutput(), true);
         if (isset($existsData['metadata'])) {
             $io->error('Item exists: ' . $existsData['metadata']['identifier-access']);
             return Command::FAILURE;
         }
+        $io->writeln('none found.');
 
         // Create zip.
         $zip = './' . $archiveId . '_images.zip';
