@@ -11,6 +11,7 @@
 {% set PROP_WIKITREE = 'P2949' %}
 {% set PROP_FAMILYSEARCH = 'P2889' %}
 {% set PROP_FORMATTER_URL = 'P1630' %}
+{% set PROP_COMMONS_CAT = 'P373' %}
 
 {% set wikidata_item = false %}
 {% if page.metadata.wikidata is defined and page.metadata.wikidata %}
@@ -134,15 +135,20 @@
                                     <span class="label">{{authControlItem.labels.en.value}}:</span>
                                     {% if attribute(authControlItem.claims, PROP_FORMATTER_URL).0 is defined %}
                                         {% set url = attribute(authControlItem.claims, PROP_FORMATTER_URL).0.mainsnak.datavalue.value | replace({'$1': value}) %}
-                                        <a href="{{url}}" class="value">{{value}}</a>
+                                        <a href="{{url}}" class="value">{{value}}</a>.
                                     {% else %}
-                                        <span class="value">{{value}}</span>
+                                        <span class="value">{{value}}</span>.
                                     {% endif %}
+                                {% elseif snak.mainsnak.property == PROP_COMMONS_CAT %}
+                                    {% set url = 'https://commons.wikimedia.org/wiki/Category:' ~ ( snak.mainsnak.datavalue.value|replace({' ':'_'}) ) %}
+                                    <span class="label">Wikimedia Commons category:</span>
+                                    <a href="{{ url }}">{{ snak.mainsnak.datavalue.value }}</a>.
                                 {% endif %}
                             {% endfor %}
                         {% endfor %}
                     {% elseif page.metadata.wikitree is defined %}
-                        WikiTree: <a href="https://wikitree.com/wiki/{{page.metadata.wikitree}}">{{page.metadata.wikitree}}</a>
+                        <span class="label">WikiTree:</span>
+                        <a href="https://wikitree.com/wiki/{{page.metadata.wikitree}}">{{page.metadata.wikitree}}</a>
                     {% endif %}
                 </small>
             </div>
