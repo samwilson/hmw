@@ -59,7 +59,7 @@
             {% else %}
                 <li>
                     {{p.LongName|default(p.Name)}}
-                    <small><a href="https://www.wikitree.com/wiki/{{p.Name}}" title="View this person's profile on WikiTree">{{p.Name}}</a></small>
+                    {# <small><a href="https://www.wikitree.com/wiki/{{p.Name}}" title="View this person's profile on WikiTree">{{p.Name}}</a></small> #}
                 </li>
             {% endif %}
         {% endfor %}

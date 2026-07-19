@@ -135,7 +135,10 @@ He was based at No. 3 Personnel Reception Centre (PRC) Bournemouth for the first
 until 28 September when he was moved to No. 3 School of General Reconnaissance (S of GR) Squires Gate.
 He was there until 29 November.
 
+
+
 * 1941-12-24 to 1942-3-17: No. 1 (Coastal) Operational Training Unit RAF (OTU) Silloth.
+
 * 1942-03-18 to 1942-05-11: No. 500 Squadron RAF Stornoway.
 * 1942-05-12 to 1942-05-31: 1444 Ferry Training Flight (FTF) RAF Horsham St Faith.
 * 1942-06-01 to 1942-06-06: UK to the Middle East.
