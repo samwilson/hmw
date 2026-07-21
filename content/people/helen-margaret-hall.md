@@ -3,11 +3,14 @@ template: person
 title: Helen Margaret Hall
 wikidata: Q58030897
 wikitree: Hall-55121
+references:
+  item392: "{cite-item|392}"
 ---
 
-Helen Margaret Hall was born on 10 July 1915 in Busselton, Western Australia.[^1]
+**Helen Margaret Hall** was born on 10 July 1915 in Busselton, Western Australia.[^1]
 
-She married Peter Innes Donegan on 15 September 1936 in St Georges Cathedral in Perth. They had one daughter, in 193x. Peter died in 1939 in an aviation accident.
+She married Peter Innes Donegan on 15 September 1936 in St Georges Cathedral in Perth.
+They had one daughter, in 193x. Peter died in 1939 in an aviation accident.
 
 She remarried on 2 July 1941, to William Murray Wilson, also in St Georges Cathedral.[^2] They had two sons.
 
@@ -73,6 +76,8 @@ She remarried on 2 July 1941[^MurrayMargMarriageNotice] to {link|people/william-
 
 Lived at 8 Outram Street in West Perth for nine years (including WW2) with Judy.[^OutramStPhoto]
 She rented the house from her father's cousin Ernest Hall.
+
+Travelled to Carnarvon in January 1942.{ref|item392}
 
 She died on 21 February 2000 in East Fremantle, Western Australia, at the Braemar nursing home,
 and her ashes were interred in Murray's grave at Karrakatta.
