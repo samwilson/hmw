@@ -13,8 +13,7 @@
     "scripts": {
         "clean": "rm -r ./cache/",
         "build-tree": [
-            "inkscape --export-type=png --export-filename=assets/tree.png tree/tree.svg",
-            "inkscape --export-type=pdf --export-filename=assets/tree.pdf tree/tree.svg"
+            "inkscape --export-type=png,pdf,svg --export-filename=assets/tree tree/tree.svg"
         ],
         "build-templates": "basildon build . --skip",
         "build-site": [
