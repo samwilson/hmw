@@ -18,7 +18,8 @@
         "build-templates": "basildon build . --skip",
         "build-site": [
           "basildon build .",
-          "pagefind --site output"
+          "pagefind --site output",
+          "echo 'Total pagefind size:' & du -hs ./output/pagefind/"
         ],
         "build-home": [
           "basildon build . --page index --skip",

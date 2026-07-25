@@ -1,5 +1,5 @@
 ---
 template: storage_location
 title: S.W.
-description: Items stored with Sam Wilson.
+description: Larger discrete items stored with Sam Wilson.
 ---
