@@ -186,10 +186,17 @@
                     {% elseif page.metadata.license == 'copyright' %}
                         &copy;
                         {% if page.metadata.date is defined and page.metadata.date %}
-                            {{ macros.date(page.metadata.date, 'year') }}
+                            {% set copyright_date_precision = 'year' %}
+                            {% if page.metadata.date_precision == 'circa' %}{% set copyright_date_precision = 'circa' %}{% endif %}
+                            {{ macros.date(page.metadata.date, copyright_date_precision) }}
                         {% endif %}
                         {% if page.metadata.author is defined and page.metadata.author %}
-                            {{ page.metadata.author }}
+                            {% set author_person = database.query('select * from pages where id = "/people/'~page.metadata.author~'"').fetch %}
+                            {% if author_person %}
+                                <a href="{{ page.link(author_person.id) }}.html">{{ author_person.title }}</a>
+                            {% else %}
+                                {{ page.metadata.author }}
+                            {% endif %}
                         {% else %}
                             [author not known]
                         {% endif %}
@@ -286,7 +293,20 @@
                     </p>
                 </div>
 
-            </div>{# End metadata. #}
+                {% if page.metadata.todo is defined and page.metadata.todo %}
+                    <div class="alert alert-warning overflow-hidden" role="alert">
+                        <h4 class="alert-heading">To be done</h4>
+                        <p>
+                            This item's record is incomplete. You can help by editing it or leaving feedback via the links in the footer.
+                            See also the <a href="{{ page.link('/') }}#todo">list of tasks</a> on the homepage.
+                            The required work is as follows:
+                        </p>
+                        <hr>
+                        <p>{{ page.metadata.todo }}</p>
+                    </div>
+                {% endif %}
+
+                </div>{# End metadata. #}
         </div>{# End container #}
 
         {% if page.body %}

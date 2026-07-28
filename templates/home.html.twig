@@ -63,8 +63,8 @@
                 Creative Commons Attribution-ShareAlike 4.0 International License</a>.
         </p>
 
-        <h3>To be done</h3>
-        <p>The following tasks are still to be completed:</p>
+        <h3 id="todo">To be done</h3>
+        <p>The following tasks are still to be completed. You can help by editing any page or submitting feedback, via the links in the footer.</p>
         <ol>
             {% for todo in database.query('SELECT * FROM pages WHERE todo IS NOT NULL AND todo != ""') %}
                 <li><a href="{{ page.link(todo.id) }}.html">{{ todo.title }}</a>: {{ todo.todo }}</li>
