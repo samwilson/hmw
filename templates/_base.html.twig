@@ -41,8 +41,9 @@
     </script>
 
     {# Pagefind #}
-    <link href="{{ page.link('/pagefind/pagefind-ui.css') }}" rel="stylesheet">
-    <script src="{{ page.link('/pagefind/pagefind-ui.js') }}"></script>
+    <link href="{{ page.link('/pagefind/pagefind-component-ui.css') }}" rel="stylesheet">
+    <script src="{{ page.link('/pagefind/pagefind-component-ui.js') }}" type="module"></script>
+    <pagefind-config bundle-path="{{ page.link('/pagefind/') }}"></pagefind-config>
 
     <link rel="stylesheet" href="{{ page.link('/style.css') }}" />
     {% block head %}{% endblock %}
@@ -108,7 +109,9 @@ Reported from: ' ~ site.config.url ~ page.id ~ '.html
                         Feedback
                     </a>
                 </span>
-                <div id="pagefind"></div>
+                <div id="pagefind">
+                    <pagefind-modal-trigger></pagefind-modal-trigger>
+                </div>
                 <form action="https://duckduckgo.com/" method="get" id="search-form" class="form-inline my-2 my-lg-0">
                     <input type="hidden" name="sites" value="{{ site.config.url }}" /><!-- This site only -->
                     <input type="hidden" name="kn" value="-1" /><!-- No new window -->
@@ -121,6 +124,7 @@ Reported from: ' ~ site.config.url ~ page.id ~ '.html
         </nav>
     </header>
     <main class="container-fluid flex-shrink-0 mt-4">
+        <pagefind-modal></pagefind-modal>
         {% block main %}
             <h2>{% if page.metadata.title is defined %}{{ page.metadata.title }}{% else %}Untitled{% endif %}</h2>
             {{ page.body|md2html|raw }}

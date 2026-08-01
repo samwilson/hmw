@@ -12,10 +12,3 @@ document.querySelectorAll('.tpl-item-cite-date time[data-date-precision="day"]')
 } );
 
 document.getElementById('search-form').remove();
-window.addEventListener('DOMContentLoaded', () => {
-    new PagefindUI({
-        element: "#pagefind",
-        showSubResults: true,
-        showImages: false
-    });
-});
