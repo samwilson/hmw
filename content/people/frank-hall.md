@@ -10,7 +10,7 @@ images:
     caption: 
 tags:
   - 
-wikidata: 
+wikidata: Q56808679
 wikitree: Hall-22330
 familysearch: 9VL3-CKP
 geni: 
