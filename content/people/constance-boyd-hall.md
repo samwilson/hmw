@@ -2,9 +2,10 @@
 template: person
 title: Constance Boyd Berryman (née Hall)
 wikidata: Q77018876
+wikitree: Hall-55123
 ---
 
-Connie Berryman (née Hall), eldest daughter of Aubrey and Helen Hall,
+**Constance Berryman (née Hall)**, eldest daughter of Aubrey and Helen Hall,
 was born at *Roe's cottage* in Roebourne on 9 August 1912.[^ConnieBirthNotice][^Connie1983]
 The family were living at Croydon station in 1915 when her sister [Margaret](./helen-margaret-hall.html) was born,
 and to get away from the heat they moved to Jarmen Island off Cossack.[^Connie1983]
