@@ -5,7 +5,7 @@
     {%- for k,v in refs -%}
         {%- set refnum = refnum + 1 -%}
         {%- if v == ref -%}
-            <sup>[{{refnum}}]</sup>
+            <sup class="macros-ref"><a href="#footnote-{{refnum}}" aria-describedby="footnote-{{refnum}}"><span>[</span>{{refnum}}<span>]</span></a></sup>
         {%- endif -%}
     {%- endfor -%}
 {% endif -%}

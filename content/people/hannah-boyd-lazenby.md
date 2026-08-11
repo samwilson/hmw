@@ -8,9 +8,13 @@ references:
     Marriages and Deaths. Marriages. (1868, November 11).
     *The Inquirer and Commercial News* (Perth, WA: 1855--1901), p. 2.
     Retrieved November 19, 2014, from http://nla.gov.au/nla.news-article69384582
+  probate: |
+    DECEASED PERSONS' ESTATES (1914, August 4). Kalgoorlie Western Argus (WA : 1896 - 1916), p. 8.
+    Retrieved August 11, 2026, from http://nla.gov.au/nla.news-article33581651
 ---
 
-Daughter of George Lazenby{ref|HBLMarriageNotice} (1807–1895, cabinetmaker).
+Daughter of George Boyd Lazenby{ref|HBLMarriageNotice} (1807–1895, cabinetmaker) and Mary Anne Lazenby née Wells.
+Born 10 May 1849.
 Married William Shakespeare Hall in 1868.
 Their marriage was announced in the paper on 11 November as follows:{ref|HBLMarriageNotice}
 
@@ -18,3 +22,10 @@ Their marriage was announced in the paper on 11 November as follows:{ref|HBLMarr
 HALL–LAZENBY.—At the Registrar's Office, Cardup, by the Registrar for the Serpentine District, William Shakespeare,
 second son of the late Mr. H. E. Hall, to Hannah Boyd, daughter of Mr. G. Lazenby. No cards.
 }}}
+
+They had five children, three of whom survived to adulthood:
+Ernest (1869), Aubrey (1871), Grace (*ob. inf.* 1875), Joy (1876), and William Shakespeare jnr (*ob. inf.* 1878–79).
+
+She died on 17 October 1911 in Cossack.
+Her funeral was held at the Roebourne anglican church, and a number of photographs of the day are extant.
+Probate was lodged in June 1914, with her estate valued at £325 and executed by her sons Ernest and Aubrey.{ref|probate}

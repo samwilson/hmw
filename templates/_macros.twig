@@ -136,7 +136,7 @@
                 <ol>
                     {% set refnum = 1 %}
                     {% for k,v in references %}
-                        <li value="{{refnum}}">{{v|md2html|raw}}</li>
+                        <li value="{{refnum}}" id="footnote-{{refnum}}" role="doc-endnote">{{v|md2html|raw}}</li>
                         {% set refnum = refnum + 1 %}
                     {% endfor %}
                 </ol>

@@ -22,7 +22,9 @@ blockquote { border-left:3px solid #efefef; padding-left:1em; margin-left:1em }
 .footnotes hr { border: 1px solid #bbb; border-width: 1px 0 0 0; overflow:hidden }
 .footnotes li p,
 .footnotes li blockquote { margin-bottom:0 }
-sup a.footnote-ref { border:1px solid #dde5ec; margin-right:2px; border-radius:3px; padding:0px 2px }
+/*.macros-ref,*/
+sup a.footnote-ref { border:1px solid #dde5ec; margin-right:2px; border-radius:3px; padding:0 2px }
+/*.macros-ref:hover,*/
 sup a.footnote-ref:hover { text-decoration:none; background-color: #e9f0ff; }
 .footnote-backref { display:none }
 
@@ -34,6 +36,7 @@ sup a.footnote-ref:hover { text-decoration:none; background-color: #e9f0ff; }
 
 .macros-reflist { font-size: smaller; }
 .macros-reflist li p { margin: 0; }
+.macros-reflist li:target { background-color: #e9f0ff; border-left: 1px solid #dde5ec; padding-left:0.3em }
 
 .pagefind-ui__drawer {
     position: absolute;
