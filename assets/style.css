@@ -39,6 +39,7 @@ sup a.footnote-ref:hover { text-decoration:none; background-color: #e9f0ff; }
 .macros-reflist li:target { background-color: #e9f0ff; border-left: 1px solid #dde5ec; padding-left:0.3em }
 
 .pagefind-ui__drawer {
+    z-index: 100;
     position: absolute;
     width: 40em;
     max-width: 100%;
