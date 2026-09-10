@@ -126,7 +126,8 @@
                 <small>
                     <strong>Authority control:</strong>
                     {% if wikidata_item %}
-                        Wikidata: <a href="https://www.wikidata.org/wiki/{{wikidata_item.id}}">{{wikidata_item.id}}</a>
+                        <span class="label">Wikidata:</span>
+                        <a href="https://www.wikidata.org/wiki/{{wikidata_item.id}}">{{wikidata_item.id}}</a>
                         {% for claims in wikidata_item.claims %}
                             {% for snak in claims %}
                                 {% if snak.mainsnak.datatype == 'external-id' and snak.mainsnak.snaktype == 'value' %}
@@ -146,9 +147,13 @@
                                 {% endif %}
                             {% endfor %}
                         {% endfor %}
-                    {% elseif page.metadata.wikitree is defined %}
+                    {% elseif page.metadata.wikitree is defined and page.metadata.wikitree %}
                         <span class="label">WikiTree:</span>
                         <a href="https://wikitree.com/wiki/{{page.metadata.wikitree}}">{{page.metadata.wikitree}}</a>
+                    {% endif %}
+                    {% if page.metadata.myheritage is defined and page.metadata.myheritage  %}
+                        <span class="label">MyHeritage:</span>
+                        <a href="https://www.myheritage.com/profile-OYYV7GVJPP6ZZ7BIJVZKBXE4W34KBZA-{{ page.metadata.myheritage  }}/p">{{ page.metadata.myheritage }}</a>
                     {% endif %}
                 </small>
             </div>
