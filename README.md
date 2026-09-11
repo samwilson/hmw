@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This project moved to Codeberg on 2026-09-11: https://codeberg.org/freosam/hmw
+
 The H.M. Wilson Archives
 ========================
 
